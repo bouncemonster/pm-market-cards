@@ -1,0 +1,24 @@
+{
+  "source_commit": "534ca22f7bb5beeb6531f5663090cdf59488b758",
+  "purpose": "Correct exact Accent bottle shade labels while preserving existing artwork",
+  "assets": [
+    {
+      "uid": "259121695202",
+      "filename": "259121695202-label-corrected-v1.png",
+      "sha256": "fa91c4f6438a921139cddf7306e969c447269942e5bd0cb6fcc7041b0ae72a5e",
+      "bytes": 1588663
+    },
+    {
+      "uid": "943070412042",
+      "filename": "943070412042-label-corrected-v1.png",
+      "sha256": "44caea7eb1f8722fa6aeedda6f87e4ace65577dce42cd41774936a42528dcd82",
+      "bytes": 1748172
+    },
+    {
+      "uid": "444624002472",
+      "filename": "444624002472-label-corrected-v1.png",
+      "sha256": "6e28eb77c128fa8a226e26e50c5d85f33f21e11c361453f67c3834f69bd4ba85",
+      "bytes": 1466676
+    }
+  ]
+}
