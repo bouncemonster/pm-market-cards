@@ -1,0 +1,121 @@
+{
+  "purpose": "Restore approved PM.MARKET card style with corrected product labels",
+  "count": 19,
+  "source_commit": "80a44744f1c2036dc1ae9f76a987f62db7721981",
+  "records": [
+    {
+      "uid": "100921419552",
+      "file": "100921419552-label-corrected-v1.png",
+      "sha256": "06053d2ff01ef31466d8f17af3a0c5cac88c2ad8c65e72eed9f24d0290e32ccf",
+      "bytes": 1392330
+    },
+    {
+      "uid": "189268998332",
+      "file": "189268998332-label-corrected-v1.png",
+      "sha256": "7a5deb2cac0a9fe81582bb8138a574a0cb30c42ff12ece7fed10ff868ff601f7",
+      "bytes": 1529513
+    },
+    {
+      "uid": "710069417212",
+      "file": "710069417212-label-corrected-v1.png",
+      "sha256": "2fcccebe1b701bb4e29e65e8b11999b4e96460fbdcbe244c271aef50f5bac6db",
+      "bytes": 1524239
+    },
+    {
+      "uid": "248691651922",
+      "file": "248691651922-label-corrected-v1.png",
+      "sha256": "b9b6afd60c8ddc4d2b1db2eadeac0cb021922985b3ba25320d0132d956802994",
+      "bytes": 1455699
+    },
+    {
+      "uid": "234595658002",
+      "file": "234595658002-label-corrected-v1.png",
+      "sha256": "cbd86ab878773d928f691e315c58459d3bfd8f19955add18a581f730ad5a3093",
+      "bytes": 1463346
+    },
+    {
+      "uid": "241356031982",
+      "file": "241356031982-label-corrected-v1.png",
+      "sha256": "0d993be8249f6e32d6dc6eb1233b00e5dbad052570cbc30a890aed7b932e3f30",
+      "bytes": 1509058
+    },
+    {
+      "uid": "501197849491",
+      "file": "501197849491-v1.png",
+      "sha256": "df3187452b2bbebda100a879a80b56fd9b3ca98d6f3a11f54e0f5322469dd01c",
+      "bytes": 1685236
+    },
+    {
+      "uid": "812626289151",
+      "file": "812626289151-v1.png",
+      "sha256": "35f573996a73eac87b8adf864c29f248ae504a4252366273607e0dc94db6cd47",
+      "bytes": 1651965
+    },
+    {
+      "uid": "554587216751",
+      "file": "554587216751-v1.png",
+      "sha256": "731d37224c4b18be0f65b6cb4e04cc8aff74da4a0019e3bf7bc33b51627ee23f",
+      "bytes": 1436713
+    },
+    {
+      "uid": "626948825831",
+      "file": "626948825831-corrected.png",
+      "sha256": "09bbb96bcbbe8ea4f2844d5ec1e8b8af077d9b2e9583594f129b2588f016ad1b",
+      "bytes": 1464462
+    },
+    {
+      "uid": "833347890611",
+      "file": "833347890611-corrected.png",
+      "sha256": "e5082da168b0eeaf516556ec7a5518aefaae21b2f10b3859b96c0ddcef5b3ed3",
+      "bytes": 1456775
+    },
+    {
+      "uid": "784504267571",
+      "file": "784504267571-corrected.png",
+      "sha256": "323ab9f503b25e3eba567a3f1848397663be3678521495d4601a3fed6cd65a9b",
+      "bytes": 1738353
+    },
+    {
+      "uid": "994078093911",
+      "file": "994078093911-corrected.png",
+      "sha256": "0fadb88097e3bfea016cfa7d23e09a1920be53e109ccb1be84e98e5ddb2a5e29",
+      "bytes": 1874595
+    },
+    {
+      "uid": "214779252101",
+      "file": "214779252101-corrected.png",
+      "sha256": "d99561286cfc87c65a13995a618206c98af2ae6c6586b5725006af6ab12c0300",
+      "bytes": 1160255
+    },
+    {
+      "uid": "696039669721",
+      "file": "696039669721-corrected.png",
+      "sha256": "fc057d37f213fb12b41ff5d469c2c5ab087c9f03ba63af9ac8949b687a39c557",
+      "bytes": 1699801
+    },
+    {
+      "uid": "330204158251",
+      "file": "330204158251-corrected.png",
+      "sha256": "bf8b42a3b4b8208cedcbe9da10eeb209803eddcfe23f57a462a0eae9a87fda4d",
+      "bytes": 1509997
+    },
+    {
+      "uid": "360375982152",
+      "file": "360375982152-corrected.png",
+      "sha256": "ce771abdedd9eb3ab4ba23369b33a704397cf16d08029fefc1c7a37f31fb4120",
+      "bytes": 1416291
+    },
+    {
+      "uid": "729564047722",
+      "file": "729564047722-corrected.png",
+      "sha256": "d679b4243905249b4678f3af2c4aaa639093fbbf80dea17dd45403a2635d017a",
+      "bytes": 1414031
+    },
+    {
+      "uid": "241676316262",
+      "file": "241676316262-corrected.png",
+      "sha256": "f9ee584a1f4172b2321189cc290df88516cab3df10a94a161f2af5b3315aa267",
+      "bytes": 1459677
+    }
+  ]
+}
