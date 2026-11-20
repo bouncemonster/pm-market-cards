@@ -1,0 +1,169 @@
+{
+  "purpose": "Complete reviewed PM.MARKET infographic restoration",
+  "count": 27,
+  "source_commit": "a40d3e332f457d4621e77533b1a1478169fe24a9",
+  "records": [
+    {
+      "uid": "173449825312",
+      "file": "173449825312-v1.png",
+      "sha256": "1d2410faa380794f607d7500f574e24629661d1156d438d47d4454de42bc7694",
+      "bytes": 1755398
+    },
+    {
+      "uid": "218634182122",
+      "file": "218634182122-v1.png",
+      "sha256": "52ca4f3edeb12a66b2cf28cde395a4854c443ddc709fc45a05fc9504200d71b5",
+      "bytes": 1711206
+    },
+    {
+      "uid": "760422374592",
+      "file": "760422374592-v1.png",
+      "sha256": "6724aa6130f07ff81d0e377e8e2f3926efe016025f62ba89460fe6708df7e43b",
+      "bytes": 1741418
+    },
+    {
+      "uid": "293612807142",
+      "file": "293612807142-v1.png",
+      "sha256": "d11ac16e3dd6b3b3c5e227da0ab25b771df0e2e5609e9a3cf270507dc3ed7e39",
+      "bytes": 1599361
+    },
+    {
+      "uid": "948577144512",
+      "file": "948577144512-v1.png",
+      "sha256": "c842d54334c59bbc00897e26feca2b66b890f8d31accf7e5c6ebdb6b703d04f3",
+      "bytes": 1536115
+    },
+    {
+      "uid": "104439228872",
+      "file": "104439228872-v1.png",
+      "sha256": "29f8be53a876d51d516e7da7c69cafd8c73e2678a864a07d809e97bc59272b11",
+      "bytes": 1453151
+    },
+    {
+      "uid": "892514660192",
+      "file": "892514660192-v1.png",
+      "sha256": "d704c6abb880a72e6a09d34672c078a4d28c0346b93bc62c3cf67af06459f358",
+      "bytes": 1360386
+    },
+    {
+      "uid": "515397185474",
+      "file": "515397185474-v1.png",
+      "sha256": "54d1b5a2a65db0b19b28b2d583f58b4b348ed16d688b30462e44facb8e080d7b",
+      "bytes": 1228210
+    },
+    {
+      "uid": "936072728202",
+      "file": "936072728202-v1.png",
+      "sha256": "6a418b721f2a15dcc0219c0b974996842c85097627a6212a5f651bbf36bc041a",
+      "bytes": 1414898
+    },
+    {
+      "uid": "281281566772",
+      "file": "281281566772-v1.png",
+      "sha256": "7ca0ba5e2b2cb10b89c7a8fd54d5527b5270815ca8eff7f24f09765ef04387aa",
+      "bytes": 1681381
+    },
+    {
+      "uid": "254223849902",
+      "file": "254223849902-v1.png",
+      "sha256": "f6765247148986889a1a0b957931961b90b7737cf34b2fc7bee0e88c6456da74",
+      "bytes": 1498160
+    },
+    {
+      "uid": "536878378592",
+      "file": "536878378592-label-corrected-v1.png",
+      "sha256": "797d4be9fe5344b0243b7811d48a47a44f010449c5e793058a8625165972f972",
+      "bytes": 1446827
+    },
+    {
+      "uid": "579821214422",
+      "file": "579821214422-label-corrected-v1.png",
+      "sha256": "b6fa938e68eb4631508cbe911ecbad6c78a9b45c079c5630872b60456a3d5506",
+      "bytes": 1781825
+    },
+    {
+      "uid": "185989520344",
+      "file": "185989520344-label-corrected-v1.png",
+      "sha256": "7de34ee176ed2e92f3815be5ae53daf378cfcff813efb0352aa07d5d5af2f236",
+      "bytes": 1486362
+    },
+    {
+      "uid": "636490479704",
+      "file": "636490479704-label-corrected-v1.png",
+      "sha256": "0cc25ce5506e6e2a8d233bb6f357d0b9071ee66728d557430e244421e897a9c7",
+      "bytes": 1501902
+    },
+    {
+      "uid": "972353558804",
+      "file": "972353558804-label-corrected-v1.png",
+      "sha256": "c5622ee4dd6b83956bb4a35d56ad1e48c723d1e23b551cb94454e3633504c918",
+      "bytes": 1163264
+    },
+    {
+      "uid": "226750051744",
+      "file": "226750051744-label-corrected-v1.png",
+      "sha256": "ed8844a98b9a3731f51f1dd69934dfcf7b32c043dd3f384efbfb2349bda872e6",
+      "bytes": 1111788
+    },
+    {
+      "uid": "944107098524",
+      "file": "944107098524-label-corrected-v2.png",
+      "sha256": "29649e582bcf157f2b2abe21cf4de97e5a8d24e24f98517d7ce1355d79a5290c",
+      "bytes": 1668557
+    },
+    {
+      "uid": "428991658444",
+      "file": "428991658444-label-corrected-v1.png",
+      "sha256": "b9195fa5cc97476470cf5a953c33964e14a1e09e2e994c0972d3f530da2564ba",
+      "bytes": 1210538
+    },
+    {
+      "uid": "868166408071",
+      "file": "868166408071-corrected.png",
+      "sha256": "f68f735e6348f81f55afba6ae5410c88bd9c868eda202e515fab4ef8b9ddc235",
+      "bytes": 1483900
+    },
+    {
+      "uid": "328119913111",
+      "file": "328119913111-corrected.png",
+      "sha256": "7a292f2dafae8fc90763ba659124bcc8229ad5f87faa74ec6ffccc83222cc751",
+      "bytes": 1534800
+    },
+    {
+      "uid": "710114562911",
+      "file": "710114562911-corrected.png",
+      "sha256": "8ce07237ceee24a4e1395f7124e9b58623f8f73506918cc55e95c040d4c79102",
+      "bytes": 1295933
+    },
+    {
+      "uid": "963142184091",
+      "file": "963142184091-corrected.png",
+      "sha256": "48e3792a511386fcfe60b3a962f35022ae81894f90efaacefea4a19e477b5502",
+      "bytes": 1606961
+    },
+    {
+      "uid": "924933247602",
+      "file": "924933247602-corrected.png",
+      "sha256": "003c07e250c5a819c0b7b4ac919f225314e1651e79afa8ca14e7fd86af8bd786",
+      "bytes": 1711371
+    },
+    {
+      "uid": "701458685832",
+      "file": "701458685832-corrected.png",
+      "sha256": "ebec25e383d0a774d4c0385697f25675b821b24779e944e04aa8131223b584f0",
+      "bytes": 1407901
+    },
+    {
+      "uid": "808646274402",
+      "file": "808646274402-corrected.png",
+      "sha256": "8f2b76496e5a81f8219c2963331064797ff9ca14fc6f4e27626e8e646c87c6d2",
+      "bytes": 1443707
+    },
+    {
+      "uid": "709766294482",
+      "file": "709766294482-corrected.png",
+      "sha256": "1b7c700e1df961ae571ffc3e48c4411b7e3fa17a5d1fb09f55fb019d85377d49",
+      "bytes": 1541864
+    }
+  ]
+}
