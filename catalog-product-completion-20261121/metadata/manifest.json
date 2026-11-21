@@ -1,0 +1,102 @@
+{
+  "kind": "pm_market_reviewed_metadata_release",
+  "project_id": "4016103",
+  "source_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "steps": [
+    {
+      "file": "content.csv",
+      "sha256": "854c24bfee91a08059fb1317b536f5586c560de3f8c227fafa901abe0869cb1f",
+      "headers": [
+        "Tilda UID",
+        "Description",
+        "Text",
+        "SEO title",
+        "SEO descr"
+      ],
+      "mapping": [
+        {
+          "column": 0,
+          "field": "tildauid"
+        },
+        {
+          "column": 1,
+          "field": "descr"
+        },
+        {
+          "column": 2,
+          "field": "text"
+        },
+        {
+          "column": 3,
+          "field": "seo_title"
+        },
+        {
+          "column": 4,
+          "field": "seo_descr"
+        }
+      ],
+      "importmode": "onlyupdate",
+      "rows": 160
+    },
+    {
+      "file": "characteristics.csv",
+      "sha256": "805f587a2a258436a579c4ce1825d2a964ff2b600903e238e2dee1b55bae1d4b",
+      "headers": [
+        "Tilda UID",
+        "Characteristics"
+      ],
+      "mapping": [
+        {
+          "column": 0,
+          "field": "tildauid"
+        },
+        {
+          "column": 1,
+          "field": "characteristics"
+        }
+      ],
+      "importmode": "onlyupdate",
+      "rows": 178
+    },
+    {
+      "file": "brands.csv",
+      "sha256": "ab52c3a046803e00e7bb261e377ba7f5cffdb8e11eb2ebcec86dbda9ed9faf25",
+      "headers": [
+        "Tilda UID",
+        "Brand"
+      ],
+      "mapping": [
+        {
+          "column": 0,
+          "field": "tildauid"
+        },
+        {
+          "column": 1,
+          "field": "brand"
+        }
+      ],
+      "importmode": "onlyupdate",
+      "rows": 22
+    },
+    {
+      "file": "titles.csv",
+      "sha256": "954bb4aede152400fe0c7e24b27e66a4092ed2fb72f8d9b9b2ec082384821b96",
+      "headers": [
+        "Tilda UID",
+        "Title"
+      ],
+      "mapping": [
+        {
+          "column": 0,
+          "field": "tildauid"
+        },
+        {
+          "column": 1,
+          "field": "title"
+        }
+      ],
+      "importmode": "onlyupdate",
+      "rows": 25
+    }
+  ]
+}
