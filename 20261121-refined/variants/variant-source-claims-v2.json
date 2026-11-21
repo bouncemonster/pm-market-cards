@@ -1,0 +1,1397 @@
+{
+  "schema_version": 2,
+  "created_at_utc": "2026-11-21T13:59:19.751887+00:00",
+  "scope": "26 generated JPEG assets for 28 variants; assets only, no catalog writes",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "gallery_remediation_plan_sha256": "c1db1b9fb762f788f64196c7a8783d81d76bb9b95de5c0561b7057d2f6db8de7",
+  "summary": {
+    "assets": 26,
+    "variant_bindings": 28,
+    "owner_photo_configuration_matches": 25,
+    "exact_physical_photo_hold": 3,
+    "corrected_registry_bindings": 2
+  },
+  "style_reference_master": "exec-d6b25348-940b-4610-9ebc-3cabdf32b712.png",
+  "forbidden_editorial_claims_removed": [
+    "стерильно",
+    "гипоаллергенно",
+    "безопасность",
+    "без риска заражения",
+    "быстрое заживление",
+    "сталь 316L",
+    "без вибраций",
+    "0.18 for Them or Classic"
+  ],
+  "assets": [
+    {
+      "asset_id": "417482400882",
+      "parent_uid": "868979329382",
+      "title": "Kwadron Classic - 35/5 SEMLT - 0.35 - 5SEM - LT",
+      "relative_path": "20261121-refined/variants/417482400882_Kwadron-Classic_infographic_v2.jpg",
+      "filename": "417482400882_Kwadron-Classic_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 313113,
+      "sha256": "955cc7b92046aff4b37d0e2947e28c2f0ac1682f633ff134f2af21a8eb15f2be",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-6cb88e3c-7009-4538-b13e-45b3f9660722.png",
+      "master_sha256": "8ecd628d87c09d35545cb100bcadbccaef126f2b3f29873d793e21ae14fabffc",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+      "source_sha256": "5ae0be238e6a9b78c7eb0de58934216c31ced2b1f38cdfa59f7392ae8daf38ea",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Classic",
+        "35/5 SEMLT",
+        "0,35 мм • 5SEM • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "579563154792",
+      "parent_uid": "868979329382",
+      "title": "Kwadron Classic - 35/5 FLLT - 0.35 - 5FL - LT",
+      "relative_path": "20261121-refined/variants/579563154792_Kwadron-Classic_infographic_v2.jpg",
+      "filename": "579563154792_Kwadron-Classic_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 281581,
+      "sha256": "c6ad72f21640ec744cc6cea94622e8f9244e6ed8865841cc223431923b4bc9b2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-af711b0b-34a4-4731-8a2c-c206e1af758e.png",
+      "master_sha256": "6df5c77e4cfd57e6e69384eb411a1d9fe08cc9981517ecdb269232af4bd366a0",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg",
+      "source_sha256": "e0e1ddcdbf4939ff29ab34136700fa40a6c383e8d8a673e2cf41c23cf5e435f5",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Classic",
+        "35/5 FLLT",
+        "0,35 мм • 5FL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "675810520422",
+      "parent_uid": "360375982152",
+      "title": "Kwadron Optima - 25/1 RLLT - 0.25 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/675810520422_Kwadron-Optima_infographic_v2.jpg",
+      "filename": "675810520422_Kwadron-Optima_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 228567,
+      "sha256": "22bf7278d82046caa013c5e0f9d8aa71fa0f9de17f3e6d551dbd27a2e4234a6e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-56e5f28b-e002-4aae-b88f-6ca5209dc0c0.png",
+      "master_sha256": "a087b8efeb02cb8c866627bc2ea7d95bbeb947264e584cf088faf5b0fbc58ab5",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+      "source_sha256": "ef1bf91523dc5817c67c6907f6e24c136dd278a19697291659ef4ec22e29f979",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Optima",
+        "25/1 RLLT",
+        "0,25 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "845989220512",
+      "parent_uid": "360375982152",
+      "title": "Kwadron Optima - 30/1 RLLT - 0.30 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/845989220512_Kwadron-Optima_infographic_v2.jpg",
+      "filename": "845989220512_Kwadron-Optima_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 222394,
+      "sha256": "2ca610c60721ce4354f58b6271f4de11f021750dd62de61ab07e5416390eaf5d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-42e56157-2c9c-479c-a03a-56e060b2e7fb.png",
+      "master_sha256": "158aae3047c247371f54932cdf2a20d2122878b4fd42742aab7716c7f96553a9",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+      "source_sha256": "781160103ef227e5d5c6fce32613a21ef5086dcfe1e8d8a3323c1ad09ed23eb4",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Optima",
+        "30/1 RLLT",
+        "0,30 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "733031489742",
+      "parent_uid": "360375982152",
+      "title": "Kwadron Optima - 35/1 RLLT - 0.35 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/733031489742_Kwadron-Optima_infographic_v2.jpg",
+      "filename": "733031489742_Kwadron-Optima_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 237829,
+      "sha256": "aacc2fc9b1377b748c7194614eb9d40897f7fcc039f5e9f0ef1bf7298251d31a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-b8964935-7fd1-4242-acf6-cb2a27f7d5dd.png",
+      "master_sha256": "169d1df188c03f783b2ca2fdbffbfa49d3490e65b2cef049705f67fd81c001ce",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg",
+      "source_sha256": "966af05d63c64b82ad50403c67cbf97384c590a9cba9a169c05913cfe21c5500",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Optima",
+        "35/1 RLLT",
+        "0,35 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "166108480362",
+      "parent_uid": "729564047722",
+      "title": "Them - 25/1 RLLT - 0.25 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/166108480362_Them_infographic_v2.jpg",
+      "filename": "166108480362_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 199185,
+      "sha256": "3523104133158983d2d3ca520664f6d1c9ed2f913fb7250de38ef1e2f289ab34",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-c654e1ac-3ab4-43b5-bbbd-a0fdb5493f0f.png",
+      "master_sha256": "6e14f2df7a5c69f80d800915ae323bbda73940d0f0abd8eb469c3331b916139b",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+      "source_sha256": "b1df454b25daa8e9284500584d3450e861283ed1948791266293742307f5963e",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "25/1 RLLT",
+        "0,25 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "472935631552",
+      "parent_uid": "729564047722",
+      "title": "Them - 30/1 RLLT - 0.30 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/472935631552_Them_infographic_v2.jpg",
+      "filename": "472935631552_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 210381,
+      "sha256": "e1a68285d235f08481cadc6e4c054ddc05e65cbf7cd68974acd80093207f32ed",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-2e0ec2d5-bd63-4427-be65-96aa941b4396.png",
+      "master_sha256": "2b22ee814c2d4e1c98a50ba79b3c9606d7a12512b923869afe3afdb2deffca96",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+      "source_sha256": "b832891879f769684da917b9d79f0e2c5874183710dc4a9b1a547a979f71499e",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "30/1 RLLT",
+        "0,30 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "642934304122",
+      "parent_uid": "729564047722",
+      "title": "Them - 30/1 RLMT - 0.30 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/642934304122_Them_infographic_v2.jpg",
+      "filename": "642934304122_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 215627,
+      "sha256": "79233df6f66be28b72fa47190450114fd96212f118f3bbf5d008f4b53b1d89c5",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-0129b07b-e0bf-4ff7-adf1-5b41448f732a.png",
+      "master_sha256": "9fc3a4f3549f89c341c9e07ddf2f9b00cd8d0955fbade30c7de48a011d6d21db",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+      "source_sha256": "1fc84cfe409c3e2d0090745617514920476bfb5c988f11c44568642d23f42cf2",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "30/1 RLMT",
+        "0,30 мм • 1RL • MT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "976597887252",
+      "parent_uid": "729564047722",
+      "title": "Them - 33/1 RLLT - 0.33 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/976597887252_Them_infographic_v2.jpg",
+      "filename": "976597887252_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 203432,
+      "sha256": "6363545437427788c5eeae55ac8642ec841148cb737ea957ed7af6dfbdf96276",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-80e9e9cb-2b87-4f5c-827c-0bb02a574267.png",
+      "master_sha256": "6a175d91032a92cf163bd593c78e91e8a46f971cd6debb3862cda4d378ce5391",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+      "source_sha256": "fddd818637db1bb3e043e99799c973add68772f9bc5e8af6839fcdd00a6af069",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "33/1 RLLT",
+        "0,33 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "871272420912",
+      "parent_uid": "729564047722",
+      "title": "Them - 35/1 RLMT - 0.35 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/871272420912_Them_infographic_v2.jpg",
+      "filename": "871272420912_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 209793,
+      "sha256": "19efbc4631c5b06f76b6efbe40fc281009e337927fc0e106fe226dbd601e125e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-038d6c61-1725-436a-84c0-3485cf165c6a.png",
+      "master_sha256": "96ef6a413fb17767879eabddd724e966d1ba92f54d470ff1603691e12c456cba",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+      "source_sha256": "e06b3c5c8097b84c5ab2ede9371b89a6f75c578fa2963dd462dda35efd0d59e3",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "35/1 RLMT",
+        "0,35 мм • 1RL • MT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "319140886832",
+      "parent_uid": "729564047722",
+      "title": "Them - 30/3 RLLT - 0.30 - 3RL - LT",
+      "relative_path": "20261121-refined/variants/319140886832_Them_infographic_v2.jpg",
+      "filename": "319140886832_Them_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 196343,
+      "sha256": "f28f972f58cda079ea4ae66462e119c9598cbd06ff5ec5d7e552d6b0aa7732c1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-a90b62c8-9f9a-4f33-ac66-778798954e4b.png",
+      "master_sha256": "5d1c98f76f4cc88e98ca4b39c2bd33209ad18f2717ff77207572e2fa7ecba824",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg",
+      "source_sha256": "3f01aaaaeb10af57f6c0f20ba5568c3113a21c8b76b37634aca954be3899800e",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Them",
+        "30/3 RLLT",
+        "0,30 мм • 3RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "507196237952",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 25/1 RLLT (H) - БРОВИ (волоски) - 0.25 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/507196237952_BROVI_infographic_v2.jpg",
+      "filename": "507196237952_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 174262,
+      "sha256": "139f62a9b05105aaf1e69133c50aea53f97292ab3917a6b94699f1b94f209825",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-7756a0f4-edd6-40a7-8d2f-5c0ec28c16ba.png",
+      "master_sha256": "f1c15cde0554ea5ee22abc5cd03d7637680eb3b1969821416e57d7e1e8abcebb",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+      "source_sha256": "9b27e8fd1c62f2aa60238d36115cbd188a972a008e6a0fee3bb20a87ff113ea7",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "25/1 RLLT (H)",
+        "0,25 мм • 1RL • LT",
+        "БРОВИ (волоски)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "880067819552",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLLT (H) - БРОВИ (волоски) - 0.30 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/880067819552_BROVI_infographic_v2.jpg",
+      "filename": "880067819552_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 181551,
+      "sha256": "8399e4d44b3bb9fad9d1020eb9a736554c283e0cd6937285015fd8132e819a06",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-8ffb8bcd-ca6a-4bfc-b85a-915e034e94a1.png",
+      "master_sha256": "5e88417b5c724a28bcb257e2455765f50fef2a1a19d127384307690523be973d",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+      "source_sha256": "f8cb8d4a2d91ba3c9a2c2e142c50513d9c6eac00870dfad343f8393453b07194",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLLT (H)",
+        "0,30 мм • 1RL • LT",
+        "БРОВИ (волоски)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "790596581022",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLMT (H) - БРОВИ (растушевка) - 0.30 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/790596581022_BROVI_infographic_v2.jpg",
+      "filename": "790596581022_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 181360,
+      "sha256": "8f5d2336ea10ffe907d124926b53d9e418e04f32b378efe462e045675c17c689",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-e3295894-e3e8-4adb-b23b-dee919707e61.png",
+      "master_sha256": "69e00fcc0d2787faedf2092a12dfc6a665d95c7e6256484ae5b26c037506f285",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+      "source_sha256": "bad7fc979da5527b7e1ffca3be7f71c4be9ada49d687eb4a6e028a5158bb889f",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLMT (H)",
+        "0,30 мм • 1RL • MT",
+        "БРОВИ (растушевка)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "701437136452",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 35/1 RLMT (H) - БРОВИ (растушевка) - 0.35 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/701437136452_BROVI_infographic_v2.jpg",
+      "filename": "701437136452_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 179626,
+      "sha256": "2e16180d7ed4d90b8502306c8933a052fe851123943500a905477853b94c12ce",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-80367391-f951-4346-adff-318859feeff5.png",
+      "master_sha256": "9854b95f983f01a1088874afe7c8972706f5c59bf9237b807fbb382c1b17d0da",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+      "source_sha256": "7f66067db31dcafcf51e12c39ccdb96334698d5c2a217d42ae355bddaf8ef47b",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "35/1 RLMT (H)",
+        "0,35 мм • 1RL • MT",
+        "БРОВИ (растушевка)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "507053203682",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 25/5 RLLT - БРОВИ (волоски) - 0.25 - 5RL - LT",
+      "relative_path": "20261121-refined/variants/507053203682_BROVI_infographic_v2.jpg",
+      "filename": "507053203682_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 185798,
+      "sha256": "0f0f68f17222e0ec4effab6b04800b069601b14808c9254d8cf8d425e68c6aaa",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-329acbcf-abc3-4043-80c9-de311120b3da.png",
+      "master_sha256": "b10764624ae24d6738de4bc6c23cad120d27e3b28a14f6d53ccddfdf7668d8c3",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+      "source_sha256": "391097ce623c61e9ab56b6e3496543a8a080753b119f16ea2d38885631bdb199",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "25/5 RLLT",
+        "0,25 мм • 5RL • LT",
+        "БРОВИ (волоски)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "100921419552",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLMT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/100921419552_BROVI_infographic_v2.jpg",
+      "filename": "100921419552_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 203133,
+      "sha256": "24f652548c9df2c856beb8f6493bb6d810e9402bec1fd3b9daa47abdb9864bb2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-82a9725b-254f-4c86-9d26-4f90578562fb.png",
+      "master_sha256": "cf9eaffec602de6e06d8341f7c1fab130da97092ecae55530eef6120588f87e4",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg",
+      "source_sha256": "e0073b0e06df3abb28b92499312ce8d11c1b9e3b0eb9eb974426e9c402fb4e7b",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLMT (S)",
+        "0,30 мм • 1RL • MT",
+        "ГУБЫ (плотное заполнение)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток.",
+        "Исправлена неверная legacy registry-привязка; использовано подходящее реальное owner-фото из существующей родительской галереи."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "243820244002",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLLT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/243820244002_BROVI_infographic_v2.jpg",
+      "filename": "243820244002_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 197464,
+      "sha256": "d4b7eb32471eb885c4ec4b19c8e0ad19be4732c1f972791de92318c84ea16c86",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-594a732e-3c35-47b1-869a-1924389491f9.png",
+      "master_sha256": "b63c28597824b4f2ab57b4fb0fbbe118eeb3165ba2a4f65c4630947835946002",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+      "source_sha256": "365576bf5646cd3394243e7a70ba32488b91347ff18a12d3bcbde9b55c84ba58",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLLT (S)",
+        "0,30 мм • 1RL • LT",
+        "ГУБЫ (плотное заполнение)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "924933247602",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 25/3 RSLT (S) - ГУБЫ (плотное заполнение) - 0.25 - 3RS - LT",
+      "relative_path": "20261121-refined/variants/924933247602_BROVI_infographic_v2.jpg",
+      "filename": "924933247602_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 181319,
+      "sha256": "a34b4ded60b339630c0e45c4271ca5d7e19e4260fbd6ec45037c29838aaf065c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-eddfd204-a010-4794-b60c-6ddaf7806045.png",
+      "master_sha256": "9c5dc46b19e97b38e9eba10a608e797304ad4ac8484f11462dc18876578dacd8",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+      "source_sha256": "57e610458fcaff69dcf1e653e764e5fd19658f93c13c538b1af906439d370145",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "25/3 RSLT (S)",
+        "0,25 мм • 3RS • LT",
+        "ГУБЫ (плотное заполнение)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток.",
+        "Суффикс (S) взят из native названия варианта; на исходной этикетке читается 3 RSLT 0.25 без (S). На коробку суффикс не добавлен."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "586530152642",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLLT (S) - ГЛАЗА (стрелка с растушевкой) - 0.30 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/586530152642_BROVI_infographic_v2.jpg",
+      "filename": "586530152642_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 229077,
+      "sha256": "2e07c91b96459da0284ecacf14d0a9d47f7b60ada9f4b943d2d119db93c20af3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-9900b674-c36d-4e3e-a4fd-e8b44b167a48.png",
+      "master_sha256": "bcabb85f47c579b5014cd45377d971e719f170123b248093b0c8068746c3c259",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+      "source_sha256": "e18ce874229e203c39de3b12784cef89e1ea359d3e468e96795ce1bcb3da1e5f",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLLT (S)",
+        "0,30 мм • 1RL • LT",
+        "ГЛАЗА (стрелка с растушевкой)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "301776372002",
+      "parent_uid": "256322964582",
+      "title": "БРОВИ - 30/1 RLMT - ГЛАЗА (плотное заполнение) - 0.30 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/301776372002_BROVI_infographic_v2.jpg",
+      "filename": "301776372002_BROVI_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 211069,
+      "sha256": "08c075021b7c0a5ef89a2c7918af2e83efd89d311d34719f180c3d6cf94b258c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-204ca0e1-2064-4b7e-9d7f-863f239b5f14.png",
+      "master_sha256": "e99167bd51e28e4dada2aa4a206538dc7f4b39ceb54ab7f997c6679bb92906be",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+      "source_sha256": "165fb83f533a792aaea9c0ca2d9a64c63ff40f3fa62d13c30c35cf7c7dc61506",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "БРОВИ",
+        "30/1 RLMT",
+        "0,30 мм • 1RL • MT",
+        "ГЛАЗА (плотное заполнение)"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "539649656102",
+      "parent_uid": "361430283622",
+      "title": "Defender - 25/1 RLLT - 0.25 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/539649656102_Defender_infographic_v2.jpg",
+      "filename": "539649656102_Defender_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 229789,
+      "sha256": "c10423ddfcd3c2a95cfff9d5c0e41d34cc28afe2c5e65d5990df360f1ca7d7ec",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-3aac9e04-50a5-4a0c-b7fa-96c360e34469.png",
+      "master_sha256": "66c29eed768208e758fab32ef3cd0f9b89c202ceaa9cdface2e56f3589835696",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+      "source_sha256": "8f71170d7c69814ef9763eb33e0134113d2e30ea226d9acd9e3bc2b90a0061f6",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Defender",
+        "25/1 RLLT",
+        "0,25 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "196313455342",
+      "parent_uid": "361430283622",
+      "title": "Defender - 35/1 RLLT - 0.35 - 1RL - LT",
+      "relative_path": "20261121-refined/variants/196313455342_Defender_infographic_v2.jpg",
+      "filename": "196313455342_Defender_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 227555,
+      "sha256": "95fd2be7e279a6386277ef8aea3db82cdf2b3c72850d0ed3b74721bf07c072c1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-7c322795-e8d5-4bae-a4d7-ef59d4a7a2f3.png",
+      "master_sha256": "8bf1d336c79c4cffd237f4c7bf483b72ea6b070cfb80eb89ac06a9148124e0f6",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+      "source_sha256": "ae2437f2d69ef1f82ddfbf9c5e59a22eb57aebe90737c1c02e74ad15a6cfe949",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Defender",
+        "35/1 RLLT",
+        "0,35 мм • 1RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "579821214422",
+      "parent_uid": "361430283622",
+      "title": "Defender - 30/1 RLMT - 0.30 - 1RL - MT",
+      "relative_path": "20261121-refined/variants/579821214422_Defender_infographic_v2.jpg",
+      "filename": "579821214422_Defender_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 228990,
+      "sha256": "eec5a38b03395ca12d6f9869ef438f5bada2595b251756613d8d2606abc95040",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-af509266-d0bd-4af4-9c9d-0fd82ee6355e.png",
+      "master_sha256": "7da6ac98801e012e7be18702e2b369f2498f3d073c9ff8c04e9e1ff67f1ad210",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+      "source_sha256": "fe4fe869d9d9794fd535f3ae6043dd5ded5f970dd99830b13d1b76cf1496a025",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Defender",
+        "30/1 RLMT",
+        "0,30 мм • 1RL • MT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток.",
+        "Исправлена неверная legacy registry-привязка; использовано подходящее реальное owner-фото из существующей родительской галереи."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "703914955232",
+      "parent_uid": "361430283622",
+      "title": "Defender - 30/3 RLLT - 0.30 - 3RL - LT",
+      "relative_path": "20261121-refined/variants/703914955232_Defender_infographic_v2.jpg",
+      "filename": "703914955232_Defender_infographic_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 236132,
+      "sha256": "fd57e7a9bcba8758c7ca2bd5e0bccb85d75119b6e3428642c55f4b8619d77baa",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-8c0ff90a-4708-4684-aae2-312895a37cbf.png",
+      "master_sha256": "16d8aac173bea91a9a4a56f58a6f8d4d4ca4f3ff21b2499fcf3af5c6ed673c5b",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+      "source_sha256": "55f1901c86a15562a48348a5b04091432eee43a23b33d98fb45344c8e31ac633",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Defender",
+        "30/3 RLLT",
+        "0,30 мм • 3RL • LT"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "exact_selected_sku_photo_verified": true,
+      "limits": [
+        "Визуально сверены исходная фотография, читаемая конфигурация, цвет/тип упаковки и подпись. Полная пиксельная идентичность упаковки и QR-кода не сертифицирована.",
+        "Сгенерированная инфографика; исходное owner-фото сохраняется отдельным изображением галереи. Не подтверждает актуальную партию или товарный остаток."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    },
+    {
+      "asset_id": "classic-family-1rl",
+      "parent_uid": "868979329382",
+      "title": "Kwadron Classic — family packaging example for three 1RL variants",
+      "relative_path": "20261121-refined/variants/868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "filename": "868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "mime_type": "image/jpeg",
+      "bytes": 286276,
+      "sha256": "2006d6cba9b027abc92b0eabd348735e80a2f8aa42a6bb8e38d2457e06b332f7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "master_filename": "exec-8ffd5eee-d5f9-4d0c-8c9a-9c435a92fde8.png",
+      "master_sha256": "1e4aa716fefb2dc9effc55a5e2fdec60ce863ff6ca713b480d4f8e7c6d973337",
+      "master_retention": "Original generated PNG retained; separate master sync follows the compact JPEG release.",
+      "source_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "source_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "source_reference_type": "owner_registry_or_existing_native_owner_gallery",
+      "displayed_texts": [
+        "КАРТРИДЖИ",
+        "Kwadron Classic",
+        "Пример упаковки серии",
+        "Диаметры вариантов: 0,25 / 0,30 / 0,35 мм",
+        "Точная конфигурация — в варианте товара"
+      ],
+      "visual_review": "accepted",
+      "physical_photo_status": "HOLD",
+      "exact_selected_sku_photo_verified": false,
+      "limits": [
+        "Честный пример упаковки серии. На owner-фото нет читаемой этикетки выбранного SKU. Три точных варианта сохраняют HOLD для фото физического товара.",
+        "Нативно подтверждены диаметры семейства 0.25/0.30/0.35; на изображении не дорисована этикетка выбранного варианта."
+      ],
+      "generation_tool": "image_gen built-in",
+      "postprocessing": "ImageMagick JPEG transcode only; no drawing or label replacement",
+      "catalog_writes": 0
+    }
+  ],
+  "variant_bindings": [
+    {
+      "uid": "417482400882",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/5 SEMLT - 0.35 - 5SEM - LT",
+      "asset_id": "417482400882",
+      "asset_relative_path": "20261121-refined/variants/417482400882_Kwadron-Classic_infographic_v2.jpg",
+      "asset_sha256": "955cc7b92046aff4b37d0e2947e28c2f0ac1682f633ff134f2af21a8eb15f2be",
+      "owner_original_url": "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+      "owner_original_sha256": "5ae0be238e6a9b78c7eb0de58934216c31ced2b1f38cdfa59f7392ae8daf38ea",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "579563154792",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/5 FLLT - 0.35 - 5FL - LT",
+      "asset_id": "579563154792",
+      "asset_relative_path": "20261121-refined/variants/579563154792_Kwadron-Classic_infographic_v2.jpg",
+      "asset_sha256": "c6ad72f21640ec744cc6cea94622e8f9244e6ed8865841cc223431923b4bc9b2",
+      "owner_original_url": "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg",
+      "owner_original_sha256": "e0e1ddcdbf4939ff29ab34136700fa40a6c383e8d8a673e2cf41c23cf5e435f5",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "675810520422",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 25/1 RLLT - 0.25 - 1RL - LT",
+      "asset_id": "675810520422",
+      "asset_relative_path": "20261121-refined/variants/675810520422_Kwadron-Optima_infographic_v2.jpg",
+      "asset_sha256": "22bf7278d82046caa013c5e0f9d8aa71fa0f9de17f3e6d551dbd27a2e4234a6e",
+      "owner_original_url": "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+      "owner_original_sha256": "ef1bf91523dc5817c67c6907f6e24c136dd278a19697291659ef4ec22e29f979",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "845989220512",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 30/1 RLLT - 0.30 - 1RL - LT",
+      "asset_id": "845989220512",
+      "asset_relative_path": "20261121-refined/variants/845989220512_Kwadron-Optima_infographic_v2.jpg",
+      "asset_sha256": "2ca610c60721ce4354f58b6271f4de11f021750dd62de61ab07e5416390eaf5d",
+      "owner_original_url": "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+      "owner_original_sha256": "781160103ef227e5d5c6fce32613a21ef5086dcfe1e8d8a3323c1ad09ed23eb4",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "733031489742",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 35/1 RLLT - 0.35 - 1RL - LT",
+      "asset_id": "733031489742",
+      "asset_relative_path": "20261121-refined/variants/733031489742_Kwadron-Optima_infographic_v2.jpg",
+      "asset_sha256": "aacc2fc9b1377b748c7194614eb9d40897f7fcc039f5e9f0ef1bf7298251d31a",
+      "owner_original_url": "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg",
+      "owner_original_sha256": "966af05d63c64b82ad50403c67cbf97384c590a9cba9a169c05913cfe21c5500",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "166108480362",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 25/1 RLLT - 0.25 - 1RL - LT",
+      "asset_id": "166108480362",
+      "asset_relative_path": "20261121-refined/variants/166108480362_Them_infographic_v2.jpg",
+      "asset_sha256": "3523104133158983d2d3ca520664f6d1c9ed2f913fb7250de38ef1e2f289ab34",
+      "owner_original_url": "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+      "owner_original_sha256": "b1df454b25daa8e9284500584d3450e861283ed1948791266293742307f5963e",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "472935631552",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/1 RLLT - 0.30 - 1RL - LT",
+      "asset_id": "472935631552",
+      "asset_relative_path": "20261121-refined/variants/472935631552_Them_infographic_v2.jpg",
+      "asset_sha256": "e1a68285d235f08481cadc6e4c054ddc05e65cbf7cd68974acd80093207f32ed",
+      "owner_original_url": "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+      "owner_original_sha256": "b832891879f769684da917b9d79f0e2c5874183710dc4a9b1a547a979f71499e",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "642934304122",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/1 RLMT - 0.30 - 1RL - MT",
+      "asset_id": "642934304122",
+      "asset_relative_path": "20261121-refined/variants/642934304122_Them_infographic_v2.jpg",
+      "asset_sha256": "79233df6f66be28b72fa47190450114fd96212f118f3bbf5d008f4b53b1d89c5",
+      "owner_original_url": "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+      "owner_original_sha256": "1fc84cfe409c3e2d0090745617514920476bfb5c988f11c44568642d23f42cf2",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "976597887252",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 33/1 RLLT - 0.33 - 1RL - LT",
+      "asset_id": "976597887252",
+      "asset_relative_path": "20261121-refined/variants/976597887252_Them_infographic_v2.jpg",
+      "asset_sha256": "6363545437427788c5eeae55ac8642ec841148cb737ea957ed7af6dfbdf96276",
+      "owner_original_url": "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+      "owner_original_sha256": "fddd818637db1bb3e043e99799c973add68772f9bc5e8af6839fcdd00a6af069",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "871272420912",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 35/1 RLMT - 0.35 - 1RL - MT",
+      "asset_id": "871272420912",
+      "asset_relative_path": "20261121-refined/variants/871272420912_Them_infographic_v2.jpg",
+      "asset_sha256": "19efbc4631c5b06f76b6efbe40fc281009e337927fc0e106fe226dbd601e125e",
+      "owner_original_url": "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+      "owner_original_sha256": "e06b3c5c8097b84c5ab2ede9371b89a6f75c578fa2963dd462dda35efd0d59e3",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "319140886832",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/3 RLLT - 0.30 - 3RL - LT",
+      "asset_id": "319140886832",
+      "asset_relative_path": "20261121-refined/variants/319140886832_Them_infographic_v2.jpg",
+      "asset_sha256": "f28f972f58cda079ea4ae66462e119c9598cbd06ff5ec5d7e552d6b0aa7732c1",
+      "owner_original_url": "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg",
+      "owner_original_sha256": "3f01aaaaeb10af57f6c0f20ba5568c3113a21c8b76b37634aca954be3899800e",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "507196237952",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/1 RLLT (H) - БРОВИ (волоски) - 0.25 - 1RL - LT",
+      "asset_id": "507196237952",
+      "asset_relative_path": "20261121-refined/variants/507196237952_BROVI_infographic_v2.jpg",
+      "asset_sha256": "139f62a9b05105aaf1e69133c50aea53f97292ab3917a6b94699f1b94f209825",
+      "owner_original_url": "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+      "owner_original_sha256": "9b27e8fd1c62f2aa60238d36115cbd188a972a008e6a0fee3bb20a87ff113ea7",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "880067819552",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (H) - БРОВИ (волоски) - 0.30 - 1RL - LT",
+      "asset_id": "880067819552",
+      "asset_relative_path": "20261121-refined/variants/880067819552_BROVI_infographic_v2.jpg",
+      "asset_sha256": "8399e4d44b3bb9fad9d1020eb9a736554c283e0cd6937285015fd8132e819a06",
+      "owner_original_url": "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+      "owner_original_sha256": "f8cb8d4a2d91ba3c9a2c2e142c50513d9c6eac00870dfad343f8393453b07194",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "790596581022",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT (H) - БРОВИ (растушевка) - 0.30 - 1RL - MT",
+      "asset_id": "790596581022",
+      "asset_relative_path": "20261121-refined/variants/790596581022_BROVI_infographic_v2.jpg",
+      "asset_sha256": "8f5d2336ea10ffe907d124926b53d9e418e04f32b378efe462e045675c17c689",
+      "owner_original_url": "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+      "owner_original_sha256": "bad7fc979da5527b7e1ffca3be7f71c4be9ada49d687eb4a6e028a5158bb889f",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "701437136452",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 35/1 RLMT (H) - БРОВИ (растушевка) - 0.35 - 1RL - MT",
+      "asset_id": "701437136452",
+      "asset_relative_path": "20261121-refined/variants/701437136452_BROVI_infographic_v2.jpg",
+      "asset_sha256": "2e16180d7ed4d90b8502306c8933a052fe851123943500a905477853b94c12ce",
+      "owner_original_url": "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+      "owner_original_sha256": "7f66067db31dcafcf51e12c39ccdb96334698d5c2a217d42ae355bddaf8ef47b",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "507053203682",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/5 RLLT - БРОВИ (волоски) - 0.25 - 5RL - LT",
+      "asset_id": "507053203682",
+      "asset_relative_path": "20261121-refined/variants/507053203682_BROVI_infographic_v2.jpg",
+      "asset_sha256": "0f0f68f17222e0ec4effab6b04800b069601b14808c9254d8cf8d425e68c6aaa",
+      "owner_original_url": "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+      "owner_original_sha256": "391097ce623c61e9ab56b6e3496543a8a080753b119f16ea2d38885631bdb199",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "100921419552",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - MT",
+      "asset_id": "100921419552",
+      "asset_relative_path": "20261121-refined/variants/100921419552_BROVI_infographic_v2.jpg",
+      "asset_sha256": "24f652548c9df2c856beb8f6493bb6d810e9402bec1fd3b9daa47abdb9864bb2",
+      "owner_original_url": "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg",
+      "owner_original_sha256": "e0073b0e06df3abb28b92499312ce8d11c1b9e3b0eb9eb974426e9c402fb4e7b",
+      "registry_binding_corrected": true,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "243820244002",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - LT",
+      "asset_id": "243820244002",
+      "asset_relative_path": "20261121-refined/variants/243820244002_BROVI_infographic_v2.jpg",
+      "asset_sha256": "d4b7eb32471eb885c4ec4b19c8e0ad19be4732c1f972791de92318c84ea16c86",
+      "owner_original_url": "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+      "owner_original_sha256": "365576bf5646cd3394243e7a70ba32488b91347ff18a12d3bcbde9b55c84ba58",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "924933247602",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/3 RSLT (S) - ГУБЫ (плотное заполнение) - 0.25 - 3RS - LT",
+      "asset_id": "924933247602",
+      "asset_relative_path": "20261121-refined/variants/924933247602_BROVI_infographic_v2.jpg",
+      "asset_sha256": "a34b4ded60b339630c0e45c4271ca5d7e19e4260fbd6ec45037c29838aaf065c",
+      "owner_original_url": "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+      "owner_original_sha256": "57e610458fcaff69dcf1e653e764e5fd19658f93c13c538b1af906439d370145",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "586530152642",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (S) - ГЛАЗА (стрелка с растушевкой) - 0.30 - 1RL - LT",
+      "asset_id": "586530152642",
+      "asset_relative_path": "20261121-refined/variants/586530152642_BROVI_infographic_v2.jpg",
+      "asset_sha256": "2e07c91b96459da0284ecacf14d0a9d47f7b60ada9f4b943d2d119db93c20af3",
+      "owner_original_url": "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+      "owner_original_sha256": "e18ce874229e203c39de3b12784cef89e1ea359d3e468e96795ce1bcb3da1e5f",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "301776372002",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT - ГЛАЗА (плотное заполнение) - 0.30 - 1RL - MT",
+      "asset_id": "301776372002",
+      "asset_relative_path": "20261121-refined/variants/301776372002_BROVI_infographic_v2.jpg",
+      "asset_sha256": "08c075021b7c0a5ef89a2c7918af2e83efd89d311d34719f180c3d6cf94b258c",
+      "owner_original_url": "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+      "owner_original_sha256": "165fb83f533a792aaea9c0ca2d9a64c63ff40f3fa62d13c30c35cf7c7dc61506",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "539649656102",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 25/1 RLLT - 0.25 - 1RL - LT",
+      "asset_id": "539649656102",
+      "asset_relative_path": "20261121-refined/variants/539649656102_Defender_infographic_v2.jpg",
+      "asset_sha256": "c10423ddfcd3c2a95cfff9d5c0e41d34cc28afe2c5e65d5990df360f1ca7d7ec",
+      "owner_original_url": "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+      "owner_original_sha256": "8f71170d7c69814ef9763eb33e0134113d2e30ea226d9acd9e3bc2b90a0061f6",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "196313455342",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 35/1 RLLT - 0.35 - 1RL - LT",
+      "asset_id": "196313455342",
+      "asset_relative_path": "20261121-refined/variants/196313455342_Defender_infographic_v2.jpg",
+      "asset_sha256": "95fd2be7e279a6386277ef8aea3db82cdf2b3c72850d0ed3b74721bf07c072c1",
+      "owner_original_url": "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+      "owner_original_sha256": "ae2437f2d69ef1f82ddfbf9c5e59a22eb57aebe90737c1c02e74ad15a6cfe949",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "579821214422",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 30/1 RLMT - 0.30 - 1RL - MT",
+      "asset_id": "579821214422",
+      "asset_relative_path": "20261121-refined/variants/579821214422_Defender_infographic_v2.jpg",
+      "asset_sha256": "eec5a38b03395ca12d6f9869ef438f5bada2595b251756613d8d2606abc95040",
+      "owner_original_url": "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+      "owner_original_sha256": "fe4fe869d9d9794fd535f3ae6043dd5ded5f970dd99830b13d1b76cf1496a025",
+      "registry_binding_corrected": true,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "703914955232",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 30/3 RLLT - 0.30 - 3RL - LT",
+      "asset_id": "703914955232",
+      "asset_relative_path": "20261121-refined/variants/703914955232_Defender_infographic_v2.jpg",
+      "asset_sha256": "fd57e7a9bcba8758c7ca2bd5e0bccb85d75119b6e3428642c55f4b8619d77baa",
+      "owner_original_url": "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+      "owner_original_sha256": "55f1901c86a15562a48348a5b04091432eee43a23b33d98fb45344c8e31ac633",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": true,
+      "physical_photo_status": "owner_photo_configuration_and_zone_matched",
+      "caption": null
+    },
+    {
+      "uid": "694387810412",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 25/1 RLLT - 0.25 - 1RL - LT",
+      "asset_id": "classic-family-1rl",
+      "asset_relative_path": "20261121-refined/variants/868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "asset_sha256": "2006d6cba9b027abc92b0eabd348735e80a2f8aa42a6bb8e38d2457e06b332f7",
+      "owner_original_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "owner_original_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": false,
+      "physical_photo_status": "HOLD",
+      "caption": "Пример упаковки серии"
+    },
+    {
+      "uid": "185708344162",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 30/1 RLLT - 0.30 - 1RL - LT",
+      "asset_id": "classic-family-1rl",
+      "asset_relative_path": "20261121-refined/variants/868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "asset_sha256": "2006d6cba9b027abc92b0eabd348735e80a2f8aa42a6bb8e38d2457e06b332f7",
+      "owner_original_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "owner_original_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": false,
+      "physical_photo_status": "HOLD",
+      "caption": "Пример упаковки серии"
+    },
+    {
+      "uid": "128346466142",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/1 RLLT - 0.35 - 1RL - LT",
+      "asset_id": "classic-family-1rl",
+      "asset_relative_path": "20261121-refined/variants/868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "asset_sha256": "2006d6cba9b027abc92b0eabd348735e80a2f8aa42a6bb8e38d2457e06b332f7",
+      "owner_original_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "owner_original_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "registry_binding_corrected": false,
+      "exact_selected_sku_photo_verified": false,
+      "physical_photo_status": "HOLD",
+      "caption": "Пример упаковки серии"
+    }
+  ],
+  "catalog_writes": 0,
+  "metadata_correction": {
+    "supersedes_manifest_sha256": "93d56f692950ec3a0edaa556ceb977abbe60e0f9962428b7f5727da42063de42",
+    "at_utc": "2026-11-21T14:03:18.287381+00:00",
+    "changes": [
+      {
+        "uid": "100921419552",
+        "field": "registry_binding_corrected",
+        "previous": false,
+        "corrected": true,
+        "source_url": "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg",
+        "source_sha256": "e0073b0e06df3abb28b92499312ce8d11c1b9e3b0eb9eb974426e9c402fb4e7b"
+      },
+      {
+        "uid": "579821214422",
+        "field": "registry_binding_corrected",
+        "previous": false,
+        "corrected": true,
+        "source_url": "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+        "source_sha256": "fe4fe869d9d9794fd535f3ae6043dd5ded5f970dd99830b13d1b76cf1496a025"
+      }
+    ],
+    "jpeg_bytes_changed": false,
+    "source_url_or_sha_changed": false
+  },
+  "physical_photo_status_scope": "Correspondence to existing owner-provided product photographs, not inspection of current physical stock."
+}

@@ -1,0 +1,163 @@
+{
+  "created_at_utc": "2026-11-21T14:02:17.668576+00:00",
+  "manifest_sha256": "93d56f692950ec3a0edaa556ceb977abbe60e0f9962428b7f5727da42063de42",
+  "masters": [
+    {
+      "asset_id": "417482400882",
+      "relative_path": "20261121-refined/variants/masters/417482400882_Kwadron-Classic_infographic_v2.png",
+      "sha256": "8ecd628d87c09d35545cb100bcadbccaef126f2b3f29873d793e21ae14fabffc",
+      "bytes": 1546565
+    },
+    {
+      "asset_id": "579563154792",
+      "relative_path": "20261121-refined/variants/masters/579563154792_Kwadron-Classic_infographic_v2.png",
+      "sha256": "6df5c77e4cfd57e6e69384eb411a1d9fe08cc9981517ecdb269232af4bd366a0",
+      "bytes": 1465447
+    },
+    {
+      "asset_id": "675810520422",
+      "relative_path": "20261121-refined/variants/masters/675810520422_Kwadron-Optima_infographic_v2.png",
+      "sha256": "a087b8efeb02cb8c866627bc2ea7d95bbeb947264e584cf088faf5b0fbc58ab5",
+      "bytes": 1409152
+    },
+    {
+      "asset_id": "845989220512",
+      "relative_path": "20261121-refined/variants/masters/845989220512_Kwadron-Optima_infographic_v2.png",
+      "sha256": "158aae3047c247371f54932cdf2a20d2122878b4fd42742aab7716c7f96553a9",
+      "bytes": 1403359
+    },
+    {
+      "asset_id": "733031489742",
+      "relative_path": "20261121-refined/variants/masters/733031489742_Kwadron-Optima_infographic_v2.png",
+      "sha256": "169d1df188c03f783b2ca2fdbffbfa49d3490e65b2cef049705f67fd81c001ce",
+      "bytes": 1431247
+    },
+    {
+      "asset_id": "166108480362",
+      "relative_path": "20261121-refined/variants/masters/166108480362_Them_infographic_v2.png",
+      "sha256": "6e14f2df7a5c69f80d800915ae323bbda73940d0f0abd8eb469c3331b916139b",
+      "bytes": 1326466
+    },
+    {
+      "asset_id": "472935631552",
+      "relative_path": "20261121-refined/variants/masters/472935631552_Them_infographic_v2.png",
+      "sha256": "2b22ee814c2d4e1c98a50ba79b3c9606d7a12512b923869afe3afdb2deffca96",
+      "bytes": 1385672
+    },
+    {
+      "asset_id": "642934304122",
+      "relative_path": "20261121-refined/variants/masters/642934304122_Them_infographic_v2.png",
+      "sha256": "9fc3a4f3549f89c341c9e07ddf2f9b00cd8d0955fbade30c7de48a011d6d21db",
+      "bytes": 1261517
+    },
+    {
+      "asset_id": "976597887252",
+      "relative_path": "20261121-refined/variants/masters/976597887252_Them_infographic_v2.png",
+      "sha256": "6a175d91032a92cf163bd593c78e91e8a46f971cd6debb3862cda4d378ce5391",
+      "bytes": 1341474
+    },
+    {
+      "asset_id": "871272420912",
+      "relative_path": "20261121-refined/variants/masters/871272420912_Them_infographic_v2.png",
+      "sha256": "96ef6a413fb17767879eabddd724e966d1ba92f54d470ff1603691e12c456cba",
+      "bytes": 1220013
+    },
+    {
+      "asset_id": "319140886832",
+      "relative_path": "20261121-refined/variants/masters/319140886832_Them_infographic_v2.png",
+      "sha256": "5d1c98f76f4cc88e98ca4b39c2bd33209ad18f2717ff77207572e2fa7ecba824",
+      "bytes": 1318087
+    },
+    {
+      "asset_id": "507196237952",
+      "relative_path": "20261121-refined/variants/masters/507196237952_BROVI_infographic_v2.png",
+      "sha256": "f1c15cde0554ea5ee22abc5cd03d7637680eb3b1969821416e57d7e1e8abcebb",
+      "bytes": 1313116
+    },
+    {
+      "asset_id": "880067819552",
+      "relative_path": "20261121-refined/variants/masters/880067819552_BROVI_infographic_v2.png",
+      "sha256": "5e88417b5c724a28bcb257e2455765f50fef2a1a19d127384307690523be973d",
+      "bytes": 1332814
+    },
+    {
+      "asset_id": "790596581022",
+      "relative_path": "20261121-refined/variants/masters/790596581022_BROVI_infographic_v2.png",
+      "sha256": "69e00fcc0d2787faedf2092a12dfc6a665d95c7e6256484ae5b26c037506f285",
+      "bytes": 1328756
+    },
+    {
+      "asset_id": "701437136452",
+      "relative_path": "20261121-refined/variants/masters/701437136452_BROVI_infographic_v2.png",
+      "sha256": "9854b95f983f01a1088874afe7c8972706f5c59bf9237b807fbb382c1b17d0da",
+      "bytes": 1320731
+    },
+    {
+      "asset_id": "507053203682",
+      "relative_path": "20261121-refined/variants/masters/507053203682_BROVI_infographic_v2.png",
+      "sha256": "b10764624ae24d6738de4bc6c23cad120d27e3b28a14f6d53ccddfdf7668d8c3",
+      "bytes": 1340053
+    },
+    {
+      "asset_id": "100921419552",
+      "relative_path": "20261121-refined/variants/masters/100921419552_BROVI_infographic_v2.png",
+      "sha256": "cf9eaffec602de6e06d8341f7c1fab130da97092ecae55530eef6120588f87e4",
+      "bytes": 1383665
+    },
+    {
+      "asset_id": "243820244002",
+      "relative_path": "20261121-refined/variants/masters/243820244002_BROVI_infographic_v2.png",
+      "sha256": "b63c28597824b4f2ab57b4fb0fbbe118eeb3165ba2a4f65c4630947835946002",
+      "bytes": 1382738
+    },
+    {
+      "asset_id": "924933247602",
+      "relative_path": "20261121-refined/variants/masters/924933247602_BROVI_infographic_v2.png",
+      "sha256": "9c5dc46b19e97b38e9eba10a608e797304ad4ac8484f11462dc18876578dacd8",
+      "bytes": 1329273
+    },
+    {
+      "asset_id": "586530152642",
+      "relative_path": "20261121-refined/variants/masters/586530152642_BROVI_infographic_v2.png",
+      "sha256": "bcabb85f47c579b5014cd45377d971e719f170123b248093b0c8068746c3c259",
+      "bytes": 1475763
+    },
+    {
+      "asset_id": "301776372002",
+      "relative_path": "20261121-refined/variants/masters/301776372002_BROVI_infographic_v2.png",
+      "sha256": "e99167bd51e28e4dada2aa4a206538dc7f4b39ceb54ab7f997c6679bb92906be",
+      "bytes": 1461099
+    },
+    {
+      "asset_id": "539649656102",
+      "relative_path": "20261121-refined/variants/masters/539649656102_Defender_infographic_v2.png",
+      "sha256": "66c29eed768208e758fab32ef3cd0f9b89c202ceaa9cdface2e56f3589835696",
+      "bytes": 1408770
+    },
+    {
+      "asset_id": "196313455342",
+      "relative_path": "20261121-refined/variants/masters/196313455342_Defender_infographic_v2.png",
+      "sha256": "8bf1d336c79c4cffd237f4c7bf483b72ea6b070cfb80eb89ac06a9148124e0f6",
+      "bytes": 1406246
+    },
+    {
+      "asset_id": "579821214422",
+      "relative_path": "20261121-refined/variants/masters/579821214422_Defender_infographic_v2.png",
+      "sha256": "7da6ac98801e012e7be18702e2b369f2498f3d073c9ff8c04e9e1ff67f1ad210",
+      "bytes": 1411142
+    },
+    {
+      "asset_id": "703914955232",
+      "relative_path": "20261121-refined/variants/masters/703914955232_Defender_infographic_v2.png",
+      "sha256": "16d8aac173bea91a9a4a56f58a6f8d4d4ca4f3ff21b2499fcf3af5c6ed673c5b",
+      "bytes": 1441425
+    },
+    {
+      "asset_id": "classic-family-1rl",
+      "relative_path": "20261121-refined/variants/masters/868979329382_Kwadron-Classic_family-example_1RL_v2.png",
+      "sha256": "1e4aa716fefb2dc9effc55a5e2fdec60ce863ff6ca713b480d4f8e7c6d973337",
+      "bytes": 1505948
+    }
+  ],
+  "originals_retained": true
+}

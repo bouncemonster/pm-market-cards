@@ -1,0 +1,189 @@
+{
+  "at_utc": "2026-11-21T14:01:10.851188+00:00",
+  "commit": "a4c418973856d0d7f106a127d1bb7d99215f3a38",
+  "all_verified": true,
+  "assets": [
+    {
+      "asset_id": "417482400882",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/417482400882_Kwadron-Classic_infographic_v2.jpg",
+      "sha256": "955cc7b92046aff4b37d0e2947e28c2f0ac1682f633ff134f2af21a8eb15f2be",
+      "bytes": 313113,
+      "verified": true
+    },
+    {
+      "asset_id": "579563154792",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/579563154792_Kwadron-Classic_infographic_v2.jpg",
+      "sha256": "c6ad72f21640ec744cc6cea94622e8f9244e6ed8865841cc223431923b4bc9b2",
+      "bytes": 281581,
+      "verified": true
+    },
+    {
+      "asset_id": "675810520422",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/675810520422_Kwadron-Optima_infographic_v2.jpg",
+      "sha256": "22bf7278d82046caa013c5e0f9d8aa71fa0f9de17f3e6d551dbd27a2e4234a6e",
+      "bytes": 228567,
+      "verified": true
+    },
+    {
+      "asset_id": "845989220512",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/845989220512_Kwadron-Optima_infographic_v2.jpg",
+      "sha256": "2ca610c60721ce4354f58b6271f4de11f021750dd62de61ab07e5416390eaf5d",
+      "bytes": 222394,
+      "verified": true
+    },
+    {
+      "asset_id": "733031489742",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/733031489742_Kwadron-Optima_infographic_v2.jpg",
+      "sha256": "aacc2fc9b1377b748c7194614eb9d40897f7fcc039f5e9f0ef1bf7298251d31a",
+      "bytes": 237829,
+      "verified": true
+    },
+    {
+      "asset_id": "166108480362",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/166108480362_Them_infographic_v2.jpg",
+      "sha256": "3523104133158983d2d3ca520664f6d1c9ed2f913fb7250de38ef1e2f289ab34",
+      "bytes": 199185,
+      "verified": true
+    },
+    {
+      "asset_id": "472935631552",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/472935631552_Them_infographic_v2.jpg",
+      "sha256": "e1a68285d235f08481cadc6e4c054ddc05e65cbf7cd68974acd80093207f32ed",
+      "bytes": 210381,
+      "verified": true
+    },
+    {
+      "asset_id": "642934304122",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/642934304122_Them_infographic_v2.jpg",
+      "sha256": "79233df6f66be28b72fa47190450114fd96212f118f3bbf5d008f4b53b1d89c5",
+      "bytes": 215627,
+      "verified": true
+    },
+    {
+      "asset_id": "976597887252",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/976597887252_Them_infographic_v2.jpg",
+      "sha256": "6363545437427788c5eeae55ac8642ec841148cb737ea957ed7af6dfbdf96276",
+      "bytes": 203432,
+      "verified": true
+    },
+    {
+      "asset_id": "871272420912",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/871272420912_Them_infographic_v2.jpg",
+      "sha256": "19efbc4631c5b06f76b6efbe40fc281009e337927fc0e106fe226dbd601e125e",
+      "bytes": 209793,
+      "verified": true
+    },
+    {
+      "asset_id": "319140886832",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/319140886832_Them_infographic_v2.jpg",
+      "sha256": "f28f972f58cda079ea4ae66462e119c9598cbd06ff5ec5d7e552d6b0aa7732c1",
+      "bytes": 196343,
+      "verified": true
+    },
+    {
+      "asset_id": "507196237952",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/507196237952_BROVI_infographic_v2.jpg",
+      "sha256": "139f62a9b05105aaf1e69133c50aea53f97292ab3917a6b94699f1b94f209825",
+      "bytes": 174262,
+      "verified": true
+    },
+    {
+      "asset_id": "880067819552",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/880067819552_BROVI_infographic_v2.jpg",
+      "sha256": "8399e4d44b3bb9fad9d1020eb9a736554c283e0cd6937285015fd8132e819a06",
+      "bytes": 181551,
+      "verified": true
+    },
+    {
+      "asset_id": "790596581022",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/790596581022_BROVI_infographic_v2.jpg",
+      "sha256": "8f5d2336ea10ffe907d124926b53d9e418e04f32b378efe462e045675c17c689",
+      "bytes": 181360,
+      "verified": true
+    },
+    {
+      "asset_id": "701437136452",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/701437136452_BROVI_infographic_v2.jpg",
+      "sha256": "2e16180d7ed4d90b8502306c8933a052fe851123943500a905477853b94c12ce",
+      "bytes": 179626,
+      "verified": true
+    },
+    {
+      "asset_id": "507053203682",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/507053203682_BROVI_infographic_v2.jpg",
+      "sha256": "0f0f68f17222e0ec4effab6b04800b069601b14808c9254d8cf8d425e68c6aaa",
+      "bytes": 185798,
+      "verified": true
+    },
+    {
+      "asset_id": "100921419552",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/100921419552_BROVI_infographic_v2.jpg",
+      "sha256": "24f652548c9df2c856beb8f6493bb6d810e9402bec1fd3b9daa47abdb9864bb2",
+      "bytes": 203133,
+      "verified": true
+    },
+    {
+      "asset_id": "243820244002",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/243820244002_BROVI_infographic_v2.jpg",
+      "sha256": "d4b7eb32471eb885c4ec4b19c8e0ad19be4732c1f972791de92318c84ea16c86",
+      "bytes": 197464,
+      "verified": true
+    },
+    {
+      "asset_id": "924933247602",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/924933247602_BROVI_infographic_v2.jpg",
+      "sha256": "a34b4ded60b339630c0e45c4271ca5d7e19e4260fbd6ec45037c29838aaf065c",
+      "bytes": 181319,
+      "verified": true
+    },
+    {
+      "asset_id": "586530152642",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/586530152642_BROVI_infographic_v2.jpg",
+      "sha256": "2e07c91b96459da0284ecacf14d0a9d47f7b60ada9f4b943d2d119db93c20af3",
+      "bytes": 229077,
+      "verified": true
+    },
+    {
+      "asset_id": "301776372002",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/301776372002_BROVI_infographic_v2.jpg",
+      "sha256": "08c075021b7c0a5ef89a2c7918af2e83efd89d311d34719f180c3d6cf94b258c",
+      "bytes": 211069,
+      "verified": true
+    },
+    {
+      "asset_id": "539649656102",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/539649656102_Defender_infographic_v2.jpg",
+      "sha256": "c10423ddfcd3c2a95cfff9d5c0e41d34cc28afe2c5e65d5990df360f1ca7d7ec",
+      "bytes": 229789,
+      "verified": true
+    },
+    {
+      "asset_id": "196313455342",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/196313455342_Defender_infographic_v2.jpg",
+      "sha256": "95fd2be7e279a6386277ef8aea3db82cdf2b3c72850d0ed3b74721bf07c072c1",
+      "bytes": 227555,
+      "verified": true
+    },
+    {
+      "asset_id": "579821214422",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/579821214422_Defender_infographic_v2.jpg",
+      "sha256": "eec5a38b03395ca12d6f9869ef438f5bada2595b251756613d8d2606abc95040",
+      "bytes": 228990,
+      "verified": true
+    },
+    {
+      "asset_id": "703914955232",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/703914955232_Defender_infographic_v2.jpg",
+      "sha256": "fd57e7a9bcba8758c7ca2bd5e0bccb85d75119b6e3428642c55f4b8619d77baa",
+      "bytes": 236132,
+      "verified": true
+    },
+    {
+      "asset_id": "classic-family-1rl",
+      "url": "https://raw.githubusercontent.com/bouncemonster/pm-market-cards/a4c418973856d0d7f106a127d1bb7d99215f3a38/20261121-refined/variants/868979329382_Kwadron-Classic_family-example_1RL_v2.jpg",
+      "sha256": "2006d6cba9b027abc92b0eabd348735e80a2f8aa42a6bb8e38d2457e06b332f7",
+      "bytes": 286276,
+      "verified": true
+    }
+  ]
+}
