@@ -1,0 +1,25 @@
+{
+  "release_sha256": "41acf5e39d08c890497c88493dbc9362465cb721a79fef52a006a24c11914874",
+  "csv": {
+    "file": "photo-only.csv",
+    "sha256": "2d3f609cdf9440ecc6c4f0f74490942d30e7bfafbde66692e6b07ce529da78ed",
+    "headers": [
+      "Tilda UID",
+      "Photo"
+    ],
+    "rows": 80,
+    "mapping": [
+      {
+        "column": 0,
+        "field": "tildauid"
+      },
+      {
+        "column": 1,
+        "field": "img"
+      }
+    ]
+  },
+  "assets": 75,
+  "rows": 80,
+  "asset_commit": "d50385764b43568d44924ed2f52b5760f3971135"
+}
