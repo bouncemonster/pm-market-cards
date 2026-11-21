@@ -1,0 +1,51 @@
+{
+  "uid": "361430283622",
+  "title": "Defender",
+  "file": "361430283622_Defender_parent_infographic_v2.jpg",
+  "sha256": "0e5fd726e2e7bbf8332299431d96ec2c8d135ecfb0d8ad9e471d70349998d6dd",
+  "bytes": 225772,
+  "dimensions": "1254x1254",
+  "source_registry": "J:/project/pm.market/out/products.json (id-to-photo mapping only; legacy descriptions are not used as claims evidence)",
+  "source_url": "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+  "source_sha256": "8f71170d7c69814ef9763eb33e0134113d2e30ea226d9acd9e3bc2b90a0061f6",
+  "source_dimensions": "1680x1680",
+  "png_master": "masters/361430283622_Defender_parent_infographic_v2.png",
+  "png_master_sha256": "c2b7737696a08d4f1a96fecb60e6f94863c1d6ec993c3fc01c7e5193fb2e4218",
+  "generation": "Built-in image_gen.imagegen edit using owner photo and separately identified Optima layout reference. Generated composition is not independent photographic evidence of stock SKU or literal pixel preservation.",
+  "verified_added_text": [
+    "КАРТРИДЖИ",
+    "Defender",
+    "1RL • 3RL",
+    "Конфигурация и заточка — в вариантах товара",
+    "На фото — 25/1 RLLT"
+  ],
+  "removed_claims": [
+    "стерильно",
+    "316L",
+    "asserted sale-unit pack quantity"
+  ],
+  "native_variant_facts": [
+    {
+      "uid": "539649656102",
+      "editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "196313455342",
+      "editions": "Тип игл:35/1 RLLT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "579821214422",
+      "editions": "Тип игл:30/1 RLMT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT"
+    },
+    {
+      "uid": "703914955232",
+      "editions": "Тип игл:30/3 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:3RL;Заточка:LT"
+    }
+  ],
+  "visual_review": "Two real white/red boxes, Defender/inktek Soft Membrane artwork and #25 25/01 RLLT end label preserved visually. 20PCS remains printed on source package only, not promoted as sale quantity.",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "delivery_derivative": "ImageMagick JPEG90, dimensions unchanged, metadata stripped",
+  "status": "visually_checked_asset_not_yet_attached_to_native_catalog",
+  "catalog_photo_writes": 0,
+  "variant_photo_writes": 0
+}

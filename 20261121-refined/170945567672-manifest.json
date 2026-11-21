@@ -1,0 +1,34 @@
+{
+  "uid": "170945567672",
+  "title": "Липкая одноразовая линейка",
+  "file": "170945567672_Sticky-Ruler_parent_infographic_v2.jpg",
+  "sha256": "9ec8c442ac603e0092ab3d49f37843cfc9adcfa0a245d986a6b9ee579bb025a5",
+  "bytes": 237812,
+  "dimensions": "1254x1254",
+  "source_registry": "J:/project/pm.market/out/products.json (id-to-photo mapping only; legacy descriptions are not used as claims evidence)",
+  "source_url": "https://static.tildacdn.com/stor6139-3131-4236-b339-326435643234/62116932.webp",
+  "source_sha256": "838980a26227190e16cd84bdbe92099c1c7ec705d660e9431b81452021d49e12",
+  "source_dimensions": "296x296",
+  "png_master": "masters/170945567672_Sticky-Ruler_parent_infographic_v2.png",
+  "png_master_sha256": "c470c46dcc1fa2964a25c9da8e0eb1ed47de622b52c3bee9665f8a36be335057",
+  "generation": "Built-in image_gen.imagegen edit using owner photo and separately identified Optima layout reference. Generated composition is not independent photographic evidence of stock SKU or literal pixel preservation.",
+  "verified_added_text": [
+    "ДЛЯ ЭСКИЗА",
+    "Липкая линейка",
+    "Одноразовая",
+    "Для разметки эскиза"
+  ],
+  "removed_claims": [
+    "гипоаллергенно",
+    "стерильно",
+    "без риска заражения",
+    "unsupported quantity 1"
+  ],
+  "native_variant_facts": [],
+  "visual_review": "Owner source is only 296x296 pixels. Five-strip fan, general geometry and colors are consistent; fine tick marks/printing cannot be independently certified. No measurement, sale-unit count or skin-safety promise is added.",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "delivery_derivative": "ImageMagick JPEG90, dimensions unchanged, metadata stripped",
+  "status": "visually_checked_asset_not_yet_attached_to_native_catalog",
+  "catalog_photo_writes": 0,
+  "variant_photo_writes": 0
+}

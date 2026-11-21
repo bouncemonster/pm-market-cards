@@ -1,0 +1,55 @@
+{
+  "uid": "868979329382",
+  "title": "Kwadron Classic",
+  "file": "868979329382_Kwadron-Classic_parent_infographic_v2.jpg",
+  "sha256": "4657eb4da3659e5fb5d75e1a31326ce26b5aac05b7c5a417bd7debad78e5fbe9",
+  "bytes": 243889,
+  "dimensions": "1254x1254",
+  "source_registry": "J:/project/pm.market/out/products.json (id-to-photo mapping only; legacy descriptions are not used as claims evidence)",
+  "source_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+  "source_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+  "source_dimensions": "1680x1680",
+  "png_master": "masters/868979329382_Kwadron-Classic_parent_infographic_v2.png",
+  "png_master_sha256": "fd5e91641baab7f532d9775e106d30aab8f6de97046c6c9b26a22bcfb8e8b99e",
+  "generation": "Built-in image_gen.imagegen edit using owner photo and separately identified Optima layout reference. Generated composition is not independent photographic evidence of stock SKU or literal pixel preservation.",
+  "verified_added_text": [
+    "КАРТРИДЖИ",
+    "Kwadron Classic",
+    "1RL • 5SEM • 5FL",
+    "Варианты диаметра: 0,25 / 0,30 / 0,35 мм",
+    "Конфигурация — в вариантах товара"
+  ],
+  "removed_claims": [
+    "wrong diameter 0.18",
+    "без вибраций",
+    "316L"
+  ],
+  "native_variant_facts": [
+    {
+      "uid": "694387810412",
+      "editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "185708344162",
+      "editions": "Тип игл:30/1 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "128346466142",
+      "editions": "Тип игл:35/1 RLLT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "417482400882",
+      "editions": "Тип игл:35/5 SEMLT;Диаметр иглы, мм:0.35;Конфигурация игл:5SEM;Заточка:LT"
+    },
+    {
+      "uid": "579563154792",
+      "editions": "Тип игл:35/5 FLLT;Диаметр иглы, мм:0.35;Конфигурация игл:5FL;Заточка:LT"
+    }
+  ],
+  "visual_review": "Single real black-and-gold Kwadron Cartridge System box. No exact SKU label is visible in source, so no shown-SKU claim added. Parent family and native variant list only; no Cartesian availability guarantee.",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "delivery_derivative": "ImageMagick JPEG90, dimensions unchanged, metadata stripped",
+  "status": "visually_checked_asset_not_yet_attached_to_native_catalog",
+  "catalog_photo_writes": 0,
+  "variant_photo_writes": 0
+}

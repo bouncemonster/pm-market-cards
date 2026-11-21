@@ -1,0 +1,58 @@
+{
+  "uid": "729564047722",
+  "title": "Them",
+  "file": "729564047722_Them_parent_infographic_v2.jpg",
+  "sha256": "8f34189d8b19524a9a3b28c4e111933c0445546048a27bf7eaa824af7107a961",
+  "bytes": 198941,
+  "dimensions": "1254x1254",
+  "source_registry": "J:/project/pm.market/out/products.json (id-to-photo mapping only; legacy descriptions are not used as claims evidence)",
+  "source_url": "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+  "source_sha256": "b1df454b25daa8e9284500584d3450e861283ed1948791266293742307f5963e",
+  "source_dimensions": "1680x1680",
+  "png_master": "masters/729564047722_Them_parent_infographic_v2.png",
+  "png_master_sha256": "ec0948670c1140dd5433901bc5ed40163115dccaf8540dc16667069f72f07c5e",
+  "generation": "Built-in image_gen.imagegen edit using owner photo and separately identified Optima layout reference. Generated composition is not independent photographic evidence of stock SKU or literal pixel preservation.",
+  "verified_added_text": [
+    "КАРТРИДЖИ ДЛЯ ПМ",
+    "Them",
+    "1RL • 3RL",
+    "Варианты диаметра: 0,25 / 0,30 / 0,33 / 0,35 мм",
+    "На фото — 25/1 RLLT"
+  ],
+  "removed_claims": [
+    "wrong diameter 0.18",
+    "стерильно"
+  ],
+  "native_variant_facts": [
+    {
+      "uid": "166108480362",
+      "editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "472935631552",
+      "editions": "Тип игл:30/1 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "642934304122",
+      "editions": "Тип игл:30/1 RLMT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT"
+    },
+    {
+      "uid": "976597887252",
+      "editions": "Тип игл:33/1 RLLT;Диаметр иглы, мм:0.33;Конфигурация игл:1RL;Заточка:LT"
+    },
+    {
+      "uid": "871272420912",
+      "editions": "Тип игл:35/1 RLMT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:MT"
+    },
+    {
+      "uid": "319140886832",
+      "editions": "Тип игл:30/3 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:3RL;Заточка:LT"
+    }
+  ],
+  "visual_review": "Single real green Them package with #08 0.25 1RLLT; package color, logo and shown-variant label checked against owner source.",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "delivery_derivative": "ImageMagick JPEG90, dimensions unchanged, metadata stripped",
+  "status": "visually_checked_asset_not_yet_attached_to_native_catalog",
+  "catalog_photo_writes": 0,
+  "variant_photo_writes": 0
+}
