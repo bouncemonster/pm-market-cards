@@ -1,0 +1,364 @@
+{
+  "status": "AUTHOR_VISUAL_QA_PASS",
+  "created_at_utc": "2026-11-21T19:42:42.958914+00:00",
+  "agent": "catalog_taxonomy_audit",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "items": [
+    {
+      "uid": "922986769214",
+      "title": "Аппарат ARt by Alla Romazanova",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/922986769214-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-455d65d9-b22c-4230-80ff-1478dd7feff3.png",
+      "sha256": "27ca6ed834d2b5ce3f5a7228e7c00b6a0a91e8f0cc3e99e249940396082034f2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Edit this existing product cover; keep the exact pictured black ARt device with magenta middle ring, screen and side buttons. Do not redesign hardware. Remove ALL existing promotional copy and replace with this exact text: small upper line «АППАРАТ ДЛЯ ПМ», huge rose «ARt», supporting line «BY ALLA ROMAZANOVA». Two feature boxes: «ЦИФРОВОЙ ДИСПЛЕЙ» and «БОКОВЫЕ КНОПКИ». Bottom caption «ПЕРМАНЕНТНЫЙ МАКИЯЖ». No 142 г, no 3,5 мм, no aluminium, no hand assembly, no country. Preserve the existing screen as visible product detail, but do not promote its numbers as specifications. Create one finished square high-resolution marketplace advertisement in the existing PM.MARKET visual system: clean warm-white background, very large dusty rose headline, black sans serif supporting typography, two or three thin rose outlined rounded feature boxes with tiny line icons, photographic product hero on right/lower half, soft studio shadows and a fine rose footer line. All copy sharply legible in Russian, generous margins. Do not add extra unsupported advertising words, medical benefits, country, certification seals, prices or discounts. Preserve exact visible product proportions, colors and label identity. Do not invent label microtext.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-1.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-1.img",
+          "sha256": "cbfd5ec69a6f4b787831509c4e162305667f2ab4587a7d47a2c806fd54bf8a32"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3938-3462-4530-b861-613436356234/fefb65ced0ed87eff017732809a60353.jpg",
+        "https://static.tildacdn.com/stor6337-3239-4532-a463-643430363738/d09c02de76c7ea44ec54c5c5347d8814.webp",
+        "https://static.tildacdn.com/stor6232-6131-4139-b063-613130396635/746ce5712e3fb3c9efd481a537351da2.webp",
+        "https://static.tildacdn.com/stor6532-3666-4265-a531-303363373333/dd1527a5706b0b75463058630da01e28.webp"
+      ],
+      "keep_owner_original_urls": [],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "142г/3,5мм обнаружены только у продавца, не в точной первичной инструкции. Без источника производителя убрать числа, сохранить реальное устройство. Не выводить спецификации из сгенерированного permanent.academy.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3938-3462-4530-b861-613436356234/fefb65ced0ed87eff017732809a60353.jpg",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-1.img",
+          "action": "remove",
+          "reason": "142г/3,5мм обнаружены только у продавца, не в точной первичной инструкции. Без источника производителя убрать числа, сохранить реальное устройство. Не выводить спецификации из сгенерированного permanent.academy."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6337-3239-4532-a463-643430363738/d09c02de76c7ea44ec54c5c5347d8814.webp",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-2.img",
+          "action": "remove",
+          "reason": "142г/3,5мм обнаружены только у продавца, не в точной первичной инструкции. Без источника производителя убрать числа, сохранить реальное устройство. Не выводить спецификации из сгенерированного permanent.academy."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6232-6131-4139-b063-613130396635/746ce5712e3fb3c9efd481a537351da2.webp",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-3.img",
+          "action": "remove",
+          "reason": "Дополнительная иллюстрация добавляет неподтверждённый алюминиевый корпус."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6532-3666-4265-a531-303363373333/dd1527a5706b0b75463058630da01e28.webp",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/922986769214-4.img",
+          "action": "remove",
+          "reason": "Дополнительная иллюстрация добавляет неподтверждённую ручную сборку и Беларусь."
+        }
+      ],
+      "physically_verified": false,
+      "source_limit": "Все доступные 5 native gallery изображений ранее стилизованы. Сохраняется изображённый аппарат; физическая идентичность, масса, ход, материал, страна и ручная сборка не удостоверены."
+    },
+    {
+      "uid": "936072728202",
+      "title": "Пигменты Accent",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/936072728202-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-a2b73c24-7891-4ff0-8ecd-d6d681dabb32.png",
+      "sha256": "8347347bd3ad4aaf9a9a53c42bf2af15990a2d4ef148f02d0231d6f4f3b436fe",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Reference 1 is the exact original ACCENT Cappuccino bottle to restage photorealistically as a product-family cover. Reference 2 gives the old visual style only; delete ALL its benefit claims. Keep original brown bottle, exact white cap and authentic label «№6 Cappuccino». Use a single bottle, no fictional other shades. Exact advertising copy: upper «ПИГМЕНТЫ ДЛЯ ПМ», huge rose «ACCENT». Two outlined feature boxes: «ОТТЕНОК НА ВЫБОР» / «В ВАРИАНТАХ ТОВАРА» and «ФЛАКОН» / «С КРЫШКОЙ». Footer «ACCENT • ПЕРМАНЕНТНЫЙ МАКИЯЖ». Do not claim rapid healing, lasting color, no inversion, no grey spots, safety, any universal technique or quantity. Create one finished square high-resolution marketplace advertisement in the existing PM.MARKET visual system: clean warm-white background, very large dusty rose headline, black sans serif supporting typography, two or three thin rose outlined rounded feature boxes with tiny line icons, photographic product hero on right/lower half, soft studio shadows and a fine rose footer line. All copy sharply legible in Russian, generous margins. Do not add extra unsupported advertising words, medical benefits, country, certification seals, prices or discounts. Preserve exact visible product proportions, colors and label identity. Do not invent label microtext.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/936072728202-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/936072728202-1.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/936072728202-2.img",
+          "sha256": "eeb1f18f2335ebcd32068ebd42f801b0eca62a806597540f081984e0a1fa07e9"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/936072728202-1.img",
+          "sha256": "10dbdc3cef845baa0162fcaabbb0ef499997411299a6a564a0e07a3ca13d1f39"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3562-6262-4731-a633-643535323333/cb8049654156305a91ec7b8bd3004d9a.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3038-3764-4262-b434-396437643461/39894299.jpg",
+        "https://static.tildacdn.com/stor3462-6533-4263-b265-346132323338/26154796.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "Убрать быстрые сроки заживления, универсальные техники и безусловную инверсию/серые пятна. Официальное подтверждение точной серии не установлено.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3562-6262-4731-a633-643535323333/cb8049654156305a91ec7b8bd3004d9a.png",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/936072728202-1.img",
+          "action": "remove",
+          "reason": "Убрать быстрые сроки заживления, универсальные техники и безусловную инверсию/серые пятна. Официальное подтверждение точной серии не установлено."
+        }
+      ],
+      "physically_verified": false
+    },
+    {
+      "uid": "937907941621",
+      "title": "Колпачки под краску - 100",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/937907941621-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-b2c50889-ec64-437a-8639-6e6c638c0529.png",
+      "sha256": "e4c3ea818dbe580d99524c7b2984a4df1f75c4dd6b5cfdecf3534bcf419528a0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Reference 1 is the real bag of white translucent pigment cups, preserve their exact cylindrical form with broad base and transparent bag. Reference 2 is old advertising style only; remove its claims of pure composition and impurities. Create an elegant retail advertisement with the bag enlarged prominently. Exact copy: small upper «ДЛЯ ПИГМЕНТА», huge rose headline «КОЛПАЧКИ», supporting «ФАСОВКА 100 ШТУК». Two feature boxes: «ШИРОКОЕ ОСНОВАНИЕ» and «ПРОЗРАЧНАЯ УПАКОВКА». Black badge with pink «100 шт». Footer «PM.MARKET • РАСХОДНЫЕ МАТЕРИАЛЫ». No invented diameter, volume, sterility, chemical purity or certification. Create one finished square high-resolution marketplace advertisement in the existing PM.MARKET visual system: clean warm-white background, very large dusty rose headline, black sans serif supporting typography, two or three thin rose outlined rounded feature boxes with tiny line icons, photographic product hero on right/lower half, soft studio shadows and a fine rose footer line. All copy sharply legible in Russian, generous margins. Do not add extra unsupported advertising words, medical benefits, country, certification seals, prices or discounts. Preserve exact visible product proportions, colors and label identity. Do not invent label microtext.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-3.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-2.img",
+          "sha256": "ab701ea1423dfd0634ca52854b123ad96bc5e399d14e6abe34b1c55894b75243"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-3.img",
+          "sha256": "6ae06ba9e5ca87ac7bbcd19da0a7affcf9334412fbbf2f96507dd9b1791d511a"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3766-6439-4134-a131-396333313333/5bea6665814e760d6d4abf90769663c9.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6131-6436-4435-b534-616439306265/photo.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "Чистый состав без примесей не подтверждается видом пластиковых колпачков.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3766-6439-4134-a131-396333313333/5bea6665814e760d6d4abf90769663c9.jpg",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-3.img",
+          "action": "remove",
+          "reason": "Чистый состав без примесей не подтверждается видом пластиковых колпачков."
+        }
+      ],
+      "physically_verified": false,
+      "replacement_owner_scope": "Этот UID единственный владелец replacement URL; parent и другие native consumers вычисляются builder автоматически."
+    },
+    {
+      "uid": "963142184091",
+      "title": "Муляж кожного покрова латекс - 14х18 см - Прозрачный",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/963142184091-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-47a40cdf-54c9-4f5f-a738-1b9e5922f550.png",
+      "sha256": "115adf4af93be725a2d65deee6c35d066d073e48792d08fb144b312212a20c99",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Restage the transparent rectangular flexible training sheet and two black-gloved hands from reference 1. Reference 2 is style only; remove its latex and easy-cleaning claims. Reference1's Sils Silicone Skin is an image watermark, NOT lettering printed on the sheet; do not print it on the product. Keep the sheet visibly transparent with rounded corners and a slight natural bend, no drawings on it. Exact copy: upper «ТРЕНИРОВОЧНЫЙ КОВРИК», large rose «ПРОЗРАЧНЫЙ», supporting «ДЛЯ ОТРАБОТКИ НАВЫКОВ». Two feature boxes «14 × 18 СМ» and «ПРОЗРАЧНАЯ ОСНОВА». Footer «PM.MARKET • ТРЕНИРОВКА». No latex, no silicone, no easy cleaning or skin mimicry promises. Create one finished square high-resolution marketplace advertisement in the established PM.MARKET family: warm white background, huge dusty rose headline, black sans-serif supporting typography, two outlined rose rounded feature boxes with refined line icons, photographic product on right/lower half, soft studio shadow, thin rose footer rule. Exact Russian typography with spacious margins, highly legible on phones. Preserve source object geometry, color and authentic markings; do not invent packaging details or add unrelated products. No medical promises, allergy/sterility/certification, material chemistry, country, pricing or stock claims. Use only the supplied advertising copy.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-7.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+          "sha256": "d9c83c2293a7ea2cccbb9c1a76d0aab07538c0e0d78ef00acd93c45a019ca619"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-7.img",
+          "sha256": "d04d91e4a7b8153e958402966e75e2635d2ecaac8f800b58c695c4afe7a3e894"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3437-3463-4530-b664-653138623131/a9caf383513687ca14bdc116cb07118b.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6462-3235-4865-b163-343239646637/UoAsmehAezK6I0Wc.jpg",
+        "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "Неподтверждённый латекс при Sils Silicone Skin.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3437-3463-4530-b664-653138623131/a9caf383513687ca14bdc116cb07118b.png",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-7.img",
+          "action": "remove",
+          "reason": "Неподтверждённый латекс при Sils Silicone Skin."
+        }
+      ],
+      "physically_verified": false,
+      "replacement_owner_scope": "Этот UID единственный владелец replacement URL; parent и другие native consumers вычисляются builder автоматически."
+    },
+    {
+      "uid": "964117444131",
+      "title": "Искусственная кожа для тренировки - 14,5X19 cm",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/964117444131-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-32873b61-871c-40dd-8d93-f24b2126901a.png",
+      "sha256": "6fa4663d85edd106ca6eea711f10d87245120fbc162b1bfb7411fb49567b9c94",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Reference1 is the actual beige flexible training skin material and shape. Reference2 is old style only; delete all silicone, clean work and double-resource claims. Hero is ONE plain beige rectangular flexible sheet, very slightly curved corner to reveal thinness, no fake ink drawings or other equipment. Exact advertising copy: upper «ИСКУССТВЕННАЯ КОЖА», huge rose headline «ДЛЯ ТРЕНИРОВКИ». Two feature boxes «14,5 × 19 СМ» and «ГЛАДКАЯ ПОВЕРХНОСТЬ». Black capsule «14,5 × 19 см». Footer «PM.MARKET • ТРЕНИРОВОЧНЫЙ МАТЕРИАЛ». No material chemistry, no universal zones, no doubled lifespan, no silicone. Create one finished square high-resolution marketplace advertisement in the established PM.MARKET family: warm white background, huge dusty rose headline, black sans-serif supporting typography, two outlined rose rounded feature boxes with refined line icons, photographic product on right/lower half, soft studio shadow, thin rose footer rule. Exact Russian typography with spacious margins, highly legible on phones. Preserve source object geometry, color and authentic markings; do not invent packaging details or add unrelated products. No medical promises, allergy/sterility/certification, material chemistry, country, pricing or stock claims. Use only the supplied advertising copy.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-3.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-2.img",
+          "sha256": "fff7c46665e9306e28c5b217ff33c455116ccd79704150803d6626b61212354e"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-3.img",
+          "sha256": "bd61e7c65202ccef2d3da2595843c27e83db242fdd980b415444cb6db79987f9"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3237-6366-4766-a530-373036303832/89659ff3f64e368e7cc396d2c4c3ccf2.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild3066-3731-4339-b365-313731653166/Tu6yb6nKLNMZZor-.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "Силикон и применение для любых зон не подтверждены точной инструкцией.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3237-6366-4766-a530-373036303832/89659ff3f64e368e7cc396d2c4c3ccf2.jpg",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-3.img",
+          "action": "remove",
+          "reason": "Силикон и применение для любых зон не подтверждены точной инструкцией."
+        }
+      ],
+      "physically_verified": false,
+      "replacement_owner_scope": "Этот UID единственный владелец replacement URL; parent и другие native consumers вычисляются builder автоматически."
+    },
+    {
+      "uid": "994078093911",
+      "title": "EZ Master Pro Tattoo RCA Cord Silver",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/994078093911-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-011ad7dd-1b1c-4267-bb6d-7825cef17bef.png",
+      "sha256": "e40621eb3f6f11c627658c302a0e65d346ad93361af0a98175a1987897999407",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Reference1 is the authentic EZ TATTOO MASTER PRO CLIP CORD retail box. Preserve the actual box precisely: silver top and lower strip, dark checked central panel, image of RCA connector at left and large jack connector at right, actual MASTER label at bottom. Reference2 is old layout only; remove its universal RCA/CLIP claims. No extra cable outside the box, no change to connector types. Exact ad copy: upper «КАБЕЛЬ RCA», huge rose «EZ MASTER PRO», supporting «SILVER». Two feature boxes «РАЗЪЁМ RCA» and «В ФИРМЕННОЙ УПАКОВКЕ». Footer «EZ MASTER PRO • RCA CORD SILVER». No universal compatibility, no RCA-CLIP adapter or durability guarantee, no dimensions. Create one finished square high-resolution marketplace advertisement in the established PM.MARKET family: warm white background, huge dusty rose headline, black sans-serif supporting typography, two outlined rose rounded feature boxes with refined line icons, photographic product on right/lower half, soft studio shadow, thin rose footer rule. Exact Russian typography with spacious margins, highly legible on phones. Preserve source object geometry, color and authentic markings; do not invent packaging details or add unrelated products. No medical promises, allergy/sterility/certification, material chemistry, country, pricing or stock claims. Use only the supplied advertising copy.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/994078093911-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/994078093911-1.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/994078093911-2.img",
+          "sha256": "6811091f48f91641ab3df6a85505e9c5b8608f93a4c658e79582f4f491f6e3f8"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/994078093911-1.img",
+          "sha256": "0434065e2b8ade5a1f3ea9b902dd03ae62f22198fb413b7f38b2f2c1698fb2dd"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3830-3939-4333-a561-666535646666/211ad1405971e1c4a112ee19e335ac29.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild3061-3466-4337-a439-663134353430/nz2XQn1a46mrnvzh.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "Убрать RCA/CLIP CORD универсальный. Подтвердить только видимый реальный коннектор, не менять его.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3830-3939-4333-a561-666535646666/211ad1405971e1c4a112ee19e335ac29.png",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/994078093911-1.img",
+          "action": "remove",
+          "reason": "Убрать RCA/CLIP CORD универсальный. Подтвердить только видимый реальный коннектор, не менять его."
+        }
+      ],
+      "physically_verified": false
+    },
+    {
+      "uid": "995702540022",
+      "title": "Карандаш Bioderm",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/995702540022-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-8aee6ff8-e475-4999-8bfe-a9d9fd12964a.png",
+      "sha256": "f90f6106082b63c05336213845b25c9c700fcc62cc73e358eb7df3f0cdc0d69e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Reference1 is the authentic long slim brown Bioderm pencil with gold-colored cap and gold Milk chocolate lettering. Preserve precisely this capped pencil, natural proportions; place diagonally prominently on the right. Reference2 is old layout only; remove 35g, 12cm and perfect contour promises. Exact copy: upper «КАРАНДАШ ДЛЯ ЭСКИЗА», huge rose «BIODERM». Two feature boxes «ОТТЕНОК» / «MILK CHOCOLATE» and «С ЗАЩИТНЫМ» / «КОЛПАЧКОМ». Footer «BIODERM • ДЛЯ ЭСКИЗА». Do not add weight, length, softness, waterproofness or guarantees. The cap remains on, not opened or paired with a second pencil. Create one finished square high-resolution marketplace advertisement in the established PM.MARKET family: warm white background, huge dusty rose headline, black sans-serif supporting typography, two outlined rose rounded feature boxes with refined line icons, photographic product on right/lower half, soft studio shadow, thin rose footer rule. Exact Russian typography with spacious margins, highly legible on phones. Preserve source object geometry, color and authentic markings; do not invent packaging details or add unrelated products. No medical promises, allergy/sterility/certification, material chemistry, country, pricing or stock claims. Use only the supplied advertising copy.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-1.img"
+      ],
+      "reference_evidence": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-3.img",
+          "sha256": "1a8f876d246edd381ed179039e0dd04114d56d16736f9e384e8b4bd34df7a454"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-1.img",
+          "sha256": "99bf979881c7afd6eb6f97c7e01050abd8e20f9dcdbbac47a7b3ee3c394b51c9"
+        }
+      ],
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Все 7 итоговых изображений просмотрены в полном размере: предметные признаки/референс, читаемый русский текст, подтверждённые native размеры/фасовка, без медицинских гарантий и неподтверждённого состава. Изображение не удостоверяет физическую партию или мелкую маркировку."
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3537-6536-4435-b063-663830626138/f4f9152a2629c082fe9426023a6ba89b.jpg",
+        "https://static.tildacdn.com/stor3265-6231-4939-a165-663736613062/964007fe4d4c8ea2a5df8ebfc977e391.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3965-3131-4232-b639-383764633631/24321071.webp"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "reason": "35г/12см отсутствуют в native исходном описании и не подтверждены измерением/первичной упаковкой. Убрать эти числа.",
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3537-6536-4435-b063-663830626138/f4f9152a2629c082fe9426023a6ba89b.jpg",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-1.img",
+          "action": "remove",
+          "reason": "35г/12см отсутствуют в native исходном описании и не подтверждены измерением/первичной упаковкой. Убрать эти числа."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3265-6231-4939-a165-663736613062/964007fe4d4c8ea2a5df8ebfc977e391.jpg",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/995702540022-2.img",
+          "action": "remove",
+          "reason": "Ранняя styled карточка добавляет Беларусь без первичной упаковки; реальный снимок сохраняется."
+        }
+      ],
+      "physically_verified": false
+    }
+  ]
+}

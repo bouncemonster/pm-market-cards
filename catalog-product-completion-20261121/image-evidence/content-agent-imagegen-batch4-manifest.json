@@ -1,0 +1,867 @@
+{
+  "created_utc": "2026-11-21T19:39:11.874173+00:00",
+  "agent": "catalog_content_audit",
+  "mode": "builtin_imagegen_reference_edit",
+  "status": "prepared_visual_qa_passed_not_imported",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "content_proposals_sha256_unchanged": "daeeb7145acde42b3af95997ad55d7b546604c9ff3c844265272891493d46cd6",
+  "total_assets": 7,
+  "total_generation_calls": 7,
+  "limitations": [
+    "Espresso exact10ml formula remains unverified; cover deliberately has no composition classification.",
+    "Product quantity and dimensions use exact native SKU, not inference from generated label.",
+    "Child variants retain their own replacement ownership; no duplicate old-URL owners introduced."
+  ],
+  "assets": [
+    {
+      "uid": "626948825831",
+      "name": "Кабель RCA угловой",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/897f12fb125cdaa16c.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/626948825831-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: one red braided cable shown close up as its two actual ends, exactly like owner reference: a right-angle gold-coloured RCA male connector with black housing at left, a long straight gold-coloured jack plug with black housing at right. Preserve this two-end close-up framing, not two separate cables. Do not change geometry or invent end sizes. Main title 'КАБЕЛЬ RCA'. Black category line 'ДЛЯ ТАТУ-ОБОРУДОВАНИЯ'. Two clear factual advertising panels: 'УГЛОВОЙ РАЗЪЁМ' and 'КРАСНАЯ ОПЛЁТКА'. Small dark badge 'RCA'. Footer 'PM.MARKET'. No length, no Jack diameter, no voltage, no 'под любой блок', no load relief or break-proof claim.",
+      "parent_uid": "626948825831",
+      "kind": "parent",
+      "approved_copy": [
+        "КАБЕЛЬ RCA",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "УГЛОВОЙ РАЗЪЁМ",
+        "КРАСНАЯ ОПЛЁТКА",
+        "RCA",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "КАБЕЛЬ RCA",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "УГЛОВОЙ РАЗЪЁМ",
+        "КРАСНАЯ ОПЛЁТКА",
+        "RCA",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-f52f32d2-2bea-44d9-aa1e-785e76739c1a.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-f52f32d2-2bea-44d9-aa1e-785e76739c1a.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/626948825831-marketplace.png",
+      "asset_sha256": "9672faa2fb75e3a956749b3594206b2dceda23445ba06e474f875603cc44ddcf",
+      "asset_bytes": 1414092,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/897f12fb125cdaa16c.img",
+          "url": "https://static.tildacdn.com/stor3830-3462-4562-b465-656665343265/6f8026be9cedeccfc295078aa1ed07c9.png",
+          "sha256": "e865ab5f1934ee6d4daf9ef80237128ad96f2da8aacde2f145bbe41979e68898",
+          "width": 1254,
+          "height": 1254,
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor3461-3339-4135-b763-636661313061/6fc90932ebeb0aa8d085edd090391fea.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/626948825831-2.img",
+          "dimensions": [
+            1242,
+            1235
+          ],
+          "sha256": "3f99390d8d8fbdb0285666dd9ea66b23e803fa46a76585e048d4f55ed4b69f71",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "КАБЕЛЬ RCA",
+          "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+          "УГЛОВОЙ РАЗЪЁМ",
+          "КРАСНАЯ ОПЛЁТКА",
+          "RCA",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Owner right-angle RCA and straight jack geometry preserved. Universal PSU, diameter, break-proof and load-relief promises removed."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3830-3462-4562-b465-656665343265/6f8026be9cedeccfc295078aa1ed07c9.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3830-3462-4562-b465-656665343265/6f8026be9cedeccfc295078aa1ed07c9.png",
+          "sha256": "e865ab5f1934ee6d4daf9ef80237128ad96f2da8aacde2f145bbe41979e68898",
+          "reason": "Убрать «под любой блок»; разъём и напряжение не делают все источники совместимыми."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3461-3339-4135-b763-636661313061/6fc90932ebeb0aa8d085edd090391fea.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here."
+    },
+    {
+      "uid": "657612295881",
+      "name": "Педаль EZ",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/0ff296c6a0310c8413.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/657612295881-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: exact black circular low-profile EZ foot pedal from the owner photo, small geometric texture on its upper disk, actual white EZ round logo, attached looped black cable and the same plug plus separate silver/black adapter visible in owner photo. Preserve those physical parts exactly, do not add any. Main rose title 'ПЕДАЛЬ EZ'. Category 'ДЛЯ ТАТУ-ОБОРУДОВАНИЯ'. Two factual feature panels 'КРУГЛАЯ ФОРМА' and 'НОЖНОЕ УПРАВЛЕНИЕ'. Small dark badge 'EZ'. Footer 'PM.MARKET'. Remove PRO model, 105mm diameter, 2m length, RCA+Jack words, universal compatibility, any angle activation or instant-start promises. No dimensions or numeric technical specs.",
+      "parent_uid": "657612295881",
+      "kind": "parent",
+      "approved_copy": [
+        "ПЕДАЛЬ EZ",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "КРУГЛАЯ ФОРМА",
+        "НОЖНОЕ УПРАВЛЕНИЕ",
+        "EZ",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "ПЕДАЛЬ EZ",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "КРУГЛАЯ ФОРМА",
+        "НОЖНОЕ УПРАВЛЕНИЕ",
+        "EZ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-907c28c0-d772-4025-86e5-a4fbfe32dca4.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-907c28c0-d772-4025-86e5-a4fbfe32dca4.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/657612295881-marketplace.png",
+      "asset_sha256": "a78f48eb3777a978562777a1b3110aec8102c9c41f47e6408c0e94a3651f024d",
+      "asset_bytes": 1376560,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/0ff296c6a0310c8413.img",
+          "url": "https://static.tildacdn.com/stor3930-3862-4434-a365-323163333735/02de1ad96c9e30bc18c3e0de8e5a04a0.jpg",
+          "sha256": "146864921cce2abd7c409f47d4f2c61ccc69260ebefe671b6a788898b0c7abdc",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor6136-3563-4162-b264-316637623565/97d1a4589edc4cf818cd128991246b29.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/657612295881-2.img",
+          "dimensions": [
+            480,
+            480
+          ],
+          "sha256": "b791cec27f05d7ff5ad0788429a1232af115e2f1cdbe4dad1cff5520aada7373",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "ПЕДАЛЬ EZ",
+          "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+          "КРУГЛАЯ ФОРМА",
+          "НОЖНОЕ УПРАВЛЕНИЕ",
+          "EZ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact circular EZ pedal, cable and photographed adapter preserved. PRO,105mm,2m and all-block compatibility removed."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3930-3862-4434-a365-323163333735/02de1ad96c9e30bc18c3e0de8e5a04a0.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3930-3862-4434-a365-323163333735/02de1ad96c9e30bc18c3e0de8e5a04a0.jpg",
+          "sha256": "146864921cce2abd7c409f47d4f2c61ccc69260ebefe671b6a788898b0c7abdc",
+          "reason": "EZ PRO/105мм и RCA+Jack/для всех блоков не установлены точным исходником. Убрать непроверенные модель/размер/универсальность."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6136-3563-4162-b264-316637623565/97d1a4589edc4cf818cd128991246b29.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here."
+    },
+    {
+      "uid": "696039669721",
+      "name": "Циркуль для татуажа",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/3561c1d0fb6c524f56.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/696039669721-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: the exact single metal three-point proportional compass with pivoted linkages and long angled legs in the owner photo. Keep the number of tips, hinge positions, open topology and engraved romazanova marking exactly as owner photo; no new gauge, ruler, scale or tool. Improve clean studio lighting and crisp edge quality while preserving metal reflections. Main rose title 'ЦИРКУЛЬ'. Black category 'ДЛЯ ТАТУАЖА'. Three factual panels 'РАЗМЕТКА ЭСКИЗА', 'ИЗМЕРЕНИЕ ПРОПОРЦИЙ', 'ROMAZANOVA'. Footer 'PM.MARKET'. No stainless-steel claim, no sterilization claim, no perfect/golden-section outcome guarantee, no decorative01, no hashtag title.",
+      "parent_uid": "696039669721",
+      "kind": "parent",
+      "approved_copy": [
+        "ЦИРКУЛЬ",
+        "ДЛЯ ТАТУАЖА",
+        "РАЗМЕТКА ЭСКИЗА",
+        "ИЗМЕРЕНИЕ ПРОПОРЦИЙ",
+        "ROMAZANOVA",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "ЦИРКУЛЬ",
+        "ДЛЯ ТАТУАЖА",
+        "РАЗМЕТКА ЭСКИЗА",
+        "ИЗМЕРЕНИЕ ПРОПОРЦИЙ",
+        "ROMAZANOVA",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-455de979-29d4-4ebb-9ec8-c5763fa227e7.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-455de979-29d4-4ebb-9ec8-c5763fa227e7.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/696039669721-marketplace.png",
+      "asset_sha256": "b09e3c7be83ae3919bad7e3d8191bc3bbdf2117cc444bcf616e2ad19f853cbdd",
+      "asset_bytes": 1364713,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/3561c1d0fb6c524f56.img",
+          "url": "https://static.tildacdn.com/stor6438-6333-4938-a261-633637616339/b298b4fa264aac9ff664285430990415.png",
+          "sha256": "0c961571ff2bc6cfef81b15af47c7d9c59b90dc3896d625fed8250230972db77",
+          "width": 1254,
+          "height": 1254,
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/tild3832-3530-4439-b131-623936343438/c-9aYdOU6garOLSC.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/696039669721-2.img",
+          "dimensions": [
+            720,
+            959
+          ],
+          "sha256": "ed11f6d37146e777f26b2db3d34984cded00607f0f1e24fda00aa98dc8aff834",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "ЦИРКУЛЬ",
+          "ДЛЯ ТАТУАЖА",
+          "РАЗМЕТКА ЭСКИЗА",
+          "ИЗМЕРЕНИЕ ПРОПОРЦИЙ",
+          "ROMAZANOVA",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Owner three-point compass topology, hinges and romazanova marking preserved. Sterilization, steel grade, outcome promises and decorative01 removed."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6438-6333-4938-a261-633637616339/b298b4fa264aac9ff664285430990415.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6438-6333-4938-a261-633637616339/b298b4fa264aac9ff664285430990415.png",
+          "sha256": "0c961571ff2bc6cfef81b15af47c7d9c59b90dc3896d625fed8250230972db77",
+          "reason": "Убрать неподтверждённую стерилизуемость, декоративное01 не часть названия."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild3832-3530-4439-b131-623936343438/c-9aYdOU6garOLSC.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here."
+    },
+    {
+      "uid": "627005760262",
+      "name": "Etalon Mix Espresso №11, 10 мл",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/f8a13d4922404e185c.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/family-source-search/281281566772-7.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: one exact amber-brown Etalon Mix BROWS11 bottle from owner photo: black ribbed closure with short tapered tip, white label with Etalon Mix logo, gold11, BROWS, vertical by Albina Lazareva and curved holographic bottom border. Preserve all visible real identity, bottle proportions and label11, do not substitute another colour/number or newer product packaging. Large title 'ETALON MIX'; category 'ПИГМЕНТ ДЛЯ БРОВЕЙ'. Three factual advertising panels 'ESPRESSO', '№11', '10 МЛ'. Small footer 'PM.MARKET'. The selected native SKU volume10ml is an overlay fact, do not invent a volume printed on its physical label. No formula classification anywhere: no mineral, inorganic, hybrid words; no zero residue, no fading outcome, no colour permanence, no dark chocolate synonym, no shade-specific client suitability. These old claims must disappear completely. Clean luxury marketplace style.",
+      "parent_uid": "281281566772",
+      "kind": "variant",
+      "approved_copy": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "ETALON MIX",
+        "ESPRESSO",
+        "№11",
+        "10 МЛ",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "ETALON MIX",
+        "ESPRESSO",
+        "№11",
+        "10 МЛ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-15294758-3d37-49ad-9055-0ebb2e26dfea.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-15294758-3d37-49ad-9055-0ebb2e26dfea.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/627005760262-marketplace.png",
+      "asset_sha256": "97eb296956619fbed9ac017cf84813a9bbf2eaf4375a0a21f70e39dc98eee5b3",
+      "asset_bytes": 1297337,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/f8a13d4922404e185c.img",
+          "url": "https://static.tildacdn.com/stor3865-6637-4337-b439-333430383235/04ba43e09dc24b703a7716c60aa5ffff.jpg",
+          "sha256": "3ed1d7837df1008fc6a0f58ae146a7f777c5570d2ca9e1559c162486da682bd9",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "281281566772",
+          "index": 6,
+          "url": "https://static.tildacdn.com/stor3166-6461-4966-a266-646130323830/60178540.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/family-source-search/281281566772-7.img",
+          "dimensions": [
+            1022,
+            1019
+          ],
+          "sha256": "91fabebde5b498e8e6913ed8891335a44fd6eecc175f153f91a10f705701e03d",
+          "format": "PNG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+          "ETALON MIX",
+          "ESPRESSO",
+          "№11",
+          "10 МЛ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact owner bottle11 from family raw7 used, not another shade. Native10ml appears only as advertising badge. Mineral/hybrid formula and zero-residue claims removed; exact batch formula still unverified."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3865-6637-4337-b439-333430383235/04ba43e09dc24b703a7716c60aa5ffff.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3865-6637-4337-b439-333430383235/04ba43e09dc24b703a7716c60aa5ffff.jpg",
+          "sha256": "3ed1d7837df1008fc6a0f58ae146a7f777c5570d2ca9e1559c162486da682bd9",
+          "reason": "Убрать «выход в ноль». Дополнительный конфликт версии: нынешняя первичка №11 описывает гибрид, native10мл — минералы. До проверки партии убрать тип состава из рекламы."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3166-6461-4966-a266-646130323830/60178540.png"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here.",
+      "limitations": [
+        "Exact 10ml batch formula unverified; current manufacturer15ml hybrid != automatic reclassification of native10ml mineral. Remove formula adjectives from cover, preserve native option pending source.",
+        "Owner raw11 proves bottle identity, not10ml batch formula; native selected volume retained as overlay only."
+      ]
+    },
+    {
+      "uid": "739692954452",
+      "name": "Кабель EZ",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/eb24ea7e304b07eab1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/739692954452-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: exactly one black cable coiled in a loop like the owner photo, with precisely TWO visible cable ends. One end is the long silver cylindrical jack male plug with a black/silver rectangular housing; the other is the short hollow silver cylindrical barrel plug with matching housing. Preserve their actual geometry and black cable. The old cover incorrectly duplicated an end; remove that extra connector and use the owner's TWO ends only. Large rose title 'КАБЕЛЬ EZ'. Category 'ДЛЯ ТАТУ-ОБОРУДОВАНИЯ'. Two factual feature panels 'ПРОВОДНОЕ ПОДКЛЮЧЕНИЕ' and 'ЧЁРНЫЙ КАБЕЛЬ'. Small dark badge 'EZ'. Footer 'PM.MARKET'. No all-device compatibility, lossless power, silicone materials, cable length or weight, no connector diameter/names, no clip ends/clamps, no added adapters.",
+      "parent_uid": "739692954452",
+      "kind": "parent",
+      "approved_copy": [
+        "КАБЕЛЬ EZ",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "ПРОВОДНОЕ ПОДКЛЮЧЕНИЕ",
+        "ЧЁРНЫЙ КАБЕЛЬ",
+        "EZ",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "КАБЕЛЬ EZ",
+        "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+        "ПРОВОДНОЕ ПОДКЛЮЧЕНИЕ",
+        "ЧЁРНЫЙ КАБЕЛЬ",
+        "EZ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-b5f2a9fa-6832-489b-af1d-87e75ea6a9b4.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-b5f2a9fa-6832-489b-af1d-87e75ea6a9b4.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/739692954452-marketplace.png",
+      "asset_sha256": "3f8ba57b4d59e08841356da3ed085640c9f67a6892c99cb4e38c390de6397a80",
+      "asset_bytes": 1463431,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/eb24ea7e304b07eab1.img",
+          "url": "https://static.tildacdn.com/stor6466-3131-4739-b937-373835613831/8eb33d918028440e8c216afe7d7e1d92.jpg",
+          "sha256": "2896d00c49db155d7c6f6db2d1203b3c6928617f92d04e8a4d7055c98ed7220b",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor3566-3664-4635-b432-316163313732/59841934.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/739692954452-2.img",
+          "dimensions": [
+            600,
+            600
+          ],
+          "sha256": "fa79b5ac11e762e1049b4876234610a5efd8e0bf51a6541ef8df26ace2c790a5",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "КАБЕЛЬ EZ",
+          "ДЛЯ ТАТУ-ОБОРУДОВАНИЯ",
+          "ПРОВОДНОЕ ПОДКЛЮЧЕНИЕ",
+          "ЧЁРНЫЙ КАБЕЛЬ",
+          "EZ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact owner one cable and two connector ends preserved; erroneous third end in old cover removed. No diameter, length, weight, silicone, lossless-power or compatibility claims."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6466-3131-4739-b937-373835613831/8eb33d918028440e8c216afe7d7e1d92.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6466-3131-4739-b937-373835613831/8eb33d918028440e8c216afe7d7e1d92.jpg",
+          "sha256": "2896d00c49db155d7c6f6db2d1203b3c6928617f92d04e8a4d7055c98ed7220b",
+          "reason": "Убрать абсолютное «без потерь мощности»; не придумывать коннекторы. На исходнике цилиндрические разъёмы, термин clipcord требует предметной сверки."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3566-3664-4635-b432-316163313732/59841934.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here."
+    },
+    {
+      "uid": "776552953172",
+      "name": "Корректоры БРОВИ, гибридная серия",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/79186180fd5a4aa4d1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/776552953172-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nPRODUCT: a family cover illustrated by the ONE actual warm yellow-orange cylindrical BROVI YELLOW bottle from owner photo. Precisely preserve its black tall ribbed tapered cap, warm yellow-orange cylinder, genuine black framed vertical БРОВИ logo, small пигменты and ДЛЯ ТАТУАЖА / ЖЕЛТЫЙ / YELLOW label marks. Do not turn it into a simplified blank bottle or fabricate fine print. Owner photo controls label; old cover did not preserve it. Main rose title 'БРОВИ'. Black category 'КОРРЕКТОРЫ ДЛЯ ПМ'. Three factual panels 'ГИБРИДНАЯ СЕРИЯ', '10 МЛ', 'ОТТЕНОК НА ВЫБОР'. Small caption under pictured bottle 'На фото: Yellow'. Footer 'PM.MARKET'. Exactly one bottle shown; no set or multi-bottle sale implication. No 12months/expiry, no healing, no speed or predictability guarantees, no allzones, no country of manufacture, no clinical or skin promises. Selected family has Yellow, Orange, Red Orange, Green and Salmon but do not invent pictures of absent shades.",
+      "parent_uid": "776552953172",
+      "kind": "parent",
+      "approved_copy": [
+        "БРОВИ",
+        "КОРРЕКТОРЫ ДЛЯ ПМ",
+        "ГИБРИДНАЯ СЕРИЯ",
+        "10 МЛ",
+        "ОТТЕНОК НА ВЫБОР",
+        "На фото: Yellow",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "БРОВИ",
+        "КОРРЕКТОРЫ ДЛЯ ПМ",
+        "ГИБРИДНАЯ СЕРИЯ",
+        "10 МЛ",
+        "ОТТЕНОК НА ВЫБОР",
+        "На фото: Yellow",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-db4ef424-7879-4412-b6e5-ea8968a0563c.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-db4ef424-7879-4412-b6e5-ea8968a0563c.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/776552953172-marketplace.png",
+      "asset_sha256": "46d3a74b18c45d83fcb3a1d26a231c424f01873ad3e287a574a4c7439a387b9a",
+      "asset_bytes": 1334270,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/79186180fd5a4aa4d1.img",
+          "url": "https://static.tildacdn.com/stor3264-3766-4132-a536-386132373862/181b49836530f949e00d5c6ffb2dd92f.jpg",
+          "sha256": "ebbe9bfabc0c5818bff95cbfcd052783c389e3b5a949dbb8aa1eff9b4857e37f",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3562-3738-4237-b066-383434633238/76706006.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/776552953172-3.img",
+          "dimensions": [
+            1680,
+            1120
+          ],
+          "sha256": "bf4658be56974c3fd0584cecec614766a89ef3c4309911e47f203930eb3f1625",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "БРОВИ",
+          "КОРРЕКТОРЫ ДЛЯ ПМ",
+          "ГИБРИДНАЯ СЕРИЯ",
+          "10 МЛ",
+          "ОТТЕНОК НА ВЫБОР",
+          "На фото: Yellow",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact owner Yellow bottle and label identity retained; one bottle illustrates family, explicitly captioned Yellow with shade selection. Healing and12months promises removed."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3264-3766-4132-a536-386132373862/181b49836530f949e00d5c6ffb2dd92f.jpg",
+        "https://static.tildacdn.com/stor6361-3631-4162-b362-626163643531/c080a0ecd1fb9982795b2c247ab63079.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3264-3766-4132-a536-386132373862/181b49836530f949e00d5c6ffb2dd92f.jpg",
+          "sha256": "ebbe9bfabc0c5818bff95cbfcd052783c389e3b5a949dbb8aa1eff9b4857e37f",
+          "reason": "Убрать обещание лёгкого заживления и фиксированные12месяцев. Качественную предсказуемость не требуется удалять отдельно."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6361-3631-4162-b362-626163643531/c080a0ecd1fb9982795b2c247ab63079.jpg",
+          "sha256": "7b13ed2d623faa4d6acae1f4169609a44a351860a1722e5c494b1d3d5d16f99f",
+          "reason": "Visually reviewed old template claims manufacture Belarus; audit established this was an erroneous GEO-to-manufacture inference."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3562-3738-4237-b066-383434633238/76706006.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [
+        "https://static.tildacdn.com/stor3732-6634-4363-a565-393962333835/7ea16c66a80471640e50518366c06eeb.jpg",
+        "https://static.tildacdn.com/stor3636-6662-4262-b861-636237656237/07009d3ae4aa2941d5244a2a46b622ac.jpg"
+      ],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here.",
+      "gallery_limitations": [
+        "Green and Salmon child covers are other shade identities; not replaced or removed by this parent cover. Their unrelated advertising is not newly certified by this pass."
+      ]
+    },
+    {
+      "uid": "774212653061",
+      "name": "Тренировочные коврики, размер и цвет на выбор",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/54a45b9c194850a5b4.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "prompt": "Edit the supplied existing PM.MARKET product advertisement into a polished square marketplace cover in the same approved brand system as the LAST reference: bright white background, oversized dusty rose pink typographic product name, near-black category text, clean black/pink factual feature badges, restrained thin rose line, small PM.MARKET footer. Strong hierarchy, 2–3 clearly readable advertising feature panels, premium sharp product photograph occupying about half the square, generous consistent margins, commercially finished. Russian Cyrillic text must be exact and natural. This is not a bare isolated product photo: product title and advertising panels are mandatory. The FIRST reference is the old cover to replace; the SECOND is the owner product photo and authoritative for the physical item; the LAST reference is STYLE ONLY, never its bottle or its words. Remove all existing advertising copy and recreate only the exact copy specified below. Preserve the real physical item from the owner image: shape, materials appearance, colours, proportions, genuine markings, connector geometry. Do not fabricate certification, safety, clinical claims, universal compatibility, measured specs, accessories, country of manufacture, or guaranteed results. No decorative 01/02 numbers, no badges or words other than specified. Photoreal product quality, crisp typography, square output with white background.\nSPECIAL REFERENCE ROLES: reference1 old parent advertisement to replace; reference2 exact skin-coloured sheet photographed in hands; reference3 exact transparent sheet photographed in hands; reference4 approved STYLE ONLY. Generate the family cover showing these two colour OPTIONS side by side as product cutouts in a studio, with modest natural curvature and visible thin edges. The warm tan sheet retains its subtle skin-like visible surface from owner photo, the transparent sheet remains optically clear with subtle reflections so it is recognizable against white. NO logo/words printed on either sheet: Sils in source background is a watermark/box, never physical sheet printing. Do not show source boxes, face practice pads, extra tools, gift packaging or artificial prints. Main oversized rose title 'SILS'. Black category 'ТРЕНИРОВОЧНЫЕ КОВРИКИ'. Three factual advertising panels '10×15 И 14×18 СМ', 'КОЖНЫЙ И ПРОЗРАЧНЫЙ', '1 КОВРИК НА ВЫБОР'. Small captions below the two alternative sheets 'Кожный' and 'Прозрачный'. Footer 'PM.MARKET'. These are alternative colours and sizes, NOT A TWO-PIECE SET; make single-item choice unambiguous. Remove EXTREME and SKIN invented model titles; no latex/silicone/material claims, no stain-proof or living-skin guarantees, no tattoo removal performance, no body contact or clinical implication. Photoreal clear product quality and exact clean Cyrillic; keep the same pink/black/white ad style.",
+      "parent_uid": "774212653061",
+      "kind": "parent",
+      "approved_copy": [
+        "SILS",
+        "ТРЕНИРОВОЧНЫЕ КОВРИКИ",
+        "10×15 И 14×18 СМ",
+        "КОЖНЫЙ И ПРОЗРАЧНЫЙ",
+        "1 КОВРИК НА ВЫБОР",
+        "Кожный",
+        "Прозрачный",
+        "PM.MARKET"
+      ],
+      "overlay": [
+        "SILS",
+        "ТРЕНИРОВОЧНЫЕ КОВРИКИ",
+        "10×15 И 14×18 СМ",
+        "КОЖНЫЙ И ПРОЗРАЧНЫЙ",
+        "1 КОВРИК НА ВЫБОР",
+        "Кожный",
+        "Прозрачный",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner product identity; advertising performance and unverified composition claims excluded.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-01836a01-ecd6-4b5a-8072-41412a80e1aa.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-01836a01-ecd6-4b5a-8072-41412a80e1aa.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/774212653061-marketplace.png",
+      "asset_sha256": "38169dcc2b3c03d953f6adadc75fccc29a11ba8c3452c3fd2ba345d32a45d833",
+      "asset_bytes": 1338338,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/54a45b9c194850a5b4.img",
+          "url": "https://static.tildacdn.com/stor6463-3963-4437-b861-353164333263/338b942083480309c99473d48f5ab3f4.jpg",
+          "sha256": "fe6421cd162ee7e60e2624e296a8985b14d54e6131e909e89968080a1de3cfb6",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/tild6462-3235-4865-b163-343239646637/UoAsmehAezK6I0Wc.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+          "dimensions": [
+            1242,
+            1540
+          ],
+          "sha256": "ebe4f23824e58da0bf931276cee88d7f9f72bb09c6278c1b9df142036160b347",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+          "dimensions": [
+            1242,
+            1520
+          ],
+          "sha256": "d9c83c2293a7ea2cccbb9c1a76d0aab07538c0e0d78ef00acd93c45a019ca619",
+          "classification": "owner_gallery_asset; may be original photo or earlier styled cover; inspect before imagegen",
+          "format": "JPEG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated output visually reviewed against individually viewed owner original and exact native SKU; physical identity, legibility, variant and removed claims checked.",
+        "rendered_overlay_verified": [
+          "SILS",
+          "ТРЕНИРОВОЧНЫЕ КОВРИКИ",
+          "10×15 И 14×18 СМ",
+          "КОЖНЫЙ И ПРОЗРАЧНЫЙ",
+          "1 КОВРИК НА ВЫБОР",
+          "Кожный",
+          "Прозрачный",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Two actual colour alternatives shown, single purchased mat explicit. Native10×15/14×18 sizes retained as selectable options. No material claim, EXTREME, physical-sheet logo, or stain-proof claim."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6463-3963-4437-b861-353164333263/338b942083480309c99473d48f5ab3f4.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6463-3963-4437-b861-353164333263/338b942083480309c99473d48f5ab3f4.jpg",
+          "sha256": "fe6421cd162ee7e60e2624e296a8985b14d54e6131e909e89968080a1de3cfb6",
+          "reason": "Прямой конфликт Title латекс и characteristic силикон. Удалить оба утверждения о материале с рекламы до подтверждения."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6462-3235-4865-b163-343239646637/UoAsmehAezK6I0Wc.jpg",
+        "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "Remove exact owned URL occurrences from all consumers. Preserve unrelated variant/colour galleries. Raw reference keep instructions apply only where already present. Delegated child removal is owned by child manifest, never duplicated here.",
+      "delegated_gallery_removal": [
+        {
+          "url": "https://static.tildacdn.com/stor3537-6639-4238-b339-656532326138/f5df915bd2d4982388f0794214708099.jpg",
+          "owner_uid": "580125203261",
+          "source_manifest": "/workspace/shared/pm-market-product-completion/image-audit/generation-images-p1-batch7-manifest.json",
+          "reason": "Child replacement owns this old variant first-cover URL; root builder removes cross-consumer occurrences and appends correct new child asset."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6262-6339-4966-b538-363632333765/fe8160299fedf608a781e56cf6e39dae.jpg",
+          "owner_uid": "532619537241",
+          "source_manifest": "/workspace/shared/pm-market-product-completion/image-audit/generation-images-p1-batch7-manifest.json",
+          "reason": "Child replacement owns this old variant first-cover URL; root builder removes cross-consumer occurrences and appends correct new child asset."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3765-3665-4166-a439-383032353662/4dec73bfc743dfc99ab32055ac477f0a.jpg",
+          "owner_uid": "176638652791",
+          "source_manifest": "/workspace/shared/pm-market-product-completion/image-audit/content-agent-imagegen-batch3-manifest.json",
+          "reason": "Child replacement owns this old variant first-cover URL; root builder removes cross-consumer occurrences and appends correct new child asset."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3437-3463-4530-b664-653138623131/a9caf383513687ca14bdc116cb07118b.png",
+          "owner_uid": "963142184091",
+          "source_manifest": "/workspace/shared/pm-market-product-completion/image-audit/generation-taxonomy-batch13-manifest.json",
+          "reason": "Child replacement owns this old variant first-cover URL; root builder removes cross-consumer occurrences and appends correct new child asset."
+        }
+      ]
+    }
+  ]
+}

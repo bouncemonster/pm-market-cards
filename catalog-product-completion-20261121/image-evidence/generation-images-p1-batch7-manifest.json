@@ -1,0 +1,563 @@
+{
+  "agent": "/root/catalog_images_audit",
+  "records": [
+    {
+      "uid": "137724376282",
+      "title": "Латекс БРОВИ",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай ОДНУ квадратную рекламную обложку карточки товара для PM.MARKET, редактируя приложенную текущую карточку. Единый стиль всего магазина: чистый белый фон, крупная строгая типографика, пыльно-розовый и чернильно-чёрный, 2–3 понятные плашки с тонкими иконками, чёрная скруглённая плашка с розовой надписью, аккуратная розовая линия внизу. Третья картинка — ТОЛЬКО образец общей дизайн-системы, НЕ источник товара или надписей. Товар из первых двух изображений должен остаться узнаваемо тем же: не менять геометрию, упаковку, реальный логотип, количество предметов в изображённой композиции. Не добавляй другие предметы, надписи производителя или вымышленные свойства. Все рекламные надписи должны быть грамотными, чёткими и легко читаемыми. Не добавлять гарантий, сертификации, происхождения, наличия, медицинских обещаний, процентов или универсальной совместимости. Не размещать текст поверх самого товара. Итог — полноценный привлекательный marketplace дизайн, не просто предметное фото. Товар — белый тренировочный лист БРОВИ в прозрачной индивидуальной упаковке, с точным чёрным логотипом brovi pmu ink. Сохрани один крупный лист, как на первой карточке; второе фото подтверждает его вид. Крупный розовый заголовок «ЛАТЕКС БРОВИ». Над ним тонкая строка «ТРЕНИРОВОЧНАЯ КОЖА». Рекламная строка «СВОБОДА ДЛЯ ПРАКТИКИ». Две плашки: «ЧИСТЫЙ ЛИСТ» / «БЕЗ РАЗМЕТКИ» и «ДЛЯ БРОВЕЙ» / «ОТРАБОТКА ЭСКИЗА». Чёрная плашка «BROVI». Подвал «PM.MARKET • ДЛЯ ПРАКТИКИ». Удали старое «СТАБИЛЬНОЕ НАЛИЧИЕ», дублирующуюся отработку формы и случайное «ЗУМ НА БРОВИ». Не добавляй размер, толщину или количество листов, они не подтверждены для этой упаковки. Не повторяй SILK WAY и вазелин со стилевого референса.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-16cb985e-0a60-4b9f-ba5b-89acc4124693.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/137724376282-marketplace.png",
+      "sha256": "69c0b8581b4eb7677d5251f6175b93764096e3762de6524d894f9345129bd116",
+      "bytes": 1474458,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убрано статическое обещание наличия. Ранняя рекламная версия содержит не подтверждённые native данными 10 шт и 75×150 мм.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6632-3139-4063-b333-356531643231/a3b1475ae923f6d7c305c1656b9031be.jpg",
+        "https://static.tildacdn.com/stor6132-6564-4838-b235-366331363264/3e7d75ccea157bbea694f2b819a82d36.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3832-6539-4765-a365-666566316564/9a898b6c584fecf371f636d57d77656b.jpg"
+      ],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "No existing HOLD cleared.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6632-3139-4063-b333-356531643231/a3b1475ae923f6d7c305c1656b9031be.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-1.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убрано статическое обещание наличия. Ранняя рекламная версия содержит не подтверждённые native данными 10 шт и 75×150 мм."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6132-6564-4838-b235-366331363264/3e7d75ccea157bbea694f2b819a82d36.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-2.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убрано статическое обещание наличия. Ранняя рекламная версия содержит не подтверждённые native данными 10 шт и 75×150 мм."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3832-6539-4765-a365-666566316564/9a898b6c584fecf371f636d57d77656b.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-3.img",
+          "action": "keep_owner_photo_reference",
+          "reason": "Реальная фотография из исходной галереи; оставить дополнительной."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-1.img",
+          "sha256": "6664f9df198a4790d394fff349e137664ce276e54ae053e45216937b58ecf8ea",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/137724376282-3.img",
+          "sha256": "9746d6fa485286c431f862fd3fd825c514ed2373f0a769862e9748154e1e9865",
+          "dimensions": [
+            1680,
+            2520
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "233727009761",
+      "title": "Колпачки под краску",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай ОДНУ квадратную рекламную обложку карточки товара для PM.MARKET, редактируя приложенную текущую карточку. Единый стиль всего магазина: чистый белый фон, крупная строгая типографика, пыльно-розовый и чернильно-чёрный, 2–3 понятные плашки с тонкими иконками, чёрная скруглённая плашка с розовой надписью, аккуратная розовая линия внизу. Третья картинка — ТОЛЬКО образец общей дизайн-системы, НЕ источник товара или надписей. Товар из первых двух изображений должен остаться узнаваемо тем же: не менять геометрию, упаковку, реальный логотип, количество предметов в изображённой композиции. Не добавляй другие предметы, надписи производителя или вымышленные свойства. Все рекламные надписи должны быть грамотными, чёткими и легко читаемыми. Не добавлять гарантий, сертификации, происхождения, наличия, медицинских обещаний, процентов или универсальной совместимости. Не размещать текст поверх самого товара. Итог — полноценный привлекательный marketplace дизайн, не просто предметное фото. Товар — маленькие полупрозрачные белые колпачки для пигмента в прозрачном пакете, точно как на первой и второй картинках. Сохрани исходную фотографическую композицию, форму чашечек, расширенное плоское основание и пакет. Не генерируй баночки, крышки или флаконы. Крупный розовый заголовок «КОЛПАЧКИ», следующая строка «ДЛЯ ПИГМЕНТА». Над ним «PM.MARKET». Рекламная строка «УДОБНАЯ ФАСОВКА ДЛЯ МАСТЕРА». Две плашки «ПЛОСКОЕ ДНО» / «ШИРОКОЕ ОСНОВАНИЕ» и «ФАСОВКА НА ВЫБОР» / «100 ИЛИ 1000 ШТ». Нижняя чёрная плашка «ДЛЯ ПИГМЕНТА». Подвал «PM.MARKET • РАСХОДНЫЕ МАТЕРИАЛЫ». Удали «ЛЮБАЯ ПОДСТАВКА», «УНИВЕРСАЛЬНАЯ ПОСАДКА», «СРЕДНИЙ РАЗМЕР», стерильность и утверждения о химической чистоте состава. Фасовки100и1000 подтверждены двумя вариантами каталога; не изображай их как одновременно вложенные упаковки и не обещай конкретный диаметр.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-7ef1544c-8d65-4bd6-a1e2-a98ff6b53505.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/233727009761-marketplace.png",
+      "sha256": "f541e524bd27987c8a44e2270cfd00f5eab3955a75816584df2fafe302e347b5",
+      "bytes": 1456639,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убрана совместимость с любой подставкой. Галерея №3 содержит неподтверждённый чистый состав; её удаление делегировано владельцу варианта100 (937907941621), чтобы один URL имел одного replacementowner. Фасовки100/1000 подтверждены native Editions.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3130-3335-4131-b433-316563616237/9e9aa00ed5f0b45735fa9678cfbc94d6.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6131-6436-4435-b534-616439306265/photo.jpg"
+      ],
+      "keep_reviewed_styled_urls": [
+        "https://static.tildacdn.com/stor3936-6236-4833-a132-613664316466/a5f218f5b32727aa17ce31b6103a60f9.jpg"
+      ],
+      "family_source_urls": [],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "No existing HOLD cleared.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3766-6439-4134-a131-396333313333/5bea6665814e760d6d4abf90769663c9.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-3.img",
+          "action": "delegated_gallery_removal",
+          "owner_uid": "937907941621",
+          "reason": "Неподтверждённый чистый состав. One replacement owner per old URL."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3130-3335-4131-b433-316563616237/9e9aa00ed5f0b45735fa9678cfbc94d6.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-1.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убрана совместимость с любой подставкой. Галерея №3 содержит неподтверждённый чистый состав; её удаление делегировано владельцу варианта100 (937907941621), чтобы один URL имел одного replacementowner. Фасовки100/1000 подтверждены native Editions."
+        },
+        {
+          "url": "https://static.tildacdn.com/tild6131-6436-4435-b534-616439306265/photo.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-2.img",
+          "action": "keep_owner_photo_reference",
+          "reason": "Реальная фотография из исходной галереи; оставить дополнительной."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [
+        {
+          "url": "https://static.tildacdn.com/stor3766-6439-4134-a131-396333313333/5bea6665814e760d6d4abf90769663c9.jpg",
+          "owner_uid": "937907941621",
+          "reason": "Exact old URL is owned by the variant replacement manifest; integrator removes it from every consumer and appends the correct variant replacement."
+        }
+      ],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-1.img",
+          "sha256": "555d1db650cf2259b19d1e993b0b54f41920f8113425cff9c3286af06eeb88d3",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/233727009761-2.img",
+          "sha256": "ab701ea1423dfd0634ca52854b123ad96bc5e399d14e6abe34b1c55894b75243",
+          "dimensions": [
+            600,
+            600
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "328119913111",
+      "title": "Барьерная защита в рулоне — 200 м × 5 см, цветная",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/73ea6370a1a6941260.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/906397961131-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай одну квадратную рекламную обложку PM.MARKET, редактируя первую приложенную карточку. Сохрани узнаваемый предмет и точный выбранный вариант. Второе изображение — реальная фотография семейства товара для проверки внешнего вида и фактуры, а третье — ТОЛЬКО стиль оформления. Единый стиль: белый фон, пыльно-розовые крупные заголовки, чернильно-чёрный текст, 2 компактные плашки с тонкими иконками и розовой обводкой, большая чёрная скруглённая плашка с розовой надписью, тонкая розовая линия и аккуратный подвал. Сделай привлекательный маркетплейсный дизайн с ясной визуальной иерархией. Все слова чёткие, грамотные, без лишних обещаний. Не переносить вазелин/SILK WAY/банку со стилевого референса. Не придумывать характеристики, сертификаты, страну, количество штук, новую упаковку или гарантии. На фото два цветных рулона для демонстрации оттенков: розовый и зелёный. Сохрани реальную форму рулонов, отверстия втулок, фактуру намотки и цвета из исходного фото. Не превращай их в клейкую ленту, не добавляй упаковок и брендов. Верхняя строка «РАСХОДНЫЕ МАТЕРИАЛЫ». Крупный розовый заголовок «БАРЬЕРНАЯ ЗАЩИТА» (можно в две строки). Рекламная строка «ЯРКИЙ АКЦЕНТ РАБОЧЕГО МЕСТА». Две плашки «ШИРИНА 5 СМ» / «РУЛОННЫЙ ФОРМАТ» и «ЦВЕТНОЙ ВАРИАНТ» / «ОТТЕНОК УТОЧНЯЙТЕ ПРИ ЗАКАЗЕ». Чёрная плашка «200 МЕТРОВ». Подвал «PM.MARKET • БАРЬЕРНАЯ ЗАЩИТА». Размер 200 м × 5 см подтверждён названием выбранного варианта. Убрать выдуманное название PM ROLL и все обещания «универсальный размер», «под любой провод», «плотный полиэтилен», «без разрывов», стерильности, полной защиты или экономии. Фото двух цветов НЕ должно сопровождаться обещанием комплекта из двух рулонов.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-5d8a889d-bc45-4a53-87e4-fb40a2a0bfb2.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/328119913111-marketplace.png",
+      "sha256": "88d6a2bd28560c5a9d553921db030c30c282d96a8d028b6a4332fa0542cd38b5",
+      "bytes": 1480181,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убраны универсальность под любой провод, название PM ROLL, непроверенный состав и отсутствие разрывов. 200м×5см из native Editions; оттенок ассортимента не гарантирован.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3135-3162-4337-b832-663932356332/2130e6f90bfe74ad92232b778937fe92.png"
+      ],
+      "keep_owner_original_urls": [],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [
+        "https://static.tildacdn.com/tild3332-6232-4136-b236-386436333234/0nM9_u8ZCNTr9utm.jpg"
+      ],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "No existing HOLD cleared.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3135-3162-4337-b832-663932356332/2130e6f90bfe74ad92232b778937fe92.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/73ea6370a1a6941260.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убраны универсальность под любой провод, название PM ROLL, непроверенный состав и отсутствие разрывов. 200м×5см из native Editions; оттенок ассортимента не гарантирован."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/73ea6370a1a6941260.img",
+          "sha256": "4ce5ea59e3acafa9280a88e171d682137f43afa477c07f895ebd2928916f0457",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/906397961131-3.img",
+          "sha256": "277269ac679f9699774f51cc0f2e8b63bc88d775e74fc8e5a4ee1f6e74ee4389",
+          "dimensions": [
+            880,
+            487
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "471050300042",
+      "title": "Линза Pride by Marina Aidinyan",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай ОДНУ квадратную рекламную обложку карточки товара для PM.MARKET, редактируя приложенную текущую карточку. Единый стиль всего магазина: чистый белый фон, крупная строгая типографика, пыльно-розовый и чернильно-чёрный, 2–3 понятные плашки с тонкими иконками, чёрная скруглённая плашка с розовой надписью, аккуратная розовая линия внизу. Третья картинка — ТОЛЬКО образец общей дизайн-системы, НЕ источник товара или надписей. Товар из первых двух изображений должен остаться узнаваемо тем же: не менять геометрию, упаковку, реальный логотип, количество предметов в изображённой композиции. Не добавляй другие предметы, надписи производителя или вымышленные свойства. Все рекламные надписи должны быть грамотными, чёткими и легко читаемыми. Не добавлять гарантий, сертификации, происхождения, наличия, медицинских обещаний, процентов или универсальной совместимости. Не размещать текст поверх самого товара. Итог — полноценный привлекательный marketplace дизайн, не просто предметное фото. Товар — точный набор линзы PRIDE с чёрным зажимом, чёрным фактурным кейсом с настоящим логотипом PRIDE, двумя чёрными крышками и белой салфеткой. Первая картинка крупно показывает правильный набор; маленькое второе исходное фото подтверждает состав, не выдумывай дополнительные детали или новые логотипы. Сохрани оптику, форму зажима, реальный кейс и набор в той же композиции. Заголовок крупно розовым «PRIDE», ниже «BY MARINA AIDINYAN». Верхняя строка «ЛИНЗА ДЛЯ СМАРТФОНА». Рекламная строка «КРАСОТА ДЕТАЛЕЙ КРУПНЫМ ПЛАНОМ». Две плашки «КРЕПЛЕНИЕ С ЗАЖИМОМ» и «КЕЙС И САЛФЕТКА» / «УДОБНОЕ ХРАНЕНИЕ». Чёрная плашка «PRIDE». Подвал «PM.MARKET • АКСЕССУАР ДЛЯ СЪЁМКИ». Полностью убрать «универсальный» и «для любого телефона», «чёткая разметка» и гарантии чистоты/качества изображения. Не добавлять коэффициент увеличения, модель телефона или новые технические характеристики.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-5c79bbb5-3976-4f08-81be-bafdb0cec596.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/471050300042-marketplace.png",
+      "sha256": "9ac9abbc7a216a60ef3dfb839b385e38dcaf0c358473e81f61d8b8f2e1e4adc5",
+      "bytes": 1759125,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убрана совместимость с любым телефоном. Ранняя обложка №2 содержит неправильную категорию ЭСКИЗ. Сохранён изображённый исходный набор PRIDE без выдуманных характеристик.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6137-6239-4161-a261-346537346138/ad52ac860bc9627e394f9dd351b6657b.jpg",
+        "https://static.tildacdn.com/stor6363-3039-4630-a537-353935363665/2f438c9b602ee9ebec2b140e88b35d04.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6564-6234-4065-a232-303236663163/32300624.jpg"
+      ],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "No existing HOLD cleared.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6137-6239-4161-a261-346537346138/ad52ac860bc9627e394f9dd351b6657b.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-1.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убрана совместимость с любым телефоном. Ранняя обложка №2 содержит неправильную категорию ЭСКИЗ. Сохранён изображённый исходный набор PRIDE без выдуманных характеристик."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6363-3039-4630-a537-353935363665/2f438c9b602ee9ebec2b140e88b35d04.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-2.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убрана совместимость с любым телефоном. Ранняя обложка №2 содержит неправильную категорию ЭСКИЗ. Сохранён изображённый исходный набор PRIDE без выдуманных характеристик."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6564-6234-4065-a232-303236663163/32300624.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-3.img",
+          "action": "keep_owner_photo_reference",
+          "reason": "Реальная фотография из исходной галереи; оставить дополнительной."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-1.img",
+          "sha256": "1ff5b01f8e6fea761b06727dc05b9bc66c223fcb78352ecde495103e1ef3e7b4",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/471050300042-3.img",
+          "sha256": "1a8d4f93385599f4d78c605bdc8a672b194ce966b1bf079a1cebf7fff611b6a9",
+          "dimensions": [
+            225,
+            225
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "483802436361",
+      "title": "Искусственная кожа для тренировки — 15×26 см",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/33541441f5765ff42f.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай одну квадратную рекламную обложку PM.MARKET, редактируя первую приложенную карточку. Сохрани узнаваемый предмет и точный выбранный вариант. Второе изображение — реальная фотография семейства товара для проверки внешнего вида и фактуры, а третье — ТОЛЬКО стиль оформления. Единый стиль: белый фон, пыльно-розовые крупные заголовки, чернильно-чёрный текст, 2 компактные плашки с тонкими иконками и розовой обводкой, большая чёрная скруглённая плашка с розовой надписью, тонкая розовая линия и аккуратный подвал. Сделай привлекательный маркетплейсный дизайн с ясной визуальной иерархией. Все слова чёткие, грамотные, без лишних обещаний. Не переносить вазелин/SILK WAY/банку со стилевого референса. Не придумывать характеристики, сертификаты, страну, количество штук, новую упаковку или гарантии. Товар — светло-персиковый плоский тренировочный лист с загнутым краем, именно такой, как на первом и втором изображении. Сохрани цвет, форму листа, закруглённые края и изгиб; не добавляй напечатанные брови, губы, кожу человека, руки, разметку или упаковку. Важно убрать только неподтверждённое химическое название «силикон», не заменять его словом «латекс». Верхняя строка «ИСКУССТВЕННАЯ КОЖА». Крупный розовый заголовок «ДЛЯ ПРАКТИКИ». Рекламная строка «ПРОСТРАНСТВО ДЛЯ ВАШИХ ЭСКИЗОВ». Две плашки «ЧИСТАЯ ПОВЕРХНОСТЬ» / «БЕЗ РАЗМЕТКИ» и «ТРЕНИРОВКА ШТРИХА» / «ТАТУ И ПЕРМАНЕНТ». Чёрная плашка «15 × 26 СМ». Подвал «PM.MARKET • ТРЕНИРОВОЧНАЯ КОЖА». Не обещать точную имитацию реакции живой кожи, двустороннюю многоразовую работу, моющийся материал или химический состав. Размер 15×26 см — из выбранного варианта каталога.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-5a4c5b5c-c95c-4a00-ae66-f10fb51db014.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/483802436361-marketplace.png",
+      "sha256": "80990d7bf9c13233582044851a499645b138a34d11e67b4b621774c6464b9d9f",
+      "bytes": 1421723,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убран неподтверждённый силикон, двусторонняя работа и обещание живой кожи. 15×26см из native Editions; family фото подтверждает вид, а не измерение конкретного SKU.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3063-6331-4432-a262-336363333666/e06526acbd78d46315d2fb2e260c9d58.jpg"
+      ],
+      "keep_owner_original_urls": [],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [
+        "https://static.tildacdn.com/tild3066-3731-4339-b365-313731653166/Tu6yb6nKLNMZZor-.jpg"
+      ],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "Химический материал не подтверждён; новая обложка его не устанавливает.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3063-6331-4432-a262-336363333666/e06526acbd78d46315d2fb2e260c9d58.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/33541441f5765ff42f.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убран неподтверждённый силикон, двусторонняя работа и обещание живой кожи. 15×26см из native Editions; family фото подтверждает вид, а не измерение конкретного SKU."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/33541441f5765ff42f.img",
+          "sha256": "6a200db1f65cf51cc3040997f139b45bca1b7c6e14cefd4483d7e3a4a6afcd87",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/628203846231-2.img",
+          "sha256": "fff7c46665e9306e28c5b217ff33c455116ccd79704150803d6626b61212354e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "532619537241",
+      "title": "Тренировочный коврик — 10×15 см, телесный",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/836c78b8aa3b1646bd.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай одну квадратную рекламную обложку PM.MARKET, редактируя первую приложенную карточку. Сохрани узнаваемый предмет и точный выбранный вариант. Второе изображение — реальная фотография семейства товара для проверки внешнего вида и фактуры, а третье — ТОЛЬКО стиль оформления. Единый стиль: белый фон, пыльно-розовые крупные заголовки, чернильно-чёрный текст, 2 компактные плашки с тонкими иконками и розовой обводкой, большая чёрная скруглённая плашка с розовой надписью, тонкая розовая линия и аккуратный подвал. Сделай привлекательный маркетплейсный дизайн с ясной визуальной иерархией. Все слова чёткие, грамотные, без лишних обещаний. Не переносить вазелин/SILK WAY/банку со стилевого референса. Не придумывать характеристики, сертификаты, страну, количество штук, новую упаковку или гарантии. Товар — один телесный прямоугольный тренировочный коврик с неровной реалистичной фактурой и слегка волнистыми краями, как на первой карточке. Сохрани фактуру, контур, толщину, цвет и мелкие отметины этого коврика. Второе фото только подтверждает внешний вид семейства, не является измерением конкретного размера. Удали из фона коробки и круглый тренировочный муляж губ, чтобы они не выглядели комплектом к этому варианту. Не добавляй руки и новые предметы. Верхняя строка «МУЛЯЖ КОЖИ». Крупный розовый заголовок «ТРЕНИРОВОЧНЫЙ КОВРИК» (в две строки). Рекламная строка «ПРАКТИКА НАЧИНАЕТСЯ С ДЕТАЛЕЙ». Две плашки «ТЕЛЕСНЫЙ ОТТЕНОК» и «ДЛЯ ОТРАБОТКИ» / «ЭСКИЗОВ И ШТРИХОВ». Чёрная плашка «10 × 15 СМ». Подвал «PM.MARKET • ДЛЯ ПРАКТИКИ». Полностью убрать из рекламных надписей слова «латекс», «силикон», «видимый остаток», обещания точной имитации живой кожи или пригодности ко всем техникам. Не заменять спорный состав другим веществом. Не добавлять SILS как новый отдельный логотип. Размер 10×15 см — из выбранного варианта каталога.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-ab112985-133e-4ea1-be49-8495ee52ae74.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/532619537241-marketplace.png",
+      "sha256": "b06b9f448c1dc9d21314d0e538634bf094c3c925c223ecdcdebe8d6e21548f96",
+      "bytes": 1469186,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убран конфликтный латекс и обещания точной реакции кожи. Посторонний муляж/коробки убраны из композиции, чтобы не обещать комплект. 10×15см из native Editions.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6262-6339-4966-b538-363632333765/fe8160299fedf608a781e56cf6e39dae.jpg"
+      ],
+      "keep_owner_original_urls": [],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [
+        "https://static.tildacdn.com/tild6462-3235-4865-b163-343239646637/UoAsmehAezK6I0Wc.jpg",
+        "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg"
+      ],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "Конфликт latex/silicone семейства774212653061 не разрешён физической проверкой.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6262-6339-4966-b538-363632333765/fe8160299fedf608a781e56cf6e39dae.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/836c78b8aa3b1646bd.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убран конфликтный латекс и обещания точной реакции кожи. Посторонний муляж/коробки убраны из композиции, чтобы не обещать комплект. 10×15см из native Editions."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/836c78b8aa3b1646bd.img",
+          "sha256": "2e996776f852497e2c950593bbba797ebd655fd3a8ebb1508168fcb477099f8f",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+          "sha256": "ebe4f23824e58da0bf931276cee88d7f9f72bb09c6278c1b9df142036160b347",
+          "dimensions": [
+            1242,
+            1540
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    },
+    {
+      "uid": "580125203261",
+      "title": "Тренировочный коврик — 14×18 см, телесный",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/a194a7b2af4f1f76ea.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Создай одну квадратную рекламную обложку PM.MARKET, редактируя первую приложенную карточку. Сохрани узнаваемый предмет и точный выбранный вариант. Второе изображение — реальная фотография семейства товара для проверки внешнего вида и фактуры, а третье — ТОЛЬКО стиль оформления. Единый стиль: белый фон, пыльно-розовые крупные заголовки, чернильно-чёрный текст, 2 компактные плашки с тонкими иконками и розовой обводкой, большая чёрная скруглённая плашка с розовой надписью, тонкая розовая линия и аккуратный подвал. Сделай привлекательный маркетплейсный дизайн с ясной визуальной иерархией. Все слова чёткие, грамотные, без лишних обещаний. Не переносить вазелин/SILK WAY/банку со стилевого референса. Не придумывать характеристики, сертификаты, страну, количество штук, новую упаковку или гарантии. Товар — один телесный прямоугольный тренировочный коврик в прозрачной упаковке, с неровной реалистичной фактурой и слегка волнистыми краями, как на первой карточке. Сохрани фактуру, контур, толщину, цвет и мелкие отметины коврика; не превращай его в гладкий плоский лист другой модели. Второе фото только подтверждает внешний вид семейства, не является измерением конкретного размера. Удали чёрную коробку и остальные фоновые предметы, чтобы они не выглядели комплектом к этому варианту. Прозрачную плёнку вокруг коврика можно сохранить. Не добавляй руки, новые предметы и логотипы. Верхняя строка «МУЛЯЖ КОЖИ». Крупный розовый заголовок «ТРЕНИРОВОЧНЫЙ КОВРИК» в две строки. Рекламная строка «ПРАКТИКА НАЧИНАЕТСЯ С ДЕТАЛЕЙ». Две плашки «ТЕЛЕСНЫЙ ОТТЕНОК» и «ДЛЯ ОТРАБОТКИ» / «ЭСКИЗОВ И ШТРИХОВ». Чёрная плашка «14 × 18 СМ». Подвал «PM.MARKET • ДЛЯ ПРАКТИКИ». Полностью убрать из рекламных надписей слова «латекс», «силикон» и обещания точной имитации живой кожи или пригодности ко всем техникам. Не заменять спорный состав другим веществом. Не добавлять SILS как новый отдельный логотип. Размер14×18см подтверждён названием выбранного варианта каталога.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-9ba82370-0ef3-4017-8f3e-b828ad2a4e3d.png",
+      "tool": "builtin image_gen.imagegen",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/580125203261-marketplace.png",
+      "sha256": "ee11173d091cb273216cc89825e7681996163118d27f6bcf1c1234be21997ee9",
+      "bytes": 1509965,
+      "qa": "pass_visual_copy_package_format",
+      "qa_scope": "Все7 результаты просмотрены при выдаче imagegen в полном размере. Проверены тексты, размерные плашки, вид предметов, отсутствие удаляемых обещаний и единый рекламный стиль. Не подтверждены химический состав, физические размеры партии, комплект поставки или универсальная совместимость.",
+      "notes": "Убран конфликтный латекс и пригодность для любых техник. Посторонняя коробка убрана; прозрачная упаковка и точный коврик сохранены. 14×18см из native Editions.",
+      "independent_qa": "pending",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3537-6639-4238-b339-656532326138/f5df915bd2d4982388f0794214708099.jpg"
+      ],
+      "keep_owner_original_urls": [],
+      "keep_reviewed_styled_urls": [],
+      "family_source_urls": [
+        "https://static.tildacdn.com/tild6462-3235-4865-b163-343239646637/UoAsmehAezK6I0Wc.jpg",
+        "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg"
+      ],
+      "family_source_caveat": "Family images do not certify the measured size or chemistry of a selected variant; no family-only image is automatically added to the variant gallery.",
+      "physical_hold": "Конфликт latex/silicone семейства774212653061 не разрешён физической проверкой.",
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3537-6639-4238-b339-656532326138/f5df915bd2d4982388f0794214708099.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/a194a7b2af4f1f76ea.img",
+          "action": "remove_superseded_or_incorrect_advertising",
+          "reason": "Убран конфликтный латекс и пригодность для любых техник. Посторонняя коробка убрана; прозрачная упаковка и точный коврик сохранены. 14×18см из native Editions."
+        }
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "delegated_gallery_removal": [],
+      "reference_provenance": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/a194a7b2af4f1f76ea.img",
+          "sha256": "1ce87af0e31c23d47dff7191f4165d2953efea51d65140a763b0ea8768cb5c7c",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-2.img",
+          "sha256": "ebe4f23824e58da0bf931276cee88d7f9f72bb09c6278c1b9df142036160b347",
+          "dimensions": [
+            1242,
+            1540
+          ],
+          "role": "product_reference"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+          "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "role": "style_only"
+        }
+      ]
+    }
+  ],
+  "iterations": [],
+  "status": "generated_7_self_visual_QA_pass_independent_QA_pending",
+  "catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "generator": "builtin image_gen.imagegen",
+  "scope": "Exactly7 root-assigned P1 covers. No production, catalog, price, stock or visibility mutations. Existing physical HOLDs preserved."
+}
