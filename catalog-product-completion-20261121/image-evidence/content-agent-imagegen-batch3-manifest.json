@@ -1,0 +1,924 @@
+{
+  "created_utc": "2026-11-21T19:14:55.783809+00:00",
+  "agent": "catalog_content_audit",
+  "mode": "builtin_imagegen_edit",
+  "status": "8_selected_assets_visual_qa_passed_no_live_import",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "content_proposals_sha256_unchanged": "daeeb7145acde42b3af95997ad55d7b546604c9ff3c844265272891493d46cd6",
+  "total_assets": 8,
+  "total_generation_calls": 8,
+  "limitations": [
+    "Generated product advertising is not a certification or exact small-print label transcription. All factual badges use exact native SKU facts; owner photos stay in supplementary galleries.",
+    "For Dark Chocolate15 a specific independent raw source was unavailable at generation time; edit retains existing exact bottle and removes claims."
+  ],
+  "assets": [
+    {
+      "uid": "112165004881",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/112165004881-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/112165004881-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "PRECISION MEDICAL",
+        "БАНДАЖ",
+        "ЭЛАСТИЧНЫЙ БИНТ",
+        "ЦВЕТ НА ВЫБОР",
+        "1 РУЛОН",
+        "ДЛЯ ДЕРЖАТЕЛЯ",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 shows exactly five colourful elastic bandage rolls with their real patterns and white cores. Use these five rolls as an attractive range of colour choices, faithful to their visible colours, textures and patterns. The purchased item is ONE roll, not a set; clearly group the two large badges as «ЦВЕТ НА ВЫБОР» and «1 РУЛОН», put the latter in a strong dark tile. Headline «БАНДАЖ» in very large pink, category «ЭЛАСТИЧНЫЙ БИНТ», small brand «PRECISION MEDICAL», third supporting badge «ДЛЯ ДЕРЖАТЕЛЯ», footer «PM.MARKET». No dimensions, no hypoallergenic/latex/silicone/skin claims, no vibration claims. Do not print text on the physical bandages.",
+      "name": "Бандаж. Бинт эластичный Precision Medical",
+      "parent_uid": "112165004881",
+      "kind": "parent",
+      "overlay": [
+        "PRECISION MEDICAL",
+        "БАНДАЖ",
+        "ЭЛАСТИЧНЫЙ БИНТ",
+        "ЦВЕТ НА ВЫБОР",
+        "1 РУЛОН",
+        "ДЛЯ ДЕРЖАТЕЛЯ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-e0c8ca74-e7cc-4c81-90f7-b0125aa0d05a.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-e0c8ca74-e7cc-4c81-90f7-b0125aa0d05a.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/112165004881-marketplace.png",
+      "asset_sha256": "358d6e039c65012cc286fc4cbaa6f830729626a51d63ca0b8f4aa9c17a676d65",
+      "asset_bytes": 1720319,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/112165004881-1.img",
+          "url": "https://static.tildacdn.com/stor6437-3565-4230-b932-363736386436/f48f152925b900f3422c735fd9b6935a.jpg",
+          "sha256": "36210a9143a8cc756420d2857f45e3ef61e2b967571c0a3adebb7d32cda507b1",
+          "width": 1680,
+          "height": 1680,
+          "uid": "112165004881",
+          "title": "Бандаж. Бинт эластичный Precision Medical",
+          "gallery_index": 0,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 360574,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "112165004881",
+          "title": "Бандаж. Бинт эластичный Precision Medical",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/tild6430-3462-4830-a431-336664373234/IMAGE_2021-11-22_165.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/112165004881-2.img",
+          "sha256": "4a8c54f1149be004b3cf14a2d985c4edb8bdec87c1240ebc12029cc4ca0017ea",
+          "dimensions": [
+            1000,
+            1000
+          ],
+          "format": "JPEG",
+          "bytes": 107328,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "PRECISION MEDICAL",
+          "БАНДАЖ",
+          "ЭЛАСТИЧНЫЙ БИНТ",
+          "ЦВЕТ НА ВЫБОР",
+          "1 РУЛОН",
+          "ДЛЯ ДЕРЖАТЕЛЯ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Five displayed colours are alternatives; purchase quantity is prominently 1 roll. No dimensions or hypoallergenic/silicone claims."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6437-3565-4230-b932-363736386436/f48f152925b900f3422c735fd9b6935a.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6437-3565-4230-b932-363736386436/f48f152925b900f3422c735fd9b6935a.jpg",
+          "sha256": "36210a9143a8cc756420d2857f45e3ef61e2b967571c0a3adebb7d32cda507b1",
+          "reason": "Бандаж: «гипоаллергенный состав», «эффект силикона» не следуют из поля«Без латекса»;5цветныхрулонов при единицепродажи1шт."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6430-3462-4830-a431-336664373234/IMAGE_2021-11-22_165.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "176638652791",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/c1cff68f4f8428b433.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ТРЕНИРОВОЧНЫЙ",
+        "КОВРИК",
+        "ПРОЗРАЧНЫЙ",
+        "10 × 15 см",
+        "ДЛЯ ОТРАБОТКИ ТЕХНИК",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 shows a clear flexible rectangular practice sheet held by gloved hands; the Sils Silicone Skin logo at top left is a photographic watermark OUTSIDE the sheet, NOT printed on the physical sheet. Render this same clear sheet as one large standalone transparent flexible rectangle with a slight graceful natural bend, accurate edges and transparent reflections. Do not print any brand or material text on the sheet. No hands needed. Do not infer material silicone or latex. Main pink headline split clearly «ТРЕНИРОВОЧНЫЙ» / «КОВРИК». Exact factual badges only «ПРОЗРАЧНЫЙ», «10 × 15 см», «ДЛЯ ОТРАБОТКИ ТЕХНИК». Footer «PM.MARKET». Remove all SILS CLEAR advertising, latex, silicone, zero-staining, depth or performance promises. White translucent object must have sufficient fine grey edge contrast against the white background, without inventing a coloured product.",
+      "name": "Муляж кожного покрова латекс - 10х15 см - Прозрачный",
+      "parent_uid": "774212653061",
+      "kind": "variant",
+      "overlay": [
+        "ТРЕНИРОВОЧНЫЙ",
+        "КОВРИК",
+        "ПРОЗРАЧНЫЙ",
+        "10 × 15 см",
+        "ДЛЯ ОТРАБОТКИ ТЕХНИК",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-6858ce4d-ca83-4352-86c9-bd5420717706.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-6858ce4d-ca83-4352-86c9-bd5420717706.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/176638652791-marketplace.png",
+      "asset_sha256": "6b7dc065b742139f083e1c268f877983a1d3900fef856b757866ecf60bee1840",
+      "asset_bytes": 1385728,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/c1cff68f4f8428b433.img",
+          "url": "https://static.tildacdn.com/stor3765-3665-4166-a439-383032353662/4dec73bfc743dfc99ab32055ac477f0a.jpg",
+          "sha256": "8e703d936dc4ab887febb74197be7f88624d09157a92637099340c974902e16f",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "774212653061",
+          "title": "Муляж кожного покрова латекс",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/774212653061-3.img",
+          "sha256": "d9c83c2293a7ea2cccbb9c1a76d0aab07538c0e0d78ef00acd93c45a019ca619",
+          "dimensions": [
+            1242,
+            1520
+          ],
+          "format": "JPEG",
+          "bytes": 195254,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ТРЕНИРОВОЧНЫЙ",
+          "КОВРИК",
+          "ПРОЗРАЧНЫЙ",
+          "10 × 15 см",
+          "ДЛЯ ОТРАБОТКИ ТЕХНИК",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact native 10×15 cm transparent variant. Source Sils Silicone Skin text is a photographic watermark, not physical product printing. No silicone or latex material inference."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3765-3665-4166-a439-383032353662/4dec73bfc743dfc99ab32055ac477f0a.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3765-3665-4166-a439-383032353662/4dec73bfc743dfc99ab32055ac477f0a.jpg",
+          "sha256": "8e703d936dc4ab887febb74197be7f88624d09157a92637099340c974902e16f",
+          "reason": "Внутри одной обложки одновременно написаны «прозрачный силикон» и «мягкий латекс». Убрать противоречащие материалы, оставить «прозрачный тренировочный коврик» и подтверждённый размер."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6434-6361-4964-b432-353333356238/FqbWNIlRgQOvSLj_.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "209585880441",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/209585880441-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/209585880441-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "КОНЦЕНТРАТ МЫЛА",
+        "REVIVE SOAP",
+        "500 мл",
+        "ФЛАКОН",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 is authoritative for the actual dark brown/black broad-shouldered bottle with black ribbed screw cap, cream-and-black ornate label, winged/cross emblem, TATTOO REVIVE and SOAP lettering, 500 ml / 17 fl. oz printed volume. Preserve this exact bottle and packaging faithfully; don't fabricate new label ingredients. Main pink headline «REVIVE SOAP», category «КОНЦЕНТРАТ МЫЛА», two clear feature badges «500 мл» and «ФЛАКОН», footer «PM.MARKET». Keep the decorative label emblem sharp and true to owner photo. Remove 1:10 dilution, antibacterial guarantees, cooling, pore tightening, vegan and irritation claims entirely from all advertising.",
+      "name": "Концентрат антибактериального мыла Revive Soap",
+      "parent_uid": "209585880441",
+      "kind": "parent",
+      "overlay": [
+        "КОНЦЕНТРАТ МЫЛА",
+        "REVIVE SOAP",
+        "500 мл",
+        "ФЛАКОН",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-3a0d8158-8c0a-45ae-899e-6671723b4fed.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-3a0d8158-8c0a-45ae-899e-6671723b4fed.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/209585880441-marketplace.png",
+      "asset_sha256": "70b0094af819de50242c0c397d7ab2ac7e6f3f7f906f3a148fd43dbc8b0dc8b7",
+      "asset_bytes": 2000658,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/209585880441-1.img",
+          "url": "https://static.tildacdn.com/stor6537-6335-4437-b935-363139656662/32c43248a32d36faccd9f7b2a691e879.jpg",
+          "sha256": "b6e20c85fc4c1ac0e5226722f62ddb74becdd9cf190806b501946c2d79dcb17e",
+          "width": 1680,
+          "height": 1680,
+          "uid": "209585880441",
+          "title": "Концентрат антибактериального мыла Revive Soap",
+          "gallery_index": 0,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 430607,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "209585880441",
+          "title": "Концентрат антибактериального мыла Revive Soap",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/tild3066-3439-4533-b731-373962613562/SftFaYqC2rNd9cxV.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/209585880441-2.img",
+          "sha256": "3f7dd11aeed4a7cb1d5c023f762bbfd308799d4d0411083074e6202ddea9cdbb",
+          "dimensions": [
+            583,
+            583
+          ],
+          "format": "JPEG",
+          "bytes": 292002,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "КОНЦЕНТРАТ МЫЛА",
+          "REVIVE SOAP",
+          "500 мл",
+          "ФЛАКОН",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "500 ml exact native and owner printed volume; removed dilution 1:10, cooling, pore and irritation claims. Fine label text remains photographic texture, not a verified transcription."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6537-6335-4437-b935-363139656662/32c43248a32d36faccd9f7b2a691e879.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6537-6335-4437-b935-363139656662/32c43248a32d36faccd9f7b2a691e879.jpg",
+          "sha256": "b6e20c85fc4c1ac0e5226722f62ddb74becdd9cf190806b501946c2d79dcb17e",
+          "reason": "Revive Soap: «без раздражений», «сужает поры»,1:10 на AI-обложке."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild3066-3439-4533-b731-373962613562/SftFaYqC2rNd9cxV.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "463224117171",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/463224117171-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/463224117171-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ВАЗЕЛИН",
+        "SILK WAY",
+        "1000 мл",
+        "С ЭКСТРАКТОМ ШАЛФЕЯ",
+        "БАНКА",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 is authoritative for the tall black slightly tapered tub with flat black lid, the large gold-and-white intertwined Tattoo Pharma symbol and TATTOO PHARMA text. Preserve this exact tall tub silhouette, lid and artwork, NOT a short wide jar; no physical label redesign. Main pink headline «SILK WAY», category «ВАЗЕЛИН». Exactly three factual badges «1000 мл», «С ЭКСТРАКТОМ ШАЛФЕЯ», «БАНКА»; footer «PM.MARKET». Volume and sage are approved native catalogue facts for this exact SKU and belong ONLY to overlay copy, not new printing on the tub. Entirely remove regeneration, oedema, noncomedogenic, vegan and vitamin performance promises. Do not add green leaves or ingredient decorations. The accurate tall black tub is the hero.",
+      "name": "Вазелин Silk Way™ с экстрактом шалфея и витаминами",
+      "parent_uid": "463224117171",
+      "kind": "parent",
+      "overlay": [
+        "ВАЗЕЛИН",
+        "SILK WAY",
+        "1000 мл",
+        "С ЭКСТРАКТОМ ШАЛФЕЯ",
+        "БАНКА",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-1023afaf-d429-48f1-8644-2514747c4b47.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-1023afaf-d429-48f1-8644-2514747c4b47.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/463224117171-marketplace.png",
+      "asset_sha256": "3a595b0d41e26d8ef458aaaa4901a9dc99c2ee5c4984961bbe27887172d83a29",
+      "asset_bytes": 1339078,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/463224117171-1.img",
+          "url": "https://static.tildacdn.com/stor6432-3932-4265-b864-633362646636/9924b4ac8ed1cdbce41a1a075b3bb792.jpg",
+          "sha256": "eb13e0a7dfd8d53a3a093db7b2967a1261749fe15603530b39de459ab8cb851f",
+          "width": 1680,
+          "height": 1680,
+          "uid": "463224117171",
+          "title": "Вазелин Silk Way™ с экстрактом шалфея и витаминами",
+          "gallery_index": 0,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 217737,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "463224117171",
+          "title": "Вазелин Silk Way™ с экстрактом шалфея и витаминами",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/tild6431-6461-4534-b636-636666616364/photo.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/463224117171-2.img",
+          "sha256": "23ef4971436cba5b0fc4de8d29be40c4e6f2bac42b56048e09d71a67b50a33d6",
+          "dimensions": [
+            600,
+            600
+          ],
+          "format": "JPEG",
+          "bytes": 9501,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ВАЗЕЛИН",
+          "SILK WAY",
+          "1000 мл",
+          "С ЭКСТРАКТОМ ШАЛФЕЯ",
+          "БАНКА",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "1000 ml and sage extract derive from exact native SKU; original tall Tattoo Pharma tub does not show volume. Volume stays overlay only. No regeneration, oedema, vegan or pore claims."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6432-3932-4265-b864-633362646636/9924b4ac8ed1cdbce41a1a075b3bb792.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6432-3932-4265-b864-633362646636/9924b4ac8ed1cdbce41a1a075b3bb792.jpg",
+          "sha256": "eb13e0a7dfd8d53a3a093db7b2967a1261749fe15603530b39de459ab8cb851f",
+          "reason": "«Быстрая регенерация», «не забивает поры», «veganfriendly» на обложке Silk Way с шалфеем не подтверждены исходным фото."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/tild6431-6461-4534-b636-636666616364/photo.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "536878378592",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/c63ca88a3b8869d8be.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "ETALON MIX",
+        "DARK CHOCOLATE",
+        "№5",
+        "15 мл",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. The first reference contains the specific Etalon Mix №5 Dark Chocolate 15 ml bottle. Preserve its actual brown bottle, black ribbed cap, grey label with Etalon Mix / by Albina Lazareva / 5 BROWS, without changing shade or label identity. This is a focused product advertisement correction, not a packaging redesign. Main pink headline «ETALON MIX», prominent subtitle «DARK CHOCOLATE», category «ПИГМЕНТ ДЛЯ БРОВЕЙ». Two prominent factual badges «№5» and «15 мл», footer «PM.MARKET». Remove «ОСТАТОК ДО 90%» and predictable-result promises and all old extra copy. No alternative shade/bottle, percentages, healing outcomes, universal suitability, before/after or skin faces. Let the real bottle occupy enough area for its №5 BROWS label to remain identifiable.",
+      "name": "Пигменты Etalon Mix: Брови - 15 - DCHC - №5/Dark Chocolate",
+      "parent_uid": "281281566772",
+      "kind": "variant",
+      "overlay": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "ETALON MIX",
+        "DARK CHOCOLATE",
+        "№5",
+        "15 мл",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-50dc3f51-8488-48a9-b52a-3405fa0ac600.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-50dc3f51-8488-48a9-b52a-3405fa0ac600.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/536878378592-marketplace.png",
+      "asset_sha256": "ec7a6ab5531bfbc338521b7f4dccdc9e49093c387fe3af9d1a8662b294505664",
+      "asset_bytes": 1712484,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/c63ca88a3b8869d8be.img",
+          "url": "https://static.tildacdn.com/stor3534-6137-4266-b235-613664303133/50a57d735699cfb31cc8b55367e1dc1e.png",
+          "sha256": "f3ac85a248d3fe703577f0f333dbd4af4f0215649ee104856ce3dd4788ce49bb",
+          "width": 1254,
+          "height": 1254,
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+          "ETALON MIX",
+          "DARK CHOCOLATE",
+          "№5",
+          "15 мл",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Focused edit preserves exact existing №5 BROWS bottle and native Dark Chocolate 15 ml identity. No independent specific bottle original found at generation time; original physical shape and label were preserved from current cover. Removed retention percentage and guaranteed-result claims."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3534-6137-4266-b235-613664303133/50a57d735699cfb31cc8b55367e1dc1e.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3534-6137-4266-b235-613664303133/50a57d735699cfb31cc8b55367e1dc1e.png",
+          "sha256": "f3ac85a248d3fe703577f0f333dbd4af4f0215649ee104856ce3dd4788ce49bb",
+          "reason": "Etalon Dark Chocolate15: количественное обещание «остаток до 90%» без проверенного первичного исследования/инструкции."
+        }
+      ],
+      "keep_owner_original_urls": [],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "948577144512",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/948577144512-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/948577144512-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ЛЕЗВИЕ",
+        "ДЛЯ КАРАНДАШЕЙ",
+        "ЗАТОЧКА ГРИФЕЛЯ",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 shows plain rectangular metal pencil blades, each with one circular central hole and a straight bevelled sharpened long edge. The authentic blades have NO brand logo or other printed text. Show ONE large accurate blade, in an elegant diagonal product photograph with subtle visible brushed metal texture and correct circular hole; preserve its source proportions and construction. Do not fabricate a handle or additional tools. Pink main title «ЛЕЗВИЕ», black category «ДЛЯ КАРАНДАШЕЙ», two outlined factual badges «ДЛЯ КАРАНДАШЕЙ» and «ЗАТОЧКА ГРИФЕЛЯ», footer «PM.MARKET». Use neutral identity with NO CONTUR or CONNTUR anywhere. Do not add pack quantity or dimensions, stainless-steel alloy, universal compatibility, unbreakable lead or perfect-cut claims. An attractive ad layout with factual feature badges remains essential.",
+      "name": "Лезвие для карандашей",
+      "parent_uid": "948577144512",
+      "kind": "parent",
+      "overlay": [
+        "ЛЕЗВИЕ",
+        "ДЛЯ КАРАНДАШЕЙ",
+        "ЗАТОЧКА ГРИФЕЛЯ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-d19e8f0a-59f3-44ef-bd56-b37a288480ab.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-d19e8f0a-59f3-44ef-bd56-b37a288480ab.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/948577144512-marketplace.png",
+      "asset_sha256": "621c9bb740fc6ce64dc811c4ee5565dda51048fe7ddaa8a50319cdab02bf95d5",
+      "asset_bytes": 1487974,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/948577144512-1.img",
+          "url": "https://static.tildacdn.com/stor3936-3134-4066-a662-373963373239/7a40ae3dc937e644371015678e3e5787.png",
+          "sha256": "41ba96763fbc94d1f772ad9458e4d3b8b9f910204e9cb7ff7d5d3d9e21814925",
+          "width": 1254,
+          "height": 1254,
+          "uid": "948577144512",
+          "title": "Лезвие для карандашей",
+          "gallery_index": 0,
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "bytes": 1306821,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "948577144512",
+          "title": "Лезвие для карандашей",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor3531-6336-4639-b265-313032386665/15494758.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/948577144512-2.img",
+          "sha256": "e6d741d4a6d86ec45472b81b0aca976a310dd90c88fb526163f35d7c3c01bb66",
+          "dimensions": [
+            800,
+            570
+          ],
+          "format": "JPEG",
+          "bytes": 21172,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ЛЕЗВИЕ",
+          "ДЛЯ КАРАНДАШЕЙ",
+          "ЗАТОЧКА ГРИФЕЛЯ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Owner original has plain unbranded metal blades; neutral identity, no CONTUR or CONNTUR. One representative blade depicted without package quantity assertion; no steel-alloy or compatibility claim."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3936-3134-4066-a662-373963373239/7a40ae3dc937e644371015678e3e5787.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3936-3134-4066-a662-373963373239/7a40ae3dc937e644371015678e3e5787.png",
+          "sha256": "41ba96763fbc94d1f772ad9458e4d3b8b9f910204e9cb7ff7d5d3d9e21814925",
+          "reason": "На обложке опечатка «CONNTUR»; универсальность и нержавеющая сталь требуют источника."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3531-6336-4639-b265-313032386665/15494758.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "615434643782",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/7cf890bd605a4ac2a4.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/102882388262-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "BROVI ONE",
+        "CLB",
+        "10 мл",
+        "ХОЛОДНЫЙ СВЕТЛЫЙ КОРИЧНЕВЫЙ",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 is the exact COOL LIGHT BROWN bottle: brown pigment, black pointed ribbed cap, black label with real Cyrillic «БРОВИ» in a white outline box, small ×, graffiti «ЗАВИСИМОСТЬ», and bottom white strip «COOL LIGHT BROWN». This legacy package really belongs to the current BROVI ONE family. Keep its physical label exactly as in owner photo, including Cyrillic БРОВИ and ЗАВИСИМОСТЬ; do NOT replace physical label with a newly invented BROVI ONE logo or copy garbled letters from the older generated cover. Accurately enlarge this real bottle as the hero. No new volume printed on physical label; 10 ml is the native selected variant, shown in the ad only. Main pink headline «BROVI ONE», category «ПИГМЕНТ ДЛЯ БРОВЕЙ», subtitle «ХОЛОДНЫЙ СВЕТЛЫЙ КОРИЧНЕВЫЙ». Two clear factual badges «CLB» and «10 мл», footer «PM.MARKET». No ideal-for-blondes, residue-free, predictable outcome, corrective-free or fading claims. Render all main Cyrillic and English product lettering correctly.",
+      "name": "Пигменты БРОВИ: Серия БРОВИ МИНЕРАЛЬНЫЕ (BROVI ONE) - CLB - 10 - Холодный светлый коричневый/Cool light brown",
+      "parent_uid": "102882388262",
+      "kind": "variant",
+      "overlay": [
+        "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+        "BROVI ONE",
+        "CLB",
+        "10 мл",
+        "ХОЛОДНЫЙ СВЕТЛЫЙ КОРИЧНЕВЫЙ",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-de407597-3c4a-4583-b277-7f2718e9392b.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-de407597-3c4a-4583-b277-7f2718e9392b.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/615434643782-marketplace.png",
+      "asset_sha256": "97e2bcfbd7fe82575c65c677096d7eb22f7e12b30bb40a75880ddb5493c56780",
+      "asset_bytes": 1478111,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/7cf890bd605a4ac2a4.img",
+          "url": "https://static.tildacdn.com/stor3762-6336-4964-a431-653561396137/eebd41602fa9f5975f1349137e474841.jpg",
+          "sha256": "d06c12c9b31b3e8888092139b5a0ed6b6f76e71b037557cb525bc10f75da75df",
+          "width": 1680,
+          "height": 1680,
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "102882388262",
+          "title": "Пигменты БРОВИ ONE — минеральная серия для бровей",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3865-3533-4537-b934-366264613635/81758026.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/102882388262-3.img",
+          "sha256": "774be6fdef50775a5ff20e76e078796014d6f60bdea77b7626a483f10b2db78d",
+          "dimensions": [
+            1680,
+            1119
+          ],
+          "format": "JPEG",
+          "bytes": 44948,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ПИГМЕНТ ДЛЯ БРОВЕЙ",
+          "BROVI ONE",
+          "CLB",
+          "10 мл",
+          "ХОЛОДНЫЙ СВЕТЛЫЙ КОРИЧНЕВЫЙ",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact COOL LIGHT BROWN legacy БРОВИ×Зависимость owner label retained. Family lineage to BROVI ONE confirmed by primary manufacturer source; 10 ml derives from selected native variant and is overlay only. Removed residue-free/predictability/no-corrector claims."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3762-6336-4964-a431-653561396137/eebd41602fa9f5975f1349137e474841.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3762-6336-4964-a431-653561396137/eebd41602fa9f5975f1349137e474841.jpg",
+          "sha256": "d06c12c9b31b3e8888092139b5a0ed6b6f76e71b037557cb525bc10f75da75df",
+          "reason": "BROVI ONE CLB10: «выходит без остатка» — обещание будущего удаления/поведения пигмента без источника."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3865-3533-4537-b934-366264613635/81758026.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    },
+    {
+      "uid": "737221420444",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/covers/85f71741d5f1b4b73e.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/family-source-search/157651863444-5.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "approved_copy": [
+        "ПИГМЕНТ ДЛЯ ПЕРМАНЕНТНОГО МАКИЯЖА",
+        "ETALON MIX",
+        "SAND",
+        "10 мл",
+        "A. KUTSEVOLOVA",
+        "PM.MARKET"
+      ],
+      "prompt": "Edit the first reference marketplace cover into a polished square PM.MARKET product advertisement. Final reference is STYLE ONLY: white background, oversized dusty-rose pink type, near-black supporting type, spacious left-hand feature badges outlined in muted pink, photorealistic hero product occupying the right/lower area, restrained soft shadow, thin pink footer rule and small PM.MARKET. Keep this exact visual family. Legible Russian typography, generous margins, no clipping or product covering essential letters. A high-quality marketplace advertisement is required, not a plain product cutout. Replace ALL old overlay copy with ONLY the exact approved overlay strings below; do not preserve previous promises. 2–3 factual badges only. Do not invent benefits, clinical claims, percentages, safety, ingredient properties, country, compatibility, certification, usage instructions, gift/course offers. Preserve the real product shape, construction and markings from the owner reference; do not turn advertising text or a watermark into physical packaging. No additional products or random decorations. Owner reference 2 is the exact SAND bottle, not STONE: brown bottle, black ribbed dropper cap, warm tan label, white Etalon Mix name, four gold horizontal eye/ellipse marks, ANNA KUTSEVOLOVA and gold SAND. Preserve this authentic SAND label and bottle with precise lettering and colours. Correct the former EJALON misspelling everywhere to ETALON. Main pink headline «ETALON MIX», prominent subtitle «SAND», smaller category «ПИГМЕНТ ДЛЯ ПЕРМАНЕНТНОГО МАКИЯЖА». Two factual outlined badges «10 мл» and «A. KUTSEVOLOVA», small footer «PM.MARKET». No №10 shade number; 10 denotes ml only. No ideal colour, grey-free, predictable healed result, new formula, safety or performance claims. Keep high-quality photorealistic SAND product with stylish factual ad badges and clean spacing.",
+      "name": "Пигменты Etalon Mix by A. Kutsevolova, 10 ml - 10 - SAND - SAND",
+      "parent_uid": "157651863444",
+      "kind": "variant",
+      "overlay": [
+        "ПИГМЕНТ ДЛЯ ПЕРМАНЕНТНОГО МАКИЯЖА",
+        "ETALON MIX",
+        "SAND",
+        "10 мл",
+        "A. KUTSEVOLOVA",
+        "PM.MARKET"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native selected SKU and individually viewed owner source where available; no country or efficacy inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-2e64b159-6219-4f67-b031-89d42f4a235c.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-2e64b159-6219-4f67-b031-89d42f4a235c.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/737221420444-marketplace.png",
+      "asset_sha256": "0be54ee0f17e1aead560a01698f9eb72870c19ffa8935c54e8e811bac24eab97",
+      "asset_bytes": 1290302,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/covers/85f71741d5f1b4b73e.img",
+          "url": "https://static.tildacdn.com/stor6136-3564-4238-a263-313739373663/b257b09a137abca417ce397dd4a701d5.png",
+          "sha256": "478a293ae65e3ade8e91dd8225f6b76d6cb4c88f27a0c2a2b77efceeb4eabcbc",
+          "width": 1254,
+          "height": 1254,
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "157651863444",
+          "index": 4,
+          "url": "https://static.tildacdn.com/stor3666-3365-4337-b436-373662383538/56ab31161a3da822ce0f0d34038fb5fc.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/family-source-search/157651863444-5.img",
+          "dimensions": [
+            1000,
+            1000
+          ],
+          "sha256": "28b106e695ef0cc71103226dc561daa1e4a08da8dc1bc15b6a13f07052059d60",
+          "format": "PNG",
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full output visually reviewed against current cover and available owner original; exact headline, variant, product count and unsupported copy checked.",
+        "rendered_overlay_verified": [
+          "ПИГМЕНТ ДЛЯ ПЕРМАНЕНТНОГО МАКИЯЖА",
+          "ETALON MIX",
+          "SAND",
+          "10 мл",
+          "A. KUTSEVOLOVA",
+          "PM.MARKET"
+        ],
+        "notes": [
+          "Exact native SAND 10 ml and exact SAND owner label, not STONE. Corrected ETALON spelling; removed predictable colour and grey-free claims. Earlier family gallery SAND styled copy with EJALON and №10 also removed."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6136-3564-4238-a263-313739373663/b257b09a137abca417ce397dd4a701d5.png",
+        "https://static.tildacdn.com/stor3831-3562-4535-b231-623436666566/a369d95eca3d98c52655cd69f3358dd8.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6136-3564-4238-a263-313739373663/b257b09a137abca417ce397dd4a701d5.png",
+          "sha256": "478a293ae65e3ade8e91dd8225f6b76d6cb4c88f27a0c2a2b77efceeb4eabcbc",
+          "reason": "Крупный заголовок «EJALON MIX» вместо ETALON MIX. Исправить только опечатку, сохранить точный флакон SAND."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3831-3562-4535-b231-623436666566/a369d95eca3d98c52655cd69f3358dd8.jpg",
+          "sha256": "0496547ee54bb9b67bc4e2f8ca971e5eaae96a9dc781feb006e4905ceaceb7b5",
+          "reason": "Viewed exact SAND earlier family cover has EJALON misspelling, №10 mistaken shade number and unsupported predictable/no-grey advertising."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3666-3365-4337-b436-373662383538/56ab31161a3da822ce0f0d34038fb5fc.png"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All native gallery URLs in this selected UID scope reviewed; remove exact URL occurrences also from parent gallery, preserve unrelated colours and variants. Family owner references are preserve-if-present instructions, not forced variant-gallery additions."
+    }
+  ]
+}

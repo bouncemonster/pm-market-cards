@@ -1,0 +1,783 @@
+{
+  "agent": "catalog_images_audit",
+  "records": [
+    {
+      "uid": "104439228872",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/104439228872-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/104439228872-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: text-localization / precise-object-edit. Asset: one square PM.MARKET e-commerce advertising cover in Russian. Edit the existing product cover (image1). Image2 is the owner-supplied photograph establishing the real package; preserve its identity, label, proportions, colour and closure. Image3 is style only: unified white/light-blush background, large pink headline, ink-black sans-serif copy, restrained pink outlined badges, elegant soft studio shadow. Preserve the actual product, do not invent label details, logos, composition, ingredients or efficacy. Replace every old overlay with the exact new copy below; remove all other old claims/footers/badges. Keep an attractive polished marketplace advertising style, not a clean-only photo. High legibility and generous margins. No medical guarantees, no allergy/safety/sterility/certification claims, no effect percentages, timelines, treatment instructions, countries, price or stock. One finished square cover only, no collage.\nProduct: AS Company SPECIAL cream, a white tube with pink diagonal strip and AS COMPANY branding. Use ONE of the identical central tubes from the current cover/photograph, not a set of three; preserve that tube and label without inventing small print. Exact overlay copy: small category \"КРЕМ ДЛЯ УХОДА\"; large brand \"AS COMPANY\"; tagline \"УДОБНЫЙ ФОРМАТ ДЛЯ МАСТЕРА\"; badges \"15 МЛ\", \"ФОРМАТ ТУБЫ\", \"ДЛЯ ТАТУ И ПМ\"; footer \"PM.MARKET\". Do not include 93.5%, vitamins, oils, regeneration, redness, fast absorption or healing. Keep the identity of the existing package.",
+      "tool": "builtin image_gen.imagegen",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-8a156d40-09db-43b3-a3b0-ef952227265f.png",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/104439228872-marketplace.png",
+      "qa": "pass_visual_copy_package_format",
+      "notes": "Generated advertising edit; original photo retained. No physical SKU certification. Medical guarantees removed.",
+      "sha256": "4d8bd73c51af72b90c9a698ae429aac2ae3126b5898d78d198d45e5c04eb7b54",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "bytes": 1615195,
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3730-3636-4365-a134-303837376261/f0c494fb7751a780adf51ea60d39deb7.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3639-6661-4136-a563-316438306164/10823726.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3730-3636-4365-a134-303837376261/f0c494fb7751a780adf51ea60d39deb7.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/104439228872-1.img",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3639-6661-4136-a563-316438306164/10823726.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/104439228872-2.img",
+          "dimensions": [
+            225,
+            225
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "142118451442",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/142118451442-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/142118451442-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: text-localization / precise-object-edit. Asset: one square PM.MARKET e-commerce advertising cover in Russian. Edit the existing product cover (image1). Image2 is the owner-supplied photograph establishing the real package; preserve its identity, label, proportions, colour and closure. Image3 is style only: unified white/light-blush background, large pink headline, ink-black sans-serif copy, restrained pink outlined badges, elegant soft studio shadow. Preserve the actual product, do not invent label details, logos, composition, ingredients or efficacy. Replace every old overlay with the exact new copy below; remove all other old claims/footers/badges. Keep an attractive polished marketplace advertising style, not a clean-only photo. High legibility and generous margins. No medical guarantees, no allergy/safety/sterility/certification claims, no effect percentages, timelines, treatment instructions, countries, price or stock. One finished square cover only, no collage.\nProduct: CONTUR PROFESSIONAL booster in the exact white cylindrical capped 30ml bottle shown in image2, including gold brand lettering, Russian БУСТЕР and the three outline facial-zone icons on its real label. Preserve all real package details. Exact overlay: small category \"БУСТЕР\"; large title \"CONTUR PROFESSIONAL\"; tagline \"КОМПАКТНЫЙ ФОРМАТ ДЛЯ РАБОТЫ МАСТЕРА\"; badges \"30 МЛ\", \"ФЛАКОН С КРЫШКОЙ\", \"CONTUR\"; footer \"PM.MARKET\". Remove healing, swelling, pigment retention, instantaneous absorption and universal-zone claims. No country. Keep realistic package unchanged.",
+      "tool": "builtin image_gen.imagegen",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-64586def-f8e6-4dfd-8096-2c98a673e367.png",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/142118451442-marketplace.png",
+      "qa": "pass_visual_copy_package_format",
+      "notes": "Generated advertising edit; original photo retained. No physical SKU certification. Medical guarantees removed.",
+      "sha256": "bb38911d9d46311bd6a402179f27997f9055846a05b2f4638a644bc6f8258892",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "bytes": 1615353,
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6162-6366-4163-b166-626565303130/28c3ef5fa8e47752676f57ba8a1b5a5b.jpg",
+        "https://static.tildacdn.com/stor6164-3039-4136-b863-633364326630/0cf484e35e631f24b38b3e1e47a8131a.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3135-3538-4437-b034-663731656337/99476592.webp"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6162-6366-4163-b166-626565303130/28c3ef5fa8e47752676f57ba8a1b5a5b.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/142118451442-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6164-3039-4136-b863-633364326630/0cf484e35e631f24b38b3e1e47a8131a.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/142118451442-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3135-3538-4437-b034-663731656337/99476592.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/142118451442-3.img",
+          "dimensions": [
+            600,
+            895
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "154416914792",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/assets/154416914792-marketplace.png"
+      ],
+      "prompt": "Точечное редактирование изображения. На этикетке флакона справа под золотым брендом CONTUR есть две русские надписи. Второе слово сейчас ошибочно «ТЕЛЬ». Полностью перепиши только строку названия на этикетке правильно: «ПИЛИНГ ГЕЛЬ». В слове ГЕЛЬ первая буква — кириллическая Г (Gamma), вертикаль СЛЕВА и короткая горизонталь ВПРАВО сверху. Она НЕ похожа на Т, у неё нет выступа влево от вертикали. Сделай буквы ясными и чуть крупнее для читаемости. Это единственное изменение. Всё оформление и остальные надписи, включая крупный заголовок ПИЛИНГ-ГЕЛЬ и CONTUR PROFESSIONAL, должны остаться без изменений. Не меняй флакон, крышку, бело-розовый фон, иконки, расположение. Не оставляй старое ошибочное слово просвечивать. Один квадратный готовый рекламный макет.",
+      "tool": "builtin image_gen.imagegen",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-ed50bb7c-3189-439d-804a-e2f635633df6.png",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/154416914792-marketplace.png",
+      "qa": "pass_visual_copy_package_format",
+      "notes": "Generated advertising edit; original photo retained. No physical SKU certification. Medical guarantees removed.",
+      "sha256": "106ee23d7f483487d6368b84d3edd5a907c274d429f1cdd0b5a7f674a2c1fe94",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "bytes": 1654811,
+      "iteration": "label-fix2",
+      "qa_notes": "Проверено: ПИЛИНГ ГЕЛЬ на этикетке исправлено, композиция и остальные надписи сохранены. Исходная этикетка малодетальная; не физическая экспертиза упаковки.",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3431-3836-4261-b136-663361373934/579f1d2ca534f247c7209a8efa628e2c.jpg",
+        "https://static.tildacdn.com/stor6435-6138-4738-b734-353935656263/4623c17c295b234bb5213285399532b3.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3739-3837-4164-b938-616635666130/41364702.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3431-3836-4261-b136-663361373934/579f1d2ca534f247c7209a8efa628e2c.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/154416914792-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6435-6138-4738-b734-353935656263/4623c17c295b234bb5213285399532b3.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/154416914792-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3739-3837-4164-b938-616635666130/41364702.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/154416914792-3.img",
+          "dimensions": [
+            183,
+            275
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "262491047232",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/262491047232-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/262491047232-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and advertising text replacement. Produce one finished square Russian PM.MARKET product cover. Image 1 is current advertising cover to edit; image 2 is the product reference from this SKU gallery, preserve actual bottle proportions, closure, label, color and brand, do not invent a different package or its details. Image 3 supplies unified styling only: clean white/light blush background, large dark pink headline, ink-black readable sans-serif, pink outlined badges with simple icons, subtle studio shadow. Replace all old promotional overlays with EXACT new copy below. Retain attractive advertising character and generous margins. No medical guarantees, anesthesia claims, allergy/safety/sterility/certification claims, timelines, percentages as overlays, country, price, stock. Preserve package print from reference without adding new claims. No collage or extra products.\nProduct: AS Company ICE CREAM Strong, white pump bottle with blue icy label, 30g; keep real label including its small existing 30% only on bottle, never repeat it as advertising overlay. Exact new overlay: small heading «ОХЛАЖДАЮЩИЙ КРЕМ»; large headline «ICE CREAM STRONG»; supporting line «УДОБНЫЙ ФОРМАТ ДЛЯ МАСТЕРА»; three badges «30 Г», «ФЛАКОН С ДОЗАТОРОМ», «AS COMPANY»; footer «PM.MARKET». Remove all anesthesia, fast effect,15minutes,swelling,redness,color guarantee and aroma advertising. Spell all text exactly, attractive airy design.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-b60c8f8a-030c-42cf-9ced-2836389628aa.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "4042ffc10d5a890519c2be81b39812752f3a15ee5c0e76cf3afea8fcf99efc93",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1507077,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/262491047232-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3433-6166-4064-b533-336361636531/31abfce97c1eb3143a53924b66a8a287.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6230-3337-4930-b233-613638656635/61290869.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3433-6166-4064-b533-336361636531/31abfce97c1eb3143a53924b66a8a287.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/262491047232-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6230-3337-4930-b233-613638656635/61290869.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/262491047232-2.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "293612807142",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/293612807142-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/293612807142-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and advertising text replacement. Produce one finished square Russian PM.MARKET product cover. Image 1 is current advertising cover to edit; image 2 is the product reference from this SKU gallery, preserve actual bottle proportions, closure, label, color and brand, do not invent a different package or its details. Image 3 supplies unified styling only: clean white/light blush background, large dark pink headline, ink-black readable sans-serif, pink outlined badges with simple icons, subtle studio shadow. Replace all old promotional overlays with EXACT new copy below. Retain attractive advertising character and generous margins. No medical guarantees, anesthesia claims, allergy/safety/sterility/certification claims, timelines, percentages as overlays, country, price, stock. Preserve package print from reference without adding new claims. No collage or extra products.\nProduct: AS Company ICE GEL NO LIDOCAINE, transparent slender pale-turquoise bottle with silver/clear pointed closure and black outline ICE GEL label, preserve exact bottle. Exact overlays: small heading «ОХЛАЖДАЮЩИЙ ГЕЛЬ»; large headline «AS ICE GEL»; supporting line «КОМПАКТНЫЙ ФОРМАТ ДЛЯ МАСТЕРА»; badges «15 МЛ», «ГЕЛЕВЫЙ ФОРМАТ», «AS COMPANY»; footer «PM.MARKET». NO LIDOCAINE remains part of photographed package only, not new advertising. Remove all sensitive skin, swelling, redness, no-whitening, fast-effect, instant-care claims. Don't add treatment instructions.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-278bbb14-b5f9-440c-a053-a92605ab30e4.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "0e75aca15dabc064bef15785eb3fa8e10b047941794cdce81dccab91086b6582",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1616781,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/293612807142-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6161-6637-4163-b238-623937303233/656827de127058f01bb97a9c4a788cad.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3934-3364-4433-b734-353965386262/15981542.webp"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6161-6637-4163-b238-623937303233/656827de127058f01bb97a9c4a788cad.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/293612807142-1.img",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3934-3364-4433-b734-353965386262/15981542.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/293612807142-2.img",
+          "dimensions": [
+            900,
+            1200
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "309071514602",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/309071514602-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/309071514602-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and advertising text replacement. Produce one finished square Russian PM.MARKET product cover. Image 1 is current advertising cover to edit; image 2 is the product reference from this SKU gallery, preserve actual package proportions, closure, label, color and brand, do not invent a different package or details. Image 3 supplies unified styling only: clean white/light blush background, large dark pink headline, ink-black readable sans-serif, pink outlined badges with simple icons, subtle studio shadow. Replace ALL old promotional overlays with EXACT new copy below. Retain attractive advertising character and generous margins. No medical guarantees, anesthesia claims, allergy/safety/sterility/certification claims, timelines, effect percentages, country, price or stock. Preserve package print from reference without adding new claims. No collage or extra products.\nProduct: AS Company ICE GEL for lips, transparent slender pink bottle with silver/clear pointed closure, AS COMPANY and ICE GEL black lettering; exact source bottle. Exact overlays: small heading «ОХЛАЖДАЮЩИЙ ГЕЛЬ ДЛЯ ГУБ»; large headline «AS ICE GEL»; supporting line «КОМПАКТНЫЙ ФОРМАТ ДЛЯ МАСТЕРА»; badges «15 МЛ», «ГЕЛЕВЫЙ ФОРМАТ», «AS COMPANY»; footer «PM.MARKET». Remove all anesthesia, instant effect, stops-blood, color preservation,3year shelf life, whole-procedure claims. Keep package label readable and accurate.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-51d29120-fc6f-40cf-988c-57fe8f2bdc05.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "4cfe238087e523809b0da80f180f287fa0fcc7115121d4954e3c1cbba0ec8701",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1337680,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/309071514602-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3565-6435-4133-b837-373461626566/e23c7dde42300079cadab360537dfb7a.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3364-3066-4038-b333-643835643563/12813228.webp"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3565-6435-4133-b837-373461626566/e23c7dde42300079cadab360537dfb7a.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/309071514602-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3364-3066-4038-b333-643835643563/12813228.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/309071514602-2.img",
+          "dimensions": [
+            900,
+            1200
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "386924066492",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/386924066492-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/386924066492-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and advertising text replacement. Produce one finished square Russian PM.MARKET product cover. Image 1 is current advertising cover to edit; image 2 is the product reference from this SKU gallery, preserve actual package proportions, closure, label, color and brand, do not invent a different package or details. Image 3 supplies unified styling only: clean white/light blush background, large dark pink headline, ink-black readable sans-serif, pink outlined badges with simple icons, subtle studio shadow. Replace ALL old promotional overlays with EXACT new copy below. Retain attractive advertising character and generous margins. No medical guarantees, anesthesia claims, allergy/safety/sterility/certification claims, timelines, effect percentages, country, price or stock. Preserve package print from reference without adding new claims. No collage or extra products.\nProduct: TattooPharma TRADITIONAL SOAP, one flat black sachet with pink stripe and silver emblem, pink TATTOO PHARMA logo, white TRADITIONAL SOAP text and existing smaller package print. Exact new overlays: small heading «ЖИДКОЕ МЫЛО»; large headline «TRADITIONAL SOAP»; supporting line «КОМПАКТНЫЙ ФОРМАТ САШЕ»; badges «13 МЛ», «TATTOOPHARMA», «УДОБНО ВЗЯТЬ С СОБОЙ»; footer «PM.MARKET». Remove antiseptic, inflammation protection, no dry skin, one-procedure and other old effect advertising. Preserve original package printed ANTIBACTERIAL SOAP CONCENTRATE as photographed, but don't elevate it into a new advertising claim. Make the black sachet look high-quality and real, legible overlay.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-549635f3-24d0-473c-9d5a-b6f38ac6485c.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "80cb4ff2ca5d36e3c3b68cebda3401d31ad1720e8ea745888f50e772c49eceda",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1670065,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/386924066492-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3762-3561-4532-b239-343764613032/7b700dfb268cbf82a2826a0ad3b1ea1c.jpg",
+        "https://static.tildacdn.com/stor3131-6132-4661-b965-343535623530/d9da703d2f3130e77cad3535cb4a5c31.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3766-6630-4439-b366-363238383730/19328937.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3762-3561-4532-b239-343764613032/7b700dfb268cbf82a2826a0ad3b1ea1c.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/386924066492-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3131-6132-4661-b965-343535623530/d9da703d2f3130e77cad3535cb4a5c31.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/386924066492-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3766-6630-4439-b366-363238383730/19328937.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/386924066492-3.img",
+          "dimensions": [
+            1000,
+            1000
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "422249021392",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422249021392-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422249021392-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is the current cover to edit, reference 2 is the unadorned product image from this exact SKU gallery. Preserve the pictured product identity, proportions, closure, all real major lettering and brand. Do not invent packaging, ingredients, small print, specifications or logos. Reference 3 supplies unified styling only: white/light blush, large rich pink title, ink-black sans-serif, pink outlined badges and simple icons, subtle studio shadow. Replace every old overlay and footer using ONLY exact copy specified below. Elegant and commercially attractive, generous margins and readable typography. No unsupported medical, anesthesia, hypoallergenic, sterile, certification, skin-safety, percent-effect, time-effect, country, availability or price advertising. Do not alter actual package print to hide real wording, but don't duplicate it into advertising. No collage.\nProduct: DF Skincaine gel, one blue-white tube with white ribbed screw cap. Preserve label DF Skincaine gel, 30g, and smaller existing Lidocaine9.6% Topical Anesthetics on real package only. Exact overlays: small heading «ГЕЛЬ»; large title «DF SKINCAINE»; support «ПРАКТИЧНЫЙ ФОРМАТ ТУБЫ»; badges «30 Г», «ГЕЛЕВЫЙ ФОРМАТ», «DOCTOR FILLER»; footer «PM.MARKET». Remove all anesthesia efficacy, swelling, quick absorption, damaged-skin suitability,9.6% overlay, and origin. Keep actual tube label precisely spelled, including Skincaine with e, no invented print.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-627d8c6e-438e-4e47-9922-4a0770f6b428.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "acdfe0e855ec85c6e36e9ed187995341be8f1069f25619f62ecb411266244024",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1316020,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/422249021392-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6265-3635-4561-a230-306631653530/6fccd6d541b98a53650adb95fa41e062.jpg",
+        "https://static.tildacdn.com/stor6236-6437-4163-b930-323830383335/bb7c9713c5c1a23753622b5358ecc167.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3132-3266-4465-b032-623864386339/48596126.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6265-3635-4561-a230-306631653530/6fccd6d541b98a53650adb95fa41e062.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422249021392-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6236-6437-4163-b930-323830383335/bb7c9713c5c1a23753622b5358ecc167.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422249021392-2.img",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3132-3266-4465-b032-623864386339/48596126.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422249021392-3.img",
+          "dimensions": [
+            1000,
+            1000
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "422757815802",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422757815802-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422757815802-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is the current cover to edit, reference 2 is the unadorned product image from this exact SKU gallery. Preserve the pictured product identity, proportions, closure, all real major lettering and brand. Do not invent packaging, ingredients, small print, specifications or logos. Reference 3 supplies unified styling only: white/light blush, large rich pink title, ink-black sans-serif, pink outlined badges and simple icons, subtle studio shadow. Replace every old overlay and footer using ONLY exact copy specified below. Elegant and commercially attractive, generous margins and readable typography. No unsupported medical, anesthesia, hypoallergenic, sterile, certification, skin-safety, percent-effect, time-effect, country, availability or price advertising. Do not alter actual package print to hide real wording, but don't duplicate it into advertising. No collage.\nProduct: CONTUR PROFESSIONAL МЫЛО-ПЕНКА150ml, white tall bottle with foam pump and clear cap, gold CONTUR branding. Exact overlays: small heading «МЫЛО-ПЕНКА»; large title «CONTUR PROFESSIONAL»; support «УДОБНЫЙ ДОЗАТОР ДЛЯ РАБОТЫ МАСТЕРА»; badges «150 МЛ», «ПЕННЫЙ ФОРМАТ», «ФЛАКОН С ДОЗАТОРОМ»; footer «PM.MARKET». Remove hypoallergenic, sensitive-skin, deep-pore, pHbalance, sebum, no-tightness and other old effect claims. Bottle label must read «МЫЛО-ПЕНКА», not invented letters. Keep real package.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-d797e1b6-3e0e-4d5d-9ad6-2242501fefac.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "5647b5a933c692b75fa85c451930448e8078dc9cfb743881dc7b23f1d7d8e953",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1415466,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/422757815802-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3639-3534-4139-b136-343434316439/5bfca9d816ce4e6db94ce859cabb7591.jpg",
+        "https://static.tildacdn.com/stor6139-3966-4435-b962-326463346538/68ca64ee6310ecf581c9bde113a2e402.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3532-6162-4836-b966-366231353839/26823212.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3639-3534-4139-b136-343434316439/5bfca9d816ce4e6db94ce859cabb7591.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422757815802-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6139-3966-4435-b962-326463346538/68ca64ee6310ecf581c9bde113a2e402.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422757815802-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3532-6162-4836-b966-366231353839/26823212.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/422757815802-3.img",
+          "dimensions": [
+            600,
+            600
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "441673777512",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/441673777512-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/441673777512-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is the current cover to edit, reference 2 is the unadorned product image from this exact SKU gallery. Preserve the pictured product identity, proportions, closure, all real major lettering and brand. Do not invent packaging, ingredients, small print, specifications or logos. Reference 3 supplies unified styling only: white/light blush, large rich pink title, ink-black sans-serif, pink outlined badges and simple icons, subtle studio shadow. Replace every old overlay and footer using ONLY exact copy specified below. Elegant and commercially attractive, generous margins and readable typography. No unsupported medical, anesthesia, hypoallergenic, sterile, certification, skin-safety, percent-effect, time-effect, country, availability or price advertising. Do not alter actual package print to hide real wording, but don't duplicate it into advertising. No collage.\nProduct: AS COMPANY white powder for fixing the sketch, 10g, clear square cosmetic jar with open black square lid, original black-white carton. Preserve composition with ONE jar, its lid, carton, and small amount of white powder as in reference. Don't invent any small package lettering. Exact overlays: small heading «ПУДРА ДЛЯ ФИКСАЦИИ ЭСКИЗА»; large title «AS COMPANY»; support «ПРОДУМАННЫЙ ШАГ В РАБОТЕ МАСТЕРА»; badges «10 Г», «ДЛЯ ЭСКИЗА», «КОМПАКТНАЯ УПАКОВКА»; footer «PM.MARKET». Remove antiseptic, infection protection, hypoallergenic, all-skin-types, anesthesia-related, matte/holding guarantees and all other old claims. Package AS COMPANY name remains exact.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-60404911-1293-4bac-a425-e8a467e56227.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "bd3eb48bc4a897b5aa4754e892f60a7f3916c5b55f08a919db837941b5456fdc",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1662339,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/441673777512-marketplace.png",
+      "qa_notes": "Основная маркировка AS COMPANY, предмет, крышка, коробка и рекламный текст согласованы. Мелкая исходная печать неразборчива на 300px фото; точность микротекста не сертифицирована.",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6333-6161-4166-b462-623364353765/df49c985043b6ae5cea08460bec5dc12.jpg",
+        "https://static.tildacdn.com/stor3864-6331-4634-b837-363261383434/c099f81f0f4276756dd82794ac30d236.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6339-3062-4636-b765-636431363263/88039172.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6333-6161-4166-b462-623364353765/df49c985043b6ae5cea08460bec5dc12.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/441673777512-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3864-6331-4634-b837-363261383434/c099f81f0f4276756dd82794ac30d236.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/441673777512-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6339-3062-4636-b765-636431363263/88039172.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/441673777512-3.img",
+          "dimensions": [
+            300,
+            300
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "468548566062",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is current cover, reference 2 is the product-only gallery image, preserve actual package/object identity, proportions, colors, printed brand and major lettering. Don't invent package details, unreadable small print, logos or claims. Reference 3 is style only: white/light blush, rich pink large heading, ink-black readable sans-serif, simple pink outlined badges, premium soft studio shadow. Replace ALL old overlays and footer with EXACT copy below. Attractive marketplace advertising, generous margins. No medical, hypoallergenic, safety, sterility, irritation-free, anesthetic, all-day duration or performance guarantee claims; no country, stock or price. No extra products or collage.\nProduct: brow styling soap in black open round metal tin, silvery clear product and separate original white-label lid. IMPORTANT: actual lid says LASH BROW, Polish MYDŁO DO STYLIZACJI BRWI, BROW SOAP. Preserve that exact photographed label; do NOT label the product AREOLA or AR, current old overlay is unconfirmed. Do not invent weight or volume. Exact new overlays: small heading «МЫЛО ДЛЯ УКЛАДКИ БРОВЕЙ»; large title «BROW SOAP»; supporting line «АКЦЕНТ НА ФОРМЕ БРОВЕЙ»; badges «ДЛЯ УКЛАДКИ», «БАНОЧКА С КРЫШКОЙ», «КОМПАКТНЫЙ ФОРМАТ»; footer «PM.MARKET». Remove all-day lamination, no residue, strong until evening fixation, hypoallergenic and irritation claims. Product stays open as original.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-f5fc247e-b03a-4c59-8bb4-cae3335ab4d6.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "90414bbec6478c4e31271e15080e291fe3bbc66cb86d59f53f48d824fba74898",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1525107,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/468548566062-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3334-6562-4335-b238-313936376635/4f08ddd595b0c5adbcc5edbfeddf00e1.jpg",
+        "https://static.tildacdn.com/stor6562-3638-4963-b065-613432633030/5fbf1bbae293882228f6a74dff8e29b3.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3934-3030-4830-b237-383466633930/86695028.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3334-6562-4335-b238-313936376635/4f08ddd595b0c5adbcc5edbfeddf00e1.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6562-3638-4963-b065-613432633030/5fbf1bbae293882228f6a74dff8e29b3.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3934-3030-4830-b237-383466633930/86695028.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-3.img",
+          "dimensions": [
+            880,
+            540
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки.",
+      "identity_conflict": {
+        "native_title": "Мыло для укладки бровей AR",
+        "native_brand": "AReola",
+        "owner_label": "LASH BROW / MYDŁO DO STYLIZACJI BRWI / BROW SOAP",
+        "source_url": "https://static.tildacdn.com/stor3934-3030-4830-b237-383466633930/86695028.jpg",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/468548566062-3.img",
+        "status": "owner_photo_reference_only; physical_identity_HOLD",
+        "new_cover": "Нейтральный BROW SOAP; AR/AReola не добавлены; реальная маркировка фотографии сохранена. Это не подтверждение партии и не автоматическое присвоение бренда Lash Brow."
+      }
+    },
+    {
+      "uid": "485237561302",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/485237561302-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/485237561302-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is current cover, reference 2 is the product-only gallery image, preserve actual package/object identity, proportions, colors, printed brand and major lettering. Don't invent package details, unreadable small print, logos or claims. Reference 3 is style only: white/light blush, rich pink large heading, ink-black readable sans-serif, simple pink outlined badges, premium soft studio shadow. Replace ALL old overlays and footer with EXACT copy below. Attractive marketplace advertising, generous margins. No medical, hypoallergenic, safety, sterility, irritation-free, anesthetic, all-day duration or performance guarantee claims; no country, stock or price. No extra products or collage.\nProduct: AS COMPANY MAPPING STRING PRE-INKED10M, one black square package with pink outline frame and exact white/pink label, keep closed original package, do not draw loose thread or changed dispenser. Exact overlay: small heading «НИТЬ ДЛЯ ЭСКИЗА»; large title «MAPPING STRING»; support «УДОБНЫЙ ИНСТРУМЕНТ ДЛЯ РАЗМЕТКИ»; badges «10 М», «ЧЁРНЫЙ ЦВЕТ», «AS COMPANY»; footer «PM.MARKET». Keep MAPPING STRING and PRE-INKED10M printed package text exact, no invented tiny typography. Remove hypoallergenic, irritation-free, perfect symmetry guarantees. Layout headline must be fully readable, not covered by package.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-9f205ae7-9968-41d2-a811-b96c2691a288.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "0ef6fc47a00424741f9c4af070514dfc3c57e42b93ce2104d35c94a2e16db6aa",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1702780,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/485237561302-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3835-3461-4934-a133-613938653933/2df6fbf2ab19f5e5c9e06c87ec90499f.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6235-3431-4733-b937-396564343532/10256755.webp"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3835-3461-4934-a133-613938653933/2df6fbf2ab19f5e5c9e06c87ec90499f.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/485237561302-1.img",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6235-3431-4733-b937-396564343532/10256755.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/485237561302-2.img",
+          "dimensions": [
+            900,
+            1200
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    },
+    {
+      "uid": "494570558352",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/494570558352-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/494570558352-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: precise-object-edit and marketplace advertising text replacement. One finished square Russian PM.MARKET product cover. Reference 1 is current cover, reference 2 is the product-only gallery image, preserve actual package/object identity, proportions, colors, printed brand and major lettering. Don't invent package details, unreadable small print, logos or claims. Reference 3 is style only: white/light blush, rich pink large heading, ink-black readable sans-serif, simple pink outlined badges, premium soft studio shadow. Replace ALL old overlays and footer with EXACT copy below. Attractive marketplace advertising, generous margins. No medical, hypoallergenic, safety, sterility, irritation-free, anesthetic, all-day duration or performance guarantee claims; no country, stock or price. No extra products or collage.\nProduct: AS COMPANY white SKIN MARKER, long white capped marker beside its real white slender carton printed SKIN MARKER WHITE, AS COMPANY BY ALINA SHAKHOVA and original small details. Preserve ONE pen and ONE carton, pen remains capped, no invented nib. Exact overlays: small heading «МАРКЕР ДЛЯ ЭСКИЗА»; large title «AS COMPANY»; support «ДЛЯ ПРОДУМАННОЙ РАЗМЕТКИ»; badges «БЕЛЫЙ ЦВЕТ», «ДЛЯ ЭСКИЗА», «ФОРМАТ МАРКЕРА»; footer «PM.MARKET». Remove under-anesthesia longevity, all-skin safe composition, thin-tip claim because tip is not visible in source. Keep authentic package major text exact. Clear readable advertisement, airy layout.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-027d1bd3-bd26-48b1-becf-5f0aadd92e97.png",
+      "qa": "pass_visual_copy_package_format",
+      "sha256": "676015032c8dba9dbbf74278affb35bc91cb85c09d4ec8c28c7a8c7a0613390d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1548182,
+      "format": "PNG",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/494570558352-marketplace.png",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3666-6461-4765-b739-623530663535/f3e94ed6e5a73c2f8014ed18dfcb2d5e.png",
+        "https://static.tildacdn.com/stor3734-3838-4738-a132-613338383638/3fb0745249f93a28eb3d2821580bceb1.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6566-3732-4533-b939-323632643537/68746660.jpg"
+      ],
+      "gallery_cleanup_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3666-6461-4765-b739-623530663535/f3e94ed6e5a73c2f8014ed18dfcb2d5e.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/494570558352-1.img",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старая первая обложка с конкретными недостоверными/неподтверждёнными обещаниями; заменена новым единым рекламным макетом."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3734-3838-4738-a132-613338383638/3fb0745249f93a28eb3d2821580bceb1.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/494570558352-2.img",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "action": "remove_superseded_advertising",
+          "reason": "Старый рекламный/инфографический макет; неоднозначная GEO-подпись, неверная страна или неподтверждённое название/обещание. Новая обложка заменяет этот макет."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6566-3732-4533-b939-323632643537/68746660.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/494570558352-3.img",
+          "dimensions": [
+            1000,
+            1000
+          ],
+          "action": "keep_owner_photo_reference",
+          "reason": "Предметное фото из исходной галереи: оставить дополнительным, не является физической сверкой партии."
+        }
+      ],
+      "qa_scope": "Проверены все рекламные надписи, основной бренд/модель, форма/цвет упаковки, размер и читаемость. Редактирование не подтверждает состав, точность микротекста, цвет партии или физическую идентичность поставки."
+    }
+  ],
+  "iterations": [
+    {
+      "uid": "154416914792",
+      "iteration": "label-fix",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/assets/154416914792-marketplace.png"
+      ],
+      "prompt": "Use case: text-localization. Make an extremely localized one-letter correction only on the printed bottle label in this image. It currently says ПИЛИНГ ТЕЛЬ, which is a rendering typo. Change that label text to exact ПИЛИНГ ГЕЛЬ, using the same black type, size, perspective and position. Preserve every other pixel as closely as possible: whole layout, headline ПИЛИНГ-ГЕЛЬ, CONTUR PROFESSIONAL, pump bottle identity, cap, 50 МЛ badge, icons, soft blush background and PM.MARKET. Do not recompose, add, remove, or embellish anything else. One finished square image.",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-e13db61a-de71-456e-b092-4ab50af6f2d2.png",
+      "qa": "failed_label_glyph_unchanged",
+      "sha256": "23db6f40179ce959e6527f36dc98cbc7f5c58990b03a5c62cd085d94e0001424",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1641987,
+      "format": "PNG"
+    },
+    {
+      "uid": "154416914792",
+      "refs": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/154416914792-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/154416914792-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "prompt": "Use case: text-localization / precise-object-edit. Asset: one square PM.MARKET e-commerce advertising cover in Russian. Edit the existing product cover (image1). Image2 is the owner-supplied photograph establishing the real package; preserve its identity, label, proportions, colour and closure. Image3 is style only: unified white/light-blush background, large pink headline, ink-black sans-serif copy, restrained pink outlined badges, elegant soft studio shadow. Preserve the actual product, do not invent label details, logos, composition, ingredients or efficacy. Replace every old overlay with the exact new copy below; remove all other old claims/footers/badges. Keep an attractive polished marketplace advertising style, not a clean-only photo. High legibility and generous margins. No medical guarantees, no allergy/safety/sterility/certification claims, no effect percentages, timelines, treatment instructions, countries, price or stock. One finished square cover only, no collage.\nProduct: CONTUR PROFESSIONAL peeling gel, the exact white pump bottle with transparent cap and gold label shown. Keep the existing bottle/label, do not invent microtext from the low-resolution raw reference. Exact overlay: small category \"ПИЛИНГ-ГЕЛЬ\"; large title \"CONTUR PROFESSIONAL\"; tagline \"УДОБНЫЙ ДОЗАТОР ДЛЯ РАБОТЫ МАСТЕРА\"; badges \"50 МЛ\", \"ГЕЛЕВЫЙ ФОРМАТ\", \"ФЛАКОН С ДОЗАТОРОМ\"; footer \"PM.MARKET\". Remove hypoallergenic/sensitive-skin, no-tightness, 1–2 minutes, regeneration and improved penetration claims. Preserve real package shape and colour.",
+      "tool": "builtin image_gen.imagegen",
+      "source_output": "/workspace/scratch/c22bb84e940c/generated_images/exec-b9e3ba99-374d-4ac9-9870-d6a58e1d6bd4.png",
+      "output_path": "/workspace/shared/pm-market-product-completion/assets/154416914792-marketplace.png",
+      "qa": "needs_label_glyph_check",
+      "notes": "Generated advertising edit; original photo retained. No physical SKU certification. Medical guarantees removed.",
+      "sha256": "122850c13634ca07ec8e8addfdd12b33393cc27d45b393da8183f9bfc08c0a84",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "bytes": 1645580
+    }
+  ],
+  "status": "13_assigned_covers_prepared_visual_QA_complete_not_published",
+  "catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "generator": "builtin image_gen.imagegen",
+  "scope": {
+    "assigned": 13,
+    "generated_final": 13,
+    "all_outputs_viewed": true,
+    "photo_gallery_reviewed_for_all_assigned": true,
+    "physical_holds_cleared": false
+  }
+}

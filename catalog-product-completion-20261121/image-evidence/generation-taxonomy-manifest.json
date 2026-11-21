@@ -1,0 +1,301 @@
+{
+  "status": "generated_visually_reviewed_not_imported",
+  "method": "built_in_image_gen",
+  "style_reference": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "items": [
+    {
+      "uid": "102882388262",
+      "owner_reference": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy/102882388262-owner.jpg",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-6fcb8417-ec28-4907-961b-d8345e3b71d4.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/102882388262-marketplace.png",
+      "prompt": "Use case: compositing / ads-marketing.\nCreate one finished square marketplace product-family cover for PM.MARKET, preferably 1680 × 1680. Input 1 is the approved PM.MARKET art-direction reference ONLY: clean white background, huge dusty rose type, ink black text, delicate pink outlined feature cards, real product dominant on the right, fine rose footer line. Do not include its jar or Silk Way wording. Input 2 is the EXACT owner product photograph: preserve the brown BROVI × ЗАВИСИМОСТЬ Cool Light Brown bottle's physical shape, black ribbed cap, dark label, brown liquid and real printed lettering; this is a representative bottle of the family. Make it a beautifully lit large hero on the right, slightly angled with a soft realistic shadow. Do not replace or redesign the package label, and do not write ONE onto the bottle.\nThis is a family cover for the actual BROVI ONE range, not a particular shade. The range contains nine shades and two correctors; selectable volumes 5 and 10 ml. Use only these truthful advertising features.\nExact overlay copy, all spelled correctly:\nsmall black top heading \"ПИГМЕНТЫ ДЛЯ ПМУ\"\nlarge rose headline \"BROVI ONE\"\nblack short subheading \"МИНЕРАЛЬНАЯ СЕРИЯ\"\nthree clear left-side feature cards with simple line icons:\n\"9 ОТТЕНКОВ\" and underneath \"ПАЛИТРА НА ВЫБОР\"\n\"2 КОРРЕКТОРА\" and underneath \"КРАСНЫЙ И ОХРИСТО-ЖЁЛТЫЙ\"\n\"5 И 10 МЛ\" and underneath \"ВЫБЕРИТЕ НУЖНЫЙ ОБЪЁМ\"\nsmall footer \"БРОВИ • ПИГМЕНТЫ\"\nAim for the same restrained but persuasive premium marketplace style as reference 1. Strong clear hierarchy, plenty of white space, mobile-readable type, polished product photography. All overlays must remain outside the bottle and readable. Only one bottle, no extra cosmetic props or colour swatches presented as exact colour evidence.\nDo not add any other claim or copy. Specifically no percentages, healing retention, duration, minimum corrections, medical or safety guarantees, all-technique claims, certificates, ISO, ГОСТ, ECO, country of manufacture, vegan claims, stars, reviews, discounts or prices. No decorative numbering. Do not imply all nine colours are for eyebrows: the family includes an eyelid black. Do not use the old unsupported benefit badges. Preserve the owner's exact old package, do not substitute a contemporary new package.",
+      "revision_prompt": "Use case: precise-object-edit / text-localization.\nEdit the generated marketplace cover in input1 only. Keep the complete composition, white/dusty-rose palette, product photograph, headline, footer, spacing and type style. Input2 is the original product label reference; preserve that bottle identity.\nMake these targeted corrections:\n1) Replace the first left feature card content \"9 ОТТЕНКОВ / ПАЛИТРА НА ВЫБОР\" with \"МИНЕРАЛЬНАЯ СЕРИЯ\" and underneath \"ПИГМЕНТЫ BROVI ONE\".\n2) Replace the second left card \"2 КОРРЕКТОРА / КРАСНЫЙ И ОХРИСТО-ЖЁЛТЫЙ\" with \"ДЛЯ ПМУ\" and underneath \"ОТТЕНКИ И КОРРЕКТОРЫ\".\n3) Replace the black subheading below BROVI ONE \"МИНЕРАЛЬНАЯ СЕРИЯ\" with \"ВЫБЕРИТЕ ОТТЕНОК И ОБЪЁМ\".\n4) On the real black bottle label, the very small white line immediately below the stylized ЗАВИСИМОСТЬ logo must read exactly \"ТАТУ ИНК\", as on input2. Current generated small letters are incorrect. Do not change the real logo above it or COOL LIGHT BROWN below it.\nKeep the third feature card exactly \"5 И 10 МЛ\" / \"ВЫБЕРИТЕ НУЖНЫЙ ОБЪЁМ\". Keep top \"ПИГМЕНТЫ ДЛЯ ПМУ\", large \"BROVI ONE\" and footer \"БРОВИ • ПИГМЕНТЫ\".\nCorrect spelling, clean readable Russian, elegant matching line icons. Do not add new claims, numbers, availability promises, certification marks, medical guarantees, country of origin or invented package details. Only the exact changes listed. Final high-quality square image.",
+      "visual_qa": {
+        "style": "white/dusty rose/black, marketplace feature cards, same template family",
+        "headline_correct": true,
+        "major_label_identity_preserved": true,
+        "unsupported_medical_certification_country_badges_absent": true,
+        "text_not_clipped": true,
+        "no_stock_availability_claim": true,
+        "physical_stock_identity_not_recertified": true
+      },
+      "primary_sources": [
+        {
+          "url": "https://brovi-shop.ru/blog/inorganic-series-brovi-one/",
+          "ref": "turn135696257view0",
+          "claim": "mineral series and collaboration with Зависимость"
+        },
+        {
+          "url": "https://brovi-shop.ru/blog/brovi-one-s-annoy-taranko/",
+          "ref": "turn272689321view0",
+          "claim": "eight eyebrow colours, one eyelid colour, two correctors"
+        }
+      ],
+      "removed_claims": [
+        "80–90%",
+        "12 месяцев",
+        "полная безопасность",
+        "ГОСТ/ISO",
+        "любая техника",
+        "минимум коррекций"
+      ],
+      "notes": "Final revised badges are mineral series / for PMU / 5 and 10 ml. Both volumes exist in native Editions for all 11 family labels. Small real label text ТАТУ ИНК corrected in a targeted second imagegen pass. No shade-specific application generalized to whole family.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1634455,
+      "sha256": "5622b05f3bf062153d422465726ebe6066ea2076fffc5c64651b0fe72e938efb",
+      "format": "PNG",
+      "owner_reference_sha256": "774be6fdef50775a5ff20e76e078796014d6f60bdea77b7626a483f10b2db78d",
+      "independent_visual_qa": {
+        "reviewer": "catalog_images_audit",
+        "result": "PASS",
+        "checks": [
+          "typography readable",
+          "no unsupported medical/certification claims",
+          "real product label and exact selected volume coherent"
+        ],
+        "scope": "available owner sources; not new physical-stock certification"
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6561-3432-4264-b664-623539376533/397e6ba36fa72ae55946cbf105796580.jpg",
+        "https://static.tildacdn.com/stor3733-6433-4265-b238-333065343630/530138f5920dd2d3061adb70ebb338a5.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3865-3533-4537-b934-366264613635/81758026.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor3136-3062-4661-b931-376636626438/69046954.jpg",
+        "https://static.tildacdn.com/stor6136-3931-4639-b562-613836343534/77993533.jpg",
+        "https://static.tildacdn.com/stor3936-6331-4435-a662-653535666366/97104187.jpg",
+        "https://static.tildacdn.com/stor3966-3534-4761-b534-333833313965/69229383.jpg",
+        "https://static.tildacdn.com/stor3730-3531-4662-a637-623534626665/67974564.jpg",
+        "https://static.tildacdn.com/stor3139-3936-4638-a563-366636616465/41408537.jpg",
+        "https://static.tildacdn.com/stor6161-3732-4661-b231-393030353732/62957995.jpg",
+        "https://static.tildacdn.com/stor6137-6233-4730-a335-396565666266/50556862.jpg",
+        "https://static.tildacdn.com/stor6137-3738-4934-b532-633834353764/74115317.jpg",
+        "https://static.tildacdn.com/stor6335-6561-4066-b232-336235643637/54286027.jpg",
+        "https://static.tildacdn.com/stor3238-3136-4361-b166-366538643966/54183983.jpg",
+        "https://static.tildacdn.com/stor3930-3339-4031-b163-633466386637/74772915.jpg",
+        "https://static.tildacdn.com/stor3238-6136-4465-b264-616230306365/50117082.jpg",
+        "https://static.tildacdn.com/stor3562-6639-4330-b238-343161366539/59164854.jpg",
+        "https://static.tildacdn.com/stor3634-6138-4964-a465-333365313965/88669596.jpg",
+        "https://static.tildacdn.com/stor3230-6132-4162-a131-643632623239/96034522.jpg",
+        "https://static.tildacdn.com/stor3165-3132-4438-b461-613736383765/26183988.jpg",
+        "https://static.tildacdn.com/stor3230-6365-4730-b264-646535636230/40097414.jpg",
+        "https://static.tildacdn.com/stor6336-3461-4231-b936-343032303338/11516841.jpg",
+        "https://static.tildacdn.com/stor6166-3037-4436-b339-383865663262/88247559.jpg",
+        "https://static.tildacdn.com/stor3066-6334-4133-a561-303537303261/21709586.jpg",
+        "https://static.tildacdn.com/stor6566-3461-4064-b262-303639353437/ef06e5d340e6ee294be3d61829900ca8.jpg",
+        "https://static.tildacdn.com/stor6630-3064-4765-a136-376437663739/d54df4ad356ed5460be300c8a79c1f4a.jpg",
+        "https://static.tildacdn.com/stor3639-6337-4436-a135-633231376433/d9e283a7ce7004507b28cb1f97a12193.jpg",
+        "https://static.tildacdn.com/stor3138-3631-4033-a331-356463373234/590f51dc53416a2bc7195fc85949dddb.jpg",
+        "https://static.tildacdn.com/stor3562-6234-4436-a639-626532633161/7f74cf3011400d33e20495d3a305c295.jpg",
+        "https://static.tildacdn.com/stor3562-3563-4466-b865-366466376630/c467b275da7bb00ee283cc2ef4799175.jpg",
+        "https://static.tildacdn.com/stor3633-3538-4962-a538-626261336463/63a768ab85b3a1baa2dfe182469477e1.jpg",
+        "https://static.tildacdn.com/stor6339-3762-4635-b937-303164336335/71e0bf864dd31602518ebc62bddcab07.jpg",
+        "https://static.tildacdn.com/stor3864-3931-4137-b836-333536336261/a21df995d4c4f14b36251bfca5e45d84.jpg",
+        "https://static.tildacdn.com/stor6131-6461-4231-a161-636331616432/024985cfe4d23ca48b58f7b5ee58d941.jpg",
+        "https://static.tildacdn.com/stor3538-3631-4432-b264-383932633966/52ccf7536ee9a8f85d0da122d779d5cf.jpg",
+        "https://static.tildacdn.com/stor3931-3339-4137-b931-646365316534/f10d6e9f2c5abbbc1457da500f47aa9f.jpg",
+        "https://static.tildacdn.com/stor3434-6232-4434-a639-653736306638/23e8c4dcaae555297620a26e63a1b76d.jpg",
+        "https://static.tildacdn.com/stor6365-6164-4761-a639-303438383037/1d332280eef37167d71531d444ed4a78.jpg",
+        "https://static.tildacdn.com/stor6432-3261-4832-a163-333436313239/7e540a7a1eb965b66af02730baf73218.jpg",
+        "https://static.tildacdn.com/stor3030-3166-4533-b163-306233313331/1c7cad32795c0a97384a28d83932773c.jpg",
+        "https://static.tildacdn.com/stor3463-3362-4536-b037-363066333866/674eda004008e33eb11b94b4d6d6ad72.jpg",
+        "https://static.tildacdn.com/stor3563-6338-4665-a261-363633383930/22e4a48cae417297ff894a20c98c399b.jpg",
+        "https://static.tildacdn.com/stor6333-3634-4533-b939-386439373236/a53930a5936ab9c2359c218349bcbf36.jpg",
+        "https://static.tildacdn.com/stor3935-3437-4337-b234-636536306365/cc93808edecdd56ef14a98c5bd6208a8.jpg",
+        "https://static.tildacdn.com/stor3663-6532-4631-b935-386366613739/cc85926af6db67606bc667994e0cf42d.jpg",
+        "https://static.tildacdn.com/stor3361-6238-4536-b939-373833636466/f6e42ec260da58002d08d8402eaf9066.jpg",
+        "https://static.tildacdn.com/stor3762-6336-4964-a431-653561396137/eebd41602fa9f5975f1349137e474841.jpg",
+        "https://static.tildacdn.com/stor6137-3938-4163-a131-373239306432/0a7bf5441f3b379704367a0446344251.jpg",
+        "https://static.tildacdn.com/stor6361-6530-4536-b264-616163336534/544f1531d7392e9959e5c7890e1b4839.jpg",
+        "https://static.tildacdn.com/stor6232-6639-4138-b131-396139623763/5f9c9eade0f52710decbef3e94a68421.jpg",
+        "https://static.tildacdn.com/stor3964-3930-4534-b834-336131326662/abf193960354df0efa9489c3c2f86ac8.jpg",
+        "https://static.tildacdn.com/stor3436-3336-4664-b366-653930656430/0702e32388a19637edc875b4b0124a9f.jpg",
+        "https://static.tildacdn.com/stor3334-6435-4863-a339-613162643365/bf690580f99ef86cb566e76236f16918.jpg",
+        "https://static.tildacdn.com/stor6330-3339-4962-b635-343435666331/cababc1b45a69cd3403bd615585b73a5.jpg",
+        "https://static.tildacdn.com/stor6365-3932-4564-a133-383763656533/fb3e59d4247d3bea22dfaad2dfb57a68.jpg",
+        "https://static.tildacdn.com/stor6539-6666-4333-b838-626433663062/18ac95693564023166d92796509ab2c5.jpg",
+        "https://static.tildacdn.com/stor6436-3562-4436-b133-333635376665/00cb54522f383e21fb0addb475e4a9a1.jpg",
+        "https://static.tildacdn.com/stor3365-6237-4833-b333-393466643931/f3df1953c385cd4db059bb15ed97dfc4.jpg",
+        "https://static.tildacdn.com/stor3631-6337-4661-b431-373138356162/1803f9a260f0847268000919c44dc90e.jpg",
+        "https://static.tildacdn.com/stor3233-6638-4138-b638-303638323132/0f949564214284dd8aea5632493c1d30.jpg",
+        "https://static.tildacdn.com/stor3036-6464-4230-a332-393562396233/ff34d86c247310581a53bb271468948b.jpg",
+        "https://static.tildacdn.com/stor3535-3133-4437-b637-383835656462/01bc39c6e070d244cd3b3ff9af25a33f.jpg",
+        "https://static.tildacdn.com/stor6363-3966-4837-a134-626531613864/05631946f190318b0d0d441b998c8bb0.jpg",
+        "https://static.tildacdn.com/stor3837-6636-4836-b364-373533616437/90666be242f078febfacf3bf831d76b8.png",
+        "https://static.tildacdn.com/stor6637-3564-4031-b834-363030613339/c8ab767ba8c55c802111990d54cf4a24.png",
+        "https://static.tildacdn.com/stor6138-6234-4564-b838-353939663332/96398dd3609273c4f243dbde970b6b1b.png",
+        "https://static.tildacdn.com/stor3935-3964-4263-a464-656237313036/8e72146fb9f5ad0f332f949528b552dd.png",
+        "https://static.tildacdn.com/stor3435-3435-4638-a535-343364313536/999185037034a6822c6b0ff803792dff.png"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6561-3432-4264-b664-623539376533/397e6ba36fa72ae55946cbf105796580.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "Неподтверждённые абсолютные/количественные тезисы: «полная безопасность», «80–90% остаток», «12 месяцев». Название ONE, минеральная основа, коллаборация Зависимость и отсутствие оксида хрома подтверждаются официальным материалом; их не считать дефектом. Сертификацию проверять по конкретному документу, не по значку.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/749de8994553a9e5a3.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3733-6433-4265-b238-333065343630/530138f5920dd2d3061adb70ebb338a5.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Семейство ошибочно сведено к зоне Брови; в native вариантах Ultra Black предназначен для век. Устаревшая общая обложка заменена новой семейной.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/102882388262-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "481343676692",
+      "owner_reference": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy/481343676692-owner.webp",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-74964533-3a16-41bc-8bf6-40f81fe78978.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/481343676692-marketplace.png",
+      "prompt": "Use case: compositing / ads-marketing.\nCreate one final square PM.MARKET marketplace advertising cover, preferably 1680 × 1680. Input 1 is the approved STYLE reference only: clean white backdrop, dusty rose oversized title, ink black small text, thin pink rounded feature cards and realistic product hero. Do not use its Silk Way jar. Input 2 is the EXACT Etalon Mix Thinner owner product photo. Preserve the clear slim bottle, white ribbed pointed cap, peach/cream geometrical label and existing label text \"Etalon Mix\", \"by Albina Lazareva\", \"РАЗБАВИТЕЛЬ ДЛЯ ПИГМЕНТОВ\". Make this bottle the large dominant hero on the right with gentle studio light and soft shadow; do not invent a different package, coloured liquid or printed claims.\nManufacturer product page confirms 15 ml and a thinner intended to reduce pigment concentration. These are the only functional facts to advertise.\nExact overlay copy:\nsmall black top heading \"РАЗБАВИТЕЛЬ ДЛЯ ПИГМЕНТОВ\"\nlarge dusty rose title on two balanced lines \"ETALON MIX\" / \"THINNER\"\nblack subheading \"НАСТРОЙКА КОНЦЕНТРАЦИИ ЦВЕТА\"\nleft side, two or three generous feature cards with simple drop/bottle line icons:\n\"СНИЖАЕТ КОНЦЕНТРАЦИЮ\" / \"ПИГМЕНТА\"\n\"15 МЛ\" / \"КОМПАКТНЫЙ ФЛАКОН\"\nsmall black pill near bottle base with rose \"15 МЛ\"\nfooter \"ETALON MIX • РАЗБАВИТЕЛЬ\"\nMake all Russian correct, crisp, visually elegant and easy to read on mobile. Match the approved style exactly: understated pale pink/white palette, no fluorescent colour, balanced whitespace, large bottle and concise factual marketing. No decorative section numbering.\nDo not add any other claims. In particular no hypoallergenic/safe/sterile or therapeutic claims, no universal compatibility with every manufacturer's pigments, no country or Belarus manufacture, no percentage or performance guarantees, no certificates/ISO/ECO, prices, stars, ratings or discounts. Keep genuine packaging lettering without invented microtext. The old generic country claim must not reappear.",
+      "revision_prompt": null,
+      "visual_qa": {
+        "style": "white/dusty rose/black, marketplace feature cards, same template family",
+        "headline_correct": true,
+        "major_label_identity_preserved": true,
+        "unsupported_medical_certification_country_badges_absent": true,
+        "text_not_clipped": true,
+        "no_stock_availability_claim": true,
+        "physical_stock_identity_not_recertified": true
+      },
+      "primary_sources": [
+        {
+          "url": "https://etalonmix.com/catalog/soputstvuyushchie_tovary/thinner_etalon_mix_15_ml/",
+          "ref": "turn135696257view1",
+          "claim": "15ml thinner reduces pigment concentration"
+        }
+      ],
+      "removed_claims": [
+        "безопасный состав",
+        "гипоаллергенно",
+        "для всех пигментов",
+        "производство Беларусь"
+      ],
+      "notes": "Low-resolution 470px raw owner photo used; clarity improved, no additional physical packaging facts certified.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1423457,
+      "sha256": "0705651a7af27fe56c853e9b8e78e612050d32fabd52b08ee1c428a321df24d6",
+      "format": "PNG",
+      "owner_reference_sha256": "5c346137f0ec7217deefcba1a77c10dd72a8c81f825306eea917b33be455d208",
+      "independent_visual_qa": {
+        "reviewer": "catalog_images_audit",
+        "result": "PASS",
+        "checks": [
+          "typography readable",
+          "no unsupported medical/certification claims",
+          "real product label and exact selected volume coherent"
+        ],
+        "scope": "available owner sources; not new physical-stock certification"
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3438-6266-4333-b333-653264316561/75c130caeea3a441f4f732ae029acb02.jpg",
+        "https://static.tildacdn.com/stor6537-3264-4064-b237-376264346632/eb18e459c9d6654bef3a395edd26ec32.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3536-6233-4231-a635-633862663062/81521694.webp"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3438-6266-4333-b333-653264316561/75c130caeea3a441f4f732ae029acb02.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Безопасный состав», «гипоаллергенно», «для всех пигментов».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/e416fda07cef581d10.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6537-3264-4064-b237-376264346632/eb18e459c9d6654bef3a395edd26ec32.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Явная плашка Производство Беларусь — доказанная генераторная подстановка GEO магазина вместо страны производства.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/481343676692-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "535558214972",
+      "owner_reference": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy/535558214972-owner.webp",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-e5d098ee-5687-4b59-b61e-250893a04378.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/535558214972-marketplace.png",
+      "prompt": "Use case: compositing / ads-marketing.\nCreate one finished square marketplace cover for PM.MARKET, preferably 1680 × 1680. Input 1 is the approved visual STYLE reference only: white background, oversized dusty pink brand typography, precise black text, simple thin rose line icons in rounded white/pink outlined benefit boxes, large realistic hero product on right and a thin rose footer rule. Do not use its jar or Silk Way text.\nInput 2 is the exact owner photograph of three BROVI thinner bottles. Extract and preserve only the FRONT bottle as the hero: clear plastic cylindrical bottle with transparent liquid, pointed black cap with ribbed grip, white/clear label carrying the real vertical word \"РАЗБАВИТЕЛЬ\" and \"ПИГМЕНТЫ\" / \"ДЛЯ ТАТУАЖА\". Remove the other two bottles and water splash from the composition, keep the single real front bottle and its label intact. Present it large on the right, slight elegant angle, soft studio light and a natural pale shadow. Do not redesign the bottle, invent a different label, add ONE to this bottle or change the contents to coloured pigment.\nTruthful functional facts: BROVI pigment thinner, 30 ml. The manufacturer says it adjusts saturation of its pigments; do not generalize to other brands.\nExact overlay copy:\nsmall black top heading \"РАЗБАВИТЕЛЬ ПИГМЕНТОВ\"\nlarge dusty rose title \"БРОВИ\"\nsecond rose line \"THINNER\"\nblack subheading \"КОНТРОЛЬ НАСЫЩЕННОСТИ ЦВЕТА\"\ntwo left feature cards with understated line icons:\n\"ДЛЯ ПИГМЕНТОВ BROVI\"\n\"30 МЛ\" / \"ФЛАКОН С КОЛПАЧКОМ\"\nblack pill with large rose \"30 МЛ\" near bottle base\nfooter \"БРОВИ • РАЗБАВИТЕЛЬ\"\nUse careful premium marketplace typography, readable at small scale, confident concise advertising and ample whitespace. No decorative numbering. All overlay text must be separate from the actual package.\nNo additional product claims or badges. Absolutely do not print \"БЕЗ СПИРТА\": the manufacturer's ingredient list includes isopropyl alcohol. Also no ISO/ECO, certificate logos, hypoallergenic, safety or sterility guarantees, medical outcomes, universal all-brand compatibility, country claims, percentages, discounts, prices or star ratings. Do not copy unsupported claims from earlier catalog covers.",
+      "revision_prompt": null,
+      "visual_qa": {
+        "style": "white/dusty rose/black, marketplace feature cards, same template family",
+        "headline_correct": true,
+        "major_label_identity_preserved": true,
+        "unsupported_medical_certification_country_badges_absent": true,
+        "text_not_clipped": true,
+        "no_stock_availability_claim": true,
+        "physical_stock_identity_not_recertified": true
+      },
+      "primary_sources": [
+        {
+          "url": "https://brovi-shop.ru/catalog/pigmenty/razbavitel-dlya-pigmentov/",
+          "ref": "turn135696257view2",
+          "claim": "30ml BROVI pigment thinner adjusts saturation; composition explicitly includes isopropyl alcohol"
+        }
+      ],
+      "removed_claims": [
+        "без спирта",
+        "ISO/ECO"
+      ],
+      "notes": "Uses only front bottle from owner's three-bottle image; no pack-of-three implication.",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1403711,
+      "sha256": "fae86e9dc02dc62a353ae30f1c1049353795d7c9bca1acbad834da6b40aaa801",
+      "format": "PNG",
+      "owner_reference_sha256": "e528bc8e8a64770da7259c76e085f67073bdbf15314c408b4da5f688bae5d8f9",
+      "independent_visual_qa": {
+        "reviewer": "catalog_images_audit",
+        "result": "PASS",
+        "checks": [
+          "typography readable",
+          "no unsupported medical/certification claims",
+          "real product label and exact selected volume coherent"
+        ],
+        "scope": "available owner sources; not new physical-stock certification"
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3034-6134-4632-b732-386339396136/03328abdacd2934fcc32dc106938397b.jpg",
+        "https://static.tildacdn.com/stor6237-3632-4333-b133-646135346463/a8e737a6dc8ac358fcade6d0a1196861.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3937-6337-4430-a238-383832613638/59719700.webp"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3034-6134-4632-b732-386339396136/03328abdacd2934fcc32dc106938397b.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "Подтверждённая ошибка состава: на обложке «без спирта», официальная страница BROVI перечисляет Isopropyl alcohol. Страница также содержит документы ECO/ISO: нельзя объявлять всю сертификацию выдуманной; применимость к старому SKU проверяется отдельно.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/185c73b00dcf4db8fb.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6237-3632-4333-b133-646135346463/a8e737a6dc8ac358fcade6d0a1196861.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Ошибочное сужение разбавителя до зоны Брови; первичка BROVI относит его к своим пигментам, не к одной зоне. Устаревшая общая обложка.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/535558214972-2.img"
+        }
+      ]
+    }
+  ]
+}

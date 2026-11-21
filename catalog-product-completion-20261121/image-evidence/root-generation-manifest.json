@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "uid": "712506756182",
+      "path": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+      "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "refs": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg",
+          "sha256": "293d08cb1d69f3febb5363716acb5b133f9e5ea1df7729b11e36d7f09f94256f"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-3.jpg",
+          "sha256": "0e7a2162a216af2bdc985b2588bb4adc5224c24f6b2ac002caa721e8af347774"
+        }
+      ],
+      "visual_checked": true,
+      "style": "pink/ink/white marketplace advertising infographic",
+      "safe_claims": [
+        "Белый вазелин / White Petrolatum",
+        "Банка с крышкой"
+      ],
+      "removed_claims": [
+        "unconfirmed mass",
+        "hypoallergenic",
+        "skin protection and healing"
+      ],
+      "physical_identity_hold_retained": true,
+      "prompt_file": "root-jar-prompt.txt",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3264-6134-4566-b862-333436303766/5242a5c3efe443892a49f56d4a9199ea.jpg",
+        "https://static.tildacdn.com/stor3235-3330-4631-b163-626361623562/3e059ba79f7d5765900ae8ff6b472774.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3337-3034-4461-b235-663134303364/88614039.jpg"
+      ],
+      "gallery_review": "Current and previous styled covers removed; exact 225px original retained as secondary reference, with existing physical/pack identity hold."
+    },
+    {
+      "uid": "473285984902",
+      "path": "/workspace/shared/pm-market-product-completion/assets/473285984902-marketplace.png",
+      "sha256": "caa8b13557aae2ede7dc4c1fb91ed5b1ad33d0d07ba9f9ec97467c9f15fa46f3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "refs": [
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/473285984902-1.img",
+          "sha256": "7b9bfa8782c10e3a352072b47ef2e073a6af884aeb0ea12dd02b99d0a2c046b1"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/473285984902-3.img",
+          "sha256": "6a39d0395785be311b5d3039ed859abf7f9ff1ff5088942f2aaa5b35196f1eda"
+        }
+      ],
+      "visual_checked": true,
+      "style": "pink/ink/white marketplace advertising infographic",
+      "safe_claims": [
+        "Белый вазелин / White Petrolatum",
+        "Формат саше"
+      ],
+      "removed_claims": [
+        "unconfirmed mass",
+        "hypoallergenic",
+        "skin protection and healing"
+      ],
+      "physical_identity_hold_retained": true,
+      "prompt_file": "root-sachet-prompt.txt",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6338-3438-4539-a337-376132323532/1b6a4a15745d56aa47da9a0139f61465.jpg",
+        "https://static.tildacdn.com/stor3139-3032-4966-b433-383935623034/9ad76342050680b988bc1b636c0eaa11.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3164-3861-4462-a665-656566373031/54069175.jpg"
+      ],
+      "gallery_review": "Current and previous styled covers removed; exact 225px original retained as secondary reference, with existing physical/pack identity hold."
+    }
+  ],
+  "status": "generated_visually_checked_not_imported"
+}

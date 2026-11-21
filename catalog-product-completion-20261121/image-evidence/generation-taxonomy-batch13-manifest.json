@@ -1,0 +1,835 @@
+{
+  "schema": "pm-market.image-generation-manifest.v1",
+  "created_at": "2026-11-21T19:13:17.593652+00:00",
+  "agent": "catalog_taxonomy_audit",
+  "scope": "13 assigned marketplace replacement covers; no live writes",
+  "style_reference": "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "items": [
+    {
+      "uid": "498474023232",
+      "title": "Гель для ухода DocPro, 30 ml",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/498474023232-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-472fce5f-d29b-4a05-ad46-4a6852d0e700.png",
+      "sha256": "830165a3d78b18f73147c9a51a01e96597bceb85d97b19660a656755a6b35402",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "498474023232",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/498474023232-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor6135-3630-4537-b163-383136663665/90215094.jpg",
+        "source_sha256": "8a7ee39d1578af29c9581a19f1b08bcb609666f22418702ec084b6c0ea8dd32a",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: black Tattoo Pharma DOCPRO squeeze tube with white monogram and black screw cap, as reference 1. Hero should retain its narrow, tapered silhouette and real DOCPRO label. Advertising text EXACT: upper line «ГЕЛЬ ДЛЯ УХОДА», huge rose headline «DOCPRO». Two outlined feature cards: «TATTOO PHARMA» / «ГЕЛЬ ДЛЯ УХОДА» and «УДОБНЫЙ ФОРМАТ» / «ТУБА С КРЫШКОЙ». Quantity capsule «30 мл». Footer «DOCPRO • TATTOO PHARMA». Volume 30 ml is from the exact catalog item. Avoid any claims about edema, pore blocking or rapid recovery. Do not invent decorative medicinal symbols beyond the genuine monogram on tube.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/498474023232-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6462-3463-4164-a435-373839623061/6917b2c586db843acf7558bf668abc45.png"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6135-3630-4537-b163-383136663665/90215094.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [
+        "https://static.tildacdn.com/stor3934-3231-4166-b337-616531616531/5f227afa8b7bfbe72bb25261dc6049f5.jpg"
+      ],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor3934-3231-4166-b337-616531616531/5f227afa8b7bfbe72bb25261dc6049f5.jpg"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6462-3463-4164-a435-373839623061/6917b2c586db843acf7558bf668abc45.png",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Быстрое восстановление», «снимает отёк», «не закупоривает поры».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/c6435dc9eb416fc03e.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3934-3231-4166-b337-616531616531/5f227afa8b7bfbe72bb25261dc6049f5.jpg",
+          "gallery_index": 1,
+          "action": "preserve_optional_remove_as_superseded_cover",
+          "reason": "Просмотрена ранняя простая styled обложка того же товара. Медицинская/фактическая ошибка на ней не установлена; она дублирует новую обложку и маленькое исходное фото. Отдельное визуальное решение root, автоматическое удаление не требуется.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/498474023232-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "555889467692",
+      "title": "Жидкое мыло-пенка «Алоэ», 150 мл",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/555889467692-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-c060dfa1-5611-40b2-9c26-5e2d3d3d2aca.png",
+      "sha256": "0a7fc659e878a8d4d61ddc8335a078b87f20f1c646cfced2654cf506fc0ca646",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "555889467692",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/555889467692-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3934-6230-4263-a661-366238306564/72806281.jpg",
+        "source_sha256": "4e13efb2d21d463297347f2306b250495110d21f2e1367deaf2eb90934617f03",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: white AS Company aloe foaming-soap bottle with white foam pump under transparent cap, mint green bottom and stripe, as reference 1. Preserve authentic label SOAP ALOE VERA / AS COMPANY and 150 ml. Advertising text EXACT: upper line «МЫЛО-ПЕНКА», huge rose headline «АЛОЭ». Two outlined feature cards: «AS COMPANY» / «МЫЛО В ФОРМАТЕ ПЕНКИ» and «ФЛАКОН С ДОЗАТОРОМ» / «УДОБНАЯ ПОДАЧА». Quantity capsule «150 мл». Footer «АЛОЭ • AS COMPANY». No antiseptic, healing, sensitive-skin, hypoallergenic or universal suitability claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/555889467692-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3963-6233-4166-b735-396635326130/9d3e1f070313201fada4447b50a8d3ab.jpg",
+        "https://static.tildacdn.com/stor6636-6361-4735-b131-313530613365/4498eebf968d492b07428dd6a1912d52.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3934-6230-4263-a661-366238306564/72806281.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3963-6233-4166-b735-396635326130/9d3e1f070313201fada4447b50a8d3ab.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Антисептический эффект», «быстрое восстановление», «для всех, включая чувствительную кожу».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/26a102d4a106b660d3.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6636-6361-4735-b131-313530613365/4498eebf968d492b07428dd6a1912d52.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Неподтверждённое дезинфицирующее действие вынесено в заголовок.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/555889467692-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "558681598342",
+      "title": "Вазелин, 150 ml",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/558681598342-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-5bb1f50a-423e-40f4-8126-3f2692f37320.png",
+      "sha256": "c0277997c0dbb87645ff4f2eb4e7db77ba01d51f508d67061c63820e384de7a6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "558681598342",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/558681598342-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor6561-3632-4564-b664-326632333834/97337691.jpg",
+        "source_sha256": "92d2cb187379ab4f69c3564e224aaa644bd9575f04fefb6b1e0f78ce72b5664e",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 1
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company white vaseline jar with white lid and its white carton; pale cream label VASELINE / FOR PMU AND TATTOO / 150 ml visible in reference 1. Use that jar and carton, remove the floating substance smear if needed for a clear product silhouette. Do not turn it into a black Silk Way jar. Advertising text EXACT: upper line «ВАЗЕЛИН», huge rose headline «AS COMPANY». Two outlined feature cards: «БЕЛЫЙ ВАЗЕЛИН» / «WHITE VASELINE» and «БАНКА С КРЫШКОЙ» / «ДЛЯ РАБОТЫ МАСТЕРА». Quantity capsule «150 мл». Footer «AS COMPANY • ВАЗЕЛИН». No hypoallergenic, all-skin, healing, pain or protection guarantees.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/558681598342-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": {
+        "uid": "558681598342",
+        "prompt": "Edit ONLY this already-composed AS Company vaseline marketplace cover (reference 1), using the real source package in reference 2 to correct identity text. Keep the exact existing pink/white advertising composition, high quality product lighting, jar and box, large AS COMPANY headline, quantity 150 мл and all other typography. Make two precise corrections: replace the top-left feature-card words «БЕЛЫЙ ВАЗЕЛИН» / «WHITE VASELINE» with «AS COMPANY» / «ВАЗЕЛИН ДЛЯ ПМУ И ТАТУ». On the jar front, preserve AS COMPANY then VASELINE, but replace the invented line «FOR PMU AND TATTOO» there with the exact source variant spelling «VANILA» above the bottom «150 ml». The source carton already correctly says VANILA; keep it. Do not create a new variant or claim. No new words, no safety/medical promises. The remaining feature card stays «БАНКА С КРЫШКОЙ» / «ДЛЯ РАБОТЫ МАСТЕРА». Output one finished square cover, unchanged style.",
+        "referenced_image_paths": [
+          "/workspace/scratch/c22bb84e940c/generated_images/exec-9182e722-512c-444c-8d97-0a89bfb58184.png",
+          "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/558681598342-owner.jpg"
+        ]
+      },
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3261-3935-4433-b962-313663363336/73b4bd144fb611d998945d0762fb961a.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6561-3632-4564-b664-326632333834/97337691.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3261-3935-4433-b962-313663363336/73b4bd144fb611d998945d0762fb961a.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Гипоаллергенно для всех типов кожи».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/662fedcec6e14ceb76.img"
+        }
+      ]
+    },
+    {
+      "uid": "584042483882",
+      "title": "Паста белая для бровей AR",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/584042483882-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-25d954e3-a993-4353-960a-ce6c37c6fa0c.png",
+      "sha256": "2ae0136b98fa84bd2d8328da07de18b32daae42da8167dd4c845b73f2b845c45",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "584042483882",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/584042483882-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3265-6639-4233-b034-626565646266/16509410.jpg",
+        "source_sha256": "eb23c3006554f3a430091883901fd2e99251e7f33c54e881b177c66038a77065",
+        "dimensions": [
+          1500,
+          1500
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: round open shallow silver metal pan/tin of smooth WHITE eyebrow paste, seen face-on in reference 1. Preserve blank white surface and silver circular rim; do not invent a printed label, carton, brush or bottle. A slight tilt and natural studio shadow is acceptable but retain the recognizable simple tin. Advertising text EXACT: upper line «ПАСТА ДЛЯ БРОВЕЙ», huge rose headline «AReola». Two outlined feature cards: «БЕЛЫЙ ЦВЕТ» / «ДЛЯ ОТРИСОВКИ ЭСКИЗА» and «КРУГЛАЯ БАНОЧКА» / «ОТКРЫТЫЙ ФОРМАТ». Bottom black/rose capsule «БЕЛАЯ ПАСТА». Footer «AR • ЭСКИЗ БРОВЕЙ». No invented weight or volume. No irritation, hypoallergenic, precision guarantee or medical claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/584042483882-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3139-3064-4333-b434-383562383232/03f14e134ff1cfc0ce4c00c77a1c1917.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3265-6639-4233-b034-626565646266/16509410.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [
+        "https://static.tildacdn.com/stor6135-3639-4231-b634-383865343339/e2034fc34919ae351b36ecead4a48f0a.jpg"
+      ],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor6135-3639-4231-b634-383865343339/e2034fc34919ae351b36ecead4a48f0a.jpg"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3139-3064-4333-b434-383562383232/03f14e134ff1cfc0ce4c00c77a1c1917.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Без раздражения» на пасте AR.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/532a8db03b2e8fe54b.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6135-3639-4231-b634-383865343339/e2034fc34919ae351b36ecead4a48f0a.jpg",
+          "gallery_index": 1,
+          "action": "preserve_optional_remove_as_superseded_cover",
+          "reason": "Просмотрена ранняя простая styled обложка того же товара. Медицинская/фактическая ошибка на ней не установлена; она дублирует новую обложку и маленькое исходное фото. Отдельное визуальное решение root, автоматическое удаление не требуется.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/584042483882-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "709245818692",
+      "title": "Sustaine Blue Gel",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/709245818692-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-c4e0281c-4490-4b33-ae0d-2a6457366078.png",
+      "sha256": "88e3f2dcd72064ae40e41f91b4dcace4121abb437ec55caa0b9919ed7a8ac415",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "709245818692",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/709245818692-owner.png",
+        "source_url": "https://static.tildacdn.com/stor6639-6334-4931-b064-363963393838/72538497.png",
+        "source_sha256": "0842a82fd9596350dff15cfa2eb741af45b59450d004c90cc0417c3865da8bc5",
+        "dimensions": [
+          504,
+          527
+        ],
+        "source_gallery_index": 1
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: small translucent pale turquoise SUSTAINE BLUE GEL bottle by FACE AND BODY with white ribbed cap plus its separate white tapered applicator nozzle with red tip cap, as reference 1. Preserve real bottle label FACE AND BODY / SUSTAINE and its colors. Advertising text EXACT: upper line «ГЕЛЬ», huge rose headline on two neat lines «SUSTAINE» and «BLUE GEL». Two outlined feature cards: «FACE AND BODY» / «ГЕЛЕВЫЙ ФОРМАТ» and «СЪЁМНАЯ НАСАДКА» / «В КОМПЛЕКТЕ С ФЛАКОНОМ». Bottom capsule «BLUE GEL». Footer «SUSTAINE • FACE AND BODY». Do NOT invent a metric volume. The detachable nozzle is visible in source. No secondary-anesthesia, instant action, blood stopping, swelling, pain or pigment-retention statements outside the authentic label.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/709245818692-owner.png",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3734-6338-4363-b836-656535623762/4ef51dff32d3608cd60537e8082b86ea.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6639-6334-4931-b064-363963393838/72538497.png"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3734-6338-4363-b836-656535623762/4ef51dff32d3608cd60537e8082b86ea.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Мощный вторичный наркоз», «без крови», «мгновенно», «не меняет цвет», «сохраняет пигмент».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/5b948bb6539063a45a.img"
+        }
+      ]
+    },
+    {
+      "uid": "733176815182",
+      "title": "Жидкое мыло-концентрат «Алоэ», 250 мл",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/733176815182-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-eb350e32-5584-400b-aef5-0d070d0810e6.png",
+      "sha256": "bdeae6cdff94066acc459137a0703d526fb797f44df9b5629b3ba099347e3933",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "733176815182",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/733176815182-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor6666-6362-4163-a135-656261363134/33797438.jpg",
+        "source_sha256": "f3b6826b6721c3af455ab7e99ed3dd8bd1d07e9907aea06e3a96b7949d89689c",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company slender translucent white bottle with short silver screw cap, mint/green aloe label and aloe illustration, 250 ml, as reference 1. Keep the authentic label and no added pump. Advertising text EXACT: upper line «МЫЛО-КОНЦЕНТРАТ», huge rose headline «АЛОЭ». Two outlined feature cards: «КОНЦЕНТРИРОВАННЫЙ ФОРМАТ» / «ЖИДКОЕ МЫЛО» and «AS COMPANY» / «ФЛАКОН С КРЫШКОЙ». Quantity capsule «250 мл». Footer «АЛОЭ • AS COMPANY». No dilution ratio, healing, sensitive-skin or irritation claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/733176815182-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": {
+        "uid": "733176815182",
+        "prompt": "Make a precise small text correction to the already-composed marketplace cover in reference 1, keeping EVERYTHING else the same: square white/dusty-rose style, AS Company aloe concentrate bottle, all advertising badges, 250 мл quantity, header and footer. On the real bottle label, below «МЫЛО-КОНЦЕНТРАТ», the generated phrase currently has an orphan nonsensical «эффектом». Replace the entire small text there with the simple correct two-line text «С экстрактом» / «алоэ». Remove «эффектом» completely. This phrase is supported by the exact source label reference 2. Keep aloe leaves, all other label words, AS COMPANY logo, silver cap, bottle silhouette and shadows unchanged. Do not add any antibacterial, healing, irritation, dilution-ratio or medical claim. Output one finished corrected square cover.",
+        "referenced_image_paths": [
+          "/workspace/scratch/c22bb84e940c/generated_images/exec-403b0771-5e5d-467e-81d3-23be4fbb8457.png",
+          "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/733176815182-owner.jpg"
+        ]
+      },
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3532-3561-4033-b031-633339306363/0a9e76168ccc1f7637cadfb7de7d7114.jpg",
+        "https://static.tildacdn.com/stor3638-6638-4534-b136-626366656238/e0009c2a517bb698b51b4a656557d1d3.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6666-6362-4163-a135-656261363134/33797438.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3532-3561-4033-b031-633339306363/0a9e76168ccc1f7637cadfb7de7d7114.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Без раздражения», «для чувствительной кожи», «быстрое заживление», разведение 1:10 требует инструкции.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/973c80550074ae3e19.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3638-6638-4534-b136-626366656238/e0009c2a517bb698b51b4a656557d1d3.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Неподтверждённое дезинфицирующее действие вынесено в заголовок.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/733176815182-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "798976912232",
+      "title": "Пилинг гель (скатка) с активным кислородом, 17 ml",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/798976912232-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-6964ad29-6bab-44a0-97b8-365834501bba.png",
+      "sha256": "9cda63d62fac7245be42b89729b11ba87b75d1293a15fc72a05bbce8ea42d701",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "798976912232",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/798976912232-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3561-6136-4636-b965-313238306634/66089244.jpg",
+        "source_sha256": "9fe29f2cce678c2adf17f30fc75808b4347122c7ae7ea85d66f5e45a5f3eb36b",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company PEELING GEL small transparent pale aqua pump bottle with white dispenser/cap and matching white/aqua carton, 17 ml, as reference 1. Keep exact packaging identity, label PEELING GEL and AS COMPANY, not arbitrary redesign. Advertising text EXACT: upper line «ПИЛИНГ-ГЕЛЬ», huge rose headline «PEELING GEL». Two outlined feature cards: «ГЕЛЬ-СКАТКА» / «AS COMPANY» and «ФЛАКОН С ДОЗАТОРОМ» / «КОМПАКТНЫЙ ФОРМАТ». Quantity capsule «17 мл». Footer «PEELING GEL • AS COMPANY». No active oxygen performance, regeneration, skin-trauma, penetration or timed-use promises.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/798976912232-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6236-3264-4139-a633-346430366264/70ab0ab7cec6994ba700a6c54018c7a8.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3561-6136-4636-b965-313238306634/66089244.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [
+        "https://static.tildacdn.com/stor3763-6536-4565-b165-323031393235/549ac1c79b0b03d3251afb9abf218176.jpg"
+      ],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor3763-6536-4565-b165-323031393235/549ac1c79b0b03d3251afb9abf218176.jpg"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6236-3264-4139-a633-346430366264/70ab0ab7cec6994ba700a6c54018c7a8.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Ускоряет регенерацию», «не травмирует», «1–2 мин», улучшение проходимости пигмента.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/7caa11ec4b3e95366c.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3763-6536-4565-b165-323031393235/549ac1c79b0b03d3251afb9abf218176.jpg",
+          "gallery_index": 1,
+          "action": "preserve_optional_remove_as_superseded_cover",
+          "reason": "Просмотрена ранняя простая styled обложка того же товара. Медицинская/фактическая ошибка на ней не установлена; она дублирует новую обложку и маленькое исходное фото. Отдельное визуальное решение root, автоматическое удаление не требуется.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/798976912232-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "810893661302",
+      "title": "Нить для отрисовки эскиза (White), 10м",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/810893661302-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-1a946f0d-3f35-4616-a362-b552e93c13c2.png",
+      "sha256": "eae015c29b7cdcb3c8542258c7577c3f876353d42aca5b5663c403d3b25c405d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "810893661302",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/810893661302-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3839-6432-4535-a430-653134353334/79469811.jpg",
+        "source_sha256": "952bc6bbbb7d7129c3598a0efc31eac6797038dac24690b4c752f9e3dbf666eb",
+        "dimensions": [
+          194,
+          259
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company white MAPPING STRING carton and small spool of white mapping thread with dark rim, as reference 1. Preserve carton design AS COMPANY / MAPPING STRING / PRE-INKED / 10M. Remove the tiny circular woman/face inset entirely; no human face. Advertising text EXACT: upper line «НИТЬ ДЛЯ ЭСКИЗА», huge rose headline «WHITE». Two outlined feature cards: «БЕЛАЯ НИТЬ» / «ДЛЯ ОТРИСОВКИ» and «AS COMPANY» / «MAPPING STRING». Quantity capsule «10 м». Footer «WHITE • ЭСКИЗ». Do not create scissors, measuring units other than 10 m, skin claims or hypoallergenic statements.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/810893661302-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6439-3565-4865-b030-643436656633/8b1397ea08a0c730aec313e907fb125a.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3839-6432-4535-a430-653134353334/79469811.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [
+        "https://static.tildacdn.com/stor3030-6139-4831-b463-323563623330/06cd2dc3a7bae757520f59c9ee6c9400.jpg"
+      ],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor3030-6139-4831-b463-323563623330/06cd2dc3a7bae757520f59c9ee6c9400.jpg"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6439-3565-4865-b030-643436656633/8b1397ea08a0c730aec313e907fb125a.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Гипоаллергенно», «без раздражений» на белой разметочной нити.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/eb5bd2cd9c96f147a0.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3030-6139-4831-b463-323563623330/06cd2dc3a7bae757520f59c9ee6c9400.jpg",
+          "gallery_index": 1,
+          "action": "preserve_optional_remove_as_superseded_cover",
+          "reason": "Просмотрена ранняя простая styled обложка того же товара. Медицинская/фактическая ошибка на ней не установлена; она дублирует новую обложку и маленькое исходное фото. Отдельное визуальное решение root, автоматическое удаление не требуется.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/810893661302-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "820787122582",
+      "title": "Мыло Traditional soap, 350 ml (TattooPharma)",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/820787122582-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-907fd191-a293-4f4a-beb8-5c581aaad0aa.png",
+      "sha256": "512ae6ad8471670d025f1132b82737d2d15220d775cf5b3389336294716e4181",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "820787122582",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/820787122582-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3562-3066-4264-b266-366665613730/30636878.jpg",
+        "source_sha256": "44c581163f2b6c6972e593ce85a249e4bc0414ffe433c0705376dd803ae0f147",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: Tattoo Pharma tall slender black Traditional Soap bottle with black screw cap and dense ornate black/white vintage engraved label, as reference 1. Preserve identity and silhouette; no pump and no invented bottle color. It is concentrate soap 350 ml. Advertising text EXACT: upper line «МЫЛО-КОНЦЕНТРАТ», huge rose headline on two lines «TRADITIONAL» / «SOAP». Two outlined feature cards: «КОНЦЕНТРАТ» / «ЖИДКОЕ МЫЛО» and «TATTOO PHARMA» / «ФЛАКОН С КРЫШКОЙ». Quantity capsule «350 мл». Footer «TRADITIONAL SOAP • TATTOO PHARMA». No antiseptic/antibacterial guarantees, dryness, burn, irritation or sensitive skin claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/820787122582-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3562-3335-4366-b234-333539653539/1aca1cc023222cf47379d1af23e19c4b.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3562-3066-4264-b266-366665613730/30636878.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [
+        "https://static.tildacdn.com/stor6165-3539-4437-b761-626236633664/7de144b29e9ce2745f17ab1da3a2840a.jpg"
+      ],
+      "other_gallery_urls_to_preserve": [
+        "https://static.tildacdn.com/stor6165-3539-4437-b761-626236633664/7de144b29e9ce2745f17ab1da3a2840a.jpg"
+      ],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3562-3335-4366-b234-333539653539/1aca1cc023222cf47379d1af23e19c4b.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Защита от воспалений», «без сухости и ожогов», «для чувствительной кожи».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/abf1fdcbfcd40f995d.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6165-3539-4437-b761-626236633664/7de144b29e9ce2745f17ab1da3a2840a.jpg",
+          "gallery_index": 1,
+          "action": "preserve_optional_remove_as_superseded_cover",
+          "reason": "Просмотрена ранняя простая styled обложка того же товара. Медицинская/фактическая ошибка на ней не установлена; она дублирует новую обложку и маленькое исходное фото. Отдельное визуальное решение root, автоматическое удаление не требуется.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/820787122582-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "886520413732",
+      "title": "Lidocol, 12 мл",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/886520413732-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-e8571afe-ad29-4256-b744-b9cd465b169c.png",
+      "sha256": "72309e2a7e7a6601d02b8c1bbff3fce226a359863f828d2d635dd34837a2d8ba",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "886520413732",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/886520413732-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3639-6231-4431-b339-383064373166/52835662.jpg",
+        "source_sha256": "aee8c81be289d5cd6b38ceb0d442c83e71a719e73e910a263bfeb111618fca03",
+        "dimensions": [
+          1000,
+          1000
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: LIDOCOL black-capped cylindrical bottle containing turquoise gel, black label with turquoise plus-in-circle, authentic LIDOCOL / BLUE GEL / ANESTHETIC label, as reference 1. Preserve exact shape, turquoise band, label and original packaging marks. Do not create a dropper or pump not visible in source. Advertising text EXACT: upper line «ГЕЛЬ», huge rose headline «LIDOCOL». Two outlined feature cards: «BLUE GEL» / «ГЕЛЕВЫЙ ФОРМАТ» and «КОМПАКТНЫЙ ФЛАКОН» / «12 мл». Quantity capsule «12 мл». Footer «LIDOCOL • BLUE GEL». No extra origin statement in advertisement, no instant anesthesia, swelling, blood stopping, pain-free or safety promises. Original label remains original, no new medical claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/886520413732-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3539-6163-4965-b234-646235616664/83e6f150f0f7a5ac7ff026cacdb99937.jpg",
+        "https://static.tildacdn.com/stor3435-3139-4665-b735-646335623666/9a6359be9fd7441e468472e8afaf0ca8.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3639-6231-4431-b339-383064373166/52835662.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3539-6163-4965-b234-646235616664/83e6f150f0f7a5ac7ff026cacdb99937.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Мгновенное обезболивание», «снимает отёк», «Made USA» требуют точного первичного источника.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/60746a9685f2630b0c.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3435-3139-4665-b735-646335623666/9a6359be9fd7441e468472e8afaf0ca8.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Предыдущий styled cover заявляет вторичное охлаждение, для которого в просмотренной точной первичной упаковке нет подтверждения. MADE IN USA присутствует на настоящей этикетке и не считается доказанной ошибкой страны.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/886520413732-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "947089186422",
+      "title": "Плёнка Holy skin, 10 м",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/947089186422-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-d6e6e519-0216-46de-ba23-d2f656934e65.png",
+      "sha256": "236f7fbd6f473614db3fb7e9403cffcd1dbe05476545860abf57ab3c8d6c0f27",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "947089186422",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/947089186422-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor6661-3431-4436-b530-653562333039/94008470.jpg",
+        "source_sha256": "8e231f1edf4442e61343a752a44a9e5471e156e100a050a3b72e33d6210f9d49",
+        "dimensions": [
+          225,
+          225
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: black rectangular HOLY SKIN Tattoo Pharma box with subtle glossy black pattern on lid and authentic white monogram HOLY SKIN on front, as reference 1. Only this exact box is supported: do not show invented roll, body application, extra film dimensions or contents. It is film for tattoo care, catalog length 10 m. Advertising text EXACT: upper line «ПЛЁНКА ДЛЯ ТАТУ», huge rose headline «HOLY SKIN». Two outlined feature cards: «TATTOO PHARMA» / «ПЛЁНКА ДЛЯ УХОДА» and «ФОРМАТ УПАКОВКИ» / «В КОРОБКЕ». Quantity capsule «10 м». Footer «HOLY SKIN • TATTOO PHARMA». No bacteria protection, healing, pain, crust-free, invisible, waterproof or country claims. Keep box foreground large and photoreal.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/947089186422-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6663-3663-4334-b635-363166353763/fb2addcc095e6010fb749e4b55f0a30f.jpg",
+        "https://static.tildacdn.com/stor6165-3630-4339-b331-303230333135/79cead3c00abcb004b0a31df3c662946.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6661-3431-4436-b530-653562333039/94008470.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6663-3663-4334-b635-363166353763/fb2addcc095e6010fb749e4b55f0a30f.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Защита от бактерий», «без корочек», «без боли и следов», «быстрое восстановление».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/0c3da1edf988ee3314.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6165-3630-4339-b331-303230333135/79cead3c00abcb004b0a31df3c662946.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Явная плашка Страна производства Беларусь — доказанная генераторная подстановка GEO магазина; добавлен непроверенный заживляющий эффект.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/947089186422-2.img"
+        }
+      ]
+    },
+    {
+      "uid": "971552642332",
+      "title": "Охлаждающий гель ICE GEL, 15 ml",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/971552642332-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-f3a91647-cf89-4f9c-a0ee-07cf08dd00dd.png",
+      "sha256": "a54ab25de562d2d08fd7111bbb47818b58a438e5982f1dd1754f089c5ec1832a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "971552642332",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/971552642332-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor3062-3938-4263-b436-303463346165/34685930.jpg",
+        "source_sha256": "23e49e0c77f62558c088a4891625f3757c947e625f4ca282082c8e0b00e40b6b",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "source_gallery_index": 1
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company transparent turquoise ICE GEL 15 ML slender bottle with white/silver pointed ribbed screw nozzle cap and black eye illustration on label, as reference 1. Preserve real source label AS COMPANY / ICE GEL / 15 ML and exact cap/silhouette. Advertising text EXACT: upper line «ОХЛАЖДАЮЩИЙ ГЕЛЬ», huge rose headline «ICE GEL». Two outlined feature cards: «AS COMPANY» / «ГЕЛЕВЫЙ ФОРМАТ» and «ФЛАКОН С НОСИКОМ» / «КОМПАКТНЫЙ ФОРМАТ». Quantity capsule «15 мл». Footer «ICE GEL • AS COMPANY». No blood stopping, anesthesia, whitening, pain, repeat-application, storage duration, interruption-free work or country claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/971552642332-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6365-6437-4838-a138-633139343432/c79e6a3103d1434066240d728bb80495.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3062-3938-4263-b436-303463346165/34685930.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor6365-6437-4838-a138-633139343432/c79e6a3103d1434066240d728bb80495.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Стоп кровь», «не отбеливает», «работа без пауз», «повторное нанесение», «3 года».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/d179eba58146551a24.img"
+        }
+      ]
+    },
+    {
+      "uid": "986624225052",
+      "title": "Крем SKIN RELIEF AS Company, 30 г",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/986624225052-marketplace.png",
+      "generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-0a9dd2a0-73e7-44dd-89bd-72a9118f7ff1.png",
+      "sha256": "159d950d86f0ef4878b46de583d89193bd8e7519d86670e9d0c6b9c382082f61",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source": {
+        "uid": "986624225052",
+        "source_path": "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/986624225052-owner.jpg",
+        "source_url": "https://static.tildacdn.com/stor6438-3438-4630-a461-303533393764/95013296.jpg",
+        "source_sha256": "192b302bb34ddeddceba5dadc5ecf48e8303152312bf794113f1ead7c9cba093",
+        "dimensions": [
+          1680,
+          1680
+        ],
+        "source_gallery_index": 2
+      },
+      "prompt": "Create ONE finished square high-resolution Russian marketplace product advertising cover for PM.MARKET. This is an EDIT / restaging of the exact physical item in reference image 1. Reference image 2 is ONLY the established brand layout/style to match: clean white background, huge dusty-rose headline, black secondary typography, rose thin outlined rounded feature cards with restrained black line icons, large photoreal product dominant on the right/lower half, soft grounded studio shadow, rose quantity capsule, thin rose footer rule. Same visual family, confident retail ad, polished and legible at phone thumbnail scale. Fit ALL text within generous safe margins. Use 2 or 3 concise feature badges; keep layout spacious. Do not use decorative numbering, fake seals, unrelated imagery or extra products. Preserve source packaging proportions, materials, colors, label identity and marks; do not invent label details where source is low resolution. Preserve only legible authentic packaging text, with no new certification or benefit claims printed on it. Use the source product as the hero, not the SILK WAY item from the style reference. No medical guarantees, healing speed, anesthesia promises, allergy/safety claims, country claims, ISO/GOST/ECO, stock or discount promises. Do not add unsupported extra words.\n\nExact product: AS Company SKIN RELIEF CREAM white-lidded short jar with pale beige cream visible at neck, white label with black AS COMPANY and light turquoise SKIN RELIEF CREAM, plus matching white/turquoise carton marked 30 g, as reference 1. Preserve true jar/carton shapes and all legible original text. Advertising text EXACT: upper line «КРЕМ ДЛЯ УХОДА», huge rose headline on two lines «SKIN RELIEF». Two outlined feature cards: «AS COMPANY» / «КРЕМОВЫЙ ФОРМАТ» and «БАНКА С КРЫШКОЙ» / «В КАРТОННОЙ УПАКОВКЕ». Quantity capsule «30 г». Footer «SKIN RELIEF • AS COMPANY». No natural-composition, instant relief, sensitive-skin, recovery, hypoallergenic or clinical efficacy claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/generation-source-taxonomy-batch13/986624225052-owner.jpg",
+        "/workspace/shared/pm-market-product-completion/assets/712506756182-marketplace.png"
+      ],
+      "revision": null,
+      "qa": {
+        "author_status": "PASS",
+        "author_review": "Viewed full-size generated result; exact item, readable typography, correct native quantity, no added medical or safety guarantees. Low-resolution owner sources limit reconstruction of tiny label details.",
+        "independent_status": "PASS_main_visual_copy",
+        "independent_reviewer": "catalog_images_audit",
+        "independent_evidence": "/workspace/shared/pm-market-product-completion/image-audit/independent-QA-taxonomy-batch13.json",
+        "independent_scope": "500px contact previews of all 13 1254px final images; main labels/quantities/advertising copy. Exact white-thread original comparison. Does not certify microtext or physical stock."
+      },
+      "gallery_replacement_status": "REVIEWED_EXACT_URLS",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3762-6262-4335-b934-633237396464/571625cd0b9548ff5996e661079f6154.jpg",
+        "https://static.tildacdn.com/stor6238-3866-4239-a135-623335646463/59f5a65952afc0940247b646bf7ad2c5.jpg"
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6438-3438-4630-a461-303533393764/95013296.jpg"
+      ],
+      "preserve_all_other_gallery_urls": true,
+      "superseded_styled_gallery_urls": [],
+      "other_gallery_urls_to_preserve": [],
+      "removal_decisions": [
+        {
+          "url": "https://static.tildacdn.com/stor3762-6262-4335-b934-633237396464/571625cd0b9548ff5996e661079f6154.jpg",
+          "gallery_index": 0,
+          "action": "remove",
+          "reason": "«Мгновенно», «быстрое восстановление», «натуральный состав», «для чувствительной кожи».",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/covers/0e57cecb7c521e0dab.img"
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6238-3866-4239-a135-623335646463/59f5a65952afc0940247b646bf7ad2c5.jpg",
+          "gallery_index": 1,
+          "action": "remove",
+          "reason": "Обещание универсального ухода и первичного охлаждения не подтверждено просмотренной упаковкой. Масса 30 г ошибочно подписана Объём.",
+          "evidence": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/986624225052-2.img"
+        }
+      ]
+    }
+  ],
+  "status": "READY_FOR_GUARDED_PHOTO_IMPORT_NO_LIVE_WRITE_PERFORMED"
+}

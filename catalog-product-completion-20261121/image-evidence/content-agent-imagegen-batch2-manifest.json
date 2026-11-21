@@ -1,0 +1,1463 @@
+{
+  "created_utc": "2026-11-21T19:01:17.593293+00:00",
+  "agent": "catalog_content_audit",
+  "mode": "built-in imagegen edit",
+  "status": "12_selected_assets_ready_for_root_import",
+  "prior_manifest": "/workspace/shared/pm-market-product-completion/image-audit/content-agent-imagegen-manifest.json",
+  "prior_manifest_current_sha256": "f414d90e54ff4cc79068b1498002a65522aac4f142fbebab76e7399017599bec",
+  "source_catalog_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+  "content_proposals_sha256_unchanged": "daeeb7145acde42b3af95997ad55d7b546604c9ff3c844265272891493d46cd6",
+  "total_assets": 12,
+  "total_generation_calls": 14,
+  "targeted_label_corrections": 2,
+  "limitations": [
+    "AI product photography is based on supplied owner refs; it does not authenticate physical stock or unreadable composition.",
+    "Two targeted corrections passed visual QA; initial failed versions are excluded from selected.",
+    "Never retain removed bad cover as a secondary gallery image. Keep exact owner original references as additional images; do not remove unrelated variants by dimensions."
+  ],
+  "assets": [
+    {
+      "uid": "254223849902",
+      "name": "ReLine Light",
+      "owner": [
+        "254223849902-2.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "RELINE",
+        "LIGHT",
+        "15 мл",
+        "ФЛАКОН"
+      ],
+      "details": "One bottle only, accurate owner Light label: pale pink \"Re\", black \"Line\", \"Light\" and small \"средство для осветления пигмента\", silver-white wrap label and conical white ribbed cap. Light blush/clear contents with orange-pink tint at bottom as owner photo. Do not print generic РЕМУВЕР instead of the actual physical Light label. Heading \"РЕМУВЕР\"; large name \"RELINE\" / \"LIGHT\"; badges \"15 мл\" and \"ФЛАКОН\".",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne bottle only, accurate owner Light label: pale pink \"Re\", black \"Line\", \"Light\" and small \"средство для осветления пигмента\", silver-white wrap label and conical white ribbed cap. Light blush/clear contents with orange-pink tint at bottom as owner photo. Do not print generic РЕМУВЕР instead of the actual physical Light label. Heading \"РЕМУВЕР\"; large name \"RELINE\" / \"LIGHT\"; badges \"15 мл\" and \"ФЛАКОН\".",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-addc76ae-a214-497b-94a6-d60ecec2cbce.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-addc76ae-a214-497b-94a6-d60ecec2cbce.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/254223849902-marketplace.png",
+      "asset_sha256": "02e30aa5febb0d8b874782c5503e77559f74623debb5e901be2f64853cb9925a",
+      "asset_bytes": 1252539,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "254223849902",
+          "title": "ReLine Light, 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor6131-3438-4661-a162-356237326639/e8094ecebb7305040e0601f08bde1929.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-1.img",
+          "sha256": "ff897d7d8822e5cb5946132029f202cd74922fc2436d65485434ae41e4c768fb",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "bytes": 1307523,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "254223849902",
+          "title": "ReLine Light, 15 ml",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+          "sha256": "e43793c17ed9e14d3bfaf7f9e7e6e4640cf3ba6555341b1f8b4de2012fa63a2e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 35334,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "RELINE",
+          "LIGHT",
+          "15 мл",
+          "ФЛАКОН",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6131-3438-4661-a162-356237326639/e8094ecebb7305040e0601f08bde1929.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6131-3438-4661-a162-356237326639/e8094ecebb7305040e0601f08bde1929.png",
+          "sha256": "ff897d7d8822e5cb5946132029f202cd74922fc2436d65485434ae41e4c768fb",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "338336921382",
+      "name": "ReLine Light + Osmosis",
+      "owner": [
+        "254223849902-2.img",
+        "636247363532-3.img"
+      ],
+      "overlay": [
+        "НАБОР RELINE",
+        "LIGHT + OSMOSIS",
+        "2 × 15 мл",
+        "РЕМУВЕР + НЕЙТРАЛИЗАТОР"
+      ],
+      "details": "A set of EXACTLY TWO DIFFERENT full bottles, standing together, each equal 15 ml real size. Ref2 is Light with pale pink Re / black Line and printed Light; ref3 is Osmosis with BLUE Re / black Line and printed Osmosis. Use owner originals, no Permanentline alternate design from old cover. Neither bottle may be duplicated or omitted. Clearly readable pink names. Heading \"НАБОР RELINE\"; title \"LIGHT\" / \"+ OSMOSIS\"; badges \"2 × 15 мл\" and \"РЕМУВЕР + НЕЙТРАЛИЗАТОР\". Do not call Osmosis a remover. Preserve distinct bottle identities.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nA set of EXACTLY TWO DIFFERENT full bottles, standing together, each equal 15 ml real size. Ref2 is Light with pale pink Re / black Line and printed Light; ref3 is Osmosis with BLUE Re / black Line and printed Osmosis. Use owner originals, no Permanentline alternate design from old cover. Neither bottle may be duplicated or omitted. Clearly readable pink names. Heading \"НАБОР RELINE\"; title \"LIGHT\" / \"+ OSMOSIS\"; badges \"2 × 15 мл\" and \"РЕМУВЕР + НЕЙТРАЛИЗАТОР\". Do not call Osmosis a remover. Preserve distinct bottle identities.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/338336921382-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-461e913a-b231-4b24-82d3-6ed1b12bcebb.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-461e913a-b231-4b24-82d3-6ed1b12bcebb.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/338336921382-marketplace.png",
+      "asset_sha256": "4f9cd705ccb46c330552532eabe2ca5a4840ff0c7fb7e44902c133fe2aa29ce6",
+      "asset_bytes": 1340385,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "338336921382",
+          "title": "ReLine Light + ReLine Osmosis, 15 ml + 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3335-3334-4239-b161-643563346636/60548cab5d7c50292822145a66476d77.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/338336921382-1.img",
+          "sha256": "10b5d00e8cec20a7c84377dd105319ec92bc33d3b94e79928947e1b95599bd97",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "bytes": 1230929,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "254223849902",
+          "title": "ReLine Light, 15 ml",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+          "sha256": "e43793c17ed9e14d3bfaf7f9e7e6e4640cf3ba6555341b1f8b4de2012fa63a2e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 35334,
+          "role": "owner_product_identity"
+        },
+        {
+          "uid": "636247363532",
+          "title": "ReLine Osmosis, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+          "sha256": "4a8ab30db90958343c459909d8e1bdc1a818ecd068a8214dc01204e51a69bfdb",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 26102,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "НАБОР RELINE",
+          "LIGHT + OSMOSIS",
+          "2 × 15 мл",
+          "РЕМУВЕР + НЕЙТРАЛИЗАТОР",
+          "PM.MARKET"
+        ],
+        "product_count_verified": 2,
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3335-3334-4239-b161-643563346636/60548cab5d7c50292822145a66476d77.png",
+        "https://static.tildacdn.com/stor6331-3563-4665-a664-373061653030/bf3e72f1c4ad6e5a7c20b7d9bab9e1e3.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3335-3334-4239-b161-643563346636/60548cab5d7c50292822145a66476d77.png",
+          "sha256": "10b5d00e8cec20a7c84377dd105319ec92bc33d3b94e79928947e1b95599bd97",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6331-3563-4665-a664-373061653030/bf3e72f1c4ad6e5a7c20b7d9bab9e1e3.jpg",
+          "sha256": "58b74aa654ff75f653d78464d98801790b8e7581d531aeaa487c7e4cae46d029",
+          "reason": "Generated secondary shows one Osmosis bottle for a two-bottle set and confusing 15 ml badge."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "verified_component_reference_urls": [
+        "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg",
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ]
+    },
+    {
+      "uid": "346848026132",
+      "name": "ReLine Professional + Osmosis",
+      "owner": [
+        "791978979752-3.img",
+        "636247363532-3.img"
+      ],
+      "overlay": [
+        "НАБОР RELINE",
+        "PROFESSIONAL + OSMOSIS",
+        "2 × 15 мл",
+        "РЕМУВЕР + НЕЙТРАЛИЗАТОР"
+      ],
+      "details": "A set of EXACTLY TWO DIFFERENT full bottles, standing together, each equal 15 ml real size. Ref2 is Professional, PINK liquid and RED Re / black Line with printed Professional. Ref3 is Osmosis with BLUE Re / black Line, silver-white label, printed Osmosis. Replace the old incorrect one-bottle hero with both actual bottles. Neither bottle may be duplicated or omitted. Heading \"НАБОР RELINE\"; large pink title fitted cleanly on lines \"PROFESSIONAL\" / \"+ OSMOSIS\"; badges \"2 × 15 мл\" and \"РЕМУВЕР + НЕЙТРАЛИЗАТОР\". Do not call Osmosis a remover. Long Professional must remain fully legible and not overlap product.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nA set of EXACTLY TWO DIFFERENT full bottles, standing together, each equal 15 ml real size. Ref2 is Professional, PINK liquid and RED Re / black Line with printed Professional. Ref3 is Osmosis with BLUE Re / black Line, silver-white label, printed Osmosis. Replace the old incorrect one-bottle hero with both actual bottles. Neither bottle may be duplicated or omitted. Heading \"НАБОР RELINE\"; large pink title fitted cleanly on lines \"PROFESSIONAL\" / \"+ OSMOSIS\"; badges \"2 × 15 мл\" and \"РЕМУВЕР + НЕЙТРАЛИЗАТОР\". Do not call Osmosis a remover. Long Professional must remain fully legible and not overlap product.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/346848026132-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-57bb32f9-2f2d-49c5-af9b-b88a9f6e289a.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-57bb32f9-2f2d-49c5-af9b-b88a9f6e289a.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/346848026132-marketplace.png",
+      "asset_sha256": "661e85f03e4dd89bb537d752ff6e58182a283ca4896eef9b55549fcad3f56318",
+      "asset_bytes": 1396355,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "346848026132",
+          "title": "ReLine Proffesional + ReLine Osmosis, 15 ml + 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3465-3062-4362-b939-366265306135/91520e01b3bc782df77840541716bfe1.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/346848026132-1.img",
+          "sha256": "28a4e109fecc277b27149cab70a9923ba4ded1fd91b474d81d527257e96aaddd",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "bytes": 1173051,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "791978979752",
+          "title": "ReLine Proffesional, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+          "sha256": "450d71121ea65d74746588373da4b32ac94d46c810e02a9e8e00b102324f3f5e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 37640,
+          "role": "owner_product_identity"
+        },
+        {
+          "uid": "636247363532",
+          "title": "ReLine Osmosis, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+          "sha256": "4a8ab30db90958343c459909d8e1bdc1a818ecd068a8214dc01204e51a69bfdb",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 26102,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "НАБОР RELINE",
+          "PROFESSIONAL + OSMOSIS",
+          "2 × 15 мл",
+          "РЕМУВЕР + НЕЙТРАЛИЗАТОР",
+          "PM.MARKET"
+        ],
+        "product_count_verified": 2,
+        "notes": [
+          "Small cap overlap at lower edge of Professional title; word remains readable and both labels are distinct."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3465-3062-4362-b939-366265306135/91520e01b3bc782df77840541716bfe1.png",
+        "https://static.tildacdn.com/stor3763-6139-4632-b864-343563633165/71d161bd1f2c11c0cf0244993b186cc5.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3465-3062-4362-b939-366265306135/91520e01b3bc782df77840541716bfe1.png",
+          "sha256": "28a4e109fecc277b27149cab70a9923ba4ded1fd91b474d81d527257e96aaddd",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3763-6139-4632-b864-343563633165/71d161bd1f2c11c0cf0244993b186cc5.jpg",
+          "sha256": "dafc8e14a3154608926215f4d682b04cc43c813a912aad895f8bda7cd7938917",
+          "reason": "Generated secondary shows one Osmosis bottle for a two-bottle set and misspelled Professional identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "verified_component_reference_urls": [
+        "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg",
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ]
+    },
+    {
+      "uid": "499598263292",
+      "name": "ReLine Professional + Light + Osmosis",
+      "owner": [
+        "791978979752-3.img",
+        "254223849902-2.img",
+        "636247363532-3.img"
+      ],
+      "overlay": [
+        "НАБОР RELINE",
+        "PROFESSIONAL",
+        "LIGHT",
+        "OSMOSIS",
+        "3 × 15 мл",
+        "3 СРЕДСТВА"
+      ],
+      "details": "This is a set of EXACTLY THREE DIFFERENT full bottles, standing together. Ref2 is Professional: pink liquid RED Re logo, Professional label. Ref3 is Light: pale pink Re logo, Light label and pale orange-pink tint. Ref4 is Osmosis: BLUE Re logo, Osmosis label. All same small 15 ml physical bottle size with conical white ribbed cap. Replace old incorrect one-bottle hero with all THREE unique real bottles; do not duplicate or omit. The trio should dominate the right/lower half, with visible distinct labels. Black category \"НАБОР RELINE\"; pink names \"PROFESSIONAL\" / \"LIGHT\" / \"OSMOSIS\" or a neat three-line title. Badges \"3 × 15 мл\" and \"3 СРЕДСТВА\". No \"system\", no stages or pH statements. Do not call all three removers.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nThis is a set of EXACTLY THREE DIFFERENT full bottles, standing together. Ref2 is Professional: pink liquid RED Re logo, Professional label. Ref3 is Light: pale pink Re logo, Light label and pale orange-pink tint. Ref4 is Osmosis: BLUE Re logo, Osmosis label. All same small 15 ml physical bottle size with conical white ribbed cap. Replace old incorrect one-bottle hero with all THREE unique real bottles; do not duplicate or omit. The trio should dominate the right/lower half, with visible distinct labels. Black category \"НАБОР RELINE\"; pink names \"PROFESSIONAL\" / \"LIGHT\" / \"OSMOSIS\" or a neat three-line title. Badges \"3 × 15 мл\" and \"3 СРЕДСТВА\". No \"system\", no stages or pH statements. Do not call all three removers.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/499598263292-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-20930629-8e9a-43b0-85ba-ae03ddba6f10.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-20930629-8e9a-43b0-85ba-ae03ddba6f10.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/499598263292-marketplace.png",
+      "asset_sha256": "5ad0f3f1e801e8cf5f68f9b89e5a7cf81728ba963653d875f6e2cf29dcd4fba7",
+      "asset_bytes": 1441892,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "499598263292",
+          "title": "Proffesional + Light + Osmosis, 15 ml + 15 ml + 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3561-3765-4238-a131-323739396234/829cfeb3174135d172a73bf50cd682b3.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/499598263292-1.img",
+          "sha256": "733e5b5887c69f6dfa87d7a2b0bce6b565cbf7ff4fe640192d96ab05fe05aed2",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 204410,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "791978979752",
+          "title": "ReLine Proffesional, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+          "sha256": "450d71121ea65d74746588373da4b32ac94d46c810e02a9e8e00b102324f3f5e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 37640,
+          "role": "owner_product_identity"
+        },
+        {
+          "uid": "254223849902",
+          "title": "ReLine Light, 15 ml",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/254223849902-2.img",
+          "sha256": "e43793c17ed9e14d3bfaf7f9e7e6e4640cf3ba6555341b1f8b4de2012fa63a2e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 35334,
+          "role": "owner_product_identity"
+        },
+        {
+          "uid": "636247363532",
+          "title": "ReLine Osmosis, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+          "sha256": "4a8ab30db90958343c459909d8e1bdc1a818ecd068a8214dc01204e51a69bfdb",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 26102,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "НАБОР RELINE",
+          "PROFESSIONAL",
+          "LIGHT",
+          "OSMOSIS",
+          "3 × 15 мл",
+          "3 СРЕДСТВА",
+          "PM.MARKET"
+        ],
+        "product_count_verified": 3,
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3561-3765-4238-a131-323739396234/829cfeb3174135d172a73bf50cd682b3.jpg",
+        "https://static.tildacdn.com/stor3830-3465-4332-b239-316639383763/cbfa3e76de068f580fea04ef9fd3399a.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3561-3765-4238-a131-323739396234/829cfeb3174135d172a73bf50cd682b3.jpg",
+          "sha256": "733e5b5887c69f6dfa87d7a2b0bce6b565cbf7ff4fe640192d96ab05fe05aed2",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3830-3465-4332-b239-316639383763/cbfa3e76de068f580fea04ef9fd3399a.jpg",
+          "sha256": "61e25ada2561761eb70cf03e6cc42c9f03b65d12ef9389b3787ef2c857aa8eb0",
+          "reason": "Generated secondary shows one Osmosis bottle for a three-bottle set and asserts unsupported Belarus manufacture."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "verified_component_reference_urls": [
+        "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg",
+        "https://static.tildacdn.com/stor6164-3630-4131-a464-333565633262/46073329.jpg",
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ]
+    },
+    {
+      "uid": "723284464152",
+      "name": "Your Wings Strong",
+      "owner": [
+        "723284464152-3.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "YOUR WINGS",
+        "STRONG",
+        "10 мл",
+        "ФЛАКОН С ПИПЕТКОЙ"
+      ],
+      "details": "One real amber-gold glass dropper bottle plus its RED box from owner photo. Preserve red rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Owner packaging is shared by two series; do NOT invent STRONG printed on the physical bottle or box. Differentiate SKU only in overlay. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"STRONG\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". Remove all old difficult-tattoo, deep-pigment, all-skin and free-course claims.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne real amber-gold glass dropper bottle plus its RED box from owner photo. Preserve red rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Owner packaging is shared by two series; do NOT invent STRONG printed on the physical bottle or box. Differentiate SKU only in overlay. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"STRONG\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". Remove all old difficult-tattoo, deep-pigment, all-skin and free-course claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/723284464152-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/723284464152-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-2140d04f-2942-46a7-8bc5-16db22e67418.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-2140d04f-2942-46a7-8bc5-16db22e67418.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/723284464152-marketplace.png",
+      "asset_sha256": "cc21eb02a9df3774f10d52c3d897d255a3d42c416c20ed48de6fd48dc586308c",
+      "asset_bytes": 1523368,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "723284464152",
+          "title": "VTGroup. Remover Your Wings Strong, 10 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor6538-3336-4065-b038-363433386131/2a5e76ad83db7978728937e80ace94a7.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/723284464152-1.img",
+          "sha256": "5331f21b7dad18ea36f0b0d0dc27ca9c0c4488ae9640406c9ce59918895d2a1b",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 257863,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "723284464152",
+          "title": "VTGroup. Remover Your Wings Strong, 10 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6436-3862-4832-b435-393833353265/80135874.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/723284464152-3.img",
+          "sha256": "d6428284e75d188cfb4ebc65c2a1de86387d6ae8cbbdba5603a2ade38cba581d",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "WEBP",
+          "bytes": 12634,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "YOUR WINGS",
+          "STRONG",
+          "10 мл",
+          "ФЛАКОН С ПИПЕТКОЙ",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": [
+          "Strong and Red share the same owner photograph; variant series is exact native SKU overlay only, not fabricated package printing."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6538-3336-4065-b038-363433386131/2a5e76ad83db7978728937e80ace94a7.jpg",
+        "https://static.tildacdn.com/stor3534-3038-4262-b631-666265663338/7a5a6566c9f91c35db2877765445298b.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6538-3336-4065-b038-363433386131/2a5e76ad83db7978728937e80ace94a7.jpg",
+          "sha256": "5331f21b7dad18ea36f0b0d0dc27ca9c0c4488ae9640406c9ce59918895d2a1b",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3534-3038-4262-b631-666265663338/7a5a6566c9f91c35db2877765445298b.jpg",
+          "sha256": "16bb06b64b1e0756da4e4d2932809fe942d0efc8fca554b5938c955c58d3c45a",
+          "reason": "Generated secondary asserts unsupported Belarus manufacture."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6436-3862-4832-b435-393833353265/80135874.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "547763844902",
+      "name": "Your Wings Red",
+      "owner": [
+        "547763844902-3.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "YOUR WINGS",
+        "RED",
+        "10 мл",
+        "ФЛАКОН С ПИПЕТКОЙ"
+      ],
+      "details": "One real amber-gold glass dropper bottle plus RED box from owner photo. Preserve red rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Do NOT invent RED printed on the physical bottle or box; identify the SKU in overlay only. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"RED\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". No red-pigment efficacy promise, no all-skin or free-course text. This is NOT the Classic white-box product.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne real amber-gold glass dropper bottle plus RED box from owner photo. Preserve red rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Do NOT invent RED printed on the physical bottle or box; identify the SKU in overlay only. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"RED\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". No red-pigment efficacy promise, no all-skin or free-course text. This is NOT the Classic white-box product.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/547763844902-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/547763844902-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-808e967d-166d-48f7-a882-997664c02e9e.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-808e967d-166d-48f7-a882-997664c02e9e.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/547763844902-marketplace.png",
+      "asset_sha256": "8d3cfad17600889af790c8d24299d30931e6e724e285f51b4b5b8be7ba0b366a",
+      "asset_bytes": 1584084,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "547763844902",
+          "title": "VTGroup. Remover Your Wings Red, 10 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3733-3338-4537-a266-313661346131/fc0178807667a53beac9172535dbe9b6.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/547763844902-1.img",
+          "sha256": "d3de7ee75c0ddff4440d83f424c56da3e7fef0b56a9deb469e74e7ef5d940a27",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 294393,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "547763844902",
+          "title": "VTGroup. Remover Your Wings Red, 10 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6436-3862-4832-b435-393833353265/80135874.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/547763844902-3.img",
+          "sha256": "d6428284e75d188cfb4ebc65c2a1de86387d6ae8cbbdba5603a2ade38cba581d",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "WEBP",
+          "bytes": 12634,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "YOUR WINGS",
+          "RED",
+          "10 мл",
+          "ФЛАКОН С ПИПЕТКОЙ",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": [
+          "Strong and Red share the same owner photograph; variant series is exact native SKU overlay only, not fabricated package printing."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3733-3338-4537-a266-313661346131/fc0178807667a53beac9172535dbe9b6.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3733-3338-4537-a266-313661346131/fc0178807667a53beac9172535dbe9b6.jpg",
+          "sha256": "d3de7ee75c0ddff4440d83f424c56da3e7fef0b56a9deb469e74e7ef5d940a27",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6436-3862-4832-b435-393833353265/80135874.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [
+        "https://static.tildacdn.com/stor6565-6231-4235-a335-383232306239/13aef95355c007d914039bb75a194bb5.jpg"
+      ],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "756280737612",
+      "name": "Your Wings Classic",
+      "owner": [
+        "756280737612-2.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "YOUR WINGS",
+        "CLASSIC",
+        "10 мл",
+        "ФЛАКОН С ПИПЕТКОЙ"
+      ],
+      "details": "One real amber-gold glass dropper bottle plus WHITE/very pale pink box from owner photo. Preserve WHITE rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Do NOT invent CLASSIC printed on package. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"CLASSIC\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". No red box or red dropper. Remove all old pH12, traumatic risk, all-pigments and course-gift claims.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne real amber-gold glass dropper bottle plus WHITE/very pale pink box from owner photo. Preserve WHITE rubber dropper, gold collar, exact Yourwings / REMOVER / PROFESSIONAL USE ONLY / 10 ML package printing. Do NOT invent CLASSIC printed on package. Category \"РЕМУВЕР\"; very large pink \"YOUR WINGS\"; three badges \"CLASSIC\", \"10 мл\", \"ФЛАКОН С ПИПЕТКОЙ\". No red box or red dropper. Remove all old pH12, traumatic risk, all-pigments and course-gift claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/756280737612-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/756280737612-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-2e750174-ebaa-47fe-8548-87a2aa5bdbee.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-a4d353b9-dd68-4b07-a018-c52ad21471ce.png",
+      "correction_applied": true,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/756280737612-marketplace.png",
+      "asset_sha256": "58c5b9d5385d7c8791efb8d04a3f161820864c9e3c842159c271062519d22279",
+      "asset_bytes": 1603460,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "756280737612",
+          "title": "VTGroup. Remover Your Wings Classic, 10 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor6630-3835-4632-a461-336535653039/036767981f3e12311f3933cd92cf0527.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/756280737612-1.img",
+          "sha256": "1d315b6a7bc54831561896f439d7a37d831dc2e1c196cd53174d8d7bda99fdf1",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 290554,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "756280737612",
+          "title": "VTGroup. Remover Your Wings Classic, 10 ml",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor3031-6265-4961-b261-313934663338/46763958.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/756280737612-2.img",
+          "sha256": "eb756c6bd3aaca279f6d83d3c5e803c3c1336c9a0ad28a42d66258318c403842",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "WEBP",
+          "bytes": 11572,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 2,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "YOUR WINGS",
+          "CLASSIC",
+          "10 мл",
+          "ФЛАКОН С ПИПЕТКОЙ",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6630-3835-4632-a461-336535653039/036767981f3e12311f3933cd92cf0527.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6630-3835-4632-a461-336535653039/036767981f3e12311f3933cd92cf0527.jpg",
+          "sha256": "1d315b6a7bc54831561896f439d7a37d831dc2e1c196cd53174d8d7bda99fdf1",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3031-6265-4961-b261-313934663338/46763958.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "corrective_edit": {
+        "uid": "756280737612",
+        "prompt": "Make ONE PRECISE PACKAGING-TEXT CORRECTION to reference 1, keeping the entire marketplace cover unchanged: layout, large rose YOUR WINGS title, black РЕМУВЕР category, CLASSIC / 10 мл / ФЛАКОН С ПИПЕТКОЙ advertising badges, white background, product geometry and lighting, PM.MARKET footer. Reference 2 is the authoritative owner photograph of this actual package. On the FRONT TOP of the physical WHITE BOX ONLY, remove the incorrect Russian printed words \"ЩЕЛОЧНОЙ РЕМУВЕР\". Replace that specific small printed area with the original ENGLISH package wording on three small lines exactly: \"PERMANENT\" then \"& TATTOO\" then \"REMOVER\", as shown in reference 2. This correction is only on the cardboard box itself. Keep all Russian advertising overlay text outside the package exactly unchanged. Keep white rubber dropper, gold collar and amber glass bottle. Do not change any other text, object, colour, size, badge, icon, volume or spacing. No new claims. Square image, opaque white background.",
+        "referenced_image_paths": [
+          "/workspace/scratch/c22bb84e940c/generated_images/exec-2e750174-ebaa-47fe-8548-87a2aa5bdbee.png",
+          "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/756280737612-2.img"
+        ]
+      }
+    },
+    {
+      "uid": "759540659542",
+      "name": "Your Wings Cream 15 g",
+      "owner": [
+        "759540659542-3.img"
+      ],
+      "overlay": [
+        "КРЕМ",
+        "YOUR WINGS",
+        "15 г",
+        "БАНОЧКА"
+      ],
+      "details": "One closed round gold cream tin exactly as owner original, tilted slightly in studio light. Preserve distinctive embossed Y/W wing monogram and circular YOURWINGS / SUPER REVITALIZING CREAM lettering. Do not invent grams printed on the lid: owner's photo contains no visible mass. Exact SKU mass is overlay only. Category \"КРЕМ\"; huge pink \"YOUR WINGS\"; two badges \"15 г\" and \"БАНОЧКА\". No opened lid, no invented cream texture, no accessories or additional containers. Remove all healing, soothing, natural-ingredient, skin-barrier and shelf-life claims.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne closed round gold cream tin exactly as owner original, tilted slightly in studio light. Preserve distinctive embossed Y/W wing monogram and circular YOURWINGS / SUPER REVITALIZING CREAM lettering. Do not invent grams printed on the lid: owner's photo contains no visible mass. Exact SKU mass is overlay only. Category \"КРЕМ\"; huge pink \"YOUR WINGS\"; two badges \"15 г\" and \"БАНОЧКА\". No opened lid, no invented cream texture, no accessories or additional containers. Remove all healing, soothing, natural-ingredient, skin-barrier and shelf-life claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-62bfb75a-850d-4496-b692-9b87060ed69d.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-62bfb75a-850d-4496-b692-9b87060ed69d.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/759540659542-marketplace.png",
+      "asset_sha256": "8dd959bb220eb6359138e61083c07dcc84e29620f42151a27b8c10303b9c1aa1",
+      "asset_bytes": 1654132,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "759540659542",
+          "title": "VTGroup. Cream Your Wings, 15 g",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3039-3038-4938-a639-393234333463/cac28ecca2e5a69599a78f7af49866d6.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-1.img",
+          "sha256": "b6e8ffe48e33ba2a563eea3bd48ba9bfad590e2989934dc2c0d999e2358f4f04",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 284533,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "759540659542",
+          "title": "VTGroup. Cream Your Wings, 15 g",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3333-3432-4631-a563-643235353137/68571688.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-3.img",
+          "sha256": "21a125b75e58686ec84aa2a82c09e4b5cc450da00f1f0d2772d4f3d9d0fcd80a",
+          "dimensions": [
+            654,
+            768
+          ],
+          "format": "WEBP",
+          "bytes": 18092,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "КРЕМ",
+          "YOUR WINGS",
+          "15 г",
+          "БАНОЧКА",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": [
+          "10 g and 15 g share a source tin with no visible mass. Badge uses exact native SKU mass; physical lid is not relabelled."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3039-3038-4938-a639-393234333463/cac28ecca2e5a69599a78f7af49866d6.jpg",
+        "https://static.tildacdn.com/stor3365-6666-4663-a234-313132363631/1a7c06b6625794d652ee71ee473ef9ab.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3039-3038-4938-a639-393234333463/cac28ecca2e5a69599a78f7af49866d6.jpg",
+          "sha256": "b6e8ffe48e33ba2a563eea3bd48ba9bfad590e2989934dc2c0d999e2358f4f04",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3365-6666-4663-a234-313132363631/1a7c06b6625794d652ee71ee473ef9ab.jpg",
+          "sha256": "3434b1b0b3c18e96d8492d345d91282f39f41ad0de5abc355dc5f14ff12fd3ca",
+          "reason": "Generated secondary classifies cream under removers."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3333-3432-4631-a563-643235353137/68571688.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "833057765072",
+      "name": "Your Wings Cream 10 g",
+      "owner": [
+        "759540659542-3.img"
+      ],
+      "overlay": [
+        "КРЕМ",
+        "YOUR WINGS",
+        "10 г",
+        "БАНОЧКА"
+      ],
+      "details": "One closed round gold cream tin exactly as owner original, tilted slightly in studio light. Preserve distinctive embossed Y/W wing monogram and circular YOURWINGS / SUPER REVITALIZING CREAM lettering. Do not invent grams printed on the lid: owner's photo contains no visible mass. Exact SKU mass is overlay only. Category \"КРЕМ\"; huge pink \"YOUR WINGS\"; two badges \"10 г\" and \"БАНОЧКА\". No opened lid, no invented cream texture, no accessories or additional containers. Remove all healing, soothing, natural-ingredient, skin-barrier and shelf-life claims. This specific SKU is 10 г, never 15 г.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne closed round gold cream tin exactly as owner original, tilted slightly in studio light. Preserve distinctive embossed Y/W wing monogram and circular YOURWINGS / SUPER REVITALIZING CREAM lettering. Do not invent grams printed on the lid: owner's photo contains no visible mass. Exact SKU mass is overlay only. Category \"КРЕМ\"; huge pink \"YOUR WINGS\"; two badges \"10 г\" and \"БАНОЧКА\". No opened lid, no invented cream texture, no accessories or additional containers. Remove all healing, soothing, natural-ingredient, skin-barrier and shelf-life claims. This specific SKU is 10 г, never 15 г.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/833057765072-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-4146aa7a-cd99-487c-878f-8b7c886daf5c.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-4146aa7a-cd99-487c-878f-8b7c886daf5c.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/833057765072-marketplace.png",
+      "asset_sha256": "c064319eda51ae5f679fa7cc0036fcb9efa4c10c3143e107b7e43d145bbfb5e3",
+      "asset_bytes": 1573877,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "833057765072",
+          "title": "VTGroup. Cream Your Wings, 10 g",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor6234-3830-4464-b361-343461643339/477aad50f32f790908acee79fc5c9594.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/833057765072-1.img",
+          "sha256": "2c241d8676ce41e82bdcd66522a7953bb42a7fc0c334190db2c88bd76f679ec6",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 274723,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "759540659542",
+          "title": "VTGroup. Cream Your Wings, 15 g",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3333-3432-4631-a563-643235353137/68571688.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/759540659542-3.img",
+          "sha256": "21a125b75e58686ec84aa2a82c09e4b5cc450da00f1f0d2772d4f3d9d0fcd80a",
+          "dimensions": [
+            654,
+            768
+          ],
+          "format": "WEBP",
+          "bytes": 18092,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "КРЕМ",
+          "YOUR WINGS",
+          "10 г",
+          "БАНОЧКА",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": [
+          "10 g and 15 g share a source tin with no visible mass. Badge uses exact native SKU mass; physical lid is not relabelled."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6234-3830-4464-b361-343461643339/477aad50f32f790908acee79fc5c9594.jpg",
+        "https://static.tildacdn.com/stor3331-6339-4963-a534-383435306135/f73b064effe258922d3568f2fa63aac0.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6234-3830-4464-b361-343461643339/477aad50f32f790908acee79fc5c9594.jpg",
+          "sha256": "2c241d8676ce41e82bdcd66522a7953bb42a7fc0c334190db2c88bd76f679ec6",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3331-6339-4963-a534-383435306135/f73b064effe258922d3568f2fa63aac0.jpg",
+          "sha256": "efefc3f450786debe1052049c94e533f40f1436dd7b094acf8105025a9646143",
+          "reason": "Generated secondary classifies cream under removers."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3333-3432-4631-a563-643235353137/68571688.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "152557600402",
+      "name": "Special Box alkaline remover",
+      "owner": [
+        "152557600402-3.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "SPECIAL BOX",
+        "ЩЕЛОЧНОЙ",
+        "AS COMPANY"
+      ],
+      "details": "Faithfully reproduce the Special Box product arrangement from owner original: large white kit carton with pale pink brush-script accent and black \"SPECIAL BOX / BY ALINA SHAKHOVA\", small blue-labeled bottle with conical white cap, slim white Special Cream tube with dark AS mark, and the separate slim white REMOVER carton. Preserve proportions and printed identities; the owner photo is low resolution, so do not fabricate composition, amounts, certificate or instructional text. Small paper instruction card may be omitted to avoid illegible print; do not turn it into a gift voucher. Do not add any products. Category \"РЕМУВЕР\"; huge pink title \"SPECIAL\" / \"BOX\"; two factual badges \"ЩЕЛОЧНОЙ\" and \"AS COMPANY\". No volume badge, no exact counts, no complete-cycle or guaranteed-results claims. Keep actual box branding rather than the blank fake box from old ad.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nFaithfully reproduce the Special Box product arrangement from owner original: large white kit carton with pale pink brush-script accent and black \"SPECIAL BOX / BY ALINA SHAKHOVA\", small blue-labeled bottle with conical white cap, slim white Special Cream tube with dark AS mark, and the separate slim white REMOVER carton. Preserve proportions and printed identities; the owner photo is low resolution, so do not fabricate composition, amounts, certificate or instructional text. Small paper instruction card may be omitted to avoid illegible print; do not turn it into a gift voucher. Do not add any products. Category \"РЕМУВЕР\"; huge pink title \"SPECIAL\" / \"BOX\"; two factual badges \"ЩЕЛОЧНОЙ\" and \"AS COMPANY\". No volume badge, no exact counts, no complete-cycle or guaranteed-results claims. Keep actual box branding rather than the blank fake box from old ad.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/152557600402-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/152557600402-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-0bcf3843-075d-40f9-ba7d-76271b19f58e.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-591239fe-0a04-498c-af7c-d842531dff3c.png",
+      "correction_applied": true,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/152557600402-marketplace.png",
+      "asset_sha256": "da587d488fcfd7cd88b5bed0dfd58f584e3703b0d0fb685a4dbf398137f3103e",
+      "asset_bytes": 1388494,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "152557600402",
+          "title": "Ремувер щелочной Special Box",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3564-3730-4633-a263-353431643362/7aa942ab13fb7d52d2f6d6fa8813a053.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/152557600402-1.img",
+          "sha256": "3ac14afe0f0518ffe72e9a478c7ae0dd90493d49d4387f10bd890396c069c22c",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 204748,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "152557600402",
+          "title": "Ремувер щелочной Special Box",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6131-3339-4833-b463-306233326438/34549408.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/152557600402-3.img",
+          "sha256": "114c317c650f3311392bd92e082a4edf3363f69edd78063a63b3876f80c9f8f4",
+          "dimensions": [
+            300,
+            300
+          ],
+          "format": "JPEG",
+          "bytes": 33615,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 2,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "SPECIAL BOX",
+          "ЩЕЛОЧНОЙ",
+          "AS COMPANY",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": [
+          "Owner source is 300 px. Removed generated tube fine print 30 ml / brow and lash cream; preserved visible Special Cream and AS identity, without asserting unresolved label details."
+        ]
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3564-3730-4633-a263-353431643362/7aa942ab13fb7d52d2f6d6fa8813a053.jpg",
+        "https://static.tildacdn.com/stor6436-3934-4363-b639-653461643338/c0cc659889142360b43b8d251957abe7.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3564-3730-4633-a263-353431643362/7aa942ab13fb7d52d2f6d6fa8813a053.jpg",
+          "sha256": "3ac14afe0f0518ffe72e9a478c7ae0dd90493d49d4387f10bd890396c069c22c",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6436-3934-4363-b639-653461643338/c0cc659889142360b43b8d251957abe7.jpg",
+          "sha256": "7e4033ba10a29cde20ee5af26d2c4d0811f1a121330084fad83cdc7471dcc0dc",
+          "reason": "Generated secondary asserts unsupported Belarus manufacture."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6131-3339-4833-b463-306233326438/34549408.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "corrective_edit": {
+        "uid": "152557600402",
+        "prompt": "Make ONE PRECISE LABEL-CLEANUP to reference 1, preserving the entire PM.MARKET marketplace advertising design, the exact product set arrangement, white/pink style, all titles and the two badges, blue bottle, white large SPECIAL BOX, slim REMOVER carton, white SPECIAL CREAM tube, lighting and shadows. Reference 2 is the original owner photograph and is authoritative. On the white SPECIAL CREAM TUBE ONLY, remove the two unsupported generated pieces of fine print: \"Professional brow and lash cream\" and \"30 ml\". These were not confirmed by the source photograph and must not remain. Keep the vertical exact name \"SPECIAL CREAM\", the pink brush accent and the real large \"AS\" / \"COMPANY\" mark. Do NOT add any replacement ingredient, usage, benefit, number or volume statement; where source fine print was unreadable, preserve a naturally minimal photographic label instead of inventing readable content. Do not remove or change anything elsewhere. All ad overlay copy remains exactly \"РЕМУВЕР\", \"SPECIAL BOX\", \"ЩЕЛОЧНОЙ\", \"AS COMPANY\", \"PM.MARKET\". Do not change other packaging names or invent properties. Square, opaque white background.",
+        "referenced_image_paths": [
+          "/workspace/scratch/c22bb84e940c/generated_images/exec-0bcf3843-075d-40f9-ba7d-76271b19f58e.png",
+          "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/152557600402-3.img"
+        ]
+      }
+    },
+    {
+      "uid": "241676316262",
+      "name": "Contur Liquid remover",
+      "owner": [
+        "241676316262-2.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "CONTUR",
+        "ЛИКВИД",
+        "15 мл",
+        "ФЛАКОН С ДОЗАТОРОМ"
+      ],
+      "details": "One tall slim transparent/white pump bottle, clear cap and pale aqua horizontal rings exactly as owner photo. Preserve gold CONTUR / black PROFESSIONAL branding, Russian \"ЛИКВИД\", small line icons, and visible real \"СРЕДСТВО ДЛЯ УДАЛЕНИЯ ПИГМЕНТА\" package text. Avoid invented skin-zone text or new symbols. Category \"РЕМУВЕР\"; huge pink title \"CONTUR\" / \"ЛИКВИД\"; badges \"15 мл\" and \"ФЛАКОН С ДОЗАТОРОМ\". No hashtag, no invented Liquid English package label, no glycolic percentage or one-session claims.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne tall slim transparent/white pump bottle, clear cap and pale aqua horizontal rings exactly as owner photo. Preserve gold CONTUR / black PROFESSIONAL branding, Russian \"ЛИКВИД\", small line icons, and visible real \"СРЕДСТВО ДЛЯ УДАЛЕНИЯ ПИГМЕНТА\" package text. Avoid invented skin-zone text or new symbols. Category \"РЕМУВЕР\"; huge pink title \"CONTUR\" / \"ЛИКВИД\"; badges \"15 мл\" and \"ФЛАКОН С ДОЗАТОРОМ\". No hashtag, no invented Liquid English package label, no glycolic percentage or one-session claims.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/241676316262-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/241676316262-2.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-3bd4bad9-910e-4a42-88b6-e85aab097be4.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-3bd4bad9-910e-4a42-88b6-e85aab097be4.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/241676316262-marketplace.png",
+      "asset_sha256": "587062d4fe2e00f4f396234907c154f0d0a68e8cbe10375c0d46517452ceec67",
+      "asset_bytes": 1260696,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "241676316262",
+          "title": "Ремувер Ликвид, 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3536-3364-4234-b836-633236613237/d7f310fcbb4c1e9b1fec44a8fae8eca5.png",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/241676316262-1.img",
+          "sha256": "e486fb708af877de65eeca5cd11c85177da98f6f32b55deaf1c02ad7c0947d20",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "bytes": 1243114,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "241676316262",
+          "title": "Ремувер Ликвид, 15 ml",
+          "gallery_index": 1,
+          "url": "https://static.tildacdn.com/stor3635-3432-4361-a431-363461643165/76007980.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/241676316262-2.img",
+          "sha256": "5591c2025ff7160485e5dfc1b00fe0821091fd281fe9dc27976586a16211089a",
+          "dimensions": [
+            470,
+            470
+          ],
+          "format": "JPEG",
+          "bytes": 8377,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "CONTUR",
+          "ЛИКВИД",
+          "15 мл",
+          "ФЛАКОН С ДОЗАТОРОМ",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3536-3364-4234-b836-633236613237/d7f310fcbb4c1e9b1fec44a8fae8eca5.png"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3536-3364-4234-b836-633236613237/d7f310fcbb4c1e9b1fec44a8fae8eca5.png",
+          "sha256": "e486fb708af877de65eeca5cd11c85177da98f6f32b55deaf1c02ad7c0947d20",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3635-3432-4361-a431-363461643165/76007980.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    },
+    {
+      "uid": "814302859492",
+      "name": "AS Company Acid Remover 15 ml",
+      "owner": [
+        "814302859492-3.img"
+      ],
+      "overlay": [
+        "РЕМУВЕР",
+        "AS COMPANY",
+        "КИСЛОТНЫЙ",
+        "15 мл",
+        "ФЛАКОН"
+      ],
+      "details": "One white small bottle with metallic silver ribbed pointed cap and matching white rectangular box with pink side strip exactly as owner product render. Preserve AS COMPANY / ACID REMOVER / FOR REMOVING TATTOO AND PMU / 15 ML package text and pink side detail without inventing new print. Category \"РЕМУВЕР\"; huge pink title \"AS COMPANY\"; badges \"КИСЛОТНЫЙ\", \"15 мл\", \"ФЛАКОН\". Do not imply composition, glycolic acid, scar-free, no trauma, colour stability or session count. Product and box both fully visible.",
+      "prompt": "Edit reference 1 into one finished premium PM.MARKET marketplace advertising cover, opaque WHITE SQUARE 1:1 image. The LAST reference is the APPROVED BRAND STYLE ONLY: follow its dusty-rose pink oversize sans-serif title, near-black category and badge text, airy white background, fine rounded rose badge borders, crisp premium studio product photography and soft grounding shadow. Do not copy the last reference's product or wording. Intermediate references are authoritative owner PRODUCT IDENTITY photos; preserve the exact physical packaging shape, colour, proportions, visible branding and legible printing. Reconstruct the product from those owner photos, NOT from hallucinated text or wrong items in the previous ad. All prior overlay advertising copy must be removed. Use ONLY the exact new overlay strings supplied, besides faithful actual package printing and a small footer \"PM.MARKET\". Large pink name at upper left, prominent photorealistic product or set on the right, 2–3 spacious factual advertising badges at lower left. Keep product and all text fully in frame, no overlap, no clipping. Premium, legible, persuasive through excellent photography and clear factual features. No pills/capsules, no human/skin imagery, no before-after. Do not add any guarantees, safety, healing, scarring, pain, efficacy, universal zones, ingredient or percentage claims, country, gifts, courses, prices, certification seals or unprovided text. Keep real package printed text, without inventing illegible fine print.\nOne white small bottle with metallic silver ribbed pointed cap and matching white rectangular box with pink side strip exactly as owner product render. Preserve AS COMPANY / ACID REMOVER / FOR REMOVING TATTOO AND PMU / 15 ML package text and pink side detail without inventing new print. Category \"РЕМУВЕР\"; huge pink title \"AS COMPANY\"; badges \"КИСЛОТНЫЙ\", \"15 мл\", \"ФЛАКОН\". Do not imply composition, glycolic acid, scar-free, no trauma, colour stability or session count. Product and box both fully visible.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/814302859492-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/814302859492-3.img",
+        "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png"
+      ],
+      "transparent_background": false,
+      "factual_basis": "Exact native SKU title/description and viewed owner reference; no country, ingredient or outcome inference.",
+      "initial_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-36051208-f25d-4204-b993-32629916d387.png",
+      "selected_generated_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-36051208-f25d-4204-b993-32629916d387.png",
+      "correction_applied": false,
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/814302859492-marketplace.png",
+      "asset_sha256": "ae27fd172a09468b4f62738897337faff47f310b1261d2e56ddac49c11a23085",
+      "asset_bytes": 1422195,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "814302859492",
+          "title": "Ремувер кислотный, 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor6136-3862-4339-b335-343237663337/74fb9079cef5d7f348d75ab25b3cf425.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/814302859492-1.img",
+          "sha256": "a9a9476c3b500dbbcae5153cba94736b06e76acaff4eab9932ee99875d7322e2",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 254233,
+          "role": "prior_cover_edit_target"
+        },
+        {
+          "uid": "814302859492",
+          "title": "Ремувер кислотный, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3236-3666-4331-b035-376334393464/85388014.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/814302859492-3.img",
+          "sha256": "ece0b1209fffea542cc675c02ab7a6d4f21ec2c95d0238875f1f3f04d46fbcf0",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 111770,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+          "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "format": "PNG",
+          "role": "approved_brand_style_only"
+        }
+      ],
+      "selected": true,
+      "import_status": "not_imported",
+      "call_count": 1,
+      "visual_qa": {
+        "status": "passed",
+        "method": "Full generated-image review against viewed owner original and old ad; exact overlay, product count, visible label identity and unsupported claims checked",
+        "rendered_overlay_verified": [
+          "РЕМУВЕР",
+          "AS COMPANY",
+          "КИСЛОТНЫЙ",
+          "15 мл",
+          "ФЛАКОН",
+          "PM.MARKET"
+        ],
+        "product_count_verified": "Matches exact owner product arrangement",
+        "notes": []
+      },
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor6136-3862-4339-b335-343237663337/74fb9079cef5d7f348d75ab25b3cf425.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor6136-3862-4339-b335-343237663337/74fb9079cef5d7f348d75ab25b3cf425.jpg",
+          "sha256": "a9a9476c3b500dbbcae5153cba94736b06e76acaff4eab9932ee99875d7322e2",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3236-3666-4331-b035-376334393464/85388014.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [
+        "https://static.tildacdn.com/stor3137-6239-4565-a466-346461616535/e424ddd40c3f741c86e8056671d03b10.jpg"
+      ],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone."
+    }
+  ]
+}

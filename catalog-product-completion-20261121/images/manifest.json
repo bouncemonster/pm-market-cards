@@ -1,0 +1,600 @@
+{
+  "status": "selected_and_visually_reviewed",
+  "assets": [
+    {
+      "uid": "712506756182",
+      "filename": "712506756182.png",
+      "sha256": "fa19147918216e91d626eedd2c1b584b07d15a058e7d2cc9e0e884821cf615e0",
+      "bytes": 1523949,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "root-generation-manifest.json"
+    },
+    {
+      "uid": "473285984902",
+      "filename": "473285984902.png",
+      "sha256": "caa8b13557aae2ede7dc4c1fb91ed5b1ad33d0d07ba9f9ec97467c9f15fa46f3",
+      "bytes": 1575098,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "root-generation-manifest.json"
+    },
+    {
+      "uid": "636247363532",
+      "filename": "636247363532.png",
+      "sha256": "2e28732815aac4befc01d0edb166a8dccc466acceb7bc69cced23f6d5948d2f3",
+      "bytes": 1337267,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-manifest.json"
+    },
+    {
+      "uid": "791978979752",
+      "filename": "791978979752.png",
+      "sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+      "bytes": 1320824,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-manifest.json"
+    },
+    {
+      "uid": "436381757012",
+      "filename": "436381757012.png",
+      "sha256": "a65f2977e1c9768250c2c34dff2328347c6d833d4b7214cefe859ded58abc551",
+      "bytes": 1532279,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-manifest.json"
+    },
+    {
+      "uid": "254223849902",
+      "filename": "254223849902.png",
+      "sha256": "02e30aa5febb0d8b874782c5503e77559f74623debb5e901be2f64853cb9925a",
+      "bytes": 1252539,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "338336921382",
+      "filename": "338336921382.png",
+      "sha256": "4f9cd705ccb46c330552532eabe2ca5a4840ff0c7fb7e44902c133fe2aa29ce6",
+      "bytes": 1340385,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "346848026132",
+      "filename": "346848026132.png",
+      "sha256": "661e85f03e4dd89bb537d752ff6e58182a283ca4896eef9b55549fcad3f56318",
+      "bytes": 1396355,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "499598263292",
+      "filename": "499598263292.png",
+      "sha256": "5ad0f3f1e801e8cf5f68f9b89e5a7cf81728ba963653d875f6e2cf29dcd4fba7",
+      "bytes": 1441892,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "723284464152",
+      "filename": "723284464152.png",
+      "sha256": "cc21eb02a9df3774f10d52c3d897d255a3d42c416c20ed48de6fd48dc586308c",
+      "bytes": 1523368,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "547763844902",
+      "filename": "547763844902.png",
+      "sha256": "8d3cfad17600889af790c8d24299d30931e6e724e285f51b4b5b8be7ba0b366a",
+      "bytes": 1584084,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "756280737612",
+      "filename": "756280737612.png",
+      "sha256": "58c5b9d5385d7c8791efb8d04a3f161820864c9e3c842159c271062519d22279",
+      "bytes": 1603460,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "759540659542",
+      "filename": "759540659542.png",
+      "sha256": "8dd959bb220eb6359138e61083c07dcc84e29620f42151a27b8c10303b9c1aa1",
+      "bytes": 1654132,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "833057765072",
+      "filename": "833057765072.png",
+      "sha256": "c064319eda51ae5f679fa7cc0036fcb9efa4c10c3143e107b7e43d145bbfb5e3",
+      "bytes": 1573877,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "152557600402",
+      "filename": "152557600402.png",
+      "sha256": "da587d488fcfd7cd88b5bed0dfd58f584e3703b0d0fb685a4dbf398137f3103e",
+      "bytes": 1388494,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "241676316262",
+      "filename": "241676316262.png",
+      "sha256": "587062d4fe2e00f4f396234907c154f0d0a68e8cbe10375c0d46517452ceec67",
+      "bytes": 1260696,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "814302859492",
+      "filename": "814302859492.png",
+      "sha256": "ae27fd172a09468b4f62738897337faff47f310b1261d2e56ddac49c11a23085",
+      "bytes": 1422195,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch2-manifest.json"
+    },
+    {
+      "uid": "112165004881",
+      "filename": "112165004881.png",
+      "sha256": "358d6e039c65012cc286fc4cbaa6f830729626a51d63ca0b8f4aa9c17a676d65",
+      "bytes": 1720319,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "176638652791",
+      "filename": "176638652791.png",
+      "sha256": "6b7dc065b742139f083e1c268f877983a1d3900fef856b757866ecf60bee1840",
+      "bytes": 1385728,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "209585880441",
+      "filename": "209585880441.png",
+      "sha256": "70b0094af819de50242c0c397d7ab2ac7e6f3f7f906f3a148fd43dbc8b0dc8b7",
+      "bytes": 2000658,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "463224117171",
+      "filename": "463224117171.png",
+      "sha256": "3a595b0d41e26d8ef458aaaa4901a9dc99c2ee5c4984961bbe27887172d83a29",
+      "bytes": 1339078,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "536878378592",
+      "filename": "536878378592.png",
+      "sha256": "ec7a6ab5531bfbc338521b7f4dccdc9e49093c387fe3af9d1a8662b294505664",
+      "bytes": 1712484,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "948577144512",
+      "filename": "948577144512.png",
+      "sha256": "621c9bb740fc6ce64dc811c4ee5565dda51048fe7ddaa8a50319cdab02bf95d5",
+      "bytes": 1487974,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "615434643782",
+      "filename": "615434643782.png",
+      "sha256": "97e2bcfbd7fe82575c65c677096d7eb22f7e12b30bb40a75880ddb5493c56780",
+      "bytes": 1478111,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "737221420444",
+      "filename": "737221420444.png",
+      "sha256": "0be54ee0f17e1aead560a01698f9eb72870c19ffa8935c54e8e811bac24eab97",
+      "bytes": 1290302,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "content-agent-imagegen-batch3-manifest.json"
+    },
+    {
+      "uid": "102882388262",
+      "filename": "102882388262.png",
+      "sha256": "5622b05f3bf062153d422465726ebe6066ea2076fffc5c64651b0fe72e938efb",
+      "bytes": 1634455,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-manifest.json"
+    },
+    {
+      "uid": "481343676692",
+      "filename": "481343676692.png",
+      "sha256": "0705651a7af27fe56c853e9b8e78e612050d32fabd52b08ee1c428a321df24d6",
+      "bytes": 1423457,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-manifest.json"
+    },
+    {
+      "uid": "535558214972",
+      "filename": "535558214972.png",
+      "sha256": "fae86e9dc02dc62a353ae30f1c1049353795d7c9bca1acbad834da6b40aaa801",
+      "bytes": 1403711,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-manifest.json"
+    },
+    {
+      "uid": "498474023232",
+      "filename": "498474023232.png",
+      "sha256": "830165a3d78b18f73147c9a51a01e96597bceb85d97b19660a656755a6b35402",
+      "bytes": 1405141,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "555889467692",
+      "filename": "555889467692.png",
+      "sha256": "0a7fc659e878a8d4d61ddc8335a078b87f20f1c646cfced2654cf506fc0ca646",
+      "bytes": 1314712,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "558681598342",
+      "filename": "558681598342.png",
+      "sha256": "c0277997c0dbb87645ff4f2eb4e7db77ba01d51f508d67061c63820e384de7a6",
+      "bytes": 1604272,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "584042483882",
+      "filename": "584042483882.png",
+      "sha256": "2ae0136b98fa84bd2d8328da07de18b32daae42da8167dd4c845b73f2b845c45",
+      "bytes": 1451722,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "709245818692",
+      "filename": "709245818692.png",
+      "sha256": "88e3f2dcd72064ae40e41f91b4dcace4121abb437ec55caa0b9919ed7a8ac415",
+      "bytes": 1355445,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "733176815182",
+      "filename": "733176815182.png",
+      "sha256": "bdeae6cdff94066acc459137a0703d526fb797f44df9b5629b3ba099347e3933",
+      "bytes": 1628955,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "798976912232",
+      "filename": "798976912232.png",
+      "sha256": "9cda63d62fac7245be42b89729b11ba87b75d1293a15fc72a05bbce8ea42d701",
+      "bytes": 1478352,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "810893661302",
+      "filename": "810893661302.png",
+      "sha256": "eae015c29b7cdcb3c8542258c7577c3f876353d42aca5b5663c403d3b25c405d",
+      "bytes": 1463325,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "820787122582",
+      "filename": "820787122582.png",
+      "sha256": "512ae6ad8471670d025f1132b82737d2d15220d775cf5b3389336294716e4181",
+      "bytes": 1644150,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "886520413732",
+      "filename": "886520413732.png",
+      "sha256": "72309e2a7e7a6601d02b8c1bbff3fce226a359863f828d2d635dd34837a2d8ba",
+      "bytes": 1215528,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "947089186422",
+      "filename": "947089186422.png",
+      "sha256": "236f7fbd6f473614db3fb7e9403cffcd1dbe05476545860abf57ab3c8d6c0f27",
+      "bytes": 1615841,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "971552642332",
+      "filename": "971552642332.png",
+      "sha256": "a54ab25de562d2d08fd7111bbb47818b58a438e5982f1dd1754f089c5ec1832a",
+      "bytes": 1283020,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "986624225052",
+      "filename": "986624225052.png",
+      "sha256": "159d950d86f0ef4878b46de583d89193bd8e7519d86670e9d0c6b9c382082f61",
+      "bytes": 1386338,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-taxonomy-batch13-manifest.json"
+    },
+    {
+      "uid": "104439228872",
+      "filename": "104439228872.png",
+      "sha256": "4d8bd73c51af72b90c9a698ae429aac2ae3126b5898d78d198d45e5c04eb7b54",
+      "bytes": 1615195,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "142118451442",
+      "filename": "142118451442.png",
+      "sha256": "bb38911d9d46311bd6a402179f27997f9055846a05b2f4638a644bc6f8258892",
+      "bytes": 1615353,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "154416914792",
+      "filename": "154416914792.png",
+      "sha256": "106ee23d7f483487d6368b84d3edd5a907c274d429f1cdd0b5a7f674a2c1fe94",
+      "bytes": 1654811,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "262491047232",
+      "filename": "262491047232.png",
+      "sha256": "4042ffc10d5a890519c2be81b39812752f3a15ee5c0e76cf3afea8fcf99efc93",
+      "bytes": 1507077,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "293612807142",
+      "filename": "293612807142.png",
+      "sha256": "0e75aca15dabc064bef15785eb3fa8e10b047941794cdce81dccab91086b6582",
+      "bytes": 1616781,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "309071514602",
+      "filename": "309071514602.png",
+      "sha256": "4cfe238087e523809b0da80f180f287fa0fcc7115121d4954e3c1cbba0ec8701",
+      "bytes": 1337680,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "386924066492",
+      "filename": "386924066492.png",
+      "sha256": "80cb4ff2ca5d36e3c3b68cebda3401d31ad1720e8ea745888f50e772c49eceda",
+      "bytes": 1670065,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "422249021392",
+      "filename": "422249021392.png",
+      "sha256": "acdfe0e855ec85c6e36e9ed187995341be8f1069f25619f62ecb411266244024",
+      "bytes": 1316020,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "422757815802",
+      "filename": "422757815802.png",
+      "sha256": "5647b5a933c692b75fa85c451930448e8078dc9cfb743881dc7b23f1d7d8e953",
+      "bytes": 1415466,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "441673777512",
+      "filename": "441673777512.png",
+      "sha256": "bd3eb48bc4a897b5aa4754e892f60a7f3916c5b55f08a919db837941b5456fdc",
+      "bytes": 1662339,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "468548566062",
+      "filename": "468548566062.png",
+      "sha256": "90414bbec6478c4e31271e15080e291fe3bbc66cb86d59f53f48d824fba74898",
+      "bytes": 1525107,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "485237561302",
+      "filename": "485237561302.png",
+      "sha256": "0ef6fc47a00424741f9c4af070514dfc3c57e42b93ce2104d35c94a2e16db6aa",
+      "bytes": 1702780,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    },
+    {
+      "uid": "494570558352",
+      "filename": "494570558352.png",
+      "sha256": "676015032c8dba9dbbf74278affb35bc91cb85c09d4ec8c28c7a8c7a0613390d",
+      "bytes": 1548182,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review_manifest": "generation-images-manifest.json"
+    }
+  ],
+  "count": 54
+}

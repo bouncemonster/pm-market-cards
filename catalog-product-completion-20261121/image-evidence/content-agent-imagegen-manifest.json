@@ -1,0 +1,398 @@
+{
+  "created_utc": "2026-11-21T18:43:08.770964+00:00",
+  "agent": "catalog_content_audit",
+  "mode": "built-in imagegen edit with referenced_image_paths",
+  "scope": "Three marketplace covers only",
+  "status": "generated_copied_visually_reviewed_ready_for_root_import",
+  "content_and_source_unchanged": {
+    "content-proposals.json": {
+      "expected_sha256": "daeeb7145acde42b3af95997ad55d7b546604c9ff3c844265272891493d46cd6",
+      "actual_sha256": "daeeb7145acde42b3af95997ad55d7b546604c9ff3c844265272891493d46cd6",
+      "unchanged": true
+    },
+    "content-audit/content-candidate.csv": {
+      "expected_sha256": "c067988cb3821304728251a56902a1f143cff0d2951ad06c9393da81c2ee38bc",
+      "actual_sha256": "c067988cb3821304728251a56902a1f143cff0d2951ad06c9393da81c2ee38bc",
+      "unchanged": true
+    },
+    "content-audit/content-rollback.csv": {
+      "expected_sha256": "9df8395090a6d420ad87da692d8d4738024433aecd41d54aa417eec0d0f6c709",
+      "actual_sha256": "9df8395090a6d420ad87da692d8d4738024433aecd41d54aa417eec0d0f6c709",
+      "unchanged": true
+    },
+    "source/catalog.csv": {
+      "expected_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+      "actual_sha256": "1f62ac1e51b7387c836e38e88c510bfe52060994f4e935013cf5e96256fabf58",
+      "unchanged": true
+    }
+  },
+  "limitations": [
+    "Owner source images are only 500×500 or 516×688; visual reconstruction does not authenticate physical stock or establish unreadable composition.",
+    "New advertising copy uses only exact SKU/label facts or primary producer classification; no medical result or safety guarantees.",
+    "No native catalogue, publication visibility, price, quantity, taxonomy or description was changed by this image-generation work."
+  ],
+  "assets": [
+    {
+      "uid": "636247363532",
+      "name": "ReLine Osmosis",
+      "prompt": "Edit the first reference into one finished square PM.MARKET marketplace product advertising cover. The second reference is the authoritative OWNER PRODUCT PHOTO: preserve its exact product identity, bottle or box proportions, cap/pump, colours, label design, logo and printed text; use it to repair any invented fine print in the old generated cover. The third reference is STYLE ONLY: borrow the visual language of white background, dusty rose-pink oversized sans-serif typography, near-black body text, fine pink rounded badge borders, premium studio lighting and soft grounding shadows. Do not borrow the third reference's product or wording. Produce a polished, high resolution commercial product photograph composition, opaque white 1:1 square canvas. Maintain the existing unified PM.MARKET visual system: oversized pink product name at upper left, black category heading, large photorealistic product on the right, two or three roomy factual advertising badges at lower left, generous margins and strong readability at thumbnail size. This must look like an advertising marketplace listing, with purposeful hierarchy and factual feature badges. No decorations shaped like medicines, pills or capsules, no people, no before-and-after imagery. All new overlay copy must be spelled precisely in Russian/Latin as supplied below. Remove ALL previous promotional copy and claims except the exact replacement text supplied below. Do not invent additional benefits, medical claims, compatibility, origin, discounts, seals or certifications. No health guarantees. Preserve real printed packaging copy as shown in the owner photo; do not copy garbled label details from the previous generated cover. Add only a modest footer \"PM.MARKET\".\nEXACT REPLACEMENT OVERLAY: black category heading \"НЕЙТРАЛИЗАТОР\"; large dusty pink product name on two clean lines \"RELINE\" and \"OSMOSIS\"; feature badge one \"15 мл\"; feature badge two \"ФЛАКОН\". No other promotional statement. In particular this product must NEVER be called \"РЕМУВЕР\" anywhere in the new overlay, and there must be no scar, removal, recovery or skin-zone claims. The physical bottle is the silver-white label, transparent little bottle and white ribbed conical screw cap from reference two, with the light-blue \"Re\" and black \"Line\", product name \"Osmosis\", and small printed Russian \"восстанавливающий гель для кожи\". Preserve those printed packaging words only on the bottle, not as extra overlay. Make the single bottle large, beautifully lit and crisp on the right with a restrained slight tilt; no additional product or accessories. The final image must contain only the exact new overlay strings and faithful physical package printing.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg"
+      ],
+      "transparent_background": false,
+      "factual_basis": [
+        "Owner original: product identity and printed label",
+        "Native exact SKU and primary producer listing: neutralizer, 15 ml"
+      ],
+      "primary_source_urls": [
+        "https://permanentline-shop.ru/all/tproduct/576668599381-neitralizator-reline-osmosis"
+      ],
+      "removed_claims": [
+        "Ремувер для татуажа",
+        "Мягкое удаление пигмента без шрамов",
+        "Осмотическая формула вытягивает краску бережно",
+        "Без заживляющих кремов",
+        "Быстрое восстановление кожи",
+        "Для любых зон",
+        "Экономичный расход"
+      ],
+      "generated_original_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-5612c049-a5a9-47e7-87d5-dba80ef13ddd.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/636247363532-marketplace.png",
+      "asset_sha256": "2e28732815aac4befc01d0edb166a8dccc466acceb7bc69cced23f6d5948d2f3",
+      "asset_bytes": 1337267,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "636247363532",
+          "title": "ReLine Osmosis, 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3063-6562-4238-b965-363264653561/8163e513a531f45dba3298f144f8dea9.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-1.img",
+          "sha256": "d42d74d8a4ca0167e30b49aff33dc3116183c4f52c02123568c030f10d24f0b0",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 220660,
+          "role": "prior_cover_style_and_edit_target"
+        },
+        {
+          "uid": "636247363532",
+          "title": "ReLine Osmosis, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/636247363532-3.img",
+          "sha256": "4a8ab30db90958343c459909d8e1bdc1a818ecd068a8214dc01204e51a69bfdb",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 26102,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg",
+          "sha256": "293d08cb1d69f3febb5363716acb5b133f9e5ea1df7729b11e36d7f09f94256f",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 243398,
+          "role": "brand_style_only_no_product_or_claims"
+        }
+      ],
+      "rendered_overlay_verified": [
+        "НЕЙТРАЛИЗАТОР",
+        "RELINE",
+        "OSMOSIS",
+        "15 мл",
+        "ФЛАКОН",
+        "PM.MARKET"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "method": "Assistant inspected full generated image and compared with viewed owner original and prior cover",
+        "product_identity": "Correct colour, bottle/pump/box form, label identity and legible principal printing retained",
+        "overlay_accuracy": "Exact approved strings are readable; unsupported old promotional claims absent",
+        "layout": "Square; product and copy do not overlap; white/pink/ink ad style with factual feature badges",
+        "label_limit": "AI reconstruction is not a warehouse product verification; illegible source side fine print is not evidence for ingredients or instructions",
+        "no_raw_original_as_cover": true
+      },
+      "call_count": 1,
+      "import_status": "not_imported",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3063-6562-4238-b965-363264653561/8163e513a531f45dba3298f144f8dea9.jpg",
+        "https://static.tildacdn.com/stor3737-3937-4261-b165-393564636236/b4acdec7b09b8b8a765200409df6ed78.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3063-6562-4238-b965-363264653561/8163e513a531f45dba3298f144f8dea9.jpg",
+          "sha256": "d42d74d8a4ca0167e30b49aff33dc3116183c4f52c02123568c030f10d24f0b0",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3737-3937-4261-b165-393564636236/b4acdec7b09b8b8a765200409df6ed78.jpg",
+          "sha256": "ad1adfb70ed31cb2d0a3cacf34c9a871aa885f4ccc8af4d1ae8be43165e104d0",
+          "reason": "Generated secondary wrongly classifies Osmosis as a remover."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6261-3836-4830-b866-643666356561/84075307.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "selected": true
+    },
+    {
+      "uid": "791978979752",
+      "name": "ReLine Professional",
+      "prompt": "Edit the first reference into one finished square PM.MARKET marketplace product advertising cover. The second reference is the authoritative OWNER PRODUCT PHOTO: preserve its exact product identity, bottle or box proportions, cap/pump, colours, label design, logo and printed text; use it to repair any invented fine print in the old generated cover. The third reference is STYLE ONLY: borrow the visual language of white background, dusty rose-pink oversized sans-serif typography, near-black body text, fine pink rounded badge borders, premium studio lighting and soft grounding shadows. Do not borrow the third reference's product or wording. Produce a polished, high resolution commercial product photograph composition, opaque white 1:1 square canvas. Maintain the existing unified PM.MARKET visual system: oversized pink product name at upper left, black category heading, large photorealistic product on the right, two or three roomy factual advertising badges at lower left, generous margins and strong readability at thumbnail size. This must look like an advertising marketplace listing, with purposeful hierarchy and factual feature badges. No decorations shaped like medicines, pills or capsules, no people, no before-and-after imagery. All new overlay copy must be spelled precisely in Russian/Latin as supplied below. Remove ALL previous promotional copy and claims except the exact replacement text supplied below. Do not invent additional benefits, medical claims, compatibility, origin, discounts, seals or certifications. No health guarantees. Preserve real printed packaging copy as shown in the owner photo; do not copy garbled label details from the previous generated cover. Add only a modest footer \"PM.MARKET\".\nEXACT REPLACEMENT OVERLAY: black category heading \"РЕМУВЕР\"; large dusty pink product name \"RELINE\" and \"PROFESSIONAL\", fitted on clean lines with no clipping; badge one \"15 мл\"; badge two \"ДЛЯ ПРОФЕССИОНАЛОВ\". No other promotional statement. Remove all promises about session counts, scarring, safety, speed, all facial zones, any-age pigment, economical use or colour stability. The physical product is the slender clear bottle containing pink fluid, silver-white label with the red \"Re\" and black \"Line\", white ribbed conical screw cap, exact \"Professional\" and the small printed Russian \"гель для осветления кожи\" from reference two. Use that owner photograph to preserve the real physical printed label. Do not retain fake or garbled fine print from the first reference. Make the single bottle prominent on the right, crisp studio photography, restrained slight tilt. Keep the long word PROFESSIONAL legible without placing the product over the text. No extra accessory. The final image must contain only the exact new overlay strings and faithful physical package printing.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg"
+      ],
+      "transparent_background": false,
+      "factual_basis": [
+        "Owner original: ReLine Professional bottle identity, label",
+        "Native exact SKU and primary producer listing: remover, professional application, 15 ml"
+      ],
+      "primary_source_urls": [
+        "https://permanentline-shop.ru/all/tproduct/265716024611-remuver-reline-proffesional"
+      ],
+      "removed_claims": [
+        "Бережное осветление пигмента любой давности",
+        "1–5 сеансов",
+        "Без риска рубцов",
+        "Не меняет оттенок",
+        "Экономичный расход",
+        "Для всех зон лица",
+        "Быстрый результат",
+        "Эффект с 1 сеанса"
+      ],
+      "generated_original_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-fb50d05e-0dca-472d-aac0-f6219feb8790.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/791978979752-marketplace.png",
+      "asset_sha256": "e4ae1ee1cfbd9752346cf3fe24ea39541dcd810645eaaa6fd42ff1287238c29b",
+      "asset_bytes": 1320824,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "791978979752",
+          "title": "ReLine Proffesional, 15 ml",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3562-6665-4234-b934-333462346336/39e92791b96e6c8c05c1661e00fef756.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-1.img",
+          "sha256": "a27f8025b33f3f0da19fd4b27ca364e1c54cb60297bee6261dac055fca620ab5",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 281952,
+          "role": "prior_cover_style_and_edit_target"
+        },
+        {
+          "uid": "791978979752",
+          "title": "ReLine Proffesional, 15 ml",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/791978979752-3.img",
+          "sha256": "450d71121ea65d74746588373da4b32ac94d46c810e02a9e8e00b102324f3f5e",
+          "dimensions": [
+            500,
+            500
+          ],
+          "format": "JPEG",
+          "bytes": 37640,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg",
+          "sha256": "293d08cb1d69f3febb5363716acb5b133f9e5ea1df7729b11e36d7f09f94256f",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 243398,
+          "role": "brand_style_only_no_product_or_claims"
+        }
+      ],
+      "rendered_overlay_verified": [
+        "РЕМУВЕР",
+        "RELINE",
+        "PROFESSIONAL",
+        "15 мл",
+        "ДЛЯ ПРОФЕССИОНАЛОВ",
+        "PM.MARKET"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "method": "Assistant inspected full generated image and compared with viewed owner original and prior cover",
+        "product_identity": "Correct colour, bottle/pump/box form, label identity and legible principal printing retained",
+        "overlay_accuracy": "Exact approved strings are readable; unsupported old promotional claims absent",
+        "layout": "Square; product and copy do not overlap; white/pink/ink ad style with factual feature badges",
+        "label_limit": "AI reconstruction is not a warehouse product verification; illegible source side fine print is not evidence for ingredients or instructions",
+        "no_raw_original_as_cover": true
+      },
+      "call_count": 1,
+      "import_status": "not_imported",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3562-6665-4234-b934-333462346336/39e92791b96e6c8c05c1661e00fef756.jpg",
+        "https://static.tildacdn.com/stor3134-3263-4334-a137-646665303462/862a4a711fc2683564d9b9d47b6e724f.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3562-6665-4234-b934-333462346336/39e92791b96e6c8c05c1661e00fef756.jpg",
+          "sha256": "a27f8025b33f3f0da19fd4b27ca364e1c54cb60297bee6261dac055fca620ab5",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor3134-3263-4334-a137-646665303462/862a4a711fc2683564d9b9d47b6e724f.jpg",
+          "sha256": "cf217cf45d1d35bf08cae6762d12be2a79c7b9777a4a444cdff2641526fe392f",
+          "reason": "Generated secondary heading misspells actual Professional package identity as PROFFESIONAL."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor6465-6663-4466-a639-336538666162/79497864.jpg"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "selected": true
+    },
+    {
+      "uid": "436381757012",
+      "name": "ICE BLUE CREAM",
+      "prompt": "Edit the first reference into one finished square PM.MARKET marketplace product advertising cover. The second reference is the authoritative OWNER PRODUCT PHOTO: preserve its exact product identity, bottle or box proportions, cap/pump, colours, label design, logo and printed text; use it to repair any invented fine print in the old generated cover. The third reference is STYLE ONLY: borrow the visual language of white background, dusty rose-pink oversized sans-serif typography, near-black body text, fine pink rounded badge borders, premium studio lighting and soft grounding shadows. Do not borrow the third reference's product or wording. Produce a polished, high resolution commercial product photograph composition, opaque white 1:1 square canvas. Maintain the existing unified PM.MARKET visual system: oversized pink product name at upper left, black category heading, large photorealistic product on the right, two or three roomy factual advertising badges at lower left, generous margins and strong readability at thumbnail size. This must look like an advertising marketplace listing, with purposeful hierarchy and factual feature badges. No decorations shaped like medicines, pills or capsules, no people, no before-and-after imagery. All new overlay copy must be spelled precisely in Russian/Latin as supplied below. Remove ALL previous promotional copy and claims except the exact replacement text supplied below. Do not invent additional benefits, medical claims, compatibility, origin, discounts, seals or certifications. No health guarantees. Preserve real printed packaging copy as shown in the owner photo; do not copy garbled label details from the previous generated cover. Add only a modest footer \"PM.MARKET\".\nEXACT REPLACEMENT OVERLAY: black category heading \"КРЕМ\"; large dusty pink product name \"ICE BLUE\" and \"CREAM\", arranged clearly at upper left; badge one \"БЕЗ ЛИДОКАИНА\"; badge two \"30 г\"; badge three \"ФЛАКОН С ДОЗАТОРОМ\". No other promotional statement. Remove every claim about pain, allergy, sensitive skin, swelling, redness, bleaching, maintaining pigment colour and procedure timing. Use the owner product photo in reference two as authoritative: one pale icy-blue rectangular box and one white pump bottle with transparent cylindrical cap, pale icy-blue label with a delicate dark sakura branch. Preserve the package identity and all legible actual printed words: \"AS COMPANY\", \"ICE BLUE CREAM\", \"1\", \"NO LIDOCAINE\", \"SAKURA\", \"30 g\". Do not invent or reinterpret printed fine text. Place box and pump bottle together prominently on the right, product photograph quality, no unneeded accessory. Keep large pink title and black badges readable on the left, with no overlap. The final image must contain only the exact new overlay strings and faithful physical package printing.",
+      "referenced_image_paths": [
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/436381757012-1.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/436381757012-3.img",
+        "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg"
+      ],
+      "transparent_background": false,
+      "factual_basis": [
+        "Owner original explicitly prints NO LIDOCAINE, SAKURA, 30 g; visible pump bottle and box",
+        "Native exact SKU: ICE BLUE CREAM without lidocaine"
+      ],
+      "primary_source_urls": [],
+      "removed_claims": [
+        "Комфорт без боли и аллергии",
+        "Для чувствительной кожи",
+        "Сохраняет цвет",
+        "Не отбеливает кожу",
+        "Снимает отёк",
+        "Убирает покраснения",
+        "Перед процедурой"
+      ],
+      "generated_original_path": "/workspace/scratch/c22bb84e940c/generated_images/exec-37530130-ae3c-4756-be87-42b2c8006ac6.png",
+      "asset_path": "/workspace/shared/pm-market-product-completion/assets/436381757012-marketplace.png",
+      "asset_sha256": "a65f2977e1c9768250c2c34dff2328347c6d833d4b7214cefe859ded58abc551",
+      "asset_bytes": 1532279,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "PNG",
+      "sources": [
+        {
+          "uid": "436381757012",
+          "title": "ICE BLUE CREAM no lidocaine, 30 г",
+          "gallery_index": 0,
+          "url": "https://static.tildacdn.com/stor3930-6261-4639-b637-333463663639/2be8c55b8e003ac3905293804d5a02db.jpg",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/436381757012-1.img",
+          "sha256": "55c8d2cacc6bba9f89064f1db1d98246f45e5514c975774cc13e7b82967cb792",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 290430,
+          "role": "prior_cover_style_and_edit_target"
+        },
+        {
+          "uid": "436381757012",
+          "title": "ICE BLUE CREAM no lidocaine, 30 г",
+          "gallery_index": 2,
+          "url": "https://static.tildacdn.com/stor3035-6431-4064-b061-326465646234/34513748.webp",
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/claims-sources/436381757012-3.img",
+          "sha256": "5d5fbfd1f06da8bb724b5ecbdbbc1c9ba93e41728a1ed63e19fb9e516b1ca790",
+          "dimensions": [
+            516,
+            688
+          ],
+          "format": "WEBP",
+          "bytes": 23166,
+          "role": "owner_product_identity"
+        },
+        {
+          "path": "/workspace/shared/pm-market-product-completion/image-audit/spot-source/712506756182-1.jpg",
+          "sha256": "293d08cb1d69f3febb5363716acb5b133f9e5ea1df7729b11e36d7f09f94256f",
+          "dimensions": [
+            1680,
+            1680
+          ],
+          "format": "JPEG",
+          "bytes": 243398,
+          "role": "brand_style_only_no_product_or_claims"
+        }
+      ],
+      "rendered_overlay_verified": [
+        "КРЕМ",
+        "ICE BLUE",
+        "CREAM",
+        "БЕЗ ЛИДОКАИНА",
+        "30 г",
+        "ФЛАКОН С ДОЗАТОРОМ",
+        "PM.MARKET"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "method": "Assistant inspected full generated image and compared with viewed owner original and prior cover",
+        "product_identity": "Correct colour, bottle/pump/box form, label identity and legible principal printing retained",
+        "overlay_accuracy": "Exact approved strings are readable; unsupported old promotional claims absent",
+        "layout": "Square; product and copy do not overlap; white/pink/ink ad style with factual feature badges",
+        "label_limit": "AI reconstruction is not a warehouse product verification; illegible source side fine print is not evidence for ingredients or instructions",
+        "no_raw_original_as_cover": true
+      },
+      "call_count": 1,
+      "import_status": "not_imported",
+      "remove_gallery_urls": [
+        "https://static.tildacdn.com/stor3930-6261-4639-b637-333463663639/2be8c55b8e003ac3905293804d5a02db.jpg",
+        "https://static.tildacdn.com/stor6236-6138-4234-b361-623939313038/58bd3e75ed62633d2aa01be07dff6faa.jpg"
+      ],
+      "remove_gallery_evidence": [
+        {
+          "url": "https://static.tildacdn.com/stor3930-6261-4639-b637-333463663639/2be8c55b8e003ac3905293804d5a02db.jpg",
+          "sha256": "55c8d2cacc6bba9f89064f1db1d98246f45e5514c975774cc13e7b82967cb792",
+          "reason": "Superseded cover contains inaccurate/unsupported advertising claims or wrong identity."
+        },
+        {
+          "url": "https://static.tildacdn.com/stor6236-6138-4234-b361-623939313038/58bd3e75ed62633d2aa01be07dff6faa.jpg",
+          "sha256": "fe6320e656a5db494333fbf1437da778620f67eae099da4347643fa9b96e5fe2",
+          "reason": "Generated secondary claims no anesthetic and reduced discomfort; label confirms only no lidocaine."
+        }
+      ],
+      "keep_owner_original_urls": [
+        "https://static.tildacdn.com/stor3035-6431-4064-b061-326465646234/34513748.webp"
+      ],
+      "keep_other_reviewed_gallery_urls": [],
+      "gallery_cleanup_review": "All available native gallery entries in this UID scope visually reviewed; no removal by size or colour alone.",
+      "selected": true
+    }
+  ],
+  "gallery_cleanup_added_utc": "2026-11-21T19:01:17.593293+00:00",
+  "manifest_before_cleanup_sha256": "9442837dcbd8b8c437cc2adbfe93233e1cf3c5cadb45a84b262a66ede00aedb8"
+}
