@@ -1,0 +1,1243 @@
+{
+  "status": "reviewed_remediation_plan_assets_generating",
+  "native_baseline_sha256": "20d5cfc9cb66c218fc1f191901a13437abb0fee9456296f6f041ee70a080bf04",
+  "scope": "6published parents,28published variants; assignments from native12:06 snapshot; CDN bytes fetched for audit; no catalog writes",
+  "summary": {
+    "variants": 28,
+    "exact_owner_configuration_zone_matches": 25,
+    "family_only_exact_SKU_HOLD": 3,
+    "wrong_legacy_registry_bindings_resolved_by_label_in_native_parent_gallery": 2,
+    "native_parent_gallery_urls": 68,
+    "owner_original_urls_preserved": 27,
+    "neutral_old_styled_image_preserved": 1,
+    "misleading_old_rasters_remove_if_present": 40
+  },
+  "variant_plan": [
+    {
+      "uid": "694387810412",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 25/1 RLLT - 0.25 - 1RL - LT",
+      "native_editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6537-6239-4338-a136-323062626463/3fb701a44756b683c4329eeb289bc513.png",
+      "current_first_photo_sha256": "685a584c66bfa7673d78022c77f24afab53e6da0eb98877a702532d0b1f07ad1",
+      "observed_issues": [
+        "Неподтверждённое европейское качество и20шт как товарная комплектация; общий фронт коробки не подтверждает25/1RLLT"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "recommended_owner_photo_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/868979329382.jpg",
+      "observed_owner_label": "KWADRON CARTRIDGE SYSTEM; SKU не виден",
+      "exact_configuration_zone_photo_matched": false,
+      "physical_photo_status": "HOLD_exact_SKU_label_not_visible",
+      "registry_source_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "classic-family-1rl",
+      "approved_family_only_caption": "Пример упаковки серии",
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "185708344162",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 30/1 RLLT - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3230-3236-4635-b765-393833623035/9d465eaeb8b53f7ed45e1cb5158d74fa.jpg",
+      "current_first_photo_sha256": "2cb18039f6170fbfbf237f170f00a5f715a57d260bd379fb1a01899b6515c721",
+      "observed_issues": [
+        "Ручная сборка; гарантия качества; медицинская сталь; безопасность; общий фронт не подтверждает30/1RLLT"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "recommended_owner_photo_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/868979329382.jpg",
+      "observed_owner_label": "KWADRON CARTRIDGE SYSTEM; SKU не виден",
+      "exact_configuration_zone_photo_matched": false,
+      "physical_photo_status": "HOLD_exact_SKU_label_not_visible",
+      "registry_source_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "classic-family-1rl",
+      "approved_family_only_caption": "Пример упаковки серии",
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "128346466142",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/1 RLLT - 0.35 - 1RL - LT",
+      "native_editions": "Тип игл:35/1 RLLT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6333-3831-4439-b466-653736316264/17580b041d4c5792254a0028515f8126.jpg",
+      "current_first_photo_sha256": "5bdb99780c1e4e9e579d832fa3fd4cbceedda7052080f4e63775ca5d97d6eeaf",
+      "observed_issues": [
+        "Премиальное европейское качество; универсальность для зон; общий фронт не подтверждает35/1RLLT; в плашке напечатан UID"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "recommended_owner_photo_sha256": "a5855dddf57abcd6aab608a6a608cdf58ddc76997c2c8c66cb3e701a53474bbf",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/868979329382.jpg",
+      "observed_owner_label": "KWADRON CARTRIDGE SYSTEM; SKU не виден",
+      "exact_configuration_zone_photo_matched": false,
+      "physical_photo_status": "HOLD_exact_SKU_label_not_visible",
+      "registry_source_url": "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "classic-family-1rl",
+      "approved_family_only_caption": "Пример упаковки серии",
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "417482400882",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/5 SEMLT - 0.35 - 5SEM - LT",
+      "native_editions": "Тип игл:35/5 SEMLT;Диаметр иглы, мм:0.35;Конфигурация игл:5SEM;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3236-3165-4132-a434-623062633864/d9def328d353f186cb80ea660311652a.png",
+      "current_first_photo_sha256": "de3593fa011cb5e7730e55b74b4d6ad51f4ee8faca10606b72342c86e1e872e9",
+      "observed_issues": [
+        "Проверенное европейское качество; неопределённая совместимость с машинками;20шт как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+      "recommended_owner_photo_sha256": "5ae0be238e6a9b78c7eb0de58934216c31ced2b1f38cdfa59f7392ae8daf38ea",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/417482400882.jpg",
+      "observed_owner_label": "#12 35/5SEMLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "417482400882",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "579563154792",
+      "parent_uid": "868979329382",
+      "native_title": "Kwadron Classic - 35/5 FLLT - 0.35 - 5FL - LT",
+      "native_editions": "Тип игл:35/5 FLLT;Диаметр иглы, мм:0.35;Конфигурация игл:5FL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3132-3034-4162-b363-303936306231/d4456ba0fa6087f2214d8830310204d0.jpg",
+      "current_first_photo_sha256": "fbff5f27ebfc72521340e51c5047a6ff0685b8ffae812d7db059650fac844f3b",
+      "observed_issues": [
+        "Сталь медицинского класса; полная стерильность в каждом картридже; защитная мембрана с плавным ходом"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg",
+      "recommended_owner_photo_sha256": "e0e1ddcdbf4939ff29ab34136700fa40a6c383e8d8a673e2cf41c23cf5e435f5",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/579563154792.jpg",
+      "observed_owner_label": "#12 35/5 FLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "579563154792",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "675810520422",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 25/1 RLLT - 0.25 - 1RL - LT",
+      "native_editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3231-3735-4961-b134-333837373331/4db6d26ca44d2da8c5f6cd318b0895b7.png",
+      "current_first_photo_sha256": "b83e49642e2da39ad62b701735477ab5e7b000ad3c8542d9255d12a8c0e87ff4",
+      "observed_issues": [
+        "Максимальная безопасность; сверхострая заточка;20шт как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+      "recommended_owner_photo_sha256": "ef1bf91523dc5817c67c6907f6e24c136dd278a19697291659ef4ec22e29f979",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/675810520422.jpg",
+      "observed_owner_label": "25/1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "675810520422",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "845989220512",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 30/1 RLLT - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3435-6232-4365-b236-363439623237/eeee861ecfbdf5f2928415257a286d49.jpg",
+      "current_first_photo_sha256": "351171a002a67185010efb3b92283a94a0b48f007d3eba74dffeb1065882baf8",
+      "observed_issues": [
+        "Безопасность; стерильная упаковка; равномерное внесение пигмента;20шт как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+      "recommended_owner_photo_sha256": "781160103ef227e5d5c6fce32613a21ef5086dcfe1e8d8a3323c1ad09ed23eb4",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/845989220512.jpg",
+      "observed_owner_label": "30/1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "845989220512",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "733031489742",
+      "parent_uid": "360375982152",
+      "native_title": "Kwadron Optima - 35/1 RLLT - 0.35 - 1RL - LT",
+      "native_editions": "Тип игл:35/1 RLLT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6238-3861-4237-b030-616434376165/35b94a6ce1d6c0f423de7a43b1ffda0e.jpg",
+      "current_first_photo_sha256": "f345dec548013da248bec42413cb0775a60ade50b07d694791c6188d479252ba",
+      "observed_issues": [
+        "Минимальная травматизация; быстрое заживление кожи; стерильная упаковка; высокая безопасность процедуры; проверенное качество"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg",
+      "recommended_owner_photo_sha256": "966af05d63c64b82ad50403c67cbf97384c590a9cba9a169c05913cfe21c5500",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/733031489742.jpg",
+      "observed_owner_label": "35/1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "733031489742",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "166108480362",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 25/1 RLLT - 0.25 - 1RL - LT",
+      "native_editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3430-6665-4238-b731-323435663339/db64d372cf1fa6e032674b884c1a2167.jpg",
+      "current_first_photo_sha256": "929c563213620645431904a433b1b1f05a4c2dc5698ce7522ddae9599e2d3bc6",
+      "observed_issues": [
+        "Иглы из титана; мембрана без утечки; идеальная подача; неподтверждённый конус для губ"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+      "recommended_owner_photo_sha256": "b1df454b25daa8e9284500584d3450e861283ed1948791266293742307f5963e",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/166108480362.jpg",
+      "observed_owner_label": "#08 0.25 1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "166108480362",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "472935631552",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/1 RLLT - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3164-3262-4666-b939-323334303830/f601ff84b623906e18137e65aa2e345d.png",
+      "current_first_photo_sha256": "36f455658afa218659aef19efdc5b9ee4bebcb58fc58aa97a37250be6fa6cad6",
+      "observed_issues": [
+        "Минимизация травматизации; медицинская сталь и пластик; универсальная посадка; безупречная подача"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+      "recommended_owner_photo_sha256": "b832891879f769684da917b9d79f0e2c5874183710dc4a9b1a547a979f71499e",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/472935631552.jpg",
+      "observed_owner_label": "#10 0.30 1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "472935631552",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "642934304122",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/1 RLMT - 0.30 - 1RL - MT",
+      "native_editions": "Тип игл:30/1 RLMT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor3832-3837-4462-b363-363564373062/09e22fe3e11f6a0f8f1ad6c04013a951.png",
+      "current_first_photo_sha256": "8af4b61aa84172abf436382a5ec12bd4050be40f07466a67f7c9ea87133b4b82",
+      "observed_issues": [
+        "Универсальные для всех машинок; медицинские сталь и пластик; защита от протекания; безупречный ПМ"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+      "recommended_owner_photo_sha256": "1fc84cfe409c3e2d0090745617514920476bfb5c988f11c44568642d23f42cf2",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/642934304122.jpg",
+      "observed_owner_label": "#10 0.30 1RLMT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "642934304122",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "976597887252",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 33/1 RLLT - 0.33 - 1RL - LT",
+      "native_editions": "Тип игл:33/1 RLLT;Диаметр иглы, мм:0.33;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6334-3639-4631-b434-303639343133/6025ef4c95ca063ca10db4883823739c.png",
+      "current_first_photo_sha256": "55d83b2d5be4a44165bd4fba0a8aa5834d89c861d4035d539d6c6b5f00b1a409",
+      "observed_issues": [
+        "Защитная мембрана для безопасности; точное нанесение для идеального ПМ"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+      "recommended_owner_photo_sha256": "fddd818637db1bb3e043e99799c973add68772f9bc5e8af6839fcdd00a6af069",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/976597887252.jpg",
+      "observed_owner_label": "#12 0.33 1RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "976597887252",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "871272420912",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 35/1 RLMT - 0.35 - 1RL - MT",
+      "native_editions": "Тип игл:35/1 RLMT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor3063-3838-4830-b736-363034616366/679066b41184df0cd09b063aa8c061e2.jpg",
+      "current_first_photo_sha256": "905a85602f3c5dd39b15404eb2c5b57718782dd145efd1de6af72875a0569400",
+      "observed_issues": [
+        "Минимальная травматизация; универсальность; надёжная защита"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+      "recommended_owner_photo_sha256": "e06b3c5c8097b84c5ab2ede9371b89a6f75c578fa2963dd462dda35efd0d59e3",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/871272420912.jpg",
+      "observed_owner_label": "#12 0.35 1RLMT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "871272420912",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "319140886832",
+      "parent_uid": "729564047722",
+      "native_title": "Them - 30/3 RLLT - 0.30 - 3RL - LT",
+      "native_editions": "Тип игл:30/3 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:3RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3333-6235-4138-b036-313531616139/4cc7ad9e62705d2e12206a67f294d546.jpg",
+      "current_first_photo_sha256": "9937b974ce6799f2e9b8bd3f020128147f5c0d49af2d40f87d0c4289ced97690",
+      "observed_issues": [
+        "Сниженная травматизация; предотвращает обратный ток; стабильная подача;20шт как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg",
+      "recommended_owner_photo_sha256": "3f01aaaaeb10af57f6c0f20ba5568c3113a21c8b76b37634aca954be3899800e",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/319140886832.jpg",
+      "observed_owner_label": "#10 0.30 3RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "319140886832",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "507196237952",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/1 RLLT (H) - БРОВИ (волоски) - 0.25 - 1RL - LT",
+      "native_editions": "Тип игл:25/1 RLLT (H);Название:БРОВИ (волоски);Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6239-3034-4136-b935-626665336630/02471fd7036765195fd88055a1d7b15b.jpg",
+      "current_first_photo_sha256": "1fdcfb30e1baf992aee996935a4f15e6cb1a59e6384799b99850adaa745afe9b",
+      "observed_issues": [
+        "Идеальные волоски; мягкий вход; микро-пиксели; точный контроль"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+      "recommended_owner_photo_sha256": "9b27e8fd1c62f2aa60238d36115cbd188a972a008e6a0fee3bb20a87ff113ea7",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/507196237952.jpg",
+      "observed_owner_label": "Для линейных техник (волоски),1RLLT(H)0.25",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "507196237952",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "880067819552",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (H) - БРОВИ (волоски) - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT (H);Название:БРОВИ (волоски);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6238-3265-4630-b665-646664396665/9c672ad82adafd805ecd2fcd9111daa1.jpg",
+      "current_first_photo_sha256": "4287eb729cba7d4b8fc1d35964e67ba02d0198d5614575178cdb66206a4aec3e",
+      "observed_issues": [
+        "Минимальная травматизация; ручная проверка; чёткое нанесение"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+      "recommended_owner_photo_sha256": "f8cb8d4a2d91ba3c9a2c2e142c50513d9c6eac00870dfad343f8393453b07194",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/880067819552.jpg",
+      "observed_owner_label": "Для линейных техник (волоски),1RLLT(H)0,30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "880067819552",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "790596581022",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT (H) - БРОВИ (растушевка) - 0.30 - 1RL - MT",
+      "native_editions": "Тип игл:30/1 RLMT (H);Название:БРОВИ (растушевка);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor6662-3731-4663-a336-333930623139/5bc9f2afa126a87fad492c656a272284.jpg",
+      "current_first_photo_sha256": "d24e22f2e7d2c2c12c0d0531ac2bc59ae3b0d6dc41346436796ec8347fc926c8",
+      "observed_issues": [
+        "Идеальный пиксель; текстурированная поверхность/больше пигмента; чёткий остаток; опечатка в в"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+      "recommended_owner_photo_sha256": "bad7fc979da5527b7e1ffca3be7f71c4be9ada49d687eb4a6e028a5158bb889f",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/790596581022.jpg",
+      "observed_owner_label": "Для теневых техник (растушёвка),1RLMT(H)0,30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "790596581022",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "701437136452",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 35/1 RLMT (H) - БРОВИ (растушевка) - 0.35 - 1RL - MT",
+      "native_editions": "Тип игл:35/1 RLMT (H);Название:БРОВИ (растушевка);Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor3465-6431-4435-b133-653064626364/995354cc85dcb8c4d87e09f6816ebd4b.jpg",
+      "current_first_photo_sha256": "1512eb0f80432f52343557c28d6702a567c0cc413c3805b156e726b53ad525de",
+      "observed_issues": [
+        "Точный удар без вибрации; идеальный пиксель; мягкий прокрас"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+      "recommended_owner_photo_sha256": "7f66067db31dcafcf51e12c39ccdb96334698d5c2a217d42ae355bddaf8ef47b",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/701437136452.jpg",
+      "observed_owner_label": "Для теневых техник (растушёвка),1RLMT(H)0,35",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "701437136452",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "507053203682",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/5 RLLT - БРОВИ (волоски) - 0.25 - 5RL - LT",
+      "native_editions": "Тип игл:25/5 RLLT;Название:БРОВИ (волоски);Диаметр иглы, мм:0.25;Конфигурация игл:5RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3661-3737-4239-b233-663161336130/718549aaa4d5ed319eb2b591f5786741.jpg",
+      "current_first_photo_sha256": "7a18f68c26849e7d513983936c3e68444c8a762a5b00e018dd546921db72f5c9",
+      "observed_issues": [
+        "Минимум травматизма; идеальные волоски; тончайшие пиксели"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+      "recommended_owner_photo_sha256": "391097ce623c61e9ab56b6e3496543a8a080753b119f16ea2d38885631bdb199",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/507053203682.jpg",
+      "observed_owner_label": "Для линейных техник (волоски),5RLLT0,25",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "507053203682",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "100921419552",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - MT",
+      "native_editions": "Тип игл:30/1 RLMT (S);Название:ГУБЫ (плотное заполнение);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor3132-3536-4766-a561-656634306230/564b9a49fb2b55a67cb295b933a1a3bc.png",
+      "current_first_photo_sha256": "8e7fcc37d8b6b59b80b7fb81eba96bb3d442ac932277852f98b8f978d1206535",
+      "observed_issues": [
+        "Неверное предметное соответствие: коричневая коробка для волосков бровей у вариантаГУБЫ30/1RLMT(S); идеальный пиксель; без люфта иглы"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg",
+      "recommended_owner_photo_sha256": "e0073b0e06df3abb28b92499312ce8d11c1b9e3b0eb9eb974426e9c402fb4e7b",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/100921419552-candidate.jpg",
+      "observed_owner_label": "ГУБЫ; Для плотного заполнения цветом;1RLMT(S)0,30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+      "registry_binding_corrected_in_plan": true,
+      "new_infographic_job": "100921419552",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "243820244002",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT (S);Название:ГУБЫ (плотное заполнение);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3437-3262-4537-b136-616532353863/c4584c9de07a04b385135d53bb8cce12.jpg",
+      "current_first_photo_sha256": "10139eb134357f383e58f428546ccc8e3a69f7258ab16ece5fdb9607662b5349",
+      "observed_issues": [
+        "Минимум травматизма; быстрый прокрас кожи; идеальный модуль"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+      "recommended_owner_photo_sha256": "365576bf5646cd3394243e7a70ba32488b91347ff18a12d3bcbde9b55c84ba58",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/243820244002.jpg",
+      "observed_owner_label": "ГУБЫ; Для плотного заполнения цветом;1RLLT(S)0.30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "243820244002",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "924933247602",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 25/3 RSLT (S) - ГУБЫ (плотное заполнение) - 0.25 - 3RS - LT",
+      "native_editions": "Тип игл:25/3 RSLT (S);Название:ГУБЫ (плотное заполнение);Диаметр иглы, мм:0.25;Конфигурация игл:3RS;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor6131-6164-4432-b663-623732656439/a5307a171652709325677b6e4ba94273.png",
+      "current_first_photo_sha256": "eb4e5e8053ef72f725852bf9ff9f31509fe4bca19b0d474b29f8b1f1872366ca",
+      "observed_issues": [
+        "Идеальный прокрас губ без проблем; точное введение пигмента"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+      "recommended_owner_photo_sha256": "57e610458fcaff69dcf1e653e764e5fd19658f93c13c538b1af906439d370145",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/924933247602.jpg",
+      "observed_owner_label": "ГУБЫ; Для плотного заполнения цветом;3RSLT0,25 (S is native catalog only, not printed)",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "924933247602",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "586530152642",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLLT (S) - ГЛАЗА (стрелка с растушевкой) - 0.30 - 1RL - LT",
+      "native_editions": "Тип игл:30/1 RLLT (S);Название:ГЛАЗА (стрелка с растушевкой);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3230-3039-4934-b436-613064663433/aa2f8815f2d3da8fe25bc1e9b1a1b2ca.jpg",
+      "current_first_photo_sha256": "c1fb2c08d87595e88336fcd592affa0e7b64361e9acf3043361b355165130ceb",
+      "observed_issues": [
+        "Текстурированная сталь/лучший захват пигмента; идеальный контур; дублированный пункт тонкая игла0.30"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+      "recommended_owner_photo_sha256": "e18ce874229e203c39de3b12784cef89e1ea359d3e468e96795ce1bcb3da1e5f",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/586530152642.jpg",
+      "observed_owner_label": "ГЛАЗА; Для стрелки/стрелки с растушёвкой;1RLLT(S)0,30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "586530152642",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "301776372002",
+      "parent_uid": "256322964582",
+      "native_title": "БРОВИ - 30/1 RLMT - ГЛАЗА (плотное заполнение) - 0.30 - 1RL - MT",
+      "native_editions": "Тип игл:30/1 RLMT;Название:ГЛАЗА (плотное заполнение);Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor3537-3536-4463-a233-346364323065/720f70522c5de57344570dd455a033bf.jpg",
+      "current_first_photo_sha256": "cd67bd75d0a5943e33a83f769f753d4db50a10703b81a9ac8013c0a222e9dbb1",
+      "observed_issues": [
+        "Идеальное заполнение межресничной зоны; мягкое введение пигмента"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+      "recommended_owner_photo_sha256": "165fb83f533a792aaea9c0ca2d9a64c63ff40f3fa62d13c30c35cf7c7dc61506",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/301776372002.jpg",
+      "observed_owner_label": "ГЛАЗА; Для заполнения межресничного пространства;1RLMT0,30",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "301776372002",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "539649656102",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 25/1 RLLT - 0.25 - 1RL - LT",
+      "native_editions": "Тип игл:25/1 RLLT;Диаметр иглы, мм:0.25;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3732-6465-4162-b136-396234356539/3eb2b62c461e1c33eb1f3e9df71ee23b.jpg",
+      "current_first_photo_sha256": "a64c50702365e0ec0f76c3e48b2685c7b9b789014a934fa0e0d3f44be22897c7",
+      "observed_issues": [
+        "Минимум травмы; защита машинки;20шт как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+      "recommended_owner_photo_sha256": "8f71170d7c69814ef9763eb33e0134113d2e30ea226d9acd9e3bc2b90a0061f6",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/539649656102.jpg",
+      "observed_owner_label": "#25 25/01RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "539649656102",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "196313455342",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 35/1 RLLT - 0.35 - 1RL - LT",
+      "native_editions": "Тип игл:35/1 RLLT;Диаметр иглы, мм:0.35;Конфигурация игл:1RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3662-6565-4533-b565-383038383436/9817e4c5990a390245584e1fae125e80.png",
+      "current_first_photo_sha256": "b827c359198814771891fd5b92c4409013d6f81be8bf538e69ce492298871516",
+      "observed_issues": [
+        "Защита вашей машинки;20PCS как комплектация продажи; запас для долгой работы"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+      "recommended_owner_photo_sha256": "ae2437f2d69ef1f82ddfbf9c5e59a22eb57aebe90737c1c02e74ad15a6cfe949",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/196313455342.jpg",
+      "observed_owner_label": "#35 35/01RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "196313455342",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "579821214422",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 30/1 RLMT - 0.30 - 1RL - MT",
+      "native_editions": "Тип игл:30/1 RLMT;Диаметр иглы, мм:0.30;Конфигурация игл:1RL;Заточка:MT",
+      "current_photo": "https://static.tildacdn.com/stor6332-6230-4837-b133-643933613963/131811afeca1a67ca3dd482239a845df.png",
+      "current_first_photo_sha256": "af19a950c3c75106cc4810d43a0a551d32e915d5d0b5649bbad9fd9b07f09682",
+      "observed_issues": [
+        "Стерильный блистер; безопасность для клиента; защита от обратного тока; старый registry привязан к35/01RLLT вместо30/01RLMT"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+      "recommended_owner_photo_sha256": "fe4fe869d9d9794fd535f3ae6043dd5ded5f970dd99830b13d1b76cf1496a025",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/579821214422-candidate.jpg",
+      "observed_owner_label": "#30 30/01RLMT; real dark pen mark at right",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+      "registry_binding_corrected_in_plan": true,
+      "new_infographic_job": "579821214422",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    },
+    {
+      "uid": "703914955232",
+      "parent_uid": "361430283622",
+      "native_title": "Defender - 30/3 RLLT - 0.30 - 3RL - LT",
+      "native_editions": "Тип игл:30/3 RLLT;Диаметр иглы, мм:0.30;Конфигурация игл:3RL;Заточка:LT",
+      "current_photo": "https://static.tildacdn.com/stor3032-6663-4065-a236-363162346431/f8ed868531a0e1b0f5f3d24a069fa50b.jpg",
+      "current_first_photo_sha256": "79345dbe13c599d7b752be6687d1ee66c30cce3556c0e727c2b425013e11b1da",
+      "observed_issues": [
+        "Стерильная упаковка; защита машинки;20штук как комплектация продажи"
+      ],
+      "recommended_owner_photo_url": "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+      "recommended_owner_photo_sha256": "55f1901c86a15562a48348a5b04091432eee43a23b33d98fb45344c8e31ac633",
+      "owner_photo_path": "/workspace/scratch/dc909065e350/cover-refinement/sources/variants/703914955232.jpg",
+      "observed_owner_label": "#30 30/03RLLT",
+      "exact_configuration_zone_photo_matched": true,
+      "physical_photo_status": "owner_photo_label_matched_not_a_current_stock_audit",
+      "registry_source_url": "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+      "registry_binding_corrected_in_plan": false,
+      "new_infographic_job": "703914955232",
+      "approved_family_only_caption": null,
+      "catalog_writes_by_reviewer": 0
+    }
+  ],
+  "parent_gallery_plan": [
+    {
+      "uid": "170945567672",
+      "title": "Липкая одноразовая линейка",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor6164-3635-4031-a130-643331313033/33995dd5185bb4292fbcc1657d0cafa6.jpg",
+        "https://static.tildacdn.com/stor6139-3131-4236-b339-326435643234/62116932.webp"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor6164-3635-4031-a130-643331313033/33995dd5185bb4292fbcc1657d0cafa6.jpg"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor6139-3131-4236-b339-326435643234/62116932.webp"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    },
+    {
+      "uid": "256322964582",
+      "title": "БРОВИ",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor3835-3561-4534-b936-663363333830/2cf73282f65b35ff20178c8b7e036c6c.jpg",
+        "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+        "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+        "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+        "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+        "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+        "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+        "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+        "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+        "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+        "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg",
+        "https://static.tildacdn.com/stor6239-3034-4136-b935-626665336630/02471fd7036765195fd88055a1d7b15b.jpg",
+        "https://static.tildacdn.com/stor6238-3265-4630-b665-646664396665/9c672ad82adafd805ecd2fcd9111daa1.jpg",
+        "https://static.tildacdn.com/stor6662-3731-4663-a336-333930623139/5bc9f2afa126a87fad492c656a272284.jpg",
+        "https://static.tildacdn.com/stor3465-6431-4435-b133-653064626364/995354cc85dcb8c4d87e09f6816ebd4b.jpg",
+        "https://static.tildacdn.com/stor3661-3737-4239-b233-663161336130/718549aaa4d5ed319eb2b591f5786741.jpg",
+        "https://static.tildacdn.com/stor3437-3262-4537-b136-616532353863/c4584c9de07a04b385135d53bb8cce12.jpg",
+        "https://static.tildacdn.com/stor3230-3039-4934-b436-613064663433/aa2f8815f2d3da8fe25bc1e9b1a1b2ca.jpg",
+        "https://static.tildacdn.com/stor3537-3536-4463-a233-346364323065/720f70522c5de57344570dd455a033bf.jpg",
+        "https://static.tildacdn.com/stor3132-3536-4766-a561-656634306230/564b9a49fb2b55a67cb295b933a1a3bc.png",
+        "https://static.tildacdn.com/stor6131-6164-4432-b663-623732656439/a5307a171652709325677b6e4ba94273.png"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor3835-3561-4534-b936-663363333830/2cf73282f65b35ff20178c8b7e036c6c.jpg",
+        "https://static.tildacdn.com/stor6239-3034-4136-b935-626665336630/02471fd7036765195fd88055a1d7b15b.jpg",
+        "https://static.tildacdn.com/stor6238-3265-4630-b665-646664396665/9c672ad82adafd805ecd2fcd9111daa1.jpg",
+        "https://static.tildacdn.com/stor6662-3731-4663-a336-333930623139/5bc9f2afa126a87fad492c656a272284.jpg",
+        "https://static.tildacdn.com/stor3465-6431-4435-b133-653064626364/995354cc85dcb8c4d87e09f6816ebd4b.jpg",
+        "https://static.tildacdn.com/stor3661-3737-4239-b233-663161336130/718549aaa4d5ed319eb2b591f5786741.jpg",
+        "https://static.tildacdn.com/stor3437-3262-4537-b136-616532353863/c4584c9de07a04b385135d53bb8cce12.jpg",
+        "https://static.tildacdn.com/stor3230-3039-4934-b436-613064663433/aa2f8815f2d3da8fe25bc1e9b1a1b2ca.jpg",
+        "https://static.tildacdn.com/stor3537-3536-4463-a233-346364323065/720f70522c5de57344570dd455a033bf.jpg",
+        "https://static.tildacdn.com/stor3132-3536-4766-a561-656634306230/564b9a49fb2b55a67cb295b933a1a3bc.png",
+        "https://static.tildacdn.com/stor6131-6164-4432-b663-623732656439/a5307a171652709325677b6e4ba94273.png"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor6335-6366-4738-a365-343264323337/30998686.jpg",
+        "https://static.tildacdn.com/stor6366-3865-4333-b264-336534626364/89928609.jpg",
+        "https://static.tildacdn.com/stor3465-3238-4261-b965-383264363338/30010510.jpg",
+        "https://static.tildacdn.com/stor3630-3839-4239-b430-306564386265/79404325.jpg",
+        "https://static.tildacdn.com/stor3364-3361-4164-b531-386263303531/57951629.jpg",
+        "https://static.tildacdn.com/stor3435-6434-4734-b836-636133346364/32225945.jpg",
+        "https://static.tildacdn.com/stor3963-3335-4035-b962-393734663064/54183840.jpg",
+        "https://static.tildacdn.com/stor3132-6661-4534-a231-333036386337/42099399.jpg",
+        "https://static.tildacdn.com/stor6438-3032-4863-b965-663236653363/55245165.jpg",
+        "https://static.tildacdn.com/stor6235-6663-4439-a163-356637343365/27880477.jpg"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    },
+    {
+      "uid": "360375982152",
+      "title": "Kwadron Optima",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor3232-6564-4136-b833-633139626639/127a693c32404b0b40c4312e346812ac.png",
+        "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+        "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+        "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg",
+        "https://static.tildacdn.com/stor3433-3038-4663-b739-333766313436/3eaece1eda9e6cb797e1ea72a8c75f06.jpg",
+        "https://static.tildacdn.com/stor3435-6232-4365-b236-363439623237/eeee861ecfbdf5f2928415257a286d49.jpg",
+        "https://static.tildacdn.com/stor6238-3861-4237-b030-616434376165/35b94a6ce1d6c0f423de7a43b1ffda0e.jpg",
+        "https://static.tildacdn.com/stor3231-3735-4961-b134-333837373331/4db6d26ca44d2da8c5f6cd318b0895b7.png"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor3232-6564-4136-b833-633139626639/127a693c32404b0b40c4312e346812ac.png",
+        "https://static.tildacdn.com/stor3433-3038-4663-b739-333766313436/3eaece1eda9e6cb797e1ea72a8c75f06.jpg",
+        "https://static.tildacdn.com/stor3435-6232-4365-b236-363439623237/eeee861ecfbdf5f2928415257a286d49.jpg",
+        "https://static.tildacdn.com/stor6238-3861-4237-b030-616434376165/35b94a6ce1d6c0f423de7a43b1ffda0e.jpg",
+        "https://static.tildacdn.com/stor3231-3735-4961-b134-333837373331/4db6d26ca44d2da8c5f6cd318b0895b7.png"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+        "https://static.tildacdn.com/stor3434-6437-4334-b639-393439366263/27019973.jpg",
+        "https://static.tildacdn.com/stor3361-3231-4638-b761-303663623866/13736194.jpg"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    },
+    {
+      "uid": "361430283622",
+      "title": "Defender",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor3933-3965-4264-b636-306465623166/94845cf0d4c03c194fbde18f7fe94930.jpg",
+        "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+        "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+        "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+        "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+        "https://static.tildacdn.com/stor3732-6465-4162-b136-396234356539/3eb2b62c461e1c33eb1f3e9df71ee23b.jpg",
+        "https://static.tildacdn.com/stor3436-6631-4965-b436-353234623961/018a5eb991cac7ec331c371d566b16ad.jpg",
+        "https://static.tildacdn.com/stor3032-6663-4065-a236-363162346431/f8ed868531a0e1b0f5f3d24a069fa50b.jpg",
+        "https://static.tildacdn.com/stor6332-6230-4837-b133-643933613963/131811afeca1a67ca3dd482239a845df.png",
+        "https://static.tildacdn.com/stor3662-6565-4533-b565-383038383436/9817e4c5990a390245584e1fae125e80.png"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor3933-3965-4264-b636-306465623166/94845cf0d4c03c194fbde18f7fe94930.jpg",
+        "https://static.tildacdn.com/stor3732-6465-4162-b136-396234356539/3eb2b62c461e1c33eb1f3e9df71ee23b.jpg",
+        "https://static.tildacdn.com/stor3032-6663-4065-a236-363162346431/f8ed868531a0e1b0f5f3d24a069fa50b.jpg",
+        "https://static.tildacdn.com/stor6332-6230-4837-b133-643933613963/131811afeca1a67ca3dd482239a845df.png",
+        "https://static.tildacdn.com/stor3662-6565-4533-b565-383038383436/9817e4c5990a390245584e1fae125e80.png"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor3363-6330-4234-a131-613362353238/61888768.jpg",
+        "https://static.tildacdn.com/stor3935-3733-4638-b763-306535316531/40118168.jpg",
+        "https://static.tildacdn.com/stor3835-3964-4336-b637-333465643764/49474657.jpg",
+        "https://static.tildacdn.com/stor3566-6634-4465-b562-623961333730/63039724.jpg",
+        "https://static.tildacdn.com/stor3436-6631-4965-b436-353234623961/018a5eb991cac7ec331c371d566b16ad.jpg"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    },
+    {
+      "uid": "729564047722",
+      "title": "Them",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor3630-6161-4364-b330-363238626464/f60ce04d4ab8f80d58e6d05ef70d5b72.png",
+        "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+        "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+        "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+        "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+        "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+        "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg",
+        "https://static.tildacdn.com/stor3430-6665-4238-b731-323435663339/db64d372cf1fa6e032674b884c1a2167.jpg",
+        "https://static.tildacdn.com/stor3463-3136-4662-b038-376236313463/0945cbe7a71661e9313749c0b3177b34.jpg",
+        "https://static.tildacdn.com/stor3034-3130-4837-a562-306434303531/5b22b552e67e41651b7fa528f53f40cd.jpg",
+        "https://static.tildacdn.com/stor3463-6337-4633-b265-613736656631/25ae1184e2fe78374db2bb896467d7cf.jpg",
+        "https://static.tildacdn.com/stor3063-3838-4830-b736-363034616366/679066b41184df0cd09b063aa8c061e2.jpg",
+        "https://static.tildacdn.com/stor3333-6235-4138-b036-313531616139/4cc7ad9e62705d2e12206a67f294d546.jpg",
+        "https://static.tildacdn.com/stor3164-3262-4666-b939-323334303830/f601ff84b623906e18137e65aa2e345d.png",
+        "https://static.tildacdn.com/stor3832-3837-4462-b363-363564373062/09e22fe3e11f6a0f8f1ad6c04013a951.png",
+        "https://static.tildacdn.com/stor6334-3639-4631-b434-303639343133/6025ef4c95ca063ca10db4883823739c.png"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor3630-6161-4364-b330-363238626464/f60ce04d4ab8f80d58e6d05ef70d5b72.png",
+        "https://static.tildacdn.com/stor3430-6665-4238-b731-323435663339/db64d372cf1fa6e032674b884c1a2167.jpg",
+        "https://static.tildacdn.com/stor3463-3136-4662-b038-376236313463/0945cbe7a71661e9313749c0b3177b34.jpg",
+        "https://static.tildacdn.com/stor3034-3130-4837-a562-306434303531/5b22b552e67e41651b7fa528f53f40cd.jpg",
+        "https://static.tildacdn.com/stor3463-6337-4633-b265-613736656631/25ae1184e2fe78374db2bb896467d7cf.jpg",
+        "https://static.tildacdn.com/stor3063-3838-4830-b736-363034616366/679066b41184df0cd09b063aa8c061e2.jpg",
+        "https://static.tildacdn.com/stor3333-6235-4138-b036-313531616139/4cc7ad9e62705d2e12206a67f294d546.jpg",
+        "https://static.tildacdn.com/stor3164-3262-4666-b939-323334303830/f601ff84b623906e18137e65aa2e345d.png",
+        "https://static.tildacdn.com/stor3832-3837-4462-b363-363564373062/09e22fe3e11f6a0f8f1ad6c04013a951.png",
+        "https://static.tildacdn.com/stor6334-3639-4631-b434-303639343133/6025ef4c95ca063ca10db4883823739c.png"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor3737-3731-4230-a234-323365363265/37900916.jpg",
+        "https://static.tildacdn.com/stor6664-3630-4130-b165-333733623064/65892706.jpg",
+        "https://static.tildacdn.com/stor6433-6335-4937-a365-373366613962/51730710.jpg",
+        "https://static.tildacdn.com/stor3434-3234-4635-b935-396333656638/61618676.jpg",
+        "https://static.tildacdn.com/stor6338-6565-4835-a662-373164643934/95263598.jpg",
+        "https://static.tildacdn.com/stor3930-3532-4332-a333-303961663638/83010751.jpg"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    },
+    {
+      "uid": "868979329382",
+      "title": "Kwadron Classic",
+      "baseline_gallery": [
+        "https://static.tildacdn.com/stor3933-3761-4136-b433-623733666437/c4c59a626994835d476ba8c06edf2fe0.jpg",
+        "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+        "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+        "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg",
+        "https://static.tildacdn.com/stor6130-3930-4630-a264-626133343335/35b4f75ada0d33f7a65245b1f0625467.jpg",
+        "https://static.tildacdn.com/stor3230-3236-4635-b765-393833623035/9d465eaeb8b53f7ed45e1cb5158d74fa.jpg",
+        "https://static.tildacdn.com/stor6333-3831-4439-b466-653736316264/17580b041d4c5792254a0028515f8126.jpg",
+        "https://static.tildacdn.com/stor3966-3730-4666-b862-323334386534/4ba3d25b212e01f31bf500cbca74ec1a.jpg",
+        "https://static.tildacdn.com/stor3132-3034-4162-b363-303936306231/d4456ba0fa6087f2214d8830310204d0.jpg",
+        "https://static.tildacdn.com/stor6537-6239-4338-a136-323062626463/3fb701a44756b683c4329eeb289bc513.png",
+        "https://static.tildacdn.com/stor3236-3165-4132-a434-623062633864/d9def328d353f186cb80ea660311652a.png"
+      ],
+      "remove_only_if_present_in_fresh_gallery": [
+        "https://static.tildacdn.com/stor3933-3761-4136-b433-623733666437/c4c59a626994835d476ba8c06edf2fe0.jpg",
+        "https://static.tildacdn.com/stor6130-3930-4630-a264-626133343335/35b4f75ada0d33f7a65245b1f0625467.jpg",
+        "https://static.tildacdn.com/stor3230-3236-4635-b765-393833623035/9d465eaeb8b53f7ed45e1cb5158d74fa.jpg",
+        "https://static.tildacdn.com/stor6333-3831-4439-b466-653736316264/17580b041d4c5792254a0028515f8126.jpg",
+        "https://static.tildacdn.com/stor3966-3730-4666-b862-323334386534/4ba3d25b212e01f31bf500cbca74ec1a.jpg",
+        "https://static.tildacdn.com/stor3132-3034-4162-b363-303936306231/d4456ba0fa6087f2214d8830310204d0.jpg",
+        "https://static.tildacdn.com/stor6537-6239-4338-a136-323062626463/3fb701a44756b683c4329eeb289bc513.png",
+        "https://static.tildacdn.com/stor3236-3165-4132-a434-623062633864/d9def328d353f186cb80ea660311652a.png"
+      ],
+      "preserve_verified_owner_photos_and_neutral_image": [
+        "https://static.tildacdn.com/stor6536-6432-4637-b036-633061373632/14434764.jpg",
+        "https://static.tildacdn.com/stor6131-3235-4661-a665-383331313532/27782898.jpg",
+        "https://static.tildacdn.com/stor3861-6132-4364-b439-333763343065/58664065.jpg"
+      ],
+      "preserve_new_parent_cover_already_uploaded_by_root": true,
+      "new_parent_asset_handled_by_root": true
+    }
+  ],
+  "preserved_neutral_old_image": {
+    "parent_uid": "361430283622",
+    "index": 6,
+    "url": "https://static.tildacdn.com/stor3436-6631-4965-b436-353234623961/018a5eb991cac7ec331c371d566b16ad.jpg",
+    "path": "/workspace/scratch/dc909065e350/cover-refinement/current/361430283622-legacy-6.jpg",
+    "sha256": "dc73ee01c68eb550d219757d6ad6f35749ee6d650d132dc5b890d3a0ac91d6cd",
+    "reason": "Defender35/1RLLT title and real photo only; no unsafe claim observed"
+  },
+  "blacklist": [
+    {
+      "uid": "868979329382",
+      "parent_uid": "868979329382",
+      "kind": "parent",
+      "title": "Kwadron Classic",
+      "url": "https://static.tildacdn.com/stor3933-3761-4136-b433-623733666437/c4c59a626994835d476ba8c06edf2fe0.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/868979329382.jpg",
+      "bytes": 263043,
+      "sha256": "a4d5a9b7ca248761e9717e2ec9b4996f77de30c5d004d7d9653b460758991baa"
+    },
+    {
+      "uid": "694387810412",
+      "parent_uid": "868979329382",
+      "kind": "variant",
+      "title": "Kwadron Classic - 25/1 RLLT - 0.25 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6537-6239-4338-a136-323062626463/3fb701a44756b683c4329eeb289bc513.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/694387810412.png",
+      "bytes": 1457321,
+      "sha256": "685a584c66bfa7673d78022c77f24afab53e6da0eb98877a702532d0b1f07ad1"
+    },
+    {
+      "uid": "185708344162",
+      "parent_uid": "868979329382",
+      "kind": "variant",
+      "title": "Kwadron Classic - 30/1 RLLT - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3230-3236-4635-b765-393833623035/9d465eaeb8b53f7ed45e1cb5158d74fa.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/185708344162.jpg",
+      "bytes": 264902,
+      "sha256": "2cb18039f6170fbfbf237f170f00a5f715a57d260bd379fb1a01899b6515c721"
+    },
+    {
+      "uid": "128346466142",
+      "parent_uid": "868979329382",
+      "kind": "variant",
+      "title": "Kwadron Classic - 35/1 RLLT - 0.35 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6333-3831-4439-b466-653736316264/17580b041d4c5792254a0028515f8126.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/128346466142.jpg",
+      "bytes": 246043,
+      "sha256": "5bdb99780c1e4e9e579d832fa3fd4cbceedda7052080f4e63775ca5d97d6eeaf"
+    },
+    {
+      "uid": "417482400882",
+      "parent_uid": "868979329382",
+      "kind": "variant",
+      "title": "Kwadron Classic - 35/5 SEMLT - 0.35 - 5SEM - LT",
+      "url": "https://static.tildacdn.com/stor3236-3165-4132-a434-623062633864/d9def328d353f186cb80ea660311652a.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/417482400882.png",
+      "bytes": 1531934,
+      "sha256": "de3593fa011cb5e7730e55b74b4d6ad51f4ee8faca10606b72342c86e1e872e9"
+    },
+    {
+      "uid": "579563154792",
+      "parent_uid": "868979329382",
+      "kind": "variant",
+      "title": "Kwadron Classic - 35/5 FLLT - 0.35 - 5FL - LT",
+      "url": "https://static.tildacdn.com/stor3132-3034-4162-b363-303936306231/d4456ba0fa6087f2214d8830310204d0.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/579563154792.jpg",
+      "bytes": 288007,
+      "sha256": "fbff5f27ebfc72521340e51c5047a6ff0685b8ffae812d7db059650fac844f3b"
+    },
+    {
+      "uid": "360375982152",
+      "parent_uid": "360375982152",
+      "kind": "parent",
+      "title": "Kwadron Optima",
+      "url": "https://static.tildacdn.com/stor3232-6564-4136-b833-633139626639/127a693c32404b0b40c4312e346812ac.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/360375982152.png",
+      "bytes": 1178413,
+      "sha256": "b77f32740797a9d2bfc84554341788ea2613303789dd9a5a0a30a7bbc2665653"
+    },
+    {
+      "uid": "675810520422",
+      "parent_uid": "360375982152",
+      "kind": "variant",
+      "title": "Kwadron Optima - 25/1 RLLT - 0.25 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3231-3735-4961-b134-333837373331/4db6d26ca44d2da8c5f6cd318b0895b7.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/675810520422.png",
+      "bytes": 1476270,
+      "sha256": "b83e49642e2da39ad62b701735477ab5e7b000ad3c8542d9255d12a8c0e87ff4"
+    },
+    {
+      "uid": "845989220512",
+      "parent_uid": "360375982152",
+      "kind": "variant",
+      "title": "Kwadron Optima - 30/1 RLLT - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3435-6232-4365-b236-363439623237/eeee861ecfbdf5f2928415257a286d49.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/845989220512.jpg",
+      "bytes": 239716,
+      "sha256": "351171a002a67185010efb3b92283a94a0b48f007d3eba74dffeb1065882baf8"
+    },
+    {
+      "uid": "733031489742",
+      "parent_uid": "360375982152",
+      "kind": "variant",
+      "title": "Kwadron Optima - 35/1 RLLT - 0.35 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6238-3861-4237-b030-616434376165/35b94a6ce1d6c0f423de7a43b1ffda0e.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/733031489742.jpg",
+      "bytes": 265154,
+      "sha256": "f345dec548013da248bec42413cb0775a60ade50b07d694791c6188d479252ba"
+    },
+    {
+      "uid": "729564047722",
+      "parent_uid": "729564047722",
+      "kind": "parent",
+      "title": "Them",
+      "url": "https://static.tildacdn.com/stor3630-6161-4364-b330-363238626464/f60ce04d4ab8f80d58e6d05ef70d5b72.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/729564047722.png",
+      "bytes": 1203056,
+      "sha256": "b33e6550932352a1bbb3c79668ab0db215646dbd10af3da92acd6575c0bc6253"
+    },
+    {
+      "uid": "166108480362",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 25/1 RLLT - 0.25 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3430-6665-4238-b731-323435663339/db64d372cf1fa6e032674b884c1a2167.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/166108480362.jpg",
+      "bytes": 215749,
+      "sha256": "929c563213620645431904a433b1b1f05a4c2dc5698ce7522ddae9599e2d3bc6"
+    },
+    {
+      "uid": "472935631552",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 30/1 RLLT - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3164-3262-4666-b939-323334303830/f601ff84b623906e18137e65aa2e345d.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/472935631552.png",
+      "bytes": 1489627,
+      "sha256": "36f455658afa218659aef19efdc5b9ee4bebcb58fc58aa97a37250be6fa6cad6"
+    },
+    {
+      "uid": "642934304122",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 30/1 RLMT - 0.30 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor3832-3837-4462-b363-363564373062/09e22fe3e11f6a0f8f1ad6c04013a951.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/642934304122.png",
+      "bytes": 1537054,
+      "sha256": "8af4b61aa84172abf436382a5ec12bd4050be40f07466a67f7c9ea87133b4b82"
+    },
+    {
+      "uid": "976597887252",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 33/1 RLLT - 0.33 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6334-3639-4631-b434-303639343133/6025ef4c95ca063ca10db4883823739c.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/976597887252.png",
+      "bytes": 1423796,
+      "sha256": "55d83b2d5be4a44165bd4fba0a8aa5834d89c861d4035d539d6c6b5f00b1a409"
+    },
+    {
+      "uid": "871272420912",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 35/1 RLMT - 0.35 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor3063-3838-4830-b736-363034616366/679066b41184df0cd09b063aa8c061e2.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/871272420912.jpg",
+      "bytes": 217906,
+      "sha256": "905a85602f3c5dd39b15404eb2c5b57718782dd145efd1de6af72875a0569400"
+    },
+    {
+      "uid": "319140886832",
+      "parent_uid": "729564047722",
+      "kind": "variant",
+      "title": "Them - 30/3 RLLT - 0.30 - 3RL - LT",
+      "url": "https://static.tildacdn.com/stor3333-6235-4138-b036-313531616139/4cc7ad9e62705d2e12206a67f294d546.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/319140886832.jpg",
+      "bytes": 237396,
+      "sha256": "9937b974ce6799f2e9b8bd3f020128147f5c0d49af2d40f87d0c4289ced97690"
+    },
+    {
+      "uid": "256322964582",
+      "parent_uid": "256322964582",
+      "kind": "parent",
+      "title": "БРОВИ",
+      "url": "https://static.tildacdn.com/stor3835-3561-4534-b936-663363333830/2cf73282f65b35ff20178c8b7e036c6c.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/256322964582.jpg",
+      "bytes": 238600,
+      "sha256": "368dfb94998c391e9cf31141a86fceb4f7477f1cc1ecd5d22fa93523b2308a8b"
+    },
+    {
+      "uid": "507196237952",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 25/1 RLLT (H) - БРОВИ (волоски) - 0.25 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6239-3034-4136-b935-626665336630/02471fd7036765195fd88055a1d7b15b.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/507196237952.jpg",
+      "bytes": 224829,
+      "sha256": "1fdcfb30e1baf992aee996935a4f15e6cb1a59e6384799b99850adaa745afe9b"
+    },
+    {
+      "uid": "880067819552",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLLT (H) - БРОВИ (волоски) - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor6238-3265-4630-b665-646664396665/9c672ad82adafd805ecd2fcd9111daa1.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/880067819552.jpg",
+      "bytes": 198461,
+      "sha256": "4287eb729cba7d4b8fc1d35964e67ba02d0198d5614575178cdb66206a4aec3e"
+    },
+    {
+      "uid": "790596581022",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLMT (H) - БРОВИ (растушевка) - 0.30 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor6662-3731-4663-a336-333930623139/5bc9f2afa126a87fad492c656a272284.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/790596581022.jpg",
+      "bytes": 237845,
+      "sha256": "d24e22f2e7d2c2c12c0d0531ac2bc59ae3b0d6dc41346436796ec8347fc926c8"
+    },
+    {
+      "uid": "701437136452",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 35/1 RLMT (H) - БРОВИ (растушевка) - 0.35 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor3465-6431-4435-b133-653064626364/995354cc85dcb8c4d87e09f6816ebd4b.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/701437136452.jpg",
+      "bytes": 233741,
+      "sha256": "1512eb0f80432f52343557c28d6702a567c0cc413c3805b156e726b53ad525de"
+    },
+    {
+      "uid": "507053203682",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 25/5 RLLT - БРОВИ (волоски) - 0.25 - 5RL - LT",
+      "url": "https://static.tildacdn.com/stor3661-3737-4239-b233-663161336130/718549aaa4d5ed319eb2b591f5786741.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/507053203682.jpg",
+      "bytes": 251717,
+      "sha256": "7a18f68c26849e7d513983936c3e68444c8a762a5b00e018dd546921db72f5c9"
+    },
+    {
+      "uid": "100921419552",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLMT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor3132-3536-4766-a561-656634306230/564b9a49fb2b55a67cb295b933a1a3bc.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/100921419552.png",
+      "bytes": 1159838,
+      "sha256": "8e7fcc37d8b6b59b80b7fb81eba96bb3d442ac932277852f98b8f978d1206535"
+    },
+    {
+      "uid": "243820244002",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLLT (S) - ГУБЫ (плотное заполнение) - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3437-3262-4537-b136-616532353863/c4584c9de07a04b385135d53bb8cce12.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/243820244002.jpg",
+      "bytes": 228543,
+      "sha256": "10139eb134357f383e58f428546ccc8e3a69f7258ab16ece5fdb9607662b5349"
+    },
+    {
+      "uid": "924933247602",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 25/3 RSLT (S) - ГУБЫ (плотное заполнение) - 0.25 - 3RS - LT",
+      "url": "https://static.tildacdn.com/stor6131-6164-4432-b663-623732656439/a5307a171652709325677b6e4ba94273.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/924933247602.png",
+      "bytes": 1464824,
+      "sha256": "eb4e5e8053ef72f725852bf9ff9f31509fe4bca19b0d474b29f8b1f1872366ca"
+    },
+    {
+      "uid": "586530152642",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLLT (S) - ГЛАЗА (стрелка с растушевкой) - 0.30 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3230-3039-4934-b436-613064663433/aa2f8815f2d3da8fe25bc1e9b1a1b2ca.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/586530152642.jpg",
+      "bytes": 242615,
+      "sha256": "c1fb2c08d87595e88336fcd592affa0e7b64361e9acf3043361b355165130ceb"
+    },
+    {
+      "uid": "301776372002",
+      "parent_uid": "256322964582",
+      "kind": "variant",
+      "title": "БРОВИ - 30/1 RLMT - ГЛАЗА (плотное заполнение) - 0.30 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor3537-3536-4463-a233-346364323065/720f70522c5de57344570dd455a033bf.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/301776372002.jpg",
+      "bytes": 237212,
+      "sha256": "cd67bd75d0a5943e33a83f769f753d4db50a10703b81a9ac8013c0a222e9dbb1"
+    },
+    {
+      "uid": "361430283622",
+      "parent_uid": "361430283622",
+      "kind": "parent",
+      "title": "Defender",
+      "url": "https://static.tildacdn.com/stor3933-3965-4264-b636-306465623166/94845cf0d4c03c194fbde18f7fe94930.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/361430283622.jpg",
+      "bytes": 251497,
+      "sha256": "e32316f021ef29b013fe07f593b8a808676f62767d3487d52459263abca1f98f"
+    },
+    {
+      "uid": "539649656102",
+      "parent_uid": "361430283622",
+      "kind": "variant",
+      "title": "Defender - 25/1 RLLT - 0.25 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3732-6465-4162-b136-396234356539/3eb2b62c461e1c33eb1f3e9df71ee23b.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/539649656102.jpg",
+      "bytes": 238611,
+      "sha256": "a64c50702365e0ec0f76c3e48b2685c7b9b789014a934fa0e0d3f44be22897c7"
+    },
+    {
+      "uid": "196313455342",
+      "parent_uid": "361430283622",
+      "kind": "variant",
+      "title": "Defender - 35/1 RLLT - 0.35 - 1RL - LT",
+      "url": "https://static.tildacdn.com/stor3662-6565-4533-b565-383038383436/9817e4c5990a390245584e1fae125e80.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/196313455342.png",
+      "bytes": 1220831,
+      "sha256": "b827c359198814771891fd5b92c4409013d6f81be8bf538e69ce492298871516"
+    },
+    {
+      "uid": "579821214422",
+      "parent_uid": "361430283622",
+      "kind": "variant",
+      "title": "Defender - 30/1 RLMT - 0.30 - 1RL - MT",
+      "url": "https://static.tildacdn.com/stor6332-6230-4837-b133-643933613963/131811afeca1a67ca3dd482239a845df.png",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/579821214422.png",
+      "bytes": 1539326,
+      "sha256": "af19a950c3c75106cc4810d43a0a551d32e915d5d0b5649bbad9fd9b07f09682"
+    },
+    {
+      "uid": "703914955232",
+      "parent_uid": "361430283622",
+      "kind": "variant",
+      "title": "Defender - 30/3 RLLT - 0.30 - 3RL - LT",
+      "url": "https://static.tildacdn.com/stor3032-6663-4065-a236-363162346431/f8ed868531a0e1b0f5f3d24a069fa50b.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/703914955232.jpg",
+      "bytes": 251275,
+      "sha256": "79345dbe13c599d7b752be6687d1ee66c30cce3556c0e727c2b425013e11b1da"
+    },
+    {
+      "uid": "170945567672",
+      "parent_uid": "170945567672",
+      "kind": "parent",
+      "title": "Липкая одноразовая линейка",
+      "url": "https://static.tildacdn.com/stor6164-3635-4031-a130-643331313033/33995dd5185bb4292fbcc1657d0cafa6.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/170945567672.jpg",
+      "bytes": 349811,
+      "sha256": "bd42921309ecbab03a24df8c16e8db051c05275644fab267a82e57596930e827"
+    },
+    {
+      "parent_uid": "868979329382",
+      "index": 4,
+      "url": "https://static.tildacdn.com/stor6130-3930-4630-a264-626133343335/35b4f75ada0d33f7a65245b1f0625467.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/868979329382-legacy-4.jpg",
+      "sha256": "3c505eec418ecf0af409db4ebb9dd3dd760308c01b74b47e0022ee20d6a1bf9a"
+    },
+    {
+      "parent_uid": "868979329382",
+      "index": 7,
+      "url": "https://static.tildacdn.com/stor3966-3730-4666-b862-323334386534/4ba3d25b212e01f31bf500cbca74ec1a.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/868979329382-legacy-7.jpg",
+      "sha256": "d79d8fc25e863956ee9fbc5e2e3062b6e05d54bdddde1e344cf0179b074f8653"
+    },
+    {
+      "parent_uid": "360375982152",
+      "index": 4,
+      "url": "https://static.tildacdn.com/stor3433-3038-4663-b739-333766313436/3eaece1eda9e6cb797e1ea72a8c75f06.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/360375982152-legacy-4.jpg",
+      "sha256": "1a3ccf848463c6c18df982208ee461298dcbbd62ce448ea9b9ba5f934d38cfb3"
+    },
+    {
+      "parent_uid": "729564047722",
+      "index": 8,
+      "url": "https://static.tildacdn.com/stor3463-3136-4662-b038-376236313463/0945cbe7a71661e9313749c0b3177b34.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/729564047722-legacy-8.jpg",
+      "sha256": "8bede968446cd7226ac3a126b00ad0184ae1a094503d6e0bef561a32c5835166"
+    },
+    {
+      "parent_uid": "729564047722",
+      "index": 9,
+      "url": "https://static.tildacdn.com/stor3034-3130-4837-a562-306434303531/5b22b552e67e41651b7fa528f53f40cd.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/729564047722-legacy-9.jpg",
+      "sha256": "b3c376a767f5c170c96b9c6c74035cbde2aad53492d339707622501824f93dc7"
+    },
+    {
+      "parent_uid": "729564047722",
+      "index": 10,
+      "url": "https://static.tildacdn.com/stor3463-6337-4633-b265-613736656631/25ae1184e2fe78374db2bb896467d7cf.jpg",
+      "path": "/workspace/scratch/dc909065e350/cover-refinement/current/729564047722-legacy-10.jpg",
+      "sha256": "d2a2c58a98d224e9b3b373707b4f6aae692ae74a15a8c2925aaa20d9d61f2bd5"
+    }
+  ],
+  "rules": [
+    "Apply only in root-coordinated fresh Photo-only phase after text and taxonomy diffs",
+    "Remove all exact blacklisted URLs wherever they occur in these target parent/variant galleries; do not merely prepend",
+    "Preserve actual owner originals, the verified neutral Defender image and new parent covers created after native baseline",
+    "No source SKU label rewriting; three Classic1RL use one visibly captioned family example, not exact-SKU verification",
+    "Current source photographs and generated compositions do not independently certify current stock or clinical/material claims",
+    "Restore or retain verified originals with styled images; keep archival rollback bytes outside live galleries"
+  ]
+}
