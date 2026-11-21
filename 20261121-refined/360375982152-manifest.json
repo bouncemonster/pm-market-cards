@@ -1,0 +1,28 @@
+{
+  "uid": "360375982152",
+  "file": "360375982152_Kwadron-Optima_1RL_LT_infographic_v2.jpg",
+  "sha256": "301f224ef60aef14669c7ed31f590d84d03a60cd2b99203065c3954022f525da",
+  "bytes": 217120,
+  "source_url": "https://static.tildacdn.com/stor3264-3535-4161-a262-376438633662/45931475.jpg",
+  "source_sha256": "ef1bf91523dc5817c67c6907f6e24c136dd278a19697291659ef4ec22e29f979",
+  "generation": "Built-in image_gen; composition based on owner's existing Kwadron Optima photo. It is not independent evidence of stock SKU or physical packaging.",
+  "verified_added_text": [
+    "КАРТРИДЖИ ДЛЯ ПМ",
+    "KWADRON",
+    "OPTIMA",
+    "1RL · LT",
+    "0,25 / 0,30 / 0,35 мм",
+    "На фото — 25/1 RLLT"
+  ],
+  "removed_claims": [
+    "healing",
+    "sterility or safety promise",
+    "minimum skin trauma",
+    "unsupported 0.18mm option",
+    "asserted sale-unit pack quantity"
+  ],
+  "source_of_variants": "existing native parent360375982152 and children675810520422/845989220512/733031489742",
+  "png_master_sha256": "edea51d7beac1e55b7ada06850d9acb9748001e6a14a586855ae9a2be25e4e27",
+  "delivery_derivative": "ImageMagick JPEG90; dimensions unchanged; metadata stripped",
+  "status": "visually_checked_asset_not_yet_attached_to_native_catalog"
+}
