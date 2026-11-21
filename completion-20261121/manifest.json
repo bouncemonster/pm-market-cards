@@ -1,0 +1,468 @@
+{
+  "project": "PM.MARKET",
+  "project_id": "4016103",
+  "created_at": "2026-11-21T11:05:00.036430+00:00",
+  "count": 19,
+  "items": [
+    {
+      "uid": "169524417112",
+      "catalog_title": "Барьерная защита на клип-корд 50*80 mm (125 sleeves)",
+      "file": "169524417112.png",
+      "sha256": "dcd8beca735bdedd53844e5157162f4b9a171b1b9941c3aa8525335d42f433ec",
+      "bytes": 1761552,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://www.tattooland.com/product/clip-cord-sleeves-colour-edition-box-of-125",
+        "https://d7rh5s3nxmpy4.cloudfront.net/CMP9863/PR575BI15870_clip_cord_sleeves_mc_Clip_Cord_Sleeves_Colour_Edition_Box_of_125_IMD.jpg"
+      ],
+      "source_sha256": "6af55bcca289ca0f709630b94fafb3f27ab3b783119c5f83322f44c40c467b5f",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Create one finished square 1536x1536 Russian marketplace card for PM.MARKET. The input is a real reference photograph. Use ONLY the foreground gloved hand holding a cord inside the translucent blue protective sleeve as a usage illustration of a generic clip-cord barrier sleeve. Preserve the actual sleeve shape and translucent plastic, cord and hand anatomy. Exclude the cardboard package entirely; no TATTOOLAND branding or copied box labels. The sleeve is the product; hand, glove and cable are for demonstration. Warm off-white background, thin muted burgundy border, elegant muted burgundy/rose display typography (#99536d), dark supporting text, fine-line icons. Large title at upper left, photo illustration large at right/lower centre, two compact outlined fact panels left. Subtle contact shadow, airy balanced refined PMU marketplace style. Print ONLY these exact Russian texts: small top 'РАСХОДНЫЕ МАТЕРИАЛЫ'; large title 'ЗАЩИТА НА КЛИПКОРД'; fact panels '125 ШТ.' and 'БАРЬЕРНЫЕ ЧЕХЛЫ'; small discreet photo caption 'Пример применения'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. No dimensions, colour name, manufacturer brand, medical claim, sterility, price or discount. All text inside 6 percent safe margin. One finished square product card.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Обобщённый предмет для небрендированного товара. Коробка TATTOOLAND исключена, показан только пример применения. 125 шт совпадает с каталогом; спорный размер 50×80/50×800 не указан.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "185215673352",
+      "catalog_title": "Колпачки для пигмента 1,2, пластик",
+      "file": "185215673352.png",
+      "sha256": "f746052b78881f1213b430ecbab73fe3a17916ea95e242c9fcb2d33ccd54e669",
+      "bytes": 1375129,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://www.astattoo-supply.de/products/farbkappen-ink-cups-100-stk-transparent",
+        "https://www.astattoo-supply.de/cdn/shop/files/HTB10bbJeoCF3KVjSZJnq6znHFXap_1200x1200.webp?v=1755261506"
+      ],
+      "source_sha256": "dce6b8d98628742cf1ddcccf4e1f64ff5fe734a0d395ab87f33888d95f8fbae3",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the real product subject; reference image 2 is style only. Match the style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic transparent product photography with soft natural shadow, wide safe margins. Typography flawless and readable. Preserve the subject's actual geometry, material, colour and proportions from image1. No invented parts, no extra accessories. No prices, discounts, model names, dimensions, package counts, source branding, extra claims or any text not explicitly listed. Subject: use ONLY the MIDDLE transparent plastic ink cup in reference1, the medium cup positioned above the source label M. Preserve this middle cup's shape, open top, wide circular lip, slightly tapered transparent cylindrical wall, proportions and photographed angle. Remove the other left and right cups entirely, black backdrop, reflections and every source number and letter. One middle cup only, large on right/lower half, realistic neutral grey edge highlights to stay visible on white. Do not add a lid, handle or pigment. Exact text: headline «КОЛПАЧКИ»; burgundy band «ДЛЯ ПИГМЕНТА»; first information panel «ПЛАСТИК» and smaller «Материал»; second panel «1,2» and smaller «Вариант»; footer «PM.MARKET». Never print units such as мл, мм, см, ml, mm, cm or inches, because owner catalog only specifies variant 1,2 without confirmed units.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Generic unbranded catalog item. External relevant plastic cap source permitted by current user authorization. Exact owner SKU dimensions not recorded, therefore no dimensional units or supplier pack counts are asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "260896945632",
+      "catalog_title": "Колпачки для пигмента 0,9 (100 шт) силикон",
+      "file": "260896945632.png",
+      "sha256": "29e37a720838068d50ada820ff7c499ee825201f14fffec031cb595df960cd7d",
+      "bytes": 1480529,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://hanafy.ru/catalog/raskhodnye_materialy/kolpachki_dlya_pigmenta_100_sht_/",
+        "https://hanafy.ru/upload/resize_cache/iblock/4ad/450_450_1/3l0mfa8vmc7pdijwr3gyfnl9s7yo6b3a.jpg"
+      ],
+      "source_sha256": "81105df7e26c880082f8713fba7a901c3a058fc544384212fc3f36571ce85868",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the product subject; reference image 2 is style only, do not copy its steel object or words. Match style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic object with soft contact shadow, wide safe margins. Typography must be flawless and readable. Preserve the actual product geometry, material, colour and proportions from image 1; no invented parts or additional accessories. Do not add prices, discounts, model names, dimensions, extra unsupported claims, package branding or any text not explicitly listed. Subject: the actual two loose translucent blue silicone pigment cups in the foreground of source reference1. Preserve their short cylindrical cup geometry, broad flat flange/base, open top, blue translucent material, relative positions and scale. Extract only those two actual loose cups. Remove the plastic bag, source background, all existing numbers, arrows, dimensions, logos and source text. Do not include the large bag or add other accessories. Place both cups large and clearly visible on right/lower half, soft natural contact shadows, still real product photography. Exact new card text: headline «КОЛПАЧКИ»; burgundy band «ДЛЯ ПИГМЕНТА 0,9»; first information panel «СИЛИКОН» and smaller «Материал»; second panel «100 ШТ.» and smaller «В упаковке»; footer «PM.MARKET». Do not print мм, см, мл or any dimensional units. The catalog specifies 0,9 and 100шт; show only this supplied text.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Generic unbranded catalog item; relevant generic web subject allowed by user. Match known material/type/color, no unsupported SKU or dimensions.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "365386541282",
+      "catalog_title": "Латекс коврик длинный",
+      "file": "365386541282.png",
+      "sha256": "30153f46f7ae01b1044cde2a076314f2854d1d3116805c02c8d9fa980ca26d5c",
+      "bytes": 1905555,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://reelskin.co.uk/store/Large-uncut-sheet-%C2%A382-99-p328661304",
+        "https://d2j6dbq0eux0bg.cloudfront.net/images/13100965/2992198766.jpg"
+      ],
+      "source_sha256": "5002c9f4a7ca08d9ed9441221b051845e781211c4b2768b883a0f50ca0561450",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create a premium square 1024x1024 PM.MARKET product card from the supplied real photograph of a long practice skin sheet partially rolled along the right edge. Preserve the same single long pale flesh-coloured rectangular sheet and its exact partially rolled construction: same thin smooth material, same visible unmarked surface, same curled edge and proportions; do not add printed brows, lips, ruler, different thickness or extra sheets. Remove the black source background and use a clean off-white editorial composition, subtle warm grey texture, soft daylight shadow and restrained deep burgundy graphic accents. Product dominant in the centre, fully visible with margins. Title at top in polished modern Russian sans, exact text: «ДЛИННЫЙ ЛАТЕКС». Smaller line: «ТРЕНИРОВОЧНЫЙ КОВРИК». Two short bottom feature labels: «Для практики ПМ» and «Без рисунка». Small «PM.MARKET» wordmark bottom left. Do not add any manufacturer brand, specific dimensions, quantities, performance claims, accessories, tools, watermark or any other copy. Preserve the photographed material colour and object geometry. Cohesive premium store card, concise legible typography.\n",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "User-authorized generic long unmarked practice sheet. Manufacturer branding and dimensions deliberately omitted; no exact owner SKU identity asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "461397136362",
+      "catalog_title": "Латекс коврик AR премиум, маленький",
+      "file": "461397136362.png",
+      "sha256": "78b61cb5c5d1d7b9ff7ae477df0dfe10d8e0215505a5fef8dd74c266c62b74ef",
+      "bytes": 1984975,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://www.brvcetattoosupply.com.br/pele-artificial-tattoo-practice-20x30cm",
+        "https://cdn.awsli.com.br/2500x2500/518/518909/produto/19906441/54b581a870.jpg"
+      ],
+      "source_sha256": "746e75d6901179e8228d2144f6b44291af62621ed677d51100ecadfc90303c7e",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create a premium square 1024x1024 PM.MARKET product card using the attached real source photograph of one small unmarked beige rectangular practice skin mat. Preserve the exact photographed mat: same rounded rectangular shape, proportions, thin construction, pale beige colour, blank surface and gently tapering perspective. Do not invent a package, logo, material markings, printed practice areas, folds, holes or additional objects. Put the single mat fully visible and dominant in the centre with a clean off-white editorial background, subtle warm grey texture and soft daylight shadow. Use restrained deep burgundy graphic accents, matching premium PM.MARKET shop cards. Exact Russian heading at top: «ЛАТЕКС AR ПРЕМИУМ». Exact smaller subtitle: «МАЛЕНЬКИЙ КОВРИК». The heading is the shop owner's catalogue name only; do NOT print AR, PM.MARKET or any logo onto the mat. Two concise bottom feature labels: «Для практики ПМ» and «Без рисунка». Small «PM.MARKET» wordmark bottom left in the layout, outside the product. No exact dimensions, performance claims, manufacturer promises, extra features, accessories or watermark. Generous clear margins, polished modern sans typography and high legibility.\n",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Root explicitly confirmed new user authorization permits real unbranded consumable of same type. Generic blank small practice mat; AR only in owner catalogue heading, not applied to object. No exact AR manufacturer SKU identity, dimensions or material chemistry asserted beyond owner title.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "468885124702",
+      "catalog_title": "Латекс, грудь",
+      "file": "468885124702.png",
+      "sha256": "d9c095f094916cbdfe1ac28c19f3bca37c5df1c4c68f57ef53a5c52b886c7084",
+      "bytes": 2199538,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://www.charmingtattoosupply.com/products/areola-tattoo-practice-mold-2-piece-pair",
+        "https://www.charmingtattoosupply.com/cdn/shop/files/IMG_9834.jpg?v=1726892370"
+      ],
+      "source_sha256": "c5ee582272076701fa8067acbd6fc052ba8e4843e6e54816e3913fb960f45b95",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create a premium square 1024x1024 PM.MARKET product card using the attached real product photograph. Preserve the exact single peach-coloured manufactured breast-shaped tattoo practice dome shown in the source: same domed round contour, flat circular base, small rounded nipple, surface, colour and proportions. This is a small artificial educational practice prop, not a person or body; do not create a body, cleavage or sexual scene. Preserve geometry faithfully; no new parts. Place the exact object dominant and fully visible in a clean off-white editorial composition with subtle warm grey texture, soft daylight shadow, restrained deep burgundy accents. Top title in polished modern Russian sans, exact text: «ЛАТЕКС ГРУДЬ». Smaller line: «ТРЕНИРОВОЧНАЯ ФОРМА». Two concise bottom feature labels: «Для практики ПМ» and «Объёмная форма». Small «PM.MARKET» wordmark bottom left. Do not add brand, size, quantity, packaging, medical claims, decorative accessories, watermark or any other copy. Generous margins, high quality legible typography, cohesive professional store card.\n",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "User-authorized generic manufactured breast-shaped practice dome. No exact owner SKU identity asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "469865911562",
+      "catalog_title": "Вазелин Синева, 250 ml",
+      "file": "469865911562.png",
+      "sha256": "154993abb98cfcc1c2ddc9e1263b30238cc415700d0dc891406155b1f2392d38",
+      "bytes": 1906852,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://tattoo-store.ru/zaschita-i-uxod/vazelin-i-maslo/sineva-krem-vinogradnyj-den-250-ml",
+        "https://tattoo-store.ru/image/cache/catalog/i/hn/kb/137d4cb682af51358fd16e2e66f514a5-1920x1920.jpg",
+        "https://tattoo-store.ru/zaschita-i-uxod/vazelin-i-maslo/sineva-krem-krem-soda-250-ml",
+        "https://tattoo-store.ru/image/cache/catalog/i/jf/jj/f22395056dad90fc14a8cc49d5572115-1920x1920.jpg"
+      ],
+      "source_sha256": "9a06302dfdca5df993747c8d46b24627637662e284c673838b6f73fb1527e22e",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Make one polished square 1536x1536 Russian marketplace product card for PM.MARKET. Reference images 1 and 2 show two genuine 250 ml jars from the Sineva cream range. Preserve both physical jars and their original Синева logos, paper labels, metallic lids, proportions and colours faithfully. Isolate the jars from the white source backgrounds, excluding the large captions underneath the jars. Do not rewrite product labels, add a scent, claim these are a bundle, or substitute other packaging. Present the two reference jars side by side as examples of packaging in the same product range, one slightly behind the other. The exact variant in store is unspecified. Use a warm off-white background, thin muted burgundy border, refined burgundy/rose serif display typography (#99536d), dark supporting type and fine-line icons. Large title upper left, product lineup prominent on right/lower centre, two restrained outlined fact panels left. Airy elegant professional PMU marketplace composition, soft contact shadows. Print ONLY these layout texts besides the unchanged labels of the jars: top small 'СРЕДСТВА ДЛЯ МАСТЕРА'; large title 'КРЕМ СИНЕВА'; fact panels '250 МЛ' and 'НА ОСНОВЕ ВАЗЕЛИНА'; a clearly readable discreet caption below the two jars 'Примеры упаковки линейки'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. Do not print fragrance names outside the original labels, medicinal claims, guaranteed results, certifications, price or discounts. Keep everything within a 6 percent safe margin. One finished square card.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Показаны реальные примеры упаковки линейки Синева 250 мл с соответствующей явной подписью. Аромат фактической складской позиции не установлен, не выбран и не утверждается. Это не набор из двух банок. На карточке только бренд, крем на основе вазелина и 250 мл.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "496616392392",
+      "catalog_title": "Барьерная защита на бутылку EZ (250 bags)",
+      "file": "496616392392.png",
+      "sha256": "3f3dc9c12d80f6dd0fc05c86ff485eb91c461aeca3a18b15d24bb4b57471b827",
+      "bytes": 1594759,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://eztattoosupply.com/products/spray-bottle-bags",
+        "https://eztattoosupply.com/cdn/shop/products/spray-bottle-bags-ez-tattoo-supply-6.jpg?v=1723171152&width=800"
+      ],
+      "source_sha256": "0b357f77966a2bb483c66b3ddc001eac050b4160d1a64ea3517072c9d0efdf34",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Make a polished square 1536x1536 Russian marketplace product card for PM.MARKET. Input image 1 is the real manufacturer reference photograph, not a previous card. Preserve the physical subject: the translucent protective bottle bags and the white bottles visible inside, their shapes and plastic texture. Bottles illustrate how the covers are used, they are not what is being sold. Use a clean warm white/off-white background, thin muted burgundy frame and refined burgundy/rose typography (#99536d), near-black secondary text, restrained fine-line iconography. Large readable heading in the upper left, product photograph large on the right/lower centre, two compact outlined fact panels left, airy balanced professional composition matching an elegant PMU marketplace, no generic gradient. Only print these exact Russian texts: small top 'РАСХОДНЫЕ МАТЕРИАЛЫ'; large heading 'ЗАЩИТА НА БУТЫЛКУ'; accent 'EZ'; facts '250 ШТ.' and 'БАРЬЕРНЫЕ ПАКЕТЫ'; discreet caption beside the photo 'Бутылки — пример применения'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. Do not add any other text, dimensions, medical promises, sterilization claims, colour specification, invented logo, discount or price. All content comfortably inside a 6% margin. Photorealistic source subject with soft contact shadow, original product geometry unchanged. Do not invent packaging. Output one finished square card.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Точный бренд и тип, упаковка 250 шт подтверждена производителем. Размер и цвет не утверждаются. Бутылки — пример применения.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "512959564842",
+      "catalog_title": "Маска пластиковая",
+      "file": "512959564842.png",
+      "sha256": "b61a34489d77917091d731aacb8a2cf1da44abec4135f12e774933e584f1877c",
+      "bytes": 1513094,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://inked.com.ua/zashchitnaya-maska-plastikovaya-mnogorazovaya.html",
+        "https://img.inked.com.ua/59ebaa95-6e78-0ad5-c6f0-5a4e451f6f8b/66d741ac-a64e-dda1-1791-a3569c486477/xl"
+      ],
+      "source_sha256": "f3036b60b1f37feb0de8c69a5e104390b18f25c9e54c914ff1db70ea457ddcce",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Create one finished square 1536x1536 Russian marketplace card for PM.MARKET. The input photo is a reference photograph of the actual generic transparent plastic chin shield with its clear curved screen, white chin support and white elastic ear loops. Faithfully preserve these product shapes, proportions and translucent plastic. Present the isolated item in a clean studio composition; use the photograph for the product, not its retailer watermark/overlay. Do not invent a manufacturer brand or change the item into a surgical mask or full face shield. Warm off-white background, a thin muted burgundy border, refined muted burgundy/rose display typography (#99536d), dark supporting type, fine-line icons, very soft contact shadow. Large clear title at upper left, a large product at right/lower centre, two small restrained outlined fact panels at left. Airy balanced elegant PMU marketplace design. Print ONLY these exact texts: top small 'РАСХОДНЫЕ МАТЕРИАЛЫ'; large title 'МАСКА ПЛАСТИКОВАЯ'; fact panels 'ПРОЗРАЧНЫЙ ЭКРАН' and 'ДЛЯ МАСТЕРА'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. No other text. Do not add a medical protection percentage, certification, medical claim, sterile claim, invented logo, dimensions, quantity, price or discount. Keep all typography inside a 6 percent safe margin. One finished square product card.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Обобщённый предмет из реальной фотографии для небрендированного товара. Нет медицинских обещаний, размера или заявленной степени защиты.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "526471757642",
+      "catalog_title": "Колпачки для пигмента 0,9, пластик",
+      "file": "526471757642.png",
+      "sha256": "58c64bf3c248d005e6fdd1e610e7bf4b3b17ddbc1f30fff1db1ee2faca7b5b96",
+      "bytes": 1317809,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://wormholetattoosupply.com/products/1000pcs-tattoo-ink-caps-disposable-small",
+        "https://wormholetattoosupply.com/cdn/shop/files/tattoo-ink-caps-N201015A-500-1.jpg?v=1772076862&width=1214"
+      ],
+      "source_sha256": "a13db929f34509607ff26abf61c2d4d9b65c8775f7947a43779ae2b3f6b708be",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the real product subject; reference image 2 is style only. Match the style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic transparent product photography with soft natural shadow, wide safe margins. Typography flawless and readable. Preserve the subject's actual geometry, material, colour and proportions from image1. No invented parts, no extra accessories. No prices, discounts, model names, dimensions, package counts, source branding, extra claims or any text not explicitly listed. Subject: the one actual transparent plastic ink cup at the centre of reference1. Keep the short cylindrical cup, slightly tapered wall, flared circular lip and open top. Remove the black backdrop, mirror reflection, arrows, dimension lines, all existing text. One cup only, large in right/lower half, neutral grey edge highlights to stay visible on white. Do not add a lid, handle or pigment. Exact text: headline «КОЛПАЧКИ»; burgundy band «ДЛЯ ПИГМЕНТА»; first information panel «ПЛАСТИК» and smaller «Материал»; second panel «0,9» and smaller «Вариант»; footer «PM.MARKET». Never print any units such as мл, мм, см, ml, mm, cm or inches, because owner catalog only specifies the variant 0,9 without confirmed units.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Generic unbranded catalog item. External relevant plastic cap source permitted by current user authorization. Exact owner SKU dimensions not recorded, therefore no dimensional units or supplier pack counts are asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "554377229442",
+      "catalog_title": "Латекс коврик белый/бежевый",
+      "file": "554377229442.png",
+      "sha256": "e595c7b1e43a6d39b9c914a72bf9cf5f5bc5f6d34efee680ec03470f91c8f8a0",
+      "bytes": 1355685,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://pmufly.com.ua/kylymky-klip-kordy-i-td/kylymky/kylymok-lateks-tilesnyj-bez-eskizu",
+        "https://pmufly.com.ua/image/cachewebp/catalog/product_4244_0_image-1000x1000.webp"
+      ],
+      "source_sha256": "8b0499abd75a8acb58256e6b7df4be33bf0bb1c80247308a3acd1a59d6962bde",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the product subject; reference image 2 is style only, do not copy its steel object or words. Match style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic object with soft contact shadow, wide safe margins. Typography must be flawless and readable. Preserve the actual product's geometry, material, colour and proportions from image 1; no invented parts or additional accessories. Do not add prices, discounts, model names, dimensions, extra unsupported claims, package branding or any text not explicitly listed. Subject: one plain light beige latex practice mat shown in reference1; preserve its softly rounded rectangular silhouette, flat unmarked surface, warm light-beige colour and matte latex texture. Display one mat only, large on right/lower half with natural soft shadow, no illustrations or printing on the mat. Exact text: headline «ЛАТЕКСНЫЙ КОВРИК» in two balanced lines; burgundy band «ДЛЯ ПРАКТИКИ»; first information panel «ЛАТЕКС» and smaller «Материал»; second panel «БЕЛЫЙ / БЕЖЕВЫЙ» and smaller «Цвет»; footer «PM.MARKET». No thickness, size, elasticity, reusability or brand claims. Keep all labels outside the mat.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Catalog generic unbranded product, external generic subject authorized by user. Known material and color/title match; no unknown dimensions claimed.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "741478180742",
+      "catalog_title": "Латекс ареола",
+      "file": "741478180742.png",
+      "sha256": "1ec0381b9500b4f2633171de6abfd1def0e48459ce2a891a34016a888ca394eb",
+      "bytes": 2025087,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://eyebrowinkshop.com/products/areola-latex-practise-skin/",
+        "https://eyebrowinkshop.com/cdn/shop/files/Medium.jpg?v=1714100861&width=1445"
+      ],
+      "source_sha256": "2ab43b7a54543b45b3dd76cfab56a245710cec9fcf16eb7fbc9e6a7d679409b6",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create a premium square 1024x1024 product card for PM.MARKET using the supplied real source photograph. Select exactly one of the two photographed round brown practice pads. Preserve its smooth round slightly domed shape, thickness, warm brown colour, and lack of printed markings. Do not add any nipple, printed anatomy, new parts, edges or holes. This is a manufactured professional areola-tattoo training material, shown as an educational product only. Place the one pad dominant in the centre on a clean off-white editorial background with soft daylight shadow and subtle warm grey texture. Add restrained deep burgundy graphic accents. Title at top in polished modern Russian sans, exact text: «ЛАТЕКС АРЕОЛА». Smaller line: «ТРЕНИРОВОЧНАЯ ФОРМА». Two short feature labels at bottom: «Для практики ПМ» and «Круглая форма». Small «PM.MARKET» wordmark bottom left. Do not add a brand, dimensions, performance claims, quantity claims, packaging, decorative accessories, body, person, or watermark. Generous margins, concise legible typography, cohesive premium shop card.\n",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "User-authorized generic round areola training pad; one of source pair selected. No exact owner SKU identity asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "798855657132",
+      "catalog_title": "Хна для бровей Henna eyebrow AR",
+      "file": "798855657132.png",
+      "sha256": "5f1f7001c1349e017fefc72651a386e3985c8be080bd4a4902c3f0918adb2b72",
+      "bytes": 2140269,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://mehndiseasons.co.uk/product/henna-powder/",
+        "https://mehndiseasons.co.uk/wp-content/uploads/2020/01/henna-powder-bowl.jpg"
+      ],
+      "source_sha256": "986932fbdc326fc4ac5afb95c55b962ce544f8e9e3d8531262fc436ec753b729",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Create one polished square 1536x1536 Russian marketplace product cover for PM.MARKET. This is explicitly an illustrative cover because the exact product packaging is unknown. The input is a real reference photograph of henna powder in a bowl. Preserve the photographed olive-green henna powder, its fine texture and the actual unbranded bowl faithfully; present it as an illustration, not an assertion of this product's exact shade, composition, amount or packaging. Do not invent any bottle, sachet, jar, branded package or AR logo. Do not use or mention BrowXenna. AR is only part of the provided catalog name, not a verified manufacturer. Warm off-white background, thin muted burgundy border, elegant muted burgundy/rose serif display typography (#99536d), dark supporting type, very restrained linework and soft studio shadow. Large clear title in the upper left, large source bowl with powder right/lower centre, a single compact outlined fact panel at left; airy balanced professional beauty marketplace composition. Print ONLY these exact texts: small top 'МАТЕРИАЛЫ ДЛЯ БРОВЕЙ'; large title 'ХНА ДЛЯ БРОВЕЙ'; small catalog name 'Henna eyebrow AR'; fact panel 'ОКРАШИВАНИЕ БРОВЕЙ'; a clearly readable caption under the photo 'Иллюстрация продукта'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. No weight, volume, colour name, duration, natural/organic claim, ingredient purity, safety claim, medical benefit, invented brand, price or discount. All text within a 6 percent safe margin. One finished square cover.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Точная упаковка AR не найдена. По прямому решению родительского агента создана честная иллюстративная обложка на основе реального фото порошка хны, без чужого бренда и выдуманной упаковки; явная подпись «Иллюстрация продукта». AR использовано только в исходном каталожном имени. Не утверждаются производитель, оттенок, масса, состав или стойкость. Старую BrowXenna следует удалить из галереи как ошибочную.",
+      "quality_note": null,
+      "representation": "explicit_product_illustration",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "812205220772",
+      "catalog_title": "Подставка под колпачки для пигментов, сталь",
+      "file": "812205220772.png",
+      "sha256": "8d4ccc7dad39982542c2978a418579335c76c69b728767ab56239b76dab61893",
+      "bytes": 1479271,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://cosmeticink.com.au/products/pigment-cup-holder-stainless-steel",
+        "https://cosmeticink.com.au/cdn/shop/products/image_18903acc-86fb-46f4-a5bd-5f04834c253d.jpg?v=1648254255"
+      ],
+      "source_sha256": "78f3ad6e08ecf017405db6a3c0ddbd47f4095461389d33a290c702293c20f29b",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Create one finished square 1536x1536 marketplace product card for PM.MARKET. Input image 1 is the actual subject reference: a silver steel pigment ink-cap holder. Preserve this holder's recognisable geometry, metal material, proportions, folded supports, perspective and circular apertures. Keep the subject photorealistic, clean and sharp. Remove the loose plastic cups and the inserted plastic cups so the card presents only the steel holder, without implying included accessories. Do not add, redesign or invent functional parts. Layout: premium bright white background, burgundy #a83253 accents, black typography, soft neutral contact shadow. Large product on the right/lower half, elegant bold condensed sans-serif headline at upper left, two compact rounded white information panels outlined in burgundy on left, each with a simple burgundy outline icon. Generous margins; never cover the object with text. Exact Russian text only: headline «ПОДСТАВКА»; subheading «ДЛЯ КОЛПАЧКОВ»; first panel «СТАЛЬ» and smaller «Материал»; second panel «ДЛЯ ПИГМЕНТОВ» and smaller «Рабочие принадлежности»; footer «PM.MARKET» in burgundy with slim horizontal lines. Spell all text precisely. Do NOT print dimensions, hole count, package quantity, brand of the source retailer, sterilisation claims, medical claims, prices, discounts or other text. Match polished existing PM.MARKET product infographic covers: white, burgundy, black, realistic object, clear readable hierarchy, no gradients or decorative props.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Generic unbranded steel pigment cap stand. Exact owner shape/hole count is not recorded. Current user authorization permits relevant generic subject sources; material and use match title.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "820577248982",
+      "catalog_title": "Подставка под колпачки для пигментов, акрил, 1 шт.",
+      "file": "820577248982.png",
+      "sha256": "01f437083f14fcac5e9c86cfa072c4a8397360d3c0feaeb7e60d4211189e784d",
+      "bytes": 1597299,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://www.beautyhiddens.com/product/cup-holder-15-holes-oval-acrylic-ink-cup-holder-machine-pen-holder-stand-for-permanent-makeup-paint-tool-ink-caps-for-tattooing-tattoo-cups/",
+        "https://m.media-amazon.com/images/I/51X%2BE8uFM3L._SL1001_.jpg"
+      ],
+      "source_sha256": "4ec5264e0e7d1dce47eb87e1c3fa48377f52123b89b91a418dc0c4c40063e762",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the product subject; reference image 2 is style only, do not copy its steel object or words. Match style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic object with soft contact shadow, wide safe margins. Typography must be flawless and readable. Preserve the actual product's geometry, material, colour and proportions from image 1; no invented parts or additional accessories. Do not add prices, discounts, model names, dimensions, extra unsupported claims, package branding or any text not explicitly listed. Subject: one clear transparent acrylic pigment cap holder from reference1, preserving its oval silhouette, thickness and actual hole arrangement. Place the holder large on lower right, with a light natural studio reflection so transparent edges remain visible on white; remove the black backdrop, do not make it metal. Exact text: headline «ПОДСТАВКА»; burgundy band «ДЛЯ КОЛПАЧКОВ»; first information panel «АКРИЛ» and smaller «Материал»; second panel «1 ШТ.» and smaller «Подставка»; footer «PM.MARKET». Do not print hole count or source retailer identity.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Catalog generic unbranded product, external generic subject authorized by user. Known material and color/title match; no unknown dimensions claimed.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "824659646562",
+      "catalog_title": "Латекс губы",
+      "file": "824659646562.png",
+      "sha256": "08f60847facef6915ae9186501885ba8f437074b9b74190495f1d458ddfb051b",
+      "bytes": 2158059,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://permanent-shop.ru/product/lateks-dlya-praktiki-guby",
+        "https://static.insales-cdn.com/images/products/1/6173/1010399261/%D0%B3%D1%83%D0%B1%D1%8B.jpg"
+      ],
+      "source_sha256": "050a1457a69dce6be9fa84a2b498324987ee35766d586fec47d74045417122ae",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Create a premium square 1024x1024 product card for PM.MARKET based on the supplied real product photo. Select only the upper-left peach lip practice form from the four photographed objects. Preserve that exact single peach latex practice lips form: same rectangular base, same lip relief, same flesh colour, same object geometry; do not transform into a sheet of many lips or add parts. Remove only the original background and place the object in a clean off-white editorial product composition with soft daylight shadow, very subtle warm grey texture and restrained deep burgundy graphic accents. Main title at top in large polished modern Russian sans typography, exact text: «ЛАТЕКС ГУБЫ». Smaller line: «ТРЕНИРОВОЧНАЯ ФОРМА». Keep the object dominant in the centre, fully visible. Two concise feature labels below: «Для практики ПМ» and «Рельефная форма». Small PM.MARKET wordmark bottom left. No other claims, no measurements, no invented brand or package, no anatomical human or actual person, no decorative accessories. This is a manufactured professional makeup training prop shown in a clinical educational context. All text legible, generous margins, cohesive high-end shop card, no watermark.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "User-authorized generic training lip form, upper-left peach object selected from photographed four; no exact owner SKU identity asserted.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "884595251732",
+      "catalog_title": "Барьерная защита на PEN EZ (52*165 mm)",
+      "file": "884595251732.png",
+      "sha256": "2cfa34d461eaf4147954f92a7fe893ab6b9ed91ccb5aff4ca0fc71c109118674",
+      "bytes": 1829033,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://eztattoosupply.com/products/ez-pen-type-machine-cover-bag",
+        "https://eztattoosupply.com/cdn/shop/products/ez-pen-type-machine-cover-bag-ez-tattoo-supply-3.jpg?v=1723020249&width=800"
+      ],
+      "source_sha256": "dea3b52bc20e129d3e7cde4cb3d9a748e5787fdea23eaa59ad0232d8dddc0471",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing. Make a polished square 1536x1536 Russian marketplace product card for PM.MARKET. Input image 1 is a real manufacturer photograph of PEN machine protective bags. Use only the actual loose stack of black sleeves from its foreground as the product subject; exclude the cardboard box from the composition entirely, do not redraw or change any packaging labels. Preserve the black thin flexible sleeves, their folded shape, gloss and texture exactly as the reference. A clean warm white background, thin muted burgundy frame, refined burgundy/rose display typography (#99536d), near-black supporting type, restrained fine-line icons. Large readable title upper left, large source product on right/lower centre, two compact outlined fact panels on left, elegant airy PMU marketplace layout. Print ONLY these exact texts: small top 'РАСХОДНЫЕ МАТЕРИАЛЫ'; large heading 'ЗАЩИТА ДЛЯ PEN'; accent 'EZ'; two facts 'БАРЬЕРНЫЕ ЧЕХЛЫ' and 'ОДНОРАЗОВОЕ ИСПОЛЬЗОВАНИЕ'; bottom rule and footer 'PM.MARKET  •  ПЕРМАНЕНТНЫЙ МАКИЯЖ И ТАТУ'. No dimensions, quantities, named colour, medical claims, sterility, compatibility promises, price or discounts. Keep all content inside a 6% safe margin. Soft studio contact shadow, no gradient. Output one finished square card.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Точный бренд и тип. Использован только предмет без коробки. Размеры 52×160 и 52×165 не утверждаются; количество не утверждается.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "897441818812",
+      "catalog_title": "Латекс коврик желтый",
+      "file": "897441818812.png",
+      "sha256": "c227da6c74821ec18a29bb7f8338db02ffb12734dd43473a73b00622cb13c6ee",
+      "bytes": 1260891,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://pmmarket.com.ua/p2288564598-lateksnyj-kovrik-dlya.html",
+        "https://images.prom.ua/6099197135_lateksnyj-kovrik-dlya.jpg"
+      ],
+      "source_sha256": "573ad5b4c4ac1749fbf561fb63e642a1a66b9063fc78a028e11393d3f81acd3b",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: compositing / product-mockup. Produce one finished square premium PM.MARKET product card, 1536x1536. Reference image 1 is the product subject; reference image 2 is style only, do not copy its steel object or words. Match style reference: bright white background, bold condensed black Russian headline, burgundy #a83253 accent band, two neatly outlined information panels with simple burgundy icons, PM.MARKET footer between thin lines, realistic object with soft contact shadow, wide safe margins. Typography must be flawless and readable. Preserve the actual product geometry, material, colour and proportions from image 1; no invented parts or additional accessories. Do not add prices, discounts, model names, dimensions, extra unsupported claims, package branding or any text not explicitly listed. Subject: a plain pale yellow latex practice mat shown in source reference1. Source has three views of the same mat. Use only the bottom flat rectangular mat, one mat only. Preserve its pale yellow colour, unprinted smooth matte surface, softly rounded rectangle and flat silhouette; do not invent printing or imprints. Place one mat large on right/lower half, realistically separated from white background by natural soft shadow. Exact text: headline «ЛАТЕКСНЫЙ КОВРИК» in two balanced lines; burgundy band «ДЛЯ ПРАКТИКИ»; first information panel «ЛАТЕКС» and smaller «Материал»; second panel «ЖЁЛТЫЙ» and smaller «Цвет»; footer «PM.MARKET». Do not print size, thickness or unconfirmed claims. All text outside mat.",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Generic unbranded catalog item; relevant generic web subject allowed by user. Match known material/type/color, no unsupported SKU or dimensions.",
+      "quality_note": null,
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    },
+    {
+      "uid": "906421195352",
+      "catalog_title": "Accent: Корректор - 10 - FRG - Fresh greens",
+      "file": "906421195352.png",
+      "sha256": "90a8dd91f94ba170af1a48680b86a7ceea7d14ccbd5001a48ca4006ee63298e7",
+      "bytes": 2068209,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_urls": [
+        "https://elitta-shop.ru/product/corrector-green/",
+        "https://web.archive.org/web/20240720123317id_/https://elitta-shop.ru/product/corrector-green/",
+        "https://www.youtube.com/watch?v=5kZcrhckIJM&t=4457s"
+      ],
+      "source_sha256": "77fee17a992f3b43e1a8412e40676b6ffe3198af521c050a3723ddc87883543e",
+      "generator": "built-in image_gen",
+      "prompt": "Use case: layout-only edit with exact photographic inset. Build a clean square 1024x1024 PM.MARKET catalogue card. The attached reference is an 800x450 5x5 video storyboard. Extract and COPY ONLY the original photographed cell in row FIVE column TWO, located x160..320 and y360..450. This exact cell depicts the manufacturer holding a green ACCENT bottle in a black glove at 01:14:20. Use this precise cell as a photographic inset and preserve the ORIGINAL LOW-RESOLUTION PHOTO CONTENT, including the same black glove, camera view, bottle and the naturally soft unreadable small label. DO NOT REGENERATE OR RECONSTRUCT THE BOTTLE. DO NOT SHARPEN OR INVENT THE LABEL. Do not add any green splash graphic, leaves, new typography, brand mark or text onto the bottle. Faithful photographic content matters more than high resolution; keep the original small-source softness. No other cell, product, or person should appear. Place the selected original photograph as a centred horizontal photo window with fine burgundy border and ample margins on an off-white lightly textured background. Outside the photo use polished modern sans burgundy text: heading «ACCENT», second line «FRESH GREENS». Below the photograph two concise factual labels: «Корректор» and «10 мл». Small «PM.MARKET» wordmark at bottom left. Keep all these layout words sharp and clear, but retain the source photograph exactly with its low resolution. No other text, no marketing claims, no extra image elements. This is a layout job using a small verified real photograph, not a recreation or rendering of the photographed product.\n",
+      "visual_checked": true,
+      "visual_check_scope": "Full-size subject, Russian text, clipping and unsupported printed specifications reviewed by the assigned image agent; selected outputs additionally reviewed by root.",
+      "identity_basis": "Exact Fresh greens subject verified by manufacturer video speech at4457s and matching product page naming Fresh greens,10ml. Final uses photographic inset of row5,column2, approximately4460s, retaining glove and naturally low-resolution label instead of recreating a sharp bottle.",
+      "quality_note": "Source cell160x90, bottle about40x70. Original label fine text cannot be verified pixel-for-pixel after generative layout; final deliberately keeps natural softness. Large title and10ml outside photo are verified by archived manufacturer product page. Root requested this strict low-resolution-photo alternative and will review full size before publishing.",
+      "representation": "photo_based_product_card",
+      "publication_status": "prepared"
+    }
+  ],
+  "scope_note": "Internet source photographs selected for the catalog product type. Generic accessories are matched by material/type, not an unrecorded supplier SKU. Henna AR is explicitly illustrated, not an authenticated package photograph. Sineva shows examples of 250 ml packaging, not a promised fragrance or pair."
+}
